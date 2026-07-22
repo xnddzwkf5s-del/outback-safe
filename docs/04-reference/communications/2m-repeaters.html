@@ -1,0 +1,3549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Australian 2m Amateur Radio Repeaters — Outback Safe</title>
+<meta name="description" content="Comprehensive directory of Australian VHF 2-metre (144–148 MHz) amateur radio repeaters, organised by state and territory. Includes band plans, CTCSS tones, IRLP/Echolink nodes, WICEN emergency frequencies, APRS digipeaters, and practical programming notes.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html" class=active>Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#2m-band-plan-summary-vk-standard">2m Band Plan Summary (VK Standard)</a></li>
+<li><a href="#aprs-frequency">APRS Frequency</a></li>
+<li><a href="#emergency-amp-calling-frequencies">Emergency &amp; Calling Frequencies</a></li>
+<li><a href="#repeater-directory">Repeater Directory</a></li>
+<li><a href="#irlp-echolink-allstar-nodes">IRLP / Echolink / Allstar Nodes</a></li>
+<li><a href="#wicen-wireless-institute-civil-emergency-network">WICEN (Wireless Institute Civil Emergency Network)</a></li>
+<li><a href="#practical-notes">Practical Notes</a></li>
+<li><a href="#quick-reference-master-table">Quick Reference — Master Table</a></li>
+<li><a href="#quick-reference-band-card-printable">Quick Reference Band Card (printable)</a></li>
+<li><a href="#see-also">See Also</a></li>
+</ul></details>
+<blockquote>
+<p><strong>⚠️ Amateur Licence Required:</strong> Operating on 2M (144–148 MHz) amateur radio frequencies requires an Amateur Operator's Certificate (Foundation, Standard, or Advanced). Using these frequencies without a licence is illegal in Australia and carries significant penalties. For licence-free communication, see the <strong><a href="uhf-cb-guide.html">UHF CB Radio Guide</a></strong> — the standard communication system in all Australian 4WDs.</p>
+</blockquote>
+<h1>Australian 2m (VHF 144–148 MHz) Amateur Radio Repeaters</h1>
+<p>A comprehensive reference of amateur radio repeaters across Australia, organised by state and territory. This guide covers the 2-metre band (144–148 MHz), the most popular VHF band for local and regional communication.</p>
+<p>All frequencies are in MHz. Standard Australian 2m repeater offset is <strong>–600 kHz</strong> (output minus 600 kHz = input frequency) unless otherwise noted.</p>
+<hr />
+<h2 id="2m-band-plan-summary-vk-standard">2m Band Plan Summary (VK Standard)</h2>
+<p>The Australian 2m band plan divides the spectrum for different modes:</p>
+<table>
+<thead>
+<tr>
+<th>Range (MHz)</th>
+<th>Primary Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>144.000 – 144.100</td>
+<td>CW (Morse code) only</td>
+</tr>
+<tr>
+<td>144.100 – 144.400</td>
+<td>CW and SSB weak-signal work</td>
+</tr>
+<tr>
+<td>144.400 – 144.800</td>
+<td>Beacons (automated propagation beacons — no voice)</td>
+</tr>
+<tr>
+<td>144.800 – 145.000</td>
+<td>Digital modes (APRS on 145.175 MHz, packet radio)</td>
+</tr>
+<tr>
+<td>145.000 – 146.000</td>
+<td><strong>Repeater inputs</strong> (listening on repeater output, transmitting here)</td>
+</tr>
+<tr>
+<td>146.000 – 147.000</td>
+<td><strong>Repeater outputs</strong> (what you listen to for repeaters)</td>
+</tr>
+<tr>
+<td>147.000 – 148.000</td>
+<td>Simplex FM, some repeaters, experimental</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="aprs-frequency">APRS Frequency</h2>
+<ul>
+<li><strong>145.175 MHz</strong> — Australian APRS (Automatic Packet Reporting System) national frequency</li>
+<li>Recommended APRS digipeater path for outback travel: <code>WIDE1-1,WIDE2-2</code></li>
+<li>APRS in Australia uses 1200 baud AFSK (Bell 202 standard)</li>
+<li>Mobile APRS: consider a dedicated 2m antenna for reliable tracking</li>
+</ul>
+<hr />
+<h2 id="emergency-amp-calling-frequencies">Emergency &amp; Calling Frequencies</h2>
+<table>
+<thead>
+<tr>
+<th>Frequency</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>146.500 MHz</strong></td>
+<td>National 2m FM calling frequency — monitor this when mobile</td>
+</tr>
+<tr>
+<td><strong>145.500 MHz</strong></td>
+<td>Alternate portable/mobile FM calling frequency</td>
+</tr>
+<tr>
+<td><strong>439.000 MHz</strong></td>
+<td>National 70 cm FM calling frequency</td>
+</tr>
+<tr>
+<td><strong>146.750 MHz</strong></td>
+<td>Often used as a roadside/travel assistance frequency</td>
+</tr>
+<tr>
+<td><strong>147.000 MHz</strong></td>
+<td>National VHF simplex emergency frequency (suggested)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Emergency procedure:</strong> Tune to the calling frequency, listen for a moment, then call "MAYDAY" or "PAN PAN" followed by your situation and location. In a genuine life-threatening emergency, <strong>any person may use amateur frequencies</strong> regardless of licence status (per ACMA regulations).</p>
+<hr />
+<h2 id="repeater-directory">Repeater Directory</h2>
+<h3>Australian Capital Territory (VK1)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mt Ginini (Namadgi NP)</td>
+<td>VK1RGI</td>
+<td>146.950</td>
+<td>146.350</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Southern ACT, excellent coverage into NSW high country; linked to VK1RBM</td>
+</tr>
+<tr>
+<td>Isaacs Ridge (Tuggeranong)</td>
+<td>VK1RBM</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Canberra metro repeater; linked system via IRLP</td>
+</tr>
+<tr>
+<td>Mt Ainslie (Canberra)</td>
+<td>VK1RBM (alt)</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Same call sign as Isaacs; part of linked hilltop network</td>
+</tr>
+<tr>
+<td>Black Mountain (Canberra)</td>
+<td>VK1RCT</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>WICEN ACT primary repeater</td>
+</tr>
+<tr>
+<td>Red Hill (Canberra)</td>
+<td>VK1RZ</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Woden Valley area coverage</td>
+</tr>
+<tr>
+<td>Mt Tennent (Namadgi NP)</td>
+<td>VK1RMB</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South ACT, covers southern corridor to NSW border</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>New South Wales (VK2)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sydney &amp; Surrounds</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Maddens Plains (Wollongong)</td>
+<td>VK2RMP</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Southern Sydney to Wollongong corridor; excellent coastal coverage</td>
+</tr>
+<tr>
+<td>Somersby (Central Coast)</td>
+<td>VK2RAG</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Coast; linked to Gosford site</td>
+</tr>
+<tr>
+<td>Gosford</td>
+<td>VK2RAG (alt)</td>
+<td>147.050</td>
+<td>146.450</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Coast; linked to Somersby</td>
+</tr>
+<tr>
+<td>Blue Mountains (Springwood)</td>
+<td>VK2RBM</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Blue Mountains corridor; vital for Great Western Highway</td>
+</tr>
+<tr>
+<td>Kurrajong Heights</td>
+<td>VK2RWI</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>NW Sydney fringe, Hawkesbury area</td>
+</tr>
+<tr>
+<td>Mt Sugarloaf (Newcastle)</td>
+<td>VK2RFK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Newcastle / Hunter Valley main repeater</td>
+</tr>
+<tr>
+<td>Goulburn</td>
+<td>VK2RGN</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Southern Tablelands; covers Hume Highway corridor</td>
+</tr>
+<tr>
+<td>Nowra (Cambewarra Mtn)</td>
+<td>VK2RNC</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South Coast; Princes Highway coverage</td>
+</tr>
+<tr>
+<td>Batemans Bay</td>
+<td>VK2RBB</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South Coast tourist route</td>
+</tr>
+<tr>
+<td><strong>Northern NSW</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tamworth</td>
+<td>VK2RTM</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>New England region; Newell Highway corridor</td>
+</tr>
+<tr>
+<td>Port Macquarie</td>
+<td>VK2RPM</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mid North Coast; Pacific Highway</td>
+</tr>
+<tr>
+<td>Lismore</td>
+<td>VK2RGL</td>
+<td>147.050</td>
+<td>146.450</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Northern Rivers; covers Richmond Valley</td>
+</tr>
+<tr>
+<td>Armidale</td>
+<td>VK2RAB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>New England Tablelands; Waterfall Way</td>
+</tr>
+<tr>
+<td>Coffs Harbour</td>
+<td>VK2RCH</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mid North Coast</td>
+</tr>
+<tr>
+<td>Tweed Heads</td>
+<td>VK2RTW</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>QLD border area</td>
+</tr>
+<tr>
+<td>Grafton</td>
+<td>VK2RGR</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Clarence Valley</td>
+</tr>
+<tr>
+<td><strong>Western NSW</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dubbo</td>
+<td>VK2RWI</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central West; major Newell Highway coverage</td>
+</tr>
+<tr>
+<td>Orange (Mt Canobolas)</td>
+<td>VK2RCL</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Tablelands; excellent regional coverage</td>
+</tr>
+<tr>
+<td>Bathurst</td>
+<td>VK2RBH</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central West</td>
+</tr>
+<tr>
+<td>Wagga Wagga</td>
+<td>VK2RWG</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Riverina; Sturt Highway corridor</td>
+</tr>
+<tr>
+<td>Albury</td>
+<td>VK2RAB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Murray River, border with VK3</td>
+</tr>
+<tr>
+<td>Griffith</td>
+<td>VK2RGV</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Murrumbidgee Irrigation Area</td>
+</tr>
+<tr>
+<td>Broken Hill</td>
+<td>VK2RHV</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Far West NSW; remote outback coverage</td>
+</tr>
+<tr>
+<td>Bourke</td>
+<td>VK2RBK</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Remote north-west NSW</td>
+</tr>
+<tr>
+<td>Cobar</td>
+<td>VK2RCO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Barrier Highway route</td>
+</tr>
+<tr>
+<td><strong>Snowy Mountains</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mt Kosciuszko</td>
+<td>VK2RSC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Seasonal</td>
+<td>Australia's highest repeater; limited season</td>
+</tr>
+<tr>
+<td>Jindabyne</td>
+<td>VK2RJB</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Snowy Mountains; Alpine Way corridor</td>
+</tr>
+<tr>
+<td>Cooma</td>
+<td>VK2RCM</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Monaro region</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Victoria (VK3)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Melbourne Metro</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mt Macedon</td>
+<td>VK3RML</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Melbourne repeater; excellent footprint into western suburbs</td>
+</tr>
+<tr>
+<td>Mt Dandenong</td>
+<td>VK3RGL</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Eastern Melbourne; covers Dandenong Ranges to the bay</td>
+</tr>
+<tr>
+<td>Melbourne CBD</td>
+<td>VK3RMC</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>City fringe coverage</td>
+</tr>
+<tr>
+<td>Mt Martha (Mornington)</td>
+<td>VK3RMM</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mornington Peninsula</td>
+</tr>
+<tr>
+<td><strong>Regional Victoria</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mt Baw Baw</td>
+<td>VK3RBY</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Gippsland / La Trobe Valley region</td>
+</tr>
+<tr>
+<td>Mt Buninyong (Ballarat)</td>
+<td>VK3RBU</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Ballarat and western districts</td>
+</tr>
+<tr>
+<td>Mt William (Grampians)</td>
+<td>VK3RWG</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Grampians National Park; Western Highway</td>
+</tr>
+<tr>
+<td>Mt Grampians</td>
+<td>VK3RGM</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Grampians alternate site</td>
+</tr>
+<tr>
+<td>Omeo</td>
+<td>VK3RON</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>East Gippsland; Alpine region</td>
+</tr>
+<tr>
+<td>Mt Hotham</td>
+<td>VK3RMH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Seasonal</td>
+<td>Alpine resort; winter ski season only</td>
+</tr>
+<tr>
+<td>Falls Creek</td>
+<td>VK3RFC</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Seasonal</td>
+<td>Alpine resort; winter ski season</td>
+</tr>
+<tr>
+<td>Bendigo</td>
+<td>VK3RBE</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Victoria; Calder Highway</td>
+</tr>
+<tr>
+<td>Mt Koonika (Benalla)</td>
+<td>VK3RMK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Hume Highway corridor; NE Victoria</td>
+</tr>
+<tr>
+<td>Shepparton</td>
+<td>VK3RSH</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Goulburn Valley</td>
+</tr>
+<tr>
+<td>Wodonga</td>
+<td>VK3RWO</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Border region with NSW</td>
+</tr>
+<tr>
+<td>Mt Tassie (Traralgon)</td>
+<td>VK3RTG</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Gippsland; Princes Highway</td>
+</tr>
+<tr>
+<td>Warrnambool</td>
+<td>VK3RWB</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Great Ocean Road / South West coast</td>
+</tr>
+<tr>
+<td>Hamilton</td>
+<td>VK3RHM</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Western District</td>
+</tr>
+<tr>
+<td>Mildura</td>
+<td>VK3RMD</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Sunraysia; Sturt Highway; Murray River</td>
+</tr>
+<tr>
+<td>Swan Hill</td>
+<td>VK3RSH</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Murray River corridor</td>
+</tr>
+<tr>
+<td>Yarram</td>
+<td>VK3RYA</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South Gippsland</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Queensland (VK4)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Brisbane &amp; SE QLD</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mt Coot-tha (Brisbane)</td>
+<td>VK4RBN</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Brisbane metro repeater</td>
+</tr>
+<tr>
+<td>Springbrook (Gold Coast)</td>
+<td>VK4RMC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Gold Coast hinterland; excellent coverage</td>
+</tr>
+<tr>
+<td>Mt Coolum (Sunshine Coast)</td>
+<td>VK4RDB</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Sunshine Coast</td>
+</tr>
+<tr>
+<td>Mt Glorious (Brisbane NW)</td>
+<td>VK4RSO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North-west Brisbane fringe</td>
+</tr>
+<tr>
+<td>Mt Mowbullan (Toowoomba)</td>
+<td>VK4RBK</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Darling Downs / Toowoomba Range</td>
+</tr>
+<tr>
+<td>Mt Tamborine</td>
+<td>VK4RMT</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Gold Coast hinterland alternate</td>
+</tr>
+<tr>
+<td>Caloundra</td>
+<td>VK4RCA</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Sunshine Coast southern</td>
+</tr>
+<tr>
+<td>Gympie</td>
+<td>VK4RGY</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Wide Bay region</td>
+</tr>
+<tr>
+<td><strong>Central QLD</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rockhampton</td>
+<td>VK4RAR</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Capricorn coast</td>
+</tr>
+<tr>
+<td>Sarina (Mackay)</td>
+<td>VK4RSA</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mackay region</td>
+</tr>
+<tr>
+<td>Mackay (Mt Bassett)</td>
+<td>VK4RMK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mackay city</td>
+</tr>
+<tr>
+<td>Maryborough</td>
+<td>VK4RMA</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Fraser Coast; Mary River</td>
+</tr>
+<tr>
+<td>Bundaberg</td>
+<td>VK4RBM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Burnett region</td>
+</tr>
+<tr>
+<td>Gladstone</td>
+<td>VK4RGL</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Port city; industrial region</td>
+</tr>
+<tr>
+<td><strong>North QLD</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Townsville</td>
+<td>VK4RTW</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Townsville metro</td>
+</tr>
+<tr>
+<td>Mt Stuart (Townsville)</td>
+<td>VK4RCG</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Western approach to Townsville</td>
+</tr>
+<tr>
+<td>Mt Stuart North</td>
+<td>VK4RTL</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Alternate Townsville site</td>
+</tr>
+<tr>
+<td>Atherton</td>
+<td>VK4RAP</td>
+<td>146.950</td>
+<td>146.350</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Atherton Tablelands</td>
+</tr>
+<tr>
+<td>Mt Bellenden Ker (Cairns)</td>
+<td>VK4RBH</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Cairns region; one of Australia's highest peaks</td>
+</tr>
+<tr>
+<td>Cairns (Whitfield Range)</td>
+<td>VK4RCA</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Cairns metro</td>
+</tr>
+<tr>
+<td>Innisfail</td>
+<td>VK4RIF</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Cassowary Coast</td>
+</tr>
+<tr>
+<td>Mt Fox (Ingham)</td>
+<td>VK4RFX</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Hinchinbrook region</td>
+</tr>
+<tr>
+<td><strong>Outback QLD</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mount Isa</td>
+<td>VK4RMI</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North-west QLD mining centre</td>
+</tr>
+<tr>
+<td>Longreach</td>
+<td>VK4RLR</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central west QLD; channel country</td>
+</tr>
+<tr>
+<td>Roma</td>
+<td>VK4RRO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-west QLD; Warrego Highway</td>
+</tr>
+<tr>
+<td>Charleville</td>
+<td>VK4RCH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-west QLD</td>
+</tr>
+<tr>
+<td>Emerald</td>
+<td>VK4REM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central QLD highlands</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>South Australia (VK5)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Adelaide Metro</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lobethal (Adelaide Hills)</td>
+<td>VK5RLZ</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Adelaide repeater; excellent metro coverage</td>
+</tr>
+<tr>
+<td>Mt Graham (Adelaide Hills)</td>
+<td>VK5RSE</td>
+<td>146.875</td>
+<td>146.275</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-east Adelaide fringe</td>
+</tr>
+<tr>
+<td>Summertown (Adelaide Hills)</td>
+<td>VK5RSB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Adelaide Hills</td>
+</tr>
+<tr>
+<td>Mt Lofty</td>
+<td>VK5RLD</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Classic Adelaide landmark site</td>
+</tr>
+<tr>
+<td>Maslin Beach</td>
+<td>VK5RMB</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Fleurieu Peninsula south of Adelaide</td>
+</tr>
+<tr>
+<td><strong>Regional SA</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Port Augusta</td>
+<td>VK5ROC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Spencer Gulf; Eyre Highway start</td>
+</tr>
+<tr>
+<td>Whyalla</td>
+<td>VK5RWH</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Eyre Peninsula</td>
+</tr>
+<tr>
+<td>Woomera</td>
+<td>VK5RWR</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Far north SA; remote</td>
+</tr>
+<tr>
+<td>Ceduna</td>
+<td>VK5RCT</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Nullarbor Plain; Eyre Highway</td>
+</tr>
+<tr>
+<td>Port Pirie</td>
+<td>VK5RLP</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Spencer Gulf upper</td>
+</tr>
+<tr>
+<td>Port Lincoln</td>
+<td>VK5RPL</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Eyre Peninsula southern tip</td>
+</tr>
+<tr>
+<td>Roxby Downs</td>
+<td>VK5ROX</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Olympic Dam region; outback SA</td>
+</tr>
+<tr>
+<td>Coober Pedy</td>
+<td>VK5RCP</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Stuart Highway; opal mining</td>
+</tr>
+<tr>
+<td>Mt Gambier</td>
+<td>VK5RGM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-east SA; Limestone Coast</td>
+</tr>
+<tr>
+<td>Renmark</td>
+<td>VK5RRN</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Riverland; Murray River</td>
+</tr>
+<tr>
+<td>Naracoorte</td>
+<td>VK5RNC</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-east SA</td>
+</tr>
+<tr>
+<td>Kangaroo Island (Kingscote)</td>
+<td>VK5RKI</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Island coverage</td>
+</tr>
+<tr>
+<td>Leigh Creek</td>
+<td>VK5RLC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Far north SA</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Western Australia (VK6)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Perth Metro</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Roleystone (Perth Hills)</td>
+<td>VK6RVP</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Perth metro; excellent coverage</td>
+</tr>
+<tr>
+<td>Lesmurdie (Perth Hills)</td>
+<td>VK6RLM</td>
+<td>146.875</td>
+<td>146.275</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Eastern Perth Hills</td>
+</tr>
+<tr>
+<td>Mt Yokine</td>
+<td>VK6RTH</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Northern Perth metro</td>
+</tr>
+<tr>
+<td>Kalamunda</td>
+<td>VK6RKL</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Perth Hills south-east</td>
+</tr>
+<tr>
+<td><strong>South-West WA</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mt William (Wellington Dam)</td>
+<td>VK6RMW</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-West hinterland</td>
+</tr>
+<tr>
+<td>Busselton</td>
+<td>VK6RBN</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-West coastal; Margaret River region</td>
+</tr>
+<tr>
+<td>Bunbury</td>
+<td>VK6RBT</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South-West city</td>
+</tr>
+<tr>
+<td>Albany</td>
+<td>VK6RBY</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Great Southern; Rainbow Coast</td>
+</tr>
+<tr>
+<td>Mt Barker</td>
+<td>VK6RKN</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Stirling Range region</td>
+</tr>
+<tr>
+<td>Manjimup</td>
+<td>VK6RMJ</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Southern Forests</td>
+</tr>
+<tr>
+<td><strong>Wheatbelt &amp; Goldfields</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Avon Valley (Northam)</td>
+<td>VK6RAV</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Wheatbelt; Great Eastern Highway</td>
+</tr>
+<tr>
+<td>Kalgoorlie</td>
+<td>VK6RKW</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Goldfields; major mining centre</td>
+</tr>
+<tr>
+<td>Esperance</td>
+<td>VK6RGS</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>South coast; Esperance region</td>
+</tr>
+<tr>
+<td>Merredin</td>
+<td>VK6RME</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Wheatbelt</td>
+</tr>
+<tr>
+<td><strong>Mid-West / Gascoyne</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Geraldton</td>
+<td>VK6RGN</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Mid-West coast; Batavia Coast</td>
+</tr>
+<tr>
+<td>Carnarvon</td>
+<td>VK6REC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Gascoyne region; coastal</td>
+</tr>
+<tr>
+<td>Meekatharra</td>
+<td>VK6RMR</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Murchison region; Great Northern Highway</td>
+</tr>
+<tr>
+<td><strong>Pilbara</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Port Hedland</td>
+<td>VK6RPR</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Pilbara coast; iron ore port</td>
+</tr>
+<tr>
+<td>Karratha</td>
+<td>VK6RKA</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Pilbara; North West Coastal Highway</td>
+</tr>
+<tr>
+<td>Newman</td>
+<td>VK6RNW</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Pilbara inland; Great Northern Highway</td>
+</tr>
+<tr>
+<td><strong>Kimberley</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Broome</td>
+<td>VK6RBR</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Kimberley coast</td>
+</tr>
+<tr>
+<td>Derby</td>
+<td>VK6RDE</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Kimberley; Gibb River Road region</td>
+</tr>
+<tr>
+<td>Kununurra</td>
+<td>VK6RKU</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>East Kimberley; Ord River region</td>
+</tr>
+<tr>
+<td>Wyndham</td>
+<td>VK6RWY</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North Kimberley coast</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Tasmania (VK7)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mt Wellington (Hobart)</td>
+<td>VK7RAD</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Hobart repeater; dominates southern TAS</td>
+</tr>
+<tr>
+<td>Mt Barrow (Launceston)</td>
+<td>VK7RAA</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Launceston repeater</td>
+</tr>
+<tr>
+<td>Queenstown (West Coast)</td>
+<td>VK7RTV</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>West Coast; Lyell Highway</td>
+</tr>
+<tr>
+<td>Burnie (NW Coast)</td>
+<td>VK7RBH</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North-West Coast; Bass Highway</td>
+</tr>
+<tr>
+<td>Devonport</td>
+<td>VK7RDP</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North Coast; port city</td>
+</tr>
+<tr>
+<td>St Marys (East Coast)</td>
+<td>VK7RSR</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>East Coast; Tasman Highway</td>
+</tr>
+<tr>
+<td>Mt Horror (NE TAS)</td>
+<td>VK7RCT</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>North-East; Bridport region</td>
+</tr>
+<tr>
+<td>Hobart CBD</td>
+<td>VK7RH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Southern metro alternate</td>
+</tr>
+<tr>
+<td>Huonville (Huon Valley)</td>
+<td>VK7RHV</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Huon Valley south of Hobart</td>
+</tr>
+<tr>
+<td>Strahan (West Coast)</td>
+<td>VK7RST</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>West Coast tourist town</td>
+</tr>
+<tr>
+<td>Flinders Island</td>
+<td>VK7RFI</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Bass Strait island</td>
+</tr>
+<tr>
+<td>King Island</td>
+<td>VK7RKI</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Bass Strait island</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Northern Territory (VK8)</h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Darwin (Darwin CBD)</td>
+<td>VK8RAD</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Primary Darwin repeater</td>
+</tr>
+<tr>
+<td>Darwin East (Howard Springs)</td>
+<td>VK8RDD</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Eastern Darwin rural area</td>
+</tr>
+<tr>
+<td>Palmerston</td>
+<td>VK8RPL</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Darwin satellite city</td>
+</tr>
+<tr>
+<td>Batchelor (Litchfield NP)</td>
+<td>VK8RBT</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Litchfield National Park area</td>
+</tr>
+<tr>
+<td>Alice Springs</td>
+<td>VK8RHW</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Central Australia; Stuart Highway</td>
+</tr>
+<tr>
+<td>Alice Springs (Mt Gillen)</td>
+<td>VK8RAS</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Secondary Alice Springs site</td>
+</tr>
+<tr>
+<td>Katherine</td>
+<td>VK8RKN</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Stuart Highway; Katherine Gorge region</td>
+</tr>
+<tr>
+<td>Tennant Creek</td>
+<td>VK8RTC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Barkly region; Stuart Highway midpoint</td>
+</tr>
+<tr>
+<td>Yulara (Uluru)</td>
+<td>VK8RYU</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Uluru-Kata Tjuta National Park</td>
+</tr>
+<tr>
+<td>Jabiru (Kakadu NP)</td>
+<td>VK8RJB</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Operational</td>
+<td>Kakadu National Park</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="irlp-echolink-allstar-nodes">IRLP / Echolink / Allstar Nodes</h2>
+<h3>IRLP (Internet Radio Linking Project)</h3>
+<p>IRLP connects repeaters worldwide via Voice-over-IP. Australian IRLP nodes allow communication across the continent via linked repeaters. Key Australian IRLP node numbers:</p>
+<table>
+<thead>
+<tr>
+<th>IRLP Node</th>
+<th>Associated Repeater</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6229</td>
+<td>VK1RBM</td>
+<td>Canberra, ACT</td>
+</tr>
+<tr>
+<td>6300</td>
+<td>VK2RAG (Somersby)</td>
+<td>Central Coast, NSW</td>
+</tr>
+<tr>
+<td>6305</td>
+<td>VK2RMP (Maddens Plains)</td>
+<td>Wollongong, NSW</td>
+</tr>
+<tr>
+<td>6303</td>
+<td>VK2RBM (Blue Mountains)</td>
+<td>Springwood, NSW</td>
+</tr>
+<tr>
+<td>6350</td>
+<td>VK3RML (Mt Macedon)</td>
+<td>Victoria</td>
+</tr>
+<tr>
+<td>6311</td>
+<td>VK4RBN (Mt Coot-tha)</td>
+<td>Brisbane, QLD</td>
+</tr>
+<tr>
+<td>6360</td>
+<td>VK5RLZ (Lobethal)</td>
+<td>Adelaide, SA</td>
+</tr>
+<tr>
+<td>6387</td>
+<td>VK6RVP (Roleystone)</td>
+<td>Perth, WA</td>
+</tr>
+<tr>
+<td>6307</td>
+<td>VK7RAD (Mt Wellington)</td>
+<td>Hobart, TAS</td>
+</tr>
+<tr>
+<td>6308</td>
+<td>VK8RAD</td>
+<td>Darwin, NT</td>
+</tr>
+</tbody>
+</table>
+<p>To use IRLP: dial the node number via DTMF tones (e.g., <code>73</code> + node number) when connected to a linked repeater. Consult local repeater etiquette — many nodes are open but some require registration.</p>
+<h3>Echolink</h3>
+<p>Echolink links radios to the internet. Key Australian conference servers:</p>
+<ul>
+<li><strong>VK-RLCC</strong> (Australian Radio Linking and Co-ordination Committee) Conference — main Australian Echolink conference server</li>
+<li><strong>VK1RGI-R</strong> — Mt Ginini, ACT (Echolink node)</li>
+<li><strong>VK3RMH-R</strong> — Mt Hotham, VIC (Echolink node)</li>
+<li><strong>VK4RBN-L</strong> — Mt Coot-tha, Brisbane (Echolink node)</li>
+<li><strong>VK5RLZ-R</strong> — Lobethal, Adelaide (Echolink node)</li>
+</ul>
+<p>Echolink requires registration and callsign verification through the Echolink system. Mobile apps (Echolink for iOS/Android) allow listening and transmitting via smartphone.</p>
+<h3>Allstar</h3>
+<p>Allstar is an open-source Asterisk-based linking system. Growing in popularity in Australia:</p>
+<ul>
+<li>A number of VK2 and VK3 repeaters support Allstar linking</li>
+<li>Allstar nodes often connect to IRLP for cross-network linking</li>
+<li>Check with local amateur radio clubs for active Allstar nodes</li>
+</ul>
+<hr />
+<h2 id="wicen-wireless-institute-civil-emergency-network">WICEN (Wireless Institute Civil Emergency Network)</h2>
+<p>WICEN is a volunteer emergency communications service operated by licensed amateur radio operators. WICEN provides communications support during natural disasters, search and rescue operations, and community events.</p>
+<h3>WICEN Primary Repeaters by State</h3>
+<p>In an emergency, WICEN often activates specific repeaters. Primary contact frequencies (from the repeater lists above, these are commonly used for WICEN operations):</p>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Primary WICEN Repeater</th>
+<th>Frequency (MHz)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACT</td>
+<td>VK1RCT (Black Mountain)</td>
+<td>146.800</td>
+<td>WICEN ACT primary</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>VK2RMP (Maddens Plains)</td>
+<td>146.850</td>
+<td>WICEN NSW South Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>VK2RAG (Somersby)</td>
+<td>146.725</td>
+<td>WICEN NSW Central Coast</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>VK3RML (Mt Macedon)</td>
+<td>146.900</td>
+<td>WICEN VIC metro</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>VK3RBU (Mt Buninyong)</td>
+<td>146.650</td>
+<td>WICEN VIC western</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>VK4RBN (Mt Coot-tha)</td>
+<td>146.850</td>
+<td>WICEN QLD South East</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>VK5RLZ (Lobethal)</td>
+<td>146.775</td>
+<td>WICEN SA primary</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>VK6RVP (Roleystone)</td>
+<td>146.975</td>
+<td>WICEN WA primary</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>VK7RAD (Mt Wellington)</td>
+<td>146.900</td>
+<td>WICEN TAS primary</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>VK8RAD (Darwin)</td>
+<td>146.975</td>
+<td>WICEN NT primary</td>
+</tr>
+</tbody>
+</table>
+<h3>How to Get Involved</h3>
+<ul>
+<li><strong>WICEN NSW:</strong> <a href="https://wicen.org.au">wicen.org.au</a></li>
+<li><strong>WICEN VIC:</strong> <a href="https://wicen.org.au/vic">wicen.org.au/vic</a></li>
+<li><strong>WICEN QLD:</strong> wicen.org.au (Queensland section)</li>
+<li><strong>WICEN SA:</strong> wicen.org.au (South Australia section)</li>
+<li><strong>WICEN WA:</strong> wicen.org.au (Western Australia section)</li>
+<li><strong>WICEN TAS:</strong> wicen.org.au (Tasmania section)</li>
+<li><strong>WICEN ACT:</strong> wicen.org.au (ACT section)</li>
+</ul>
+<p>WICEN membership requires an amateur radio licence (Foundation minimum). Training is provided. WICEN also works closely with state emergency services (SES) and the Bureau of Meteorology.</p>
+<h3>WICEN Simplex Frequencies</h3>
+<p>When repeaters are down or overloaded, WICEN uses simplex frequencies:</p>
+<ul>
+<li>147.000 MHz — National VHF simplex emergency (suggested)</li>
+<li>146.500 MHz — VHF calling (can be used for emergency coordination)</li>
+<li>146.750 MHz — Alternate simplex channel</li>
+<li>147.100 MHz — WICEN simplex (various states)</li>
+</ul>
+<hr />
+<h2 id="practical-notes">Practical Notes</h2>
+<h3>Licensing</h3>
+<p>To transmit on amateur radio frequencies, you need an Australian amateur radio licence issued by the ACMA:</p>
+<table>
+<thead>
+<tr>
+<th>Licence Class</th>
+<th>Max Power</th>
+<th>Equipment</th>
+<th>Bands</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foundation</td>
+<td>10 W</td>
+<td>Type-approved commercial equipment only</td>
+<td>Limited HF + all VHF/UHF</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>100 W (25 W for Foundation-only bands)</td>
+<td>Home-built allowed with inspection</td>
+<td>All amateur bands</td>
+</tr>
+<tr>
+<td>Advanced</td>
+<td>400 W</td>
+<td>Full privileges</td>
+<td>All amateur bands</td>
+</tr>
+</tbody>
+</table>
+<p>Foundation licence is the entry point — a one-day course and exam. No Morse code requirement in Australia.</p>
+<h3>Programming Radios for Australian Repeaters</h3>
+<p><strong>Standard 2m repeater setup (for most Australian repeaters):</strong></p>
+<ol>
+<li>Set frequency mode to VFO</li>
+<li>Enter the repeater <strong>output frequency</strong> (what you listen to)</li>
+<li>Set offset direction to <strong>–</strong> (negative/minus)</li>
+<li>Set offset to <strong>600 kHz</strong></li>
+<li>Enable CTCSS (if required) and set tone to <strong>91.5 Hz</strong></li>
+<li>Save to a memory channel</li>
+<li>Repeat for each repeater along your planned route</li>
+</ol>
+<p><strong>Example: Programming VK2RMP (Maddens Plains, 146.850 MHz)</strong></p>
+<ul>
+<li>RX frequency: <strong>146.850 MHz</strong></li>
+<li>TX frequency: <strong>146.250 MHz</strong> (146.850 – 600 kHz)</li>
+<li>CTCSS: <strong>91.5 Hz</strong></li>
+<li>Tone mode: <strong>Tone</strong> (not TSQL/CTCSS decode unless required)</li>
+<li>Name: <code>VK2RMP</code></li>
+</ul>
+<h3>Common CTCSS Tones for Australian Repeaters</h3>
+<table>
+<thead>
+<tr>
+<th>Tone (Hz)</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>91.5</strong></td>
+<td>Most common VK standard; used by the majority of repeaters</td>
+</tr>
+<tr>
+<td><strong>123.0</strong></td>
+<td>Second most common; some regional repeaters</td>
+</tr>
+<tr>
+<td><strong>131.8</strong></td>
+<td>Less common; some VK4 and VK6 sites</td>
+</tr>
+<tr>
+<td><strong>141.3</strong></td>
+<td>Some older commercial-install repeaters</td>
+</tr>
+<tr>
+<td><strong>None (CSQ)</strong></td>
+<td>Open carrier squelch — no tone required; listen first to check</td>
+</tr>
+</tbody>
+</table>
+<p>Many Australian repeaters are "open" (no tone required). Always try without CTCSS first. If you hear a repeater but can't access it, the tone is likely required for transmit.</p>
+<h3>Radio Etiquette</h3>
+<ul>
+<li><strong>Monitor before transmitting</strong> — listen for several seconds to ensure the frequency is clear</li>
+<li><strong>Identify</strong> — give your callsign at the start and end of each transmission (every 10 minutes during a long QSO)</li>
+<li><strong>No "kerchunking"</strong> — don't key up without identifying; it's poor etiquette and technically illegal</li>
+<li><strong>Pause between transmissions</strong> — allow the repeater timeout to reset</li>
+<li><strong>Emergency traffic has priority</strong> — if you hear "MAYDAY" or "PAN PAN", clear the frequency immediately</li>
+<li><strong>Simplex first</strong> — if you can communicate without a repeater, do so; leave repeaters available for those who need the range</li>
+</ul>
+<h3>Emergency Use of Amateur Radio</h3>
+<p>In a genuine life-threatening emergency, <strong>any person may use amateur radio frequencies</strong> regardless of licence status. The ACMA recognises this under the Radiocommunications Act. If you're not licensed but need to call for help:</p>
+<ol>
+<li>Set the radio to <strong>146.500 MHz</strong> (national calling frequency)</li>
+<li>Key the microphone and say:</li>
+<li><strong>"MAYDAY, MAYDAY, MAYDAY"</strong> (life-threatening)</li>
+<li><strong>"PAN PAN, PAN PAN, PAN PAN"</strong> (urgent but not life-threatening)</li>
+<li>State your location</li>
+<li>Describe the emergency</li>
+<li>Release the PTT and listen for a response</li>
+<li>If no response on 146.500, try <strong>146.750 MHz</strong> or any known local repeater output frequency</li>
+</ol>
+<h3>Recommended Radios for Australian Outback</h3>
+<table>
+<thead>
+<tr>
+<th>Radio</th>
+<th>Type</th>
+<th>Bands</th>
+<th>Approx. Price (2026)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Baofeng UV-5R</td>
+<td>Handheld</td>
+<td>2m / 70 cm (FM)</td>
+<td>AUD $40–60</td>
+<td>Cheap and functional; poor receiver front-end</td>
+</tr>
+<tr>
+<td>Yaesu FT-60R</td>
+<td>Handheld</td>
+<td>2m / 70 cm (FM)</td>
+<td>AUD $250–300</td>
+<td>Reliable, durable, good receiver</td>
+</tr>
+<tr>
+<td>ICOM IC-2300H</td>
+<td>Mobile</td>
+<td>2m only (FM)</td>
+<td>AUD $300–400</td>
+<td>Excellent mobile radio; 65 W output</td>
+</tr>
+<tr>
+<td>Yaesu FTM-300DR</td>
+<td>Mobile</td>
+<td>2m / 70 cm (FM/C4FM)</td>
+<td>AUD $600–800</td>
+<td>Digital (System Fusion) + analog; GPS/APRS</td>
+</tr>
+<tr>
+<td>ICOM IC-5100</td>
+<td>Mobile</td>
+<td>2m / 70 cm (FM/D-STAR)</td>
+<td>AUD $700–900</td>
+<td>Digital (D-STAR) + analog; GPS/APRS</td>
+</tr>
+</tbody>
+</table>
+<p>For emergency / outback use, a <strong>dual-band mobile radio</strong> (IC-2300H or similar) with a properly mounted external antenna exceeds handheld range dramatically. A handheld with a quarter-wave whip on a vehicle roof mount is a reasonable minimum.</p>
+<h3>Antenna Notes</h3>
+<ul>
+<li><strong>Quarter-wave whip:</strong> simplest; ~50 cm for 2m; good omnidirectional coverage; ideal for mobile use</li>
+<li><strong>Half-wave vertical:</strong> slightly more gain; ~1 m for 2m; requires a ground plane (roof mount works)</li>
+<li><strong>5/8-wave vertical:</strong> higher gain (~3 dBd), ~85 cm for 2m; excellent for mobile; slightly narrower radiation angle</li>
+<li><strong>J-pole:</strong> popular for base stations; no ground plane required; ~1.5 m total</li>
+<li><strong>Yagi (beam):</strong> directional; 3–10 elements for 2m; 2–8 m boom length; used for DX or weak-signal work</li>
+<li><strong>Magnetic mount:</strong> adequate for temporary use; reduced efficiency vs. through-roof mounting</li>
+<li><strong>NMO mount:</strong> professional standard for permanent vehicle installation</li>
+</ul>
+<hr />
+<h2 id="quick-reference-master-table">Quick Reference — Master Table</h2>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Location</th>
+<th>Call Sign</th>
+<th>Output (MHz)</th>
+<th>Input (MHz)</th>
+<th>CTCSS (Hz)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACT</td>
+<td>Mt Ginini</td>
+<td>VK1RGI</td>
+<td>146.950</td>
+<td>146.350</td>
+<td>91.5</td>
+<td>Southern ACT, NSW high country</td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>Isaacs Ridge</td>
+<td>VK1RBM</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Canberra metro, linked</td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>Mt Ainslie</td>
+<td>VK1RBM</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Same call as Isaacs Ridge</td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>Black Mountain</td>
+<td>VK1RCT</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>WICEN ACT primary</td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>Red Hill</td>
+<td>VK1RZ</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Woden Valley</td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>Mt Tennent</td>
+<td>VK1RMB</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>South ACT corridor</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Maddens Plains</td>
+<td>VK2RMP</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Wollongong/Sydney southern</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Somersby</td>
+<td>VK2RAG</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Central Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Gosford</td>
+<td>VK2RAG</td>
+<td>147.050</td>
+<td>146.450</td>
+<td>91.5</td>
+<td>Central Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Blue Mountains</td>
+<td>VK2RBM</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Great Western Highway</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Kurrajong Heights</td>
+<td>VK2RWI</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Hawkesbury</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Newcastle</td>
+<td>VK2RFK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Hunter region</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Goulburn</td>
+<td>VK2RGN</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Southern Tablelands</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Nowra</td>
+<td>VK2RNC</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>South Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Batemans Bay</td>
+<td>VK2RBB</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>South Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Tamworth</td>
+<td>VK2RTM</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>New England</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Port Macquarie</td>
+<td>VK2RPM</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Mid North Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Lismore</td>
+<td>VK2RGL</td>
+<td>147.050</td>
+<td>146.450</td>
+<td>91.5</td>
+<td>Northern Rivers</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Armidale</td>
+<td>VK2RAB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>New England Tablelands</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Coffs Harbour</td>
+<td>VK2RCH</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Mid North Coast</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Tweed Heads</td>
+<td>VK2RTW</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>QLD border</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Grafton</td>
+<td>VK2RGR</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Clarence Valley</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Dubbo</td>
+<td>VK2RWI</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Central West</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Orange</td>
+<td>VK2RCL</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Central Tablelands</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Bathurst</td>
+<td>VK2RBH</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Central West</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Wagga Wagga</td>
+<td>VK2RWG</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Riverina</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Albury</td>
+<td>VK2RAB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Murray River border</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Griffith</td>
+<td>VK2RGV</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Murrumbidgee</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Broken Hill</td>
+<td>VK2RHV</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Far West NSW</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Bourke</td>
+<td>VK2RBK</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>North-west NSW</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Cobar</td>
+<td>VK2RCO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Barrier Highway</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Mt Kosciuszko</td>
+<td>VK2RSC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Seasonal — alpine</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Jindabyne</td>
+<td>VK2RJB</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Snowy Mountains</td>
+</tr>
+<tr>
+<td>NSW</td>
+<td>Cooma</td>
+<td>VK2RCM</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Monaro region</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Macedon</td>
+<td>VK3RML</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Melbourne primary</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Dandenong</td>
+<td>VK3RGL</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Eastern Melbourne</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Melbourne CBD</td>
+<td>VK3RMC</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>City fringe</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Martha</td>
+<td>VK3RMM</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Mornington Peninsula</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Baw Baw</td>
+<td>VK3RBY</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Gippsland</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Buninyong</td>
+<td>VK3RBU</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Ballarat</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt William</td>
+<td>VK3RWG</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Grampians</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Grampians</td>
+<td>VK3RGM</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Grampians</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Omeo</td>
+<td>VK3RON</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>East Gippsland</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Hotham</td>
+<td>VK3RMH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Seasonal — alpine</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Falls Creek</td>
+<td>VK3RFC</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Seasonal — alpine</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Bendigo</td>
+<td>VK3RBE</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Central Victoria</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Koonika</td>
+<td>VK3RMK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Benalla / Hume Hwy</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Shepparton</td>
+<td>VK3RSH</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Goulburn Valley</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Wodonga</td>
+<td>VK3RWO</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Border region</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mt Tassie</td>
+<td>VK3RTG</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Traralgon / Gippsland</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Warrnambool</td>
+<td>VK3RWB</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Great Ocean Road</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Hamilton</td>
+<td>VK3RHM</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Western District</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Mildura</td>
+<td>VK3RMD</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Sunraysia</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Swan Hill</td>
+<td>VK3RSH</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Murray River</td>
+</tr>
+<tr>
+<td>VIC</td>
+<td>Yarram</td>
+<td>VK3RYA</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>South Gippsland</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Coot-tha</td>
+<td>VK4RBN</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Brisbane metro</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Springbrook</td>
+<td>VK4RMC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Gold Coast hinterland</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Coolum</td>
+<td>VK4RDB</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Sunshine Coast</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Glorious</td>
+<td>VK4RSO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Brisbane NW</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Mowbullan</td>
+<td>VK4RBK</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Toowoomba</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Tamborine</td>
+<td>VK4RMT</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Gold Coast hinterland</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Caloundra</td>
+<td>VK4RCA</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Sunshine Coast south</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Gympie</td>
+<td>VK4RGY</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Wide Bay</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Rockhampton</td>
+<td>VK4RAR</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Capricorn coast</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Sarina</td>
+<td>VK4RSA</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Mackay region</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Bassett (Mackay)</td>
+<td>VK4RMK</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Mackay</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Maryborough</td>
+<td>VK4RMA</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Fraser Coast</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Bundaberg</td>
+<td>VK4RBM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Burnett region</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Gladstone</td>
+<td>VK4RGL</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Port city</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Townsville</td>
+<td>VK4RTW</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Townsville metro</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Stuart</td>
+<td>VK4RCG</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Townsville</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Stuart North</td>
+<td>VK4RTL</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Townsville alternate</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Atherton</td>
+<td>VK4RAP</td>
+<td>146.950</td>
+<td>146.350</td>
+<td>91.5</td>
+<td>Tablelands</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Bellenden Ker</td>
+<td>VK4RBH</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Cairns region</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Whitfield Range (Cairns)</td>
+<td>VK4RCA</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Cairns metro</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Innisfail</td>
+<td>VK4RIF</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Cassowary Coast</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Fox (Ingham)</td>
+<td>VK4RFX</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Hinchinbrook</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Mt Isa</td>
+<td>VK4RMI</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>NW QLD</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Longreach</td>
+<td>VK4RLR</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Central west QLD</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Roma</td>
+<td>VK4RRO</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>SW QLD</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Charleville</td>
+<td>VK4RCH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>SW QLD</td>
+</tr>
+<tr>
+<td>QLD</td>
+<td>Emerald</td>
+<td>VK4REM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Central QLD highlands</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Lobethal</td>
+<td>VK5RLZ</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Adelaide primary</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Mt Graham</td>
+<td>VK5RSE</td>
+<td>146.875</td>
+<td>146.275</td>
+<td>91.5</td>
+<td>Adelaide Hills SE</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Summertown</td>
+<td>VK5RSB</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Adelaide Hills</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Mt Lofty</td>
+<td>VK5RLD</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Adelaide</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Maslin Beach</td>
+<td>VK5RMB</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Fleurieu Peninsula</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Port Augusta</td>
+<td>VK5ROC</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Spencer Gulf</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Whyalla</td>
+<td>VK5RWH</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Eyre Peninsula</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Woomera</td>
+<td>VK5RWR</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Far north SA</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Ceduna</td>
+<td>VK5RCT</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Nullarbor</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Port Pirie</td>
+<td>VK5RLP</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Spencer Gulf</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Port Lincoln</td>
+<td>VK5RPL</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Eyre Peninsula</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Roxby Downs</td>
+<td>VK5ROX</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Olympic Dam</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Coober Pedy</td>
+<td>VK5RCP</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Stuart Highway</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Mt Gambier</td>
+<td>VK5RGM</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Limestone Coast</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Renmark</td>
+<td>VK5RRN</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Riverland</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Naracoorte</td>
+<td>VK5RNC</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>South-east SA</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Kangaroo Island</td>
+<td>VK5RKI</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Island coverage</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Leigh Creek</td>
+<td>VK5RLC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Far north SA</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Roleystone</td>
+<td>VK6RVP</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Perth primary</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Lesmurdie</td>
+<td>VK6RLM</td>
+<td>146.875</td>
+<td>146.275</td>
+<td>91.5</td>
+<td>Perth Hills</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Mt Yokine</td>
+<td>VK6RTH</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Northern Perth</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Kalamunda</td>
+<td>VK6RKL</td>
+<td>146.925</td>
+<td>146.325</td>
+<td>91.5</td>
+<td>Perth Hills</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Mt William</td>
+<td>VK6RMW</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>SW hinterland</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Busselton</td>
+<td>VK6RBN</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>South-West</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Bunbury</td>
+<td>VK6RBT</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>South-West</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Albany</td>
+<td>VK6RBY</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Great Southern</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Mt Barker</td>
+<td>VK6RKN</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Stirling Range</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Manjimup</td>
+<td>VK6RMJ</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Southern Forests</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Avon Valley (Northam)</td>
+<td>VK6RAV</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Wheatbelt</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Kalgoorlie</td>
+<td>VK6RKW</td>
+<td>146.600</td>
+<td>146.000</td>
+<td>91.5</td>
+<td>Goldfields</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Esperance</td>
+<td>VK6RGS</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>South coast</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Merredin</td>
+<td>VK6RME</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Central Wheatbelt</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Geraldton</td>
+<td>VK6RGN</td>
+<td>146.825</td>
+<td>146.225</td>
+<td>91.5</td>
+<td>Mid-West</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Carnarvon</td>
+<td>VK6REC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Gascoyne</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Meekatharra</td>
+<td>VK6RMR</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Murchison</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Port Hedland</td>
+<td>VK6RPR</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Pilbara</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Karratha</td>
+<td>VK6RKA</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Pilbara</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Newman</td>
+<td>VK6RNW</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Pilbara inland</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Broome</td>
+<td>VK6RBR</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Kimberley</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Derby</td>
+<td>VK6RDE</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Kimberley</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Kununurra</td>
+<td>VK6RKU</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>East Kimberley</td>
+</tr>
+<tr>
+<td>WA</td>
+<td>Wyndham</td>
+<td>VK6RWY</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>North Kimberley</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Mt Wellington</td>
+<td>VK7RAD</td>
+<td>146.900</td>
+<td>146.300</td>
+<td>91.5</td>
+<td>Hobart</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Mt Barrow</td>
+<td>VK7RAA</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Launceston</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Queenstown</td>
+<td>VK7RTV</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>West Coast</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Burnie</td>
+<td>VK7RBH</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>NW Coast</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Devonport</td>
+<td>VK7RDP</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>North Coast</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>St Marys</td>
+<td>VK7RSR</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>East Coast</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Mt Horror</td>
+<td>VK7RCT</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>North-East</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Hobart CBD</td>
+<td>VK7RH</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Southern metro</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Huonville</td>
+<td>VK7RHV</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Huon Valley</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Strahan</td>
+<td>VK7RST</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>West Coast</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>Flinders Island</td>
+<td>VK7RFI</td>
+<td>146.650</td>
+<td>146.050</td>
+<td>91.5</td>
+<td>Bass Strait</td>
+</tr>
+<tr>
+<td>TAS</td>
+<td>King Island</td>
+<td>VK7RKI</td>
+<td>146.625</td>
+<td>146.025</td>
+<td>91.5</td>
+<td>Bass Strait</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Darwin CBD</td>
+<td>VK8RAD</td>
+<td>146.975</td>
+<td>146.375</td>
+<td>91.5</td>
+<td>Darwin primary</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Howard Springs</td>
+<td>VK8RDD</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Darwin east</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Palmerston</td>
+<td>VK8RPL</td>
+<td>146.800</td>
+<td>146.200</td>
+<td>91.5</td>
+<td>Darwin satellite</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Batchelor</td>
+<td>VK8RBT</td>
+<td>146.850</td>
+<td>146.250</td>
+<td>91.5</td>
+<td>Litchfield NP</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Alice Springs</td>
+<td>VK8RHW</td>
+<td>146.675</td>
+<td>146.075</td>
+<td>91.5</td>
+<td>Central Australia</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Mt Gillen (Alice)</td>
+<td>VK8RAS</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Central Australia</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Katherine</td>
+<td>VK8RKN</td>
+<td>146.750</td>
+<td>146.150</td>
+<td>91.5</td>
+<td>Stuart Highway</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Tennant Creek</td>
+<td>VK8RTC</td>
+<td>146.725</td>
+<td>146.125</td>
+<td>91.5</td>
+<td>Barkly region</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Yulara (Uluru)</td>
+<td>VK8RYU</td>
+<td>146.700</td>
+<td>146.100</td>
+<td>91.5</td>
+<td>Uluru region</td>
+</tr>
+<tr>
+<td>NT</td>
+<td>Jabiru (Kakadu)</td>
+<td>VK8RJB</td>
+<td>146.775</td>
+<td>146.175</td>
+<td>91.5</td>
+<td>Kakadu NP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quick-reference-band-card-printable">Quick Reference Band Card (printable)</h2>
+<p>For a printed card to keep with your radio gear, copy this simplified section:</p>
+<p><strong>2m Australian Repeater Quick Card:</strong></p>
+<ul>
+<li><strong>Calling:</strong> 146.500 MHz</li>
+<li><strong>APRS:</strong> 145.175 MHz</li>
+<li><strong>Offset:</strong> –600 kHz (all VK repeaters)</li>
+<li><strong>Standard CTCSS:</strong> 91.5 Hz</li>
+<li><strong>Backup CTCSS:</strong> 123.0 Hz</li>
+<li><strong>Emergency:</strong> 146.500 MHz, call "MAYDAY"</li>
+<li><strong>Licence required:</strong> Foundation minimum (10 W max on VHF)</li>
+<li><strong>Unlicensed emergency use:</strong> Permitted in life-threatening situations</li>
+</ul>
+<p><strong>Key repeaters by highway corridor:</strong></p>
+<ul>
+<li><strong>Hume Highway (Sydney–Melbourne):</strong> VK2RGN (Goulburn 146.725), VK2RAB (Albury 146.650), VK3RMK (Benalla 146.800), VK3RML (Melbourne 146.900)</li>
+<li><strong>Pacific Highway (Sydney–Brisbane):</strong> VK2RAG (Somersby 146.725), VK2RPM (Port Macquarie 146.700), VK2RGL (Lismore 147.050), VK4RMC (Springbrook 146.975)</li>
+<li><strong>Newell Highway (VIC–QLD):</strong> VK3RMK (Benalla 146.800), VK2RWG (Wagga 146.750), VK2RWI (Dubbo 146.850), VK4RLR (Longreach 146.700)</li>
+<li><strong>Stuart Highway (SA–NT):</strong> VK5RLZ (Adelaide 146.775), VK5RCP (Coober Pedy 146.700), VK8RAS (Alice 146.750), VK8RKN (Katherine 146.750), VK8RAD (Darwin 146.975)</li>
+<li><strong>Eyre Highway (SA–WA):</strong> VK5RPL (Port Lincoln 146.850), VK5RCT (Ceduna 146.750), VK6RGN (Geraldton 146.825)</li>
+<li><strong>Great Northern Highway (WA):</strong> VK6RVP (Perth 146.975), VK6RGN (Geraldton 146.825), VK6RKA (Karratha 146.800), VK6RBR (Broome 146.900), VK6RKU (Kununurra 146.850)</li>
+<li><strong>Great Western Highway / BMT:</strong> VK2RBM (Blue Mountains 146.900), VK2RCL (Orange 146.750), VK2RWI (Dubbo 146.850)</li>
+</ul>
+<hr />
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><strong><a href="uhf-cb-guide.html">UHF CB Radio Guide</a></strong> — Licence-free, 80 channels, standard in all Australian 4WDs</li>
+<li><strong><a href="../../01-immediate/09-outback/emergency-services.html">Emergency Services</a></strong> — Outback emergency procedures, satellite phones, EPIRBs</li>
+</ul>
+<hr />
+<p><em>Last updated: July 2026. Frequencies and tones may change without notice. Always monitor before transmitting. Confirm tone requirements locally as some repeaters change CTCSS settings or switch to carrier-squelch open access.</em></p>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UHF CB Radio Guide — Outback Safe</title>
+<meta name="description" content="Complete Australian UHF CB radio reference. All 80 channels, emergency channels, convoy protocols, antenna setup, range, and practical outback use. No licence required.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html" class=active>Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#1-what-is-uhf-cb">1. What is UHF CB?</a></li>
+<li><a href="#2-complete-uhf-cb-channel-allocation-all-80-channels">2. Complete UHF CB Channel Allocation (All 80 Channels)</a></li>
+<li><a href="#3-emergency-channels-know-these">3. Emergency Channels — Know These</a></li>
+<li><a href="#4-practical-outback-uhf-use">4. Practical Outback UHF Use</a></li>
+<li><a href="#5-uhf-radio-setup">5. UHF Radio Setup</a></li>
+<li><a href="#6-legal-requirements">6. Legal Requirements</a></li>
+<li><a href="#7-cross-references">7. Cross-References</a></li>
+</ul></details>
+<h1>UHF CB Radio Guide</h1>
+<p>The definitive guide to UHF CB radio for Australian 4WD drivers, truckers, caravaners, and remote travellers.</p>
+<hr />
+<h2 id="1-what-is-uhf-cb">1. What is UHF CB?</h2>
+<p>UHF CB (Citizen Band) operates on 476.4250–477.4125 MHz. It is the standard short-range communication system for Australian 4WD drivers, truckers, caravaners, and remote travellers.</p>
+<ul>
+<li><strong>No licence required</strong> — anyone can use UHF CB in Australia</li>
+<li><strong>80 channels</strong> — expanded from 40 channels in 2011</li>
+<li><strong>Maximum power:</strong> 5 watts (handheld or vehicle-mounted)</li>
+<li><strong>Typical range:</strong> 5–15 km vehicle-to-vehicle (line of sight), up to 30 km with elevated antenna</li>
+<li><strong>Standard in every Australian 4WD</strong> — built into bullbars, handheld units in gloveboxes</li>
+<li><strong>ACMA regulated</strong> — fines for misuse (swearing, music, deliberate interference)</li>
+</ul>
+<hr />
+<h2 id="2-complete-uhf-cb-channel-allocation-all-80-channels">2. Complete UHF CB Channel Allocation (All 80 Channels)</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Frequency (MHz)</th>
+<th>Use</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>476.4250</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 31</td>
+</tr>
+<tr>
+<td>2</td>
+<td>476.4500</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 32</td>
+</tr>
+<tr>
+<td>3</td>
+<td>476.4750</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 33</td>
+</tr>
+<tr>
+<td>4</td>
+<td>476.5000</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 34</td>
+</tr>
+<tr>
+<td>5</td>
+<td>476.5250</td>
+<td><strong>EMERGENCY REPEATER</strong></td>
+<td>Duplex with Ch 35. LEGALLY RESTRICTED to emergency use only. Repeater-enabled.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>476.5500</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 36</td>
+</tr>
+<tr>
+<td>7</td>
+<td>476.5750</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 37</td>
+</tr>
+<tr>
+<td>8</td>
+<td>476.6000</td>
+<td>General / Repeater Output</td>
+<td>Duplex with Ch 38</td>
+</tr>
+<tr>
+<td>9</td>
+<td>476.6250</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>476.6500</td>
+<td>4WD Clubs &amp; Convoys</td>
+<td>Standard 4WD convoy channel nationally</td>
+</tr>
+<tr>
+<td>11</td>
+<td>476.6750</td>
+<td><strong>CALLING CHANNEL</strong></td>
+<td>Make contact, then move to another channel for conversation</td>
+</tr>
+<tr>
+<td>12</td>
+<td>476.7000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>476.7250</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>476.7500</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>476.7750</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>476.8000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>476.8250</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>476.8500</td>
+<td>Caravan &amp; Camper Convoys</td>
+<td>Standard caravan/camper channel</td>
+</tr>
+<tr>
+<td>19</td>
+<td>476.8750</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>476.9000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>476.9250</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>476.9500</td>
+<td><strong>DATA ONLY</strong></td>
+<td>Telemetry, GPS tracking. No voice permitted.</td>
+</tr>
+<tr>
+<td>23</td>
+<td>476.9750</td>
+<td><strong>DATA ONLY</strong></td>
+<td>Telemetry, GPS tracking. No voice permitted.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>477.0000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>477.0250</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>477.0500</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>477.0750</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>477.1000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>477.1250</td>
+<td>Pacific Highway (NSW/QLD)</td>
+<td>General use elsewhere</td>
+</tr>
+<tr>
+<td>30</td>
+<td>477.1500</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>477.1750</td>
+<td>Repeater Input (Ch 1)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>32</td>
+<td>477.2000</td>
+<td>Repeater Input (Ch 2)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>33</td>
+<td>477.2250</td>
+<td>Repeater Input (Ch 3)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>34</td>
+<td>477.2500</td>
+<td>Repeater Input (Ch 4)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>35</td>
+<td>477.2750</td>
+<td><strong>EMERGENCY REPEATER INPUT</strong> (Ch 5)</td>
+<td>Legally restricted. Do NOT use for simplex.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>477.3000</td>
+<td>Repeater Input (Ch 6)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>37</td>
+<td>477.3250</td>
+<td>Repeater Input (Ch 7)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>38</td>
+<td>477.3500</td>
+<td>Repeater Input (Ch 8)</td>
+<td>Do NOT use for simplex — triggers repeaters</td>
+</tr>
+<tr>
+<td>39</td>
+<td>477.3750</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>40</td>
+<td>477.4000</td>
+<td><strong>HIGHWAY CHANNEL</strong></td>
+<td>Trucks, road trains, general highway use. MONITOR THIS in remote areas.</td>
+</tr>
+<tr>
+<td>41</td>
+<td>476.4375</td>
+<td>Repeater Output (Ch 71)</td>
+<td>12.5 kHz spacing channels — newer allocation</td>
+</tr>
+<tr>
+<td>42</td>
+<td>476.4625</td>
+<td>Repeater Output (Ch 72)</td>
+<td></td>
+</tr>
+<tr>
+<td>43</td>
+<td>476.4875</td>
+<td>Repeater Output (Ch 73)</td>
+<td></td>
+</tr>
+<tr>
+<td>44</td>
+<td>476.5125</td>
+<td>Repeater Output (Ch 74)</td>
+<td></td>
+</tr>
+<tr>
+<td>45</td>
+<td>476.5375</td>
+<td>Repeater Output (Ch 75)</td>
+<td></td>
+</tr>
+<tr>
+<td>46</td>
+<td>476.5625</td>
+<td>Repeater Output (Ch 76)</td>
+<td></td>
+</tr>
+<tr>
+<td>47</td>
+<td>476.5875</td>
+<td>Repeater Output (Ch 77)</td>
+<td></td>
+</tr>
+<tr>
+<td>48</td>
+<td>476.6125</td>
+<td>Repeater Output (Ch 78)</td>
+<td></td>
+</tr>
+<tr>
+<td>49</td>
+<td>476.6375</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>50</td>
+<td>476.6625</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>51</td>
+<td>476.6875</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>52</td>
+<td>476.7125</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>53</td>
+<td>476.7375</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>54</td>
+<td>476.7625</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>55</td>
+<td>476.7875</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td>476.8125</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>57</td>
+<td>476.8375</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>58</td>
+<td>476.8625</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>59</td>
+<td>476.8875</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>60</td>
+<td>476.9125</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>61</td>
+<td>477.1625</td>
+<td>Reserved</td>
+<td>Future allocation</td>
+</tr>
+<tr>
+<td>62</td>
+<td>477.1875</td>
+<td>Reserved</td>
+<td>Future allocation</td>
+</tr>
+<tr>
+<td>63</td>
+<td>477.2125</td>
+<td>Reserved</td>
+<td>Future allocation</td>
+</tr>
+<tr>
+<td>64</td>
+<td>477.2375</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td>477.2625</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>66</td>
+<td>477.2875</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>67</td>
+<td>477.3125</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>68</td>
+<td>477.3375</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>69</td>
+<td>477.3625</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>70</td>
+<td>477.3875</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>71</td>
+<td>476.4375</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 41</td>
+</tr>
+<tr>
+<td>72</td>
+<td>476.4625</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 42</td>
+</tr>
+<tr>
+<td>73</td>
+<td>476.4875</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 43</td>
+</tr>
+<tr>
+<td>74</td>
+<td>476.5125</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 44</td>
+</tr>
+<tr>
+<td>75</td>
+<td>476.5375</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 45</td>
+</tr>
+<tr>
+<td>76</td>
+<td>476.5625</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 46</td>
+</tr>
+<tr>
+<td>77</td>
+<td>476.5875</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 47</td>
+</tr>
+<tr>
+<td>78</td>
+<td>476.6125</td>
+<td>Repeater Input</td>
+<td>Duplex with Ch 48</td>
+</tr>
+<tr>
+<td>79</td>
+<td>477.4000</td>
+<td>General</td>
+<td></td>
+</tr>
+<tr>
+<td>80</td>
+<td>477.4125</td>
+<td>General</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-emergency-channels-know-these">3. Emergency Channels — Know These</h2>
+<h3>Channel 5 — EMERGENCY REPEATER (CRITICAL)</h3>
+<ul>
+<li><strong>EMERGENCY USE ONLY</strong> — legally restricted</li>
+<li>Repeater-enabled: your signal is retransmitted at higher power from elevated repeater towers, extending range to 50–80 km</li>
+<li>Monitored by: volunteer emergency services, some police stations, RFDS bases in remote areas</li>
+<li>When to use: life-threatening emergencies only. Vehicle breakdown is <strong>not</strong> an emergency unless someone's life is in danger.</li>
+<li>How to use: <em>"MAYDAY MAYDAY MAYDAY — This is [vehicle description] at [location]. We have [emergency]. [Number] people. Require immediate assistance. Over."</em></li>
+<li>Strategy: Transmit your emergency call. Wait 30 seconds. Repeat. Someone may respond. Continue every 2 minutes.</li>
+</ul>
+<h3>Channel 35 — EMERGENCY REPEATER INPUT</h3>
+<ul>
+<li>Do <strong>not</strong> transmit on Ch 35 for simplex conversation — it activates the Ch 5 repeater</li>
+<li>Only Ch 5 should be used for emergency calling</li>
+</ul>
+<h3>Channel 40 — HIGHWAY CHANNEL (MONITOR THIS)</h3>
+<ul>
+<li>Used by trucks, road trains, and highway traffic nationwide</li>
+<li>In remote areas: <strong>MONITOR Ch 40 at all times</strong>. Truck drivers know the road ahead, upcoming hazards, and may have sat phone access.</li>
+<li>If you hear a truck within range, you are within 10–30 km of the highway</li>
+<li>Calling on Ch 40: <em>"Channel 40 — this is [vehicle] at [location]. Does anyone copy? Over."</em></li>
+</ul>
+<h3>Channel 11 — CALLING CHANNEL</h3>
+<ul>
+<li>Used to establish contact, then move to another channel</li>
+<li><strong>DO NOT</strong> hold long conversations on Ch 11 — make contact, agree on a channel, move there</li>
+</ul>
+<h3>Channel 10 — 4WD CONVOY CHANNEL</h3>
+<ul>
+<li>Standard channel for 4WD clubs and groups nationally</li>
+<li>If you're in a convoy, agree on Ch 10 or another specific channel</li>
+<li>Scan Ch 10 when remote — you may find other 4WD groups within range</li>
+</ul>
+<hr />
+<h2 id="4-practical-outback-uhf-use">4. Practical Outback UHF Use</h2>
+<h3>Outback UHF Etiquette</h3>
+<p><strong>Before transmitting:</strong>
+- Listen for 5 seconds — is the channel in use?
+- Know what you're going to say <strong>before</strong> pressing the button
+- Keep transmissions under 60 seconds</p>
+<p><strong>Convoy communication:</strong>
+- Lead vehicle calls hazards: <em>"Hole left," "Oncoming vehicle," "Dust ahead"</em>
+- Tail vehicle confirms: <em>"Copy that"</em>
+- Regular check-ins: every 30 minutes or at turns — <em>"Vehicle 3 checking in, all good"</em>
+- If someone doesn't check in: convoy stops. Lead vehicle counts. Tail vehicle confirms all accounted for.
+- UHF channel agreed <strong>before</strong> starting — write it on a sticker on the dashboard</p>
+<p><strong>Channel selection for convoys:</strong>
+- Agree on a <strong>PRIMARY</strong> channel (e.g. Ch 10, 15, or 20) <strong>and</strong> a <strong>BACKUP</strong> channel
+- If primary channel is busy with other traffic: switch to backup
+- Scan Ch 40 in the background (dual-watch feature on modern UHFs) — highway traffic provides road condition updates</p>
+<p><strong>Calling for help on UHF:</strong>
+1. Select Channel 5 for emergencies, Channel 40 for non-emergency assistance
+2. <em>"MAYDAY MAYDAY MAYDAY"</em> — for life-threatening emergency
+3. <em>"PAN PAN PAN"</em> — for urgent but not life-threatening (mechanical breakdown, lost, medical but stable)
+4. Provide: location (GPS coordinates if possible, nearest landmark, track name, distance from known roadhouse), number of people, nature of emergency, what you need
+5. Repeat every 2 minutes. Someone may be scanning and hear you on the second or third call.</p>
+<p><strong>UHF relay (repeat what you hear):</strong>
+- If you hear a distress call but are out of range to help directly: <strong>RELAY</strong> the call
+- <em>"Relay, relay, relay — I am receiving a MAYDAY from [location]. [Repeat the emergency details]. Can anyone closer respond? Over."</em>
+- If you reach a truck on Ch 40: ask them to relay via their fleet communications or phone when in range</p>
+<p><strong>UHF limitations in the outback:</strong>
+- Range is line-of-sight only — blocked by hills, dunes, and dense vegetation
+- In sand dunes (Simpson Desert): range may be only 2–5 km (dunes block signal)
+- In flat open country (Nullarbor, Channel Country): range can reach 20–30 km
+- In mountain ranges (Flinders, MacDonnell): extremely variable
+- <strong>UHF CANNOT replace a satellite phone or PLB</strong> — it is short-range only
+- If you can't raise anyone on Ch 5, 40, or 11: you are beyond UHF range of help. Activate your PLB.</p>
+<p><strong>Weather monitoring on UHF:</strong>
+- Some UHF channels are used by weather stations in remote areas
+- Bureau of Meteorology broadcasts on 476.700 MHz and other frequencies in some regions
+- Scan for weather updates in storm-prone areas (tropical north during build-up)</p>
+<hr />
+<h2 id="5-uhf-radio-setup">5. UHF Radio Setup</h2>
+<h3>Choosing a UHF Radio</h3>
+<p><strong>Vehicle-mounted UHF (recommended):</strong>
+- 5 watts — maximum legal power
+- External antenna on bullbar or roof — dramatically better range than handheld
+- Features to look for:
+  - 80-channel (narrowband) compatibility
+  - Dual-watch / scan function (monitor Ch 40 + your convoy channel)
+  - IP67 waterproof rating
+  - CTCSS and DCS (privacy codes — useful in busy areas)
+  - Remote head unit (mount body under dash, head unit where you can see it)</p>
+<p><strong>Handheld UHF (backup):</strong>
+- 2–5 watts. 5W preferred.
+- Carry as backup for spotter, walking reconnaissance, or if vehicle radio fails
+- Keep <strong>CHARGED</strong> — flat battery = useless</p>
+<p><strong>Recommended brands:</strong>
+- <strong>GME</strong> (Australian, best reputation, excellent after-sales support)
+- <strong>Uniden</strong>
+- <strong>Oricom</strong></p>
+<h3>Antenna Setup</h3>
+<p>The antenna is <strong>more important</strong> than the radio. A cheap radio with a good antenna outperforms an expensive radio with a poor one.</p>
+<p><strong>Antenna mounting:</strong>
+- <strong>Bullbar mount</strong> (most common): Good ground plane, clear line of sight. Slightly directional (better forward). At risk of damage from branches and wildlife strikes.
+- <strong>Roof/gutter mount</strong> (best for range): Highest mounting point = best line of sight. The centre of the roof provides the best ground plane. Disadvantage: low branches and carparks.
+- <strong>Glass-mount</strong> (through-window): No drilling, no hole. Slightly reduced performance. Good for vehicles you don't want to drill.
+- <strong>Magnetic base</strong>: Temporary. Good for hire vehicles. Can be knocked off by branches.</p>
+<p><strong>Antenna length:</strong>
+- <strong>3 dB</strong> (short, ~30 cm): Good in hilly terrain. Wider vertical spread. Less range on flat ground.
+- <strong>6.5 dB</strong> (medium, ~60 cm): Best all-rounder. Good range on flat and moderate terrain.
+- <strong>9 dB</strong> (long, ~1.2 m): Best for flat open country (Nullarbor, Channel Country). Very narrow vertical spread — poor in hills. Whips around on corrugations.</p>
+<p><strong>For outback use:</strong> A 6.5 dB antenna is the best compromise. Carry a 3 dB spare for hilly terrain.</p>
+<p><strong>Antenna cable:</strong>
+- Keep cable runs as short as practical
+- Do <strong>not</strong> coil excess cable tightly — this creates an inductor that degrades signal. Loop loosely in a figure-8.
+- Check connectors regularly — water ingress from river crossings corrodes connections</p>
+<h3>Interference Issues</h3>
+<p><strong>Common UHF interference sources:</strong>
+- LED driving lights (cheap ones radiate RF noise — switch them off to test)
+- USB chargers (cheap 12V-to-USB converters are notorious RF noise generators)
+- Dash cams
+- Aftermarket engine management systems</p>
+<p><strong>Diagnosing interference:</strong> Turn everything off except the radio. Turn devices on one at a time. You'll hear the interference start when you find the culprit.</p>
+<p><strong>Fixing:</strong> Replace the offending device. Ferrite chokes (clip-on) on power cables can suppress RF noise from chargers and LEDs.</p>
+<hr />
+<h2 id="6-legal-requirements">6. Legal Requirements</h2>
+<h3>UHF CB Legal Requirements (ACMA)</h3>
+<ul>
+<li><strong>No licence required</strong> for UHF CB use</li>
+<li><strong>5 watts maximum</strong> transmission power (vehicle or handheld)</li>
+<li><strong>No music, sound effects, or deliberate interference</strong> — fines apply</li>
+<li><strong>No swearing or offensive language</strong> — children and families monitor these channels</li>
+<li><strong>Emergency channel 5 and 35:</strong> legally restricted to emergency use <strong>ONLY</strong>. Penalties for misuse.</li>
+<li><strong>Data on Ch 22 and 23:</strong> No voice permitted. For telemetry and GPS only.</li>
+<li><strong>Repeater input channels (31–38, 71–78):</strong> Do <strong>not</strong> use for simplex (direct radio-to-radio). These are for repeater towers only. Using them for simplex conversations blocks repeaters for everyone in range.</li>
+</ul>
+<h3>Privacy Codes (CTCSS / DCS)</h3>
+<p>CTCSS (Continuous Tone-Coded Squelch System) and DCS (Digital-Coded Squelch) are <strong>not</strong> privacy — they are <strong>selective hearing.</strong></p>
+<ul>
+<li>They do <strong>not</strong> encrypt your conversation</li>
+<li>Anyone without a privacy code can still hear you</li>
+<li>They only prevent you from hearing <strong>other</strong> people on the same channel</li>
+<li>Useful in busy areas (caravan parks, popular camps) to filter out other conversations</li>
+<li><strong>DO NOT</strong> use privacy codes in emergencies — you won't hear responses from people without your code</li>
+</ul>
+<h3>Selcall (Selective Calling)</h3>
+<p>Some commercial UHF radios support Selcall — a 5-tone paging system. This lets you ring a <strong>specific</strong> radio in your group. Almost never used by recreational 4WDers but common in commercial fleets.</p>
+<hr />
+<h2 id="7-cross-references">7. Cross-References</h2>
+<ul>
+<li><strong><a href="../../01-immediate/09-outback/route-planning.html">Route Planning</a></strong> — Communications schedule and check-in protocols</li>
+<li><strong><a href="../../01-immediate/09-outback/emergency-services.html">Emergency Services</a></strong> — Other emergency communication methods</li>
+<li><strong><a href="../../01-immediate/09-outback/getting-gps-coordinates.html">Getting GPS Coordinates</a></strong> — What to say when you call for help</li>
+<li><strong><a href="2m-repeaters.html">2M Amateur Radio Repeaters</a></strong> — Licensed amateur radio (requires Amateur Operator's Certificate)</li>
+</ul>
+<hr />
+<p><em>Last updated: July 2026. Channel allocations current as of ACMA LIPD Class Licence. UHF CB equipment must comply with the ACMA's Class Licence for Low Interference Potential Devices (LIPD).</em></p>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

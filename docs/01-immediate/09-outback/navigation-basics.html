@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Basics — Outback Safe</title>
+<meta name="description" content="Finding direction without GPS in the Australian outback. Sun position, Southern Cross method, stick and shadow, terrain reading, and marking trails.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#sun-position">Sun Position</a></li>
+<li><a href="#stick-and-shadow-method">Stick and Shadow Method</a></li>
+<li><a href="#southern-cross-crux-method">Southern Cross (Crux) Method</a></li>
+<li><a href="#terrain-reading">Terrain Reading</a></li>
+<li><a href="#following-man-made-features">Following Man-Made Features</a></li>
+<li><a href="#marking-your-path">Marking Your Path</a></li>
+<li><a href="#estimating-distance-walked">Estimating Distance Walked</a></li>
+<li><a href="#common-navigation-mistakes">Common Navigation Mistakes</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Navigation Basics</h1>
+<p>If your GPS fails, your phone battery dies, or you are navigating on foot after a breakdown, you need to know how to find direction using natural clues. The Australian outback has distinct navigation markers: the sun path, the Southern Cross, prevailing winds, and terrain features.</p>
+<hr />
+<h2 id="sun-position">Sun Position</h2>
+<p>In Australia, the sun tracks across the <strong>northern sky</strong> — not directly overhead as in the tropics, and certainly not in the southern sky.</p>
+<table>
+<thead>
+<tr>
+<th>Time (Standard Time)</th>
+<th>Sun Position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>06:00 (sunrise)</td>
+<td>East</td>
+</tr>
+<tr>
+<td>09:00</td>
+<td>North-east</td>
+</tr>
+<tr>
+<td>12:00 (noon)</td>
+<td>North</td>
+</tr>
+<tr>
+<td>15:00</td>
+<td>North-west</td>
+</tr>
+<tr>
+<td>18:00 (sunset)</td>
+<td>West</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key rule:</strong> At midday in Australia, the sun is in the north. This is opposite to northern-hemisphere navigation. If you are from Europe or North America and assume the sun is south at midday, you will walk in the wrong direction.</p>
+<h3>Seasonal Adjustment</h3>
+<ul>
+<li>Summer: sun rises further south-east, sets further south-west</li>
+<li>Winter: sun rises further north-east, sets further north-west</li>
+<li>The shadow method (below) accounts for this automatically</li>
+</ul>
+<hr />
+<h2 id="stick-and-shadow-method">Stick and Shadow Method</h2>
+<p>This is the most reliable sun-based direction finder and works anywhere in the world.</p>
+<ol>
+<li>Find a straight stick about 1 m long</li>
+<li>Push it vertically into flat, level ground</li>
+<li>Mark the tip of the shadow with a rock. Call this Point A.</li>
+<li>Wait 15–20 minutes</li>
+<li>Mark the new shadow tip. Call this Point B.</li>
+<li>Draw a straight line from A to B — this line runs <strong>east to west</strong> (A is west, B is east)</li>
+<li>Stand with Point A on your left, Point B on your right — you are facing north</li>
+</ol>
+<p>This method works because the sun moves west, so shadows move east. No watch, no compass, no maths required.</p>
+<hr />
+<h2 id="southern-cross-crux-method">Southern Cross (Crux) Method</h2>
+<p>The Southern Cross is the most reliable night navigation tool in the southern hemisphere.</p>
+<h3>Finding South</h3>
+<ol>
+<li>Locate the Southern Cross (Crux) — four bright stars in a cross shape</li>
+<li>Identify the two pointer stars (Alpha Centauri and Beta Centauri) — they point towards the cross</li>
+<li>Imagine a line extending from the long axis of the cross (through the top and bottom stars), continuing for about 4.5 times the length of the cross</li>
+<li>From the midpoint between the two pointer stars, draw a line perpendicular to the line connecting them</li>
+<li>Where these two imaginary lines meet is the <strong>south celestial pole</strong></li>
+<li>Drop straight down from the pole to the horizon — that is <strong>true south</strong></li>
+</ol>
+<p><strong>Helpful tip:</strong> The Southern Cross is so distinctive that if you can see stars at all, you can find it. Practice identifying it before your trip. It is always visible somewhere in the Australian sky at night.</p>
+<h3>Approximate Direction from the Southern Cross</h3>
+<table>
+<thead>
+<tr>
+<th>If the Cross appears:</th>
+<th>Rough direction you're looking:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Upright (vertical)</td>
+<td>You're facing south</td>
+</tr>
+<tr>
+<td>Tilted 45° left</td>
+<td>You're facing south-east</td>
+</tr>
+<tr>
+<td>Tilted 45° right</td>
+<td>You're facing south-west</td>
+</tr>
+<tr>
+<td>Near horizon (low)</td>
+<td>You're in northern Australia looking south</td>
+</tr>
+<tr>
+<td>High overhead</td>
+<td>You're in southern Australia looking south</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="terrain-reading">Terrain Reading</h2>
+<p>The Australian outback has consistent terrain patterns that indicate direction and water.</p>
+<h3>Ridgelines</h3>
+<ul>
+<li>Run roughly north-south in many areas due to geological formation</li>
+<li>The western side of ridges tends to be steeper (prevailing weather from the west)</li>
+<li>Following a ridgeline generally leads to higher ground with better views for navigation</li>
+</ul>
+<h3>Water Flow</h3>
+<ul>
+<li>Creek beds and dry river channels flow downhill toward larger watercourses</li>
+<li>In central Australia, most creeks flow towards Lake Eyre (south-east)</li>
+<li>Follow dry creek beds <strong>downstream</strong> — they eventually meet roads, homesteads, or permanent water</li>
+<li>Do not walk in the creek bed itself during wet season — flash floods come without warning</li>
+</ul>
+<h3>Vegetation</h3>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>What it indicates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dense, tall trees in a dry area</td>
+<td>Ground water or creek line</td>
+</tr>
+<tr>
+<td>Line of greener trees</td>
+<td>Creek bed or drainage line</td>
+</tr>
+<tr>
+<td>Spinifex grass on sand dunes</td>
+<td>Dune crest — gives best view for navigation</td>
+</tr>
+<tr>
+<td>No vegetation in a patch (salt pan)</td>
+<td>Do not walk on — may be impassable or dangerous</td>
+</tr>
+<tr>
+<td>Bright green band of trees</td>
+<td>Usually follows a watercourse — follow it</td>
+</tr>
+<tr>
+<td>Mulga thickets on red sand</td>
+<td>Typical desert country — hard going on foot</td>
+</tr>
+</tbody>
+</table>
+<h3>Wind Patterns</h3>
+<ul>
+<li>Prevailing winds in southern Australia come from the <strong>west</strong> (roaring forties)</li>
+<li>In northern Australia, prevailing winds come from the <strong>east</strong> (trade winds)</li>
+<li>Sand dunes in central Australia form parallel lines trending <strong>north-west to south-east</strong></li>
+<li>The windward side of dunes is more gradual; the leeward side is steeper</li>
+<li>Walking along dune corridors (between dunes) is easier than crossing them</li>
+</ul>
+<hr />
+<h2 id="following-man-made-features">Following Man-Made Features</h2>
+<p>If you are walking after a breakdown, look for:</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fence line</strong></td>
+<td>Follow it. It leads to a road, a gate, a station, or a water point. Fences are maintained and lead somewhere.</td>
+</tr>
+<tr>
+<td><strong>Power line</strong></td>
+<td>Follow the cleared easement. Power lines lead to towns, substations, or homesteads.</td>
+</tr>
+<tr>
+<td><strong>Pipeline</strong></td>
+<td>Gas or water pipelines have cleared access tracks. Follow them.</td>
+</tr>
+<tr>
+<td><strong>Road / track</strong></td>
+<td>If you reach a road, stay on it. Roads lead to help. Wait at the junction — do not walk both ways.</td>
+</tr>
+<tr>
+<td><strong>Gates</strong></td>
+<td>A gate means a property. Do not enter without permission unless it is an emergency.</td>
+</tr>
+<tr>
+<td><strong>Windmill / bore</strong></td>
+<td>Windmills mark water points. Approach carefully — may have trough water for stock.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="marking-your-path">Marking Your Path</h2>
+<p>If you are walking away from the vehicle, you must mark your route so rescuers can follow. Also so you can find your way back.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rock cairns</strong></td>
+<td>Stack 3 rocks on top of each other at eye-catching points</td>
+</tr>
+<tr>
+<td><strong>Torn cloth</strong></td>
+<td>Tie strips of cloth (from clothing, flag, or vehicle) to bushes every 200 m</td>
+</tr>
+<tr>
+<td><strong>Scratched bark</strong></td>
+<td>Cut a V or arrow into tree bark with a knife</td>
+</tr>
+<tr>
+<td><strong>Stomped arrows</strong></td>
+<td>In sand, stomp a large arrow pointing in your direction of travel</td>
+</tr>
+<tr>
+<td><strong>Footprints</strong></td>
+<td>Walk in a straight line when possible — footprints are visible from light aircraft</td>
+</tr>
+<tr>
+<td><strong>Notch sticks</strong></td>
+<td>Break branches and angle them in your direction of travel</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critical:</strong> If you are walking, mark every turn. A person who walks 500 m off the track and loses sight of the vehicle is effectively lost.</p>
+<hr />
+<h2 id="estimating-distance-walked">Estimating Distance Walked</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>How it works</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pacing</strong></td>
+<td>Know your pace length: average adult stride is about 1 m. Count paces for 100 m, time it, use for estimation.</td>
+</tr>
+<tr>
+<td><strong>Time</strong></td>
+<td>Average walking speed on flat ground: 3–5 km/h. Rough terrain: 1–2 km/h.</td>
+</tr>
+<tr>
+<td><strong>Features</strong></td>
+<td>"I walked 3 fence lines" or "I crossed 2 dry creek beds"</td>
+</tr>
+<tr>
+<td><strong>Visual landmarks</strong></td>
+<td>"That hill was ahead of me 2 hours ago and now I'm at its base"</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="common-navigation-mistakes">Common Navigation Mistakes</h2>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Why it kills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assuming you can walk in a straight line</td>
+<td>Humans walk in circles without visual references. In open desert, you will curve left.</td>
+</tr>
+<tr>
+<td>Following a dry creek bed upstream</td>
+<td>Leads to smaller, drier water and harder terrain.</td>
+</tr>
+<tr>
+<td>Walking at night without stars visible</td>
+<td>Disorientation is almost guaranteed.</td>
+</tr>
+<tr>
+<td>Trusting phone GPS without downloaded maps</td>
+<td>Outback has no mobile coverage. GPS still works offline, but only if maps are downloaded.</td>
+</tr>
+<tr>
+<td>Walking into the sun</td>
+<td>You will burn, dehydrate, and lose track of distance. Walk with the sun at your back.</td>
+</tr>
+<tr>
+<td>Cutting cross-country</td>
+<td>Staying on roads and tracks is always safer. Cross-country walking is slower, harder, and harder to search.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="vehicle-breakdown.html">Vehicle Breakdown: Stay or Go?</a> — Navigation decisions when walking</li>
+<li><a href="vehicle-as-resource.html">Vehicle as a Resource</a> — GPS, maps, compass in the vehicle</li>
+<li><a href="what-to-carry.html">What to Carry</a> — Navigation tools to carry</li>
+<li><a href="../06-signaling/index.html">Signaling</a> — Marking your position for rescuers</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

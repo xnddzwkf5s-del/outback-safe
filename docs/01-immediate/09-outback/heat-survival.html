@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extreme Heat Survival — Outback Safe</title>
+<meta name="description" content="Surviving 35°C–50°C+ conditions in the Australian outback. Heat illness progression, recognition, treatment, shade creation, hydration strategy, and activity timing.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#heat-illness-progression">Heat Illness Progression</a></li>
+<li><a href="#heat-stroke-recognition-quick-test">Heat Stroke Recognition — Quick Test</a></li>
+<li><a href="#heat-stroke-emergency-treatment-golden-window-30-minutes">Heat Stroke — Emergency Treatment (Golden Window: 30 Minutes)</a></li>
+<li><a href="#shade-creation">Shade Creation</a></li>
+<li><a href="#activity-timing">Activity Timing</a></li>
+<li><a href="#daily-rhythm-in-extreme-heat">Daily Rhythm in Extreme Heat</a></li>
+<li><a href="#wet-bulb-temperature-when-sweating-stops-working">Wet Bulb Temperature — When Sweating Stops Working</a></li>
+<li><a href="#hydration-strategy">Hydration Strategy</a></li>
+<li><a href="#clothing">Clothing</a></li>
+<li><a href="#vehicle-interior-safety">Vehicle Interior Safety</a></li>
+<li><a href="#vehicle-specific-heat-management">Vehicle-Specific Heat Management</a></li>
+<li><a href="#ground-temperature-awareness">Ground Temperature Awareness</a></li>
+<li><a href="#heat-survival-timeline">Heat Survival Timeline</a></li>
+<li><a href="#night-time">Night Time</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Extreme Heat Survival</h1>
+<p>The Australian outback regularly exceeds 45°C in summer. Ground temperatures can reach 70°C+ on dark sand or bitumen. In these conditions, the difference between comfort, injury, and death is measured in hours. Understanding how heat kills you — and how to stop it — is the most critical survival skill for outback travellers.</p>
+<hr />
+<h2 id="heat-illness-progression">Heat Illness Progression</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Core Temp</th>
+<th>Symptoms</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Heat Cramps</strong></td>
+<td>37°C–38.5°C</td>
+<td>Painful muscle spasms (often legs/abdomen), heavy sweating</td>
+<td>Rest in shade, drink electrolyte solution, stretch gently</td>
+</tr>
+<tr>
+<td><strong>Heat Exhaustion</strong></td>
+<td>38.5°C–40°C</td>
+<td>Heavy sweating, cold/clammy skin, weak pulse, nausea, headache, dizziness, pale skin</td>
+<td>Move to shade immediately, lie down, elevate feet, drink cool water (sips), remove excess clothing, apply cool wet cloths</td>
+</tr>
+<tr>
+<td><strong>Heat Stroke</strong></td>
+<td>&gt; 40°C</td>
+<td><strong>Hot dry skin</strong> (no sweating), red/flushed skin, <strong>confusion/agitation</strong>, rapid strong pulse, body temp rising, <strong>loss of consciousness</strong></td>
+<td><strong>This is a medical emergency.</strong> Cool the body by any means: cold water immersion if available, wet cloths on neck/armpits/groin, fan aggressively. Call 000. Without treatment, death occurs within minutes.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Heat stroke kills.</strong> Unlike heat exhaustion, the body has stopped sweating — it can no longer cool itself. Once core temperature exceeds 41°C, organ damage begins. Permanent brain damage or death follows rapidly.</p>
+<hr />
+<h2 id="heat-stroke-recognition-quick-test">Heat Stroke Recognition — Quick Test</h2>
+<p>If someone in your group collapses or seems confused in extreme heat, check:</p>
+<ol>
+<li><strong>Skin: is it dry?</strong> If they have stopped sweating and skin is hot and dry, this is heat stroke</li>
+<li><strong>Mental state: are they confused, aggressive, or unconscious?</strong> Confusion is a late sign</li>
+<li><strong>Pulse: is it rapid and strong?</strong> (vs. heat exhaustion where pulse is weak)</li>
+<li><strong>Temperature: is their skin hot to touch?</strong> If it hurts to hold your hand on their skin for more than 2 seconds, they are dangerously hot</li>
+</ol>
+<p><strong>Heat stroke is a life-threatening emergency.</strong> A person with heat stroke must be cooled before anything else — before water, before calling for help. Cool first, treat second.</p>
+<hr />
+<h2 id="heat-stroke-emergency-treatment-golden-window-30-minutes">Heat Stroke — Emergency Treatment (Golden Window: 30 Minutes)</h2>
+<p>Heat stroke is a MEDICAL EMERGENCY. Mortality increases rapidly without treatment. The goal is to reduce core body temperature to below 39°C within 30 minutes.</p>
+<p><strong>Cold water immersion (GOLD STANDARD):</strong>
+If you have access to any body of water (creek, billabong, water-filled tarp, even a cattle trough):
+1. Immerse the person up to their neck in the coldest water available
+2. Support their head — they may lose consciousness
+3. Monitor continuously — do NOT leave them alone in water
+4. Remove when shivering begins or when temperature is below 39°C (if you can measure it)</p>
+<p><strong>If immersion is not possible:</strong>
+1. Move to shade
+2. Remove clothing
+3. Pour water over the entire body — any water, any temperature (even warm water cools through evaporation)
+4. Fan the person — create airflow (vehicle fan, manual fanning, anything)
+5. Apply ice packs or cold wet cloths to neck, armpits, and groin (where major blood vessels are close to skin)
+6. Continue until person is alert and oriented</p>
+<p><strong>What NOT to do:</strong>
+- Do NOT give fluids by mouth if the person is confused or unconscious (aspiration risk)
+- Do NOT use alcohol or ice baths (can cause vasoconstriction, slowing heat loss)
+- Do NOT delay cooling while waiting for help — cool first, transport second</p>
+<p><strong>After cooling:</strong>
+- The person can RE-HEAT after initial cooling (temperature instability). Monitor continuously for 24 hours.
+- Watch for dark urine (rhabdomyolysis — muscle breakdown releasing myoglobin that can cause kidney failure). This requires hospital treatment.
+- Even if the person seems recovered, seek medical assessment. Heat stroke causes organ damage that may not be immediately apparent.</p>
+<p><strong>Exertional vs Classic Heat Stroke:</strong>
+- <strong>Exertional:</strong> from physical activity in heat (younger, fitter people pushing too hard). Body is HOT and SWEATING. Rapid onset.
+- <strong>Classic:</strong> from environmental heat exposure (older, medically vulnerable, no activity). Body is HOT and DRY (sweating mechanism failed). Gradual onset over days.</p>
+<p>Both are treated identically — COOL FAST.</p>
+<hr />
+<h2 id="shade-creation">Shade Creation</h2>
+<p>Shade is your most urgent priority — more important than water, more important than fire. In 45°C, you have roughly 3 hours without shade before heat stroke risk becomes life-threatening.</p>
+<h3>Vehicle Shade</h3>
+<ul>
+<li>Park so the vehicle casts maximum shade at midday</li>
+<li>The <strong>southern side</strong> of the vehicle gets the longest shade in Australia (sun tracks north)</li>
+<li>Open all doors on the southern side to create a larger shaded area</li>
+<li>Lie under the vehicle chassis — the body blocks direct sun and the ground underneath stays cooler</li>
+</ul>
+<h3>Tarp and Blanket Shade</h3>
+<ul>
+<li>Tie a tarp or emergency blanket between the vehicle roof and the ground on the southern side</li>
+<li>Angle it so the vehicle is one wall and the tarp is the roof</li>
+<li>Leave space underneath for airflow — do not box yourself in</li>
+</ul>
+<h3>Digging In</h3>
+<ul>
+<li>Sand can be dug to create a shaded pit</li>
+<li>Dig a trench on the southern side of the vehicle, wide enough to lie in</li>
+<li>Cover the trench with the tarp, weighted down with rocks or sand</li>
+<li>The ground below 30 cm stays significantly cooler than the surface</li>
+</ul>
+<h3>Natural Shade</h3>
+<ul>
+<li>Mulga, coolabah, and desert oaks provide shade — but check for dead branches</li>
+<li>Creek beds with overhanging banks provide excellent shade</li>
+<li>Under rock overhangs and cliff faces</li>
+</ul>
+<hr />
+<h2 id="activity-timing">Activity Timing</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>05:00–09:00</td>
+<td>Work: set up camp, gather firewood, explore, signal</td>
+</tr>
+<tr>
+<td>09:00–10:00</td>
+<td>Transition: finish all physical work, enter shade</td>
+</tr>
+<tr>
+<td>10:00–16:00</td>
+<td><strong>Rest. No physical activity.</strong> Hydrate. Sleep. Stay in shade.</td>
+</tr>
+<tr>
+<td>16:00–18:00</td>
+<td>Work: improve shelter, collect more fuel, check signals</td>
+</tr>
+<tr>
+<td>18:00–20:00</td>
+<td>Transition to evening: eat, plan next day, UHF/phone checks</td>
+</tr>
+<tr>
+<td>20:00–05:00</td>
+<td>Rest, sleep, overnight watch rotation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The 10:00–16:00 rest window is not optional.</strong> Working through the middle of the day in outback heat is how people die from heat stroke.</p>
+<hr />
+<h2 id="daily-rhythm-in-extreme-heat">Daily Rhythm in Extreme Heat</h2>
+<p>The structured day below mirrors the Activity Timing table above, with added context on why each window matters.</p>
+<ul>
+<li><strong>0500:</strong> Wake, hydrate, pack camp, travel</li>
+<li><strong>1000:</strong> Stop for the day. Find or make shade. No more driving.</li>
+<li><strong>1000–1600:</strong> Rest in maximum shade. No physical activity. Sip water every 30 minutes.</li>
+<li><strong>1600:</strong> If water is sufficient and vehicle is working, drive 1–2 hours to reposition</li>
+<li><strong>1800:</strong> Set camp, cook if safe, prepare for night</li>
+</ul>
+<p><strong>Why the midday shutdown matters:</strong> The human body cannot cool itself once ambient temperature exceeds 37°C without effective evaporation. When the wet-bulb temperature (combined heat and humidity) exceeds survivability limits, the body's cooling system fails entirely — sweating no longer works. At 40°C+ air temperature, heat stroke risk spikes dramatically with any physical exertion. This is why <strong>no physical activity between 1000 and 1600</strong> is a rule, not a recommendation.</p>
+<hr />
+<h2 id="wet-bulb-temperature-when-sweating-stops-working">Wet Bulb Temperature — When Sweating Stops Working</h2>
+<p>Your body cools itself by evaporating sweat. When humidity is high, sweat doesn't evaporate — it drips off uselessly. The <strong>wet bulb temperature</strong> measures the combined effect of heat AND humidity on the human body's ability to cool itself.</p>
+<p><strong>The 35°C wet bulb threshold:</strong>
+At a wet bulb temperature of 35°C, a healthy person at complete rest in shade with unlimited drinking water will eventually die from overheating. The body simply cannot shed heat fast enough.</p>
+<p><strong>How to estimate wet bulb (no instruments):</strong>
+- If you are sweating and it IS evaporating (you feel cooler, skin is drying): you are below wet bulb limits. You can cool yourself.
+- If you are sweating and it is NOT evaporating (sweat dripping continuously, skin stays wet, no cooling sensation): you are approaching wet bulb limits. STOP ALL ACTIVITY.
+- If the air feels "heavy," "thick," or "oppressive" and even in shade you can't cool down: wet bulb is dangerously high.</p>
+<p><strong>Wet bulb danger zone (rough guide):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Dry Temp</th>
+<th>Humidity</th>
+<th>Wet Bulb (approx)</th>
+<th>Danger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>45°C</td>
+<td>10% (desert)</td>
+<td>~22°C</td>
+<td>Low — sweat works well</td>
+</tr>
+<tr>
+<td>40°C</td>
+<td>50% (coastal)</td>
+<td>~30°C</td>
+<td>High — limit activity</td>
+</tr>
+<tr>
+<td>38°C</td>
+<td>70% (tropical)</td>
+<td>~32°C</td>
+<td>Very High — rest in shade</td>
+</tr>
+<tr>
+<td>36°C</td>
+<td>85% (monsoon buildup)</td>
+<td>~34°C</td>
+<td>Extreme — stop everything</td>
+</tr>
+<tr>
+<td>35°C</td>
+<td>100%</td>
+<td>~35°C</td>
+<td>Lethal — body cannot cool itself</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What to do when wet bulb is high:</strong>
+1. Reduce activity to absolute minimum — do not exert yourself
+2. Maximise airflow — fan yourself, find wind, create breeze
+3. Use water for evaporative cooling — wet your skin and clothing
+4. Seek the coolest microclimate — deep shade, creek bed, air-conditioned vehicle if running
+5. Monitor for heat illness — wet bulb conditions can cause heat stroke without physical exertion</p>
+<p><strong>Regional note:</strong>
+- <strong>Desert (Simpson, Central Australia):</strong> Wet bulb rarely dangerous — humidity is very low. Dry heat is survivable with shade and water.
+- <strong>Tropical coast (Darwin, Cairns, Broome):</strong> Wet bulb can reach dangerous levels during wet season buildup (October–December). This is when healthy people die from heat exposure without ever exercising.</p>
+<hr />
+<h2 id="hydration-strategy">Hydration Strategy</h2>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Water Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rest, 30°C shade</td>
+<td>500 mL per hour</td>
+</tr>
+<tr>
+<td>Rest, 40°C shade</td>
+<td>750 mL per hour</td>
+</tr>
+<tr>
+<td>Rest, 45°C+ shade</td>
+<td>1 L per hour</td>
+</tr>
+<tr>
+<td>Walking, 40°C</td>
+<td>1.5 L per hour</td>
+</tr>
+<tr>
+<td>Walking, 45°C</td>
+<td>2 L per hour</td>
+</tr>
+</tbody>
+</table>
+<h3>How to Hydrate</h3>
+<ul>
+<li><strong>Sip, don't chug.</strong> 500 mL every 20–30 minutes. Chugging water triggers urination and wastes water.</li>
+<li><strong>Drink before you're thirsty.</strong> Thirst means you are already dehydrated.</li>
+<li><strong>Electrolyte replacement.</strong> Add a pinch of salt to each litre of water. Without salt, you can develop hyponatraemia (water poisoning) from drinking plain water in excess.</li>
+<li><strong>Never ration water by reducing intake below 2 L per day.</strong> Rationing water causes dehydration, which impairs judgement and kidney function.</li>
+<li><strong>Do not drink alcohol or caffeine.</strong> Both are diuretics and accelerate dehydration.</li>
+</ul>
+<h3>Signs of Dehydration</h3>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Signs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mild</td>
+<td>Thirst, dry mouth, dark urine</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>Fatigue, headache, dizziness, no urination for 6+ hours</td>
+</tr>
+<tr>
+<td>Severe</td>
+<td>Confusion, rapid breathing, inability to sweat, no urination for 12+ hours</td>
+</tr>
+<tr>
+<td>Critical</td>
+<td>Unconsciousness, organ failure</td>
+</tr>
+</tbody>
+</table>
+<h3>Improvised Electrolyte Replacement (No Commercial Products)</h3>
+<p>If you have no electrolyte sachets, no salt, and no commercial products, you can still replace electrolytes from natural sources.</p>
+<p><strong>Warning:</strong> If you have salt and sugar, use the standard oral rehydration formula: 1L water + 6 level teaspoons sugar + 0.5 level teaspoon salt. This is MORE EFFECTIVE than any improvised method. Only use the methods below if you have nothing else.</p>
+<p><strong>Bush electrolyte sources:</strong>
+- <strong>Animal blood</strong> (cooked): Rich in sodium, potassium, and iron. Cook thoroughly before consuming. Collect from freshly killed game or butchering. A small amount of cooked blood mixed with water provides electrolytes. Do NOT drink raw blood — parasite risk.
+- <strong>Bone broth:</strong> Boil animal bones (kangaroo, goanna, any available) for 1+ hours. The broth contains sodium, potassium, calcium, and magnesium. Drink the liquid.
+- <strong>Saltbush (Atriplex species):</strong> Widespread across arid Australia. Chew fresh leaves to extract salty liquid, spit out the fibrous leaf. Leaves contain 20-30% sodium chloride by dry weight. DO NOT eat large quantities — oxalate content can cause kidney stress.
+- <strong>Samphire (Sarcocornia/Salicornia):</strong> Coastal and inland salt lakes. Succulent stems, naturally salty. Eat raw in small amounts. Contains sodium, magnesium, potassium.
+- <strong>Charcoal/ash:</strong> Wood ash (from clean hardwood, NOT treated timber or painted wood) mixed into water provides potassium and calcium. Use VERY small amount — about 1/4 teaspoon per litre. Too much causes gastrointestinal distress. Filter through cloth before drinking.</p>
+<p><strong>Signs you need electrolytes (not just water):</strong>
+- Muscle cramps (especially legs, hands)
+- Headache that doesn't improve with water alone
+- Confusion, irritability
+- Dark urine despite drinking adequate water
+- Swollen fingers or ankles (water retention — body holding fluid because sodium is too low)</p>
+<p><strong>Hyponatraemia (water intoxication):</strong>
+Drinking large amounts of plain water without electrolyte replacement dilutes blood sodium. Symptoms: headache, confusion, nausea, seizures. This can be fatal and has killed endurance athletes and outback travellers.</p>
+<p><strong>Prevention:</strong> For every 3-4 litres of water consumed in heat, consume some electrolyte source (bone broth, saltbush, ash water, or a pinch of salt if available). Do not drink more than 1 litre of plain water per hour for extended periods without electrolyte intake.</p>
+<hr />
+<h2 id="clothing">Clothing</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Shirt</strong></td>
+<td>Light-coloured, long-sleeved, loose-fit cotton or linen. Not synthetic — synthetic traps heat.</td>
+</tr>
+<tr>
+<td><strong>Pants</strong></td>
+<td>Light-coloured, long pants. Protects legs from sun and ground heat.</td>
+</tr>
+<tr>
+<td><strong>Hat</strong></td>
+<td>Wide-brimmed — no caps. The brim must shade your neck and ears.</td>
+</tr>
+<tr>
+<td><strong>Neck cover</strong></td>
+<td>A flap or cloth covering the back of the neck. Critical for preventing heat stroke.</td>
+</tr>
+<tr>
+<td><strong>Footwear</strong></td>
+<td>Closed shoes. The ground is hot enough to cause burns through thin soles. Do not go barefoot.</td>
+</tr>
+<tr>
+<td><strong>Sunglasses</strong></td>
+<td>Protect eyes from UV and glare. Improvise: cut slits in fabric.</td>
+</tr>
+</tbody>
+</table>
+<h3>Wet Clothing Trick</h3>
+<p>Wetting your shirt and hat adds evaporative cooling. In dry heat (low humidity), this can drop your skin temperature significantly. Re-wet every 30–60 minutes as it dries. <strong>Only do this if you have surplus water</strong> — evaporation uses water you may need for drinking.</p>
+<hr />
+<h2 id="vehicle-interior-safety">Vehicle Interior Safety</h2>
+<ul>
+<li><strong>Never sit in a parked car with the engine off in summer.</strong> Interior temperatures reach 60°C–80°C within 15 minutes.</li>
+<li>Crack windows 1–2 cm to let hot air escape — but not enough for flies to swarm.</li>
+<li>Open both doors wide for 30 seconds before getting in.</li>
+<li>Do not leave water bottles in the vehicle — heat degrades plastic and leaches chemicals.</li>
+<li>Do not store lighters or aerosol cans in the vehicle — they can explode.</li>
+</ul>
+<hr />
+<h2 id="vehicle-specific-heat-management">Vehicle-Specific Heat Management</h2>
+<h3>Aircon vs No Aircon</h3>
+<ul>
+<li>If aircon is working, use it — it is not a luxury, it is a survival tool for preventing heat stress on long drives</li>
+<li>If aircon is broken, roll windows fully down, place a wet cloth on your neck (evaporative cooling on the carotid artery), and increase water intake</li>
+<li>On long drives in extreme heat, rotate who drives every 60–90 minutes to reduce fatigue and heat exposure</li>
+</ul>
+<h3>Engine Heat</h3>
+<ul>
+<li>The engine bay and bonnet radiate 70°C–80°C of heat for hours after stopping — do not sit on the bonnet or near the radiator after a long drive</li>
+<li>When setting up camp, orient the vehicle so the engine bay faces away from where you will rest</li>
+<li>Let the engine cool for at least 30 minutes before checking fluids or performing any mechanical work</li>
+</ul>
+<h3>Vehicle Colour and Heat</h3>
+<ul>
+<li>White vehicles reflect up to 80% of solar radiation — interior stays measurably cooler</li>
+<li>Dark vehicles absorb more heat: interior can be 10°C–15°C hotter than a white vehicle in the same conditions</li>
+<li>If you have a dark-coloured vehicle, extra shade and ventilation are critical</li>
+</ul>
+<h3>Creating Vehicle Shade</h3>
+<ul>
+<li>Park <strong>facing the sun</strong> so the vehicle body (bonnet and windscreen) blocks the direct solar load</li>
+<li>Run a tarp from the roof rack to the ground on the <strong>southern side</strong> of the vehicle</li>
+<li>Weight the tarp with rocks, sandbags, or full water containers</li>
+<li>Leave 30–50 cm gap at the bottom for airflow under the tarp — stagnant air under a tarp becomes a furnace</li>
+<li>If no tarp is available, open all doors on the shaded side and drape blankets or clothing between door frames</li>
+</ul>
+<hr />
+<h2 id="ground-temperature-awareness">Ground Temperature Awareness</h2>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Typical Temperature (45°C air)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light sand</td>
+<td>55°C–60°C</td>
+</tr>
+<tr>
+<td>Dark sand / red soil</td>
+<td>60°C–70°C</td>
+</tr>
+<tr>
+<td>Bitumen / asphalt</td>
+<td>60°C–75°C</td>
+</tr>
+<tr>
+<td>Rock (dark)</td>
+<td>65°C+</td>
+</tr>
+<tr>
+<td>Vegetated ground</td>
+<td>35°C–45°C</td>
+</tr>
+<tr>
+<td>Under vehicle shade</td>
+<td>35°C–45°C</td>
+</tr>
+<tr>
+<td>30 cm below surface (any)</td>
+<td>25°C–30°C</td>
+</tr>
+</tbody>
+</table>
+<p>Burns from brief contact with 60°C+ surfaces occur in under 5 seconds. <strong>Do not sit, lie, or kneel directly on bare sand or rock without insulation</strong> — use a floor mat, seat cushion, or folded clothing.</p>
+<hr />
+<h2 id="heat-survival-timeline">Heat Survival Timeline</h2>
+<p>The table below shows how quickly conditions progress in extreme heat (45°C air temperature) depending on what resources you have available.</p>
+<table>
+<thead>
+<tr>
+<th>Time at 45°C</th>
+<th>Without Shade</th>
+<th>With Shade + Water</th>
+<th>With Shade + Water + Wet Cloth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 hour</td>
+<td>Heat exhaustion begins</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>3 hours</td>
+<td>Heat stroke possible</td>
+<td>Heat exhaustion risk</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>6 hours</td>
+<td>Fatal risk</td>
+<td>Serious risk</td>
+<td>Managing</td>
+</tr>
+<tr>
+<td>12 hours</td>
+<td>Likely fatal</td>
+<td>Heat stroke risk</td>
+<td>Heat exhaustion</td>
+</tr>
+<tr>
+<td>24 hours</td>
+<td>Fatal</td>
+<td>Critical risk</td>
+<td>Serious</td>
+</tr>
+<tr>
+<td>48 hours</td>
+<td>—</td>
+<td>Probable fatal</td>
+<td>Critical without electrolyte</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key takeaway:</strong> Shade buys you time. Shade plus water doubles it. Shade plus water plus evaporative cooling (wet cloth) gives you the best chance. But none of these are a substitute for rescue.</p>
+<hr />
+<h2 id="night-time">Night Time</h2>
+<p>The Australian desert has some of the most extreme temperature swings on Earth. A 40°C day can drop to 5°C or below by dawn, particularly in winter and in elevated inland areas.</p>
+<h3>Cold Exposure Risk</h3>
+<ul>
+<li><strong>Hypothermia is a real risk</strong> in the outback, especially if you are already dehydrated and exhausted</li>
+<li>A person in wet or sweaty clothing at 5°C with wind can develop hypothermia within hours</li>
+<li>You must carry a warm layer (jumper, hoodie, jacket, or thermal) even in summer</li>
+<li>A sleeping bag (at least a summer-weight bag) should be in your vehicle kit year-round</li>
+</ul>
+<h3>Sleeping Off the Ground</h3>
+<ul>
+<li>Desert ground conducts heat away from your body rapidly at night, accelerating cold stress</li>
+<li>Sleep on a swag, stretcher, camp bed, sleeping mat, or an improvised bed of branches and grass</li>
+<li>Do not sleep directly on the bare ground — you will lose body heat and wake cold or dangerously chilled</li>
+</ul>
+<h3>Wind Protection</h3>
+<ul>
+<li>Use the vehicle as a windbreak: sleep on the lee side</li>
+<li>If wind is persistent, rig a tarp as a windbreak wall</li>
+<li>A tent or swag with a fly provides critical wind protection in open desert</li>
+</ul>
+<h3>Night as a Resource</h3>
+<ul>
+<li>Night is the best time to travel if you are walking out — cooler temperatures mean less water loss</li>
+<li>Night is also the best time to signal: fires, torches, and reflective signals are visible from kilometres away in the dark</li>
+<li>Use daylight hours for rest and planning; use darkness for movement and signalling</li>
+</ul>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="vehicle-breakdown.html">Vehicle Breakdown: Stay or Go?</a> — The core outback survival decision</li>
+<li><a href="vehicle-as-resource.html">Vehicle as a Resource</a> — Using the vehicle for shade, water, and tools</li>
+<li><a href="what-to-carry.html">What to Carry</a> — Outback gear checklist</li>
+<li><a href="emergency-services.html">Emergency Services</a> — When to call for help</li>
+<li><a href="../02-water/index.html">Water — Finding &amp; Purifying</a> — Finding and treating water</li>
+<li><a href="outback-first-aid.html">Outback First Aid</a> — Remote area first aid: snake bite, wounds, fractures, PLB activation</li>
+<li><a href="../01-first-aid/index.html">First Aid</a> — General medical emergencies including heat illness</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

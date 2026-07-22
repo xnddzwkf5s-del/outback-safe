@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicle Recovery — Outback Safe</title>
+<meta name="description" content="Recovering a bogged 4WD with winch, snatch strap, maxtrax, shovel, and bush techniques when help is days away.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#1-assessment">1. Assessment</a></li>
+<li><a href="#2-basic-recovery-no-special-gear">2. Basic Recovery (No Special Gear)</a></li>
+<li><a href="#3-snatch-strap-recovery">3. Snatch Strap Recovery</a></li>
+<li><a href="#4-winch-recovery">4. Winch Recovery</a></li>
+<li><a href="#5-jack-recovery">5. Jack Recovery</a></li>
+<li><a href="#6-maxtrax-recovery-boards">6. Maxtrax / Recovery Boards</a></li>
+<li><a href="#7-when-you-re-properly-stuck">7. When You're Properly Stuck</a></li>
+<li><a href="#8-post-recovery-checklist">8. Post-Recovery Checklist</a></li>
+<li><a href="#recovery-gear-quick-reference">Recovery Gear Quick Reference</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Vehicle Recovery</h1>
+<p>Getting bogged in the outback is not a matter of if — it is a matter of when. Bulldust holes, dry creek crossings, beach sand, and rain-slicked claypans all swallow 4WDs without warning. The difference between a five-minute recovery and a multi-day ordeal is knowing when to apply force, when to dig, and when to stop before you break something.</p>
+<hr />
+<h2 id="1-assessment">1. Assessment</h2>
+<p>Before touching any gear, assess how bogged you are and what you have to work with.</p>
+<h3>How Bogged Are You?</h3>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>What It Looks Like</th>
+<th>Risk Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wheels spinning</strong></td>
+<td>Tyres spinning freely, vehicle not moving. Chassis is above ground.</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><strong>Wheels dug in</strong></td>
+<td>Wheels have dug holes beneath themselves (axle-deep). Chassis still above ground.</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td><strong>Chassis on ground</strong></td>
+<td>Vehicle is resting on the diff, chassis rail, or underbody panels. Wheels may barely contact ground.</td>
+<td>High</td>
+</tr>
+<tr>
+<td><strong>Bellied out</strong></td>
+<td>Vehicle is fully resting on its belly — all four wheels are off the ground or barely touching.</td>
+<td>Severe — professional recovery or serious effort needed</td>
+</tr>
+</tbody>
+</table>
+<h3>Inventory Your Gear</h3>
+<table>
+<thead>
+<tr>
+<th>Gear</th>
+<th>What to Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Snatch strap</td>
+<td>Is it rated? Is it 9 m+ long? No fraying or UV damage?</td>
+</tr>
+<tr>
+<td>Shackles</td>
+<td>Rated bow shackles (not Bunnings hardware D-shackles)? Rated for the strap's breaking strength?</td>
+</tr>
+<tr>
+<td>Winch</td>
+<td>Does it work? Is the rope/cable in good condition? Is there power in the battery?</td>
+</tr>
+<tr>
+<td>Recovery boards</td>
+<td>Maxtrax or similar? Unbroken? Cleats clean?</td>
+</tr>
+<tr>
+<td>Shovel</td>
+<td>Single long-handle or compact? One per person helps.</td>
+</tr>
+<tr>
+<td>Jack</td>
+<td>Does it work on sand (requires a base plate)?</td>
+</tr>
+<tr>
+<td>Tyre deflator</td>
+<td>Can you air down?</td>
+</tr>
+</tbody>
+</table>
+<h3>When to Stop Trying</h3>
+<p>Stop and reassess if:</p>
+<ul>
+<li><strong>Engine temperature rising</strong> — sand recovery at low range generates extreme heat. Watch the temp gauge like a hawk.</li>
+<li><strong>Battery draining</strong> — winching drains batteries fast. If the engine is not running to charge, you have limited attempts.</li>
+<li><strong>Wheels digging deeper</strong> — Each attempt should move the vehicle up, not down. If you are sinking deeper, stop.</li>
+<li><strong>Clutch or transmission smell</strong> — Burning clutch or hot transmission fluid means you are cooking driveline components.</li>
+<li><strong>Gear is failing</strong> — If a strap or shackle is showing wear, stop. Do not push gear past its limits in remote areas.</li>
+</ul>
+<hr />
+<h2 id="2-basic-recovery-no-special-gear">2. Basic Recovery (No Special Gear)</h2>
+<p><img alt="Tyre deflation for sand driving" src="../../static/images/recovery/tyre-deflation.jpg" />
+<em>Airing down tyres is the single most effective thing you can do for sand recovery. Image: Wikimedia Commons (CC BY-SA).</em></p>
+<p>You can recover from most shallow bogs with nothing but the gear already in the vehicle and some bush ingenuity.</p>
+<h3>Let Air Out of Tyres</h3>
+<p>This is the single most effective thing you can do.</p>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Target Pressure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soft sand</td>
+<td>15–18 PSI (12–15 PSI for deep beach sand)</td>
+</tr>
+<tr>
+<td>Bulldust / dry mud</td>
+<td>18–20 PSI</td>
+</tr>
+<tr>
+<td>Wet clay</td>
+<td>20–22 PSI</td>
+</tr>
+<tr>
+<td>Rocky terrain</td>
+<td>22–25 PSI</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Warning:</strong> Below 15 PSI, tyre beads can unseat from the rim when turning sharply. If the bead pops off, you will need a bead-seater (or a recovery compressor with a bead-blaster) to fix it. Carry a tyre repair kit with bead-lubricant.</p>
+<p>After airing down, attempt a gentle drive-out in low range. Often this is all that is needed.</p>
+<h3>Rocking Technique</h3>
+<ol>
+<li>Select low range, 2nd gear (automatic) or 2nd gear low (manual)</li>
+<li>Turn off traction control if fitted (most modern 4WDs allow this)</li>
+<li>Gently accelerate forward until wheels start to slip — not full throttle</li>
+<li>As the vehicle stops moving forward, immediately shift to reverse and gently reverse</li>
+<li>Repeat: forward, back, forward, back — building momentum in each direction</li>
+<li>On a forward rock, accelerate smoothly and try to drive out</li>
+</ol>
+<p><strong>Do not floor it.</strong> Full throttle just digs holes faster. Gentle, rhythmic rocking is more effective than brute force.</p>
+<h3>Digging</h3>
+<ol>
+<li>Clear sand, mud, or soil from in front of <strong>all four wheels</strong> — not just the drive wheels</li>
+<li>Dig a gentle ramp from the base of each wheel pit sloping upward and forward</li>
+<li>Clear the underbody if the chassis is on the ground — dig a channel under the diff and chassis rails</li>
+<li>Smooth the ramp — rough ramps cause the tyre to catch and dig again</li>
+<li>Re-attempt with aired-down tyres</li>
+</ol>
+<p>A proper dig-out takes 15–45 minutes. Rotate who digs to avoid heat exhaustion.</p>
+<h3>Improvised Traction</h3>
+<p>When wheels are spinning on slick ground, any friction material helps:</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Effectiveness</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Floor mats</strong></td>
+<td>Good</td>
+<td>Slide under drive wheels. Rubber mats work best. Carpet mats disintegrate.</td>
+</tr>
+<tr>
+<td><strong>Spinifex grass</strong></td>
+<td>Excellent</td>
+<td>Bundles of spinifex woven together create a tough mat. Replace when crushed.</td>
+</tr>
+<tr>
+<td><strong>Branches / saplings</strong></td>
+<td>Good</td>
+<td>Lay perpendicular to wheel direction. Tie into bundles with seatbelt webbing.</td>
+</tr>
+<tr>
+<td><strong>Canvas / hessian</strong></td>
+<td>Moderate</td>
+<td>Old swag canvas or hessian bags under wheels. Better than nothing.</td>
+</tr>
+<tr>
+<td><strong>Clothing</strong></td>
+<td>Poor — last resort</td>
+<td>Jeans, jackets. Only use for a single attempt.</td>
+</tr>
+<tr>
+<td><strong>Climbing rope / webbing</strong></td>
+<td>Good — if you carry it</td>
+<td>Lay in loops under the drive wheels.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Technique:</strong> Pack the material securely under the wheel, ensuring it extends beyond the contact patch. Aim the material in the direction you want the wheel to roll. Drive gently — if you spin the wheels, you will eject the material.</p>
+<h3>Jack and Pack</h3>
+<p>For deeper bogs where wheels have dug axle-deep holes:</p>
+<ol>
+<li>Place a flat base under the jack (floor mat, piece of wood, shovel blade)</li>
+<li>Jack up one wheel at a time</li>
+<li>Pack the hole beneath the wheel with rocks, branches, packed sand, or any solid material</li>
+<li>Lower the wheel onto the packed material</li>
+<li>Repeat for all four wheels</li>
+<li>Drive out gently in low range</li>
+</ol>
+<p><strong>Safety:</strong> Never get under a vehicle supported only by a scissor or bottle jack. If the jack tips, you are crushed.</p>
+<hr />
+<h2 id="3-snatch-strap-recovery">3. Snatch Strap Recovery</h2>
+<p><img alt="Snatch strap recovery — kinetic energy recovery" src="../../static/images/recovery/snatch-strap.jpg" />
+<em>Snatch strap recovery — kinetic energy stretches the nylon webbing and transfers momentum to the stuck vehicle. Image: Wikimedia Commons (CC BY-SA).</em></p>
+<p>A snatch strap uses kinetic energy — it stretches under tension and snaps back, transferring momentum to the stuck vehicle. It is the most common recovery method for a second vehicle to pull out a bogged 4WD.</p>
+<h3>Gear Requirements</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement</th>
+<th>What Not to Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Snatch strap</strong></td>
+<td>Rated nylon webbing, minimum 9 m length, rated for 2–3× the vehicle weight</td>
+<td>Tow ropes (no stretch — they snap without transferring energy). Static recovery straps.</td>
+</tr>
+<tr>
+<td><strong>Shackles</strong></td>
+<td>Rated bow shackles (screw-pin), rated for at least the strap's breaking strength</td>
+<td>Bunnings D-shackles (not load-rated). Hardware-store carabiners.</td>
+</tr>
+<tr>
+<td><strong>Recovery points</strong></td>
+<td>OEM or aftermarket rated recovery points fitted to chassis</td>
+<td><strong>Never use the tow ball.</strong> It becomes a projectile when it fails. Never use tie-down points, suspension arms, or the bullbar as recovery points.</td>
+</tr>
+</tbody>
+</table>
+<h3>Recovery Points — Critical Safety</h3>
+<p>The <strong>tow ball must never be used</strong> for vehicle recovery. Tow balls are designed for towing trailers, not for snatch or winch recovery. When a recovery load is applied to a tow ball, it can snap off at the neck and become a steel projectile travelling at lethal speed. There are documented cases of tow ball failures killing and maiming people.</p>
+<p><strong>Safe recovery points:</strong>
+- OEM recovery points (front and rear) — usually marked with a red or orange tag
+- Aftermarket rated recovery points bolted to the chassis
+- Hayman Reece style tow hitch receiver (with a rated recovery hitch, not a ball mount)
+- Rated recovery hooks on aftermarket bullbars</p>
+<p><strong>Unsafe recovery points:</strong>
+- Tow ball (detachable or fixed — both can fail catastrophically)
+- Tie-down points (rated for transport, not recovery)
+- Suspension arms and control arms
+- Bullbar (unless it has rated recovery points)
+- Axle housings
+- Steering components</p>
+<h3>Technique</h3>
+<ol>
+<li><strong>Both vehicles in low range</strong> — the recovery vehicle should be in low range 2nd gear (manual) or low range 2nd (auto)</li>
+<li><strong>Recovery vehicle positioned</strong> — 20 m away from the stuck vehicle on firm ground. Drive past slightly so the pull is straight, not at an angle</li>
+<li><strong>Agree on signals FIRST</strong> — both drivers agree on hand signals or UHF channel before starting. If UHF, agree on a dedicated channel. If neither is available, a single horn blast means STOP IMMEDIATELY. The person at the recovery vehicle must be able to see the stuck vehicle or communicate clearly at all times</li>
+<li><strong>Attach strap</strong> — shackle through strap loops and recovery points. Ensure the pin is screwed in to the last thread, but <strong>back the pin off half a turn</strong> so it doesn't bind under load</li>
+<li><strong>Drape a dampener</strong> — a blanket, jacket, towel, or recovery damper over the centre of the strap. The strap becomes a whip if it breaks</li>
+<li><strong>Stuck vehicle: in gear, engine running</strong> — engine running, in low range 2nd gear (manual) or Drive (auto) with foot firmly on brake until the strap is tensioned. <strong>Never leave the stuck vehicle in neutral</strong> — it can roll backward when freed, running over the recovery driver</li>
+<li><strong>Tension the strap</strong> — recovery vehicle drives forward slowly until the strap is just tight. The stuck vehicle holds the brake during this step</li>
+<li><strong>Recovery vehicle: gentle momentum</strong> — once the strap is tight, the recovery vehicle accelerates <strong>gently</strong> to walking pace. The strap does the work, not speed. No more than a brisk walking pace (5–8 km/h)</li>
+<li><strong>Stuck vehicle: release brake, gentle throttle</strong> — as the recovery vehicle pulls, the stuck vehicle releases the brake and applies <strong>gentle throttle</strong> in the direction of pull. Both vehicles working together is safe and effective — the stuck vehicle should NOT accelerate hard, but a gentle throttle input prevents wheelspin when the wheels start rolling</li>
+<li><strong>Pull through</strong> — the recovery vehicle continues driving for 10–15 m past the stuck vehicle's position, pulling it out in one smooth motion</li>
+<li><strong>STOP check</strong> — once free, both vehicles stop. Check the strap, shackles, and recovery points for damage before packing up</li>
+</ol>
+<h3>If the First Attempt Fails</h3>
+<ul>
+<li>The strap may need to be repositioned — it should be straight, not rubbing against chassis or sharp edges</li>
+<li>Dig the stuck vehicle's wheels clear first, then try again</li>
+<li>Reposition the recovery vehicle on firmer ground</li>
+<li>Try a double-pull: recover in stages, clearing the track as you go</li>
+</ul>
+<h3>Dampener — Why It Matters</h3>
+<p>A snatch strap under tension stores extreme kinetic energy. If the strap or a shackle breaks, the components whip backward at lethal velocity. A dampener (recovery blanket, heavy towel, folded jacket) draped over the centre of the strap absorbs this energy and stops the strap from becoming a projectile.</p>
+<p><strong>Without a dampener:</strong> A broken snatch strap can kill a person standing 30 m away. Never skip this step.</p>
+<hr />
+<h2 id="4-winch-recovery">4. Winch Recovery</h2>
+<p><img alt="Winch recovery — 4WD pulling itself out" src="../../static/images/recovery/winch-recovery.jpg" />
+<em>Winch recovery — self-recovery using an electric or hand winch when no second vehicle is available. Image: Wikimedia Commons (CC BY-SA).</em></p>
+<p>When there is no second vehicle, or when the bog is too deep for a snatch strap, the winch is your self-recovery option.</p>
+<h3>Electric vs Hand Winch</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Electric winch</strong></td>
+<td>Fast, powerful, requires minimal effort</td>
+<td>Drains battery, heavy, expensive, can overheat</td>
+</tr>
+<tr>
+<td><strong>Hand winch (Tirfor / come-along)</strong></td>
+<td>Works without vehicle battery, reliable, portable</td>
+<td>Slow, physically demanding, limited to 1–2 tonnes</td>
+</tr>
+<tr>
+<td><strong>High-lift jack used as winch</strong></td>
+<td>Multi-purpose tool</td>
+<td>Extremely slow, dangerous in inexperienced hands, limited range</td>
+</tr>
+</tbody>
+</table>
+<h3>Single Line Pull</h3>
+<p>Calculate the effective pulling power of your winch:</p>
+<ul>
+<li><strong>Winch rating × line layer reduction:</strong> Winches are rated at the first layer of cable on the drum. Each additional layer reduces pulling power by 10–15%.</li>
+<li><strong>Example:</strong> A 4,500 kg winch with two layers of cable on the drum pulls approximately 3,800 kg — marginal for a 3-tonne vehicle in deep sand.</li>
+</ul>
+<p>If the winch is marginal, use a double line pull.</p>
+<h3>Double Line Pull (with Snatch Block)</h3>
+<p>A snatch block (pulley) doubles the winch's pulling force and halves the cable speed — giving you more power and more control.</p>
+<p><strong>Setup:</strong>
+1. Attach the snatch block to the anchor point with a rated shackle
+2. Run the winch cable from the drum, through the snatch block, and back to your vehicle's recovery point
+3. The cable now forms a loop: vehicle → anchor → back to vehicle</p>
+<p><strong>Force calculation:</strong> A 4,500 kg winch on double line pull delivers approximately 7,500 kg of effective pulling force (accounting for line layer reduction and friction in the snatch block).</p>
+<p><strong>Note:</strong> A snatch block also changes the direction of pull. Use this to pull yourself at an angle out of a rut or away from an obstacle.</p>
+<h3>Anchor Points</h3>
+<p>When winching, you need something solid to pull toward.</p>
+<table>
+<thead>
+<tr>
+<th>Anchor</th>
+<th>How to Use</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tree</strong></td>
+<td>Use a tree trunk protector (wide nylon sling) around the trunk. Never run the winch cable directly around the tree — it damages the tree and frays the cable.</td>
+<td>Choose a tree at least 30 cm diameter. Avoid dead trees — they can snap.</td>
+</tr>
+<tr>
+<td><strong>Spare tyre (deadman anchor)</strong></td>
+<td>Bury your spare tyre vertically in sand, at least 3 m from the vehicle. Dig a trench 1 m deep (or as deep as you can). Place the tyre upright in the trench, run the winch cable or strap through the centre of the rim, and bury the tyre completely. Pack the sand firmly.</td>
+<td>Add a second tyre (or rim) on top for more weight. For extra holding power, place a long branch or shovel handle through the rim before burying.</td>
+</tr>
+<tr>
+<td><strong>Another vehicle</strong></td>
+<td>Park the recovery vehicle 30 m+ from the bogged vehicle, chock its wheels, and use it as the anchor.</td>
+<td>The recovery vehicle must be on firm ground. Always chock the wheels.</td>
+</tr>
+<tr>
+<td><strong>Rock</strong></td>
+<td>Wrap a tree trunk protector around a large boulder or rock outcrop.</td>
+<td>Works only if the rock is larger than a fridge and firmly embedded.</td>
+</tr>
+<tr>
+<td><strong>Sand anchor</strong></td>
+<td>Commercial sand anchors (like Pull-Pal) use a flat plate with teeth that digs in as tension increases.</td>
+<td>Expensive but highly effective for beach and desert recoveries.</td>
+</tr>
+</tbody>
+</table>
+<h3>Winching in Sand</h3>
+<p>Sand is the most difficult surface for winching because anchors pull out easily.</p>
+<p><strong>Deadman anchor technique (detailed):</strong>
+1. Dig a trench approximately 5–7 m from the stuck vehicle, at least 1 m deep and 1.5 m long
+2. Place the spare tyre (or two) in the trench, standing upright
+3. Pass the winch cable through the centre of the rim and attach it back to itself with a shackle
+4. Bury the tyre completely, packing sand firmly as you go
+5. Walk over the buried area to compact the sand
+6. Attach a tree trunk protector or short strap to the cable where it exits the sand — this prevents the cable from cutting through the sand
+7. Winch slowly and steadily — jerking may pull the anchor out</p>
+<p><strong>If the anchor pulls out:</strong>
+- Dig the trench deeper and wider
+- Add more weight: rocks, branches, the second spare tyre, your recovery gear bag
+- Pack the sand more firmly — wet sand is better than dry sand. Pour any available water over the buried anchor area</p>
+<h3>Winch Safety</h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>No one near the cable under tension</strong></td>
+<td>A broken cable whips back with lethal force. The danger zone extends 1.5× the cable length from the vehicle.</td>
+</tr>
+<tr>
+<td><strong>Drape a dampener on the cable</strong></td>
+<td>A recovery blanket, heavy jacket, or folded floor mat over the centre of the cable span. It absorbs energy if the cable snaps.</td>
+</tr>
+<tr>
+<td><strong>Never step over the cable</strong></td>
+<td>If the cable snaps while you are stepping over it, it can sever your leg at the knee. Walk around — never over.</td>
+</tr>
+<tr>
+<td><strong>Never handle the cable with bare hands</strong></td>
+<td>Wire rope forms sharp burrs and broken strands that cut deeply. Winch gloves or heavy leather gloves always.</td>
+</tr>
+<tr>
+<td><strong>Use gloves when guiding cable</strong></td>
+<td>Keep hands at least 30 cm from the fairlead when feeding cable in or out.</td>
+</tr>
+<tr>
+<td><strong>Never bend the cable sharply</strong></td>
+<td>Sharp bends create kinks that permanently weaken the cable. Use the snatch block for direction changes.</td>
+</tr>
+<tr>
+<td><strong>Keep winching sessions short</strong></td>
+<td>Continuous winching overheats the winch motor. Winch for 30 seconds, pause for 60 seconds to cool.</td>
+</tr>
+<tr>
+<td><strong>Engine running during winching</strong></td>
+<td>The winch draws huge current. Run the engine at fast idle (1,500–2,000 rpm) to keep the alternator charging.</td>
+</tr>
+<tr>
+<td><strong>Pause and check</strong></td>
+<td>Every 3 m of winching, pause and check the cable, the anchor, and the vehicle's position.</td>
+</tr>
+</tbody>
+</table>
+<h3>Cable and Rope Care</h3>
+<ul>
+<li><strong>Synthetic rope:</strong> Keep clean. Mud and sand between the fibres act as abrasives when the rope flexes.</li>
+<li><strong>Wire cable:</strong> Inspect for broken strands — the cable must be replaced if you find three broken strands in one lay length. Use protective sleeves at contact points.</li>
+<li><strong>Fairlead:</strong> Check for burs and sharp edges. Synthetic ropes need a roller fairlead or aluminium hawse fairlead.</li>
+<li><strong>Storage:</strong> Keep cable/rope clean and dry. UV degrades synthetic rope — store it out of direct sun when not in use.</li>
+</ul>
+<hr />
+<h2 id="5-jack-recovery">5. Jack Recovery</h2>
+<h3>Exhaust Jack (Air Jack)</h3>
+<p>An exhaust jack is an inflatable bag that lifts the vehicle using exhaust gas pressure. Essential for sand and mud recovery where a conventional jack is useless.</p>
+<p><strong>How to use:</strong>
+1. Attach the hose to the vehicle's exhaust pipe (engine running)
+2. Place the deflated bag under a solid chassis or axle point
+3. Let the exhaust pressure inflate the bag — the vehicle rises
+4. Once lifted, pack material (sand, rocks, branches) under the wheels
+5. Deflate the bag and drive out</p>
+<p><strong>Advantages:</strong>
+- Works on ANY surface (sand, mud, snow — conventional jacks sink)
+- Lifts the entire side or end of the vehicle in one go
+- Can lift from an axle or chassis rail even when deeply bogged</p>
+<p><strong>Limitations:</strong>
+- Requires engine running (exhaust pressure)
+- The exhaust connection can pop off — secure with a clamp if available
+- Generates significant load on exhaust system seals — check for leaks after use
+- Bag can be punctured by sharp objects — clear the area beneath first</p>
+<h3>Hi-Lift Jack (Farm Jack)</h3>
+<p>A hi-lift jack is a long mechanical lever jack. It lifts, pulls, clamps, and spreads. Also called a farm jack or kangaroo jack. It is one of the most versatile but also most dangerous recovery tools.</p>
+<p><strong>Lifting:</strong>
+- Place the base plate on FIRM ground (use a jack base for sand/mud)
+- Engage the jack into a rated jacking point, bullbar tube, or rock slider
+- NEVER lift from a standard vehicle panel or bumper — it will bend
+- Keep your face and body AWAY from the handle arc — if the load slips, the handle can recoil with lethal force
+- After lifting, secure the vehicle with jack stands, blocks, or the recovery itself</p>
+<p><strong>Winching (using hi-lift as a hand winch):</strong>
+- Attach one end of a chain or strap to the vehicle, the other to an anchor point
+- Connect the hi-lift between them using rated shackles
+- Operate the jack handle to pull the vehicle towards the anchor
+- SLOW progress — a 1m winching stroke takes 10-15 handle cycles
+- This is emergency-only. An electric winch or hand winch (Tirfor) is far more efficient.</p>
+<p><strong>Clamping:</strong>
+- The hi-lift can be used as a clamp to press body panels back into shape, compress springs during removal, or hold objects together during repair</p>
+<p><strong>Hi-lift safety rules:</strong>
+- NEVER put any part of your body in the handle's arc
+- ALWAYS use jack stands if working under the vehicle
+- Spray the mechanism with WD-40 daily in dusty conditions — grit jams the pins
+- The jack CAN kick sideways if the vehicle is unstable — stand to the side, not behind or in front
+- NEVER use the hi-lift as the sole support when under the vehicle — it can release instantly</p>
+<hr />
+<h2 id="6-maxtrax-recovery-boards">6. Maxtrax / Recovery Boards</h2>
+<p><img alt="Recovery tracks — Maxtrax-style boards" src="../../static/images/recovery/maxtrax.jpg" />
+<em>Recovery boards — the cleanest and safest way to self-recover from sand and mud bogs. Image: Wikimedia Commons (CC BY-SA).</em></p>
+<p>Recovery boards (Maxtrax, Tred, or similar) are the cleanest, safest way to self-recover from most sand and mud bogs.</p>
+<h3>How to Position</h3>
+<ol>
+<li>Clear as much sand/mud from in front of the drive wheels as possible</li>
+<li>Insert the recovery boards under or directly in front of the drive wheels</li>
+<li>Angle the boards slightly upward (the leading edge should be 30–45° to the wheel contact point)</li>
+<li>Ensure the boards are fully seated against the wheel — not floating on loose sand</li>
+</ol>
+<h3>Driving Technique</h3>
+<ol>
+<li>Select low range, 2nd gear (automatic) or 2nd gear low (manual)</li>
+<li>Turn traction control off if fitted</li>
+<li>Apply gentle throttle — the wheels should climb onto the boards smoothly</li>
+<li>If the wheels spin, you have lost traction on the boards — stop immediately</li>
+<li>Back up slightly, reposition the boards, and try again with less throttle</li>
+</ol>
+<p><strong>The golden rule of recovery boards:</strong> No wheel spin. The moment the wheels spin, you have lost the friction that makes the boards work. If you spin, stop, clean the cleats, and try again.</p>
+<h3>Cleaning After Use</h3>
+<p>Recovery boards work on friction between the tyre and the board's cleats. Mud, sand, or grease in the cleats makes them useless.</p>
+<ul>
+<li>Scrape cleats clean with a stick or the edge of a shovel</li>
+<li>Rinse with water if available</li>
+<li>Check for cracks — cracked boards can snap under load</li>
+<li>Stack boards together for storage (packed together, they don't bounce around in the vehicle)</li>
+</ul>
+<h3>Bush Alternatives</h3>
+<p>If you do not carry recovery boards, improvise:</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>How to Use</th>
+<th>Durability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Spinifex bundles</strong></td>
+<td>Cut large bundles of spinifex. Weave them together into a mat about 1 m × 50 cm. Lay under the drive wheels. Replace when crushed.</td>
+<td>One or two uses per bundle</td>
+</tr>
+<tr>
+<td><strong>Branches woven together</strong></td>
+<td>Lay saplings or thick branches parallel to each other. Lash them together with seatbelt webbing, electrical wire, or any cordage. Weave a lattice pattern for grip.</td>
+<td>2–5 uses</td>
+</tr>
+<tr>
+<td><strong>Canvas or tarp</strong></td>
+<td>Fold a heavy canvas tarp or swag canvas into a thick pad. Lay under the wheel. Canvas has good friction against rubber.</td>
+<td>1–3 uses (canvas tears)</td>
+</tr>
+<tr>
+<td><strong>Car floor mats</strong></td>
+<td>Stack two or three floor mats together. The rubber backing provides good grip on sand.</td>
+<td>3–5 uses</td>
+</tr>
+<tr>
+<td><strong>Old carpet</strong></td>
+<td>If you carry offcut carpet in the vehicle (not a bad idea for outback travel), it works similarly to recovery boards</td>
+<td>3–5 uses</td>
+</tr>
+<tr>
+<td><strong>Corrugated cardboard</strong></td>
+<td>Lay several layers under wheels. Works once, then disintegrates. Better than nothing.</td>
+<td>Single use</td>
+</tr>
+<tr>
+<td><strong>Shovel blade</strong></td>
+<td>In extreme circumstances, lay the shovel flat under the wheel for one metre of travel. Pull it out after one rotation and relay.</td>
+<td>Tedious but works</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-when-you-re-properly-stuck">7. When You're Properly Stuck</h2>
+<p>There is a point where continued effort turns a recoverable situation into a broken vehicle. Recognising this point is a skill that keeps you alive.</p>
+<h3>Signs You Are Properly Stuck</h3>
+<ul>
+<li>Chassis is fully on the ground and you have been digging for 2+ hours with no movement</li>
+<li>The winch anchor keeps pulling out and you have no spare tyre</li>
+<li>The vehicle is high-centred on a rock or log — wheels are off the ground</li>
+<li>You have attempted three different methods and the vehicle has not moved</li>
+<li>A mechanical issue has occurred (clutch burning, gearbox noise, CV joint clicking)</li>
+<li>You are running low on fuel from recovery attempts</li>
+<li>You or your passengers are showing signs of heat stress</li>
+</ul>
+<h3>Stop Before You Break Something Expensive</h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Replacement Cost (remote)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CV joint</td>
+<td>$300–$800 + towing to town</td>
+</tr>
+<tr>
+<td>Clutch</td>
+<td>$2,000–$4,000 + towing</td>
+</tr>
+<tr>
+<td>Gearbox or transfer case</td>
+<td>$3,000–$8,000 + towing</td>
+</tr>
+<tr>
+<td>Diff (ring and pinion)</td>
+<td>$1,500–$3,500 + towing</td>
+</tr>
+<tr>
+<td>Winch motor (burned out)</td>
+<td>$500–$1,500</td>
+</tr>
+<tr>
+<td>Tyre (bead torn from rim)</td>
+<td>$300–$600</td>
+</tr>
+</tbody>
+</table>
+<p>The total cost of a tow to the nearest town is almost always less than the cost of driveline repairs from an aggressive recovery attempt.</p>
+<h3>Wait for Help vs Walk Out</h3>
+<p>Use the decision framework from the <a href="vehicle-breakdown.html">Vehicle Breakdown</a> page. Key factors specific to getting bogged:</p>
+<ul>
+<li><strong>If you have communication (UHF, phone, PLB):</strong> Wait for help. You are not broken down — you are stuck. A station hand with a track vehicle can pull you out in an hour.</li>
+<li><strong>If you have supplies for 3+ days:</strong> Wait. Someone who knows your route will come looking.</li>
+<li><strong>If you have no communication and limited water:</strong> Re-read the vehicle breakdown page carefully. Walking is the last resort.</li>
+</ul>
+<h3>Using the Vehicle for Shade While Waiting</h3>
+<p>If you are stuck and waiting for help, the vehicle becomes your survival shelter:</p>
+<ol>
+<li>Create shade on the southern side of the vehicle — see <a href="heat-survival.html">Heat Survival</a></li>
+<li>Leave the vehicle in a visible position on the track — do not move it into scrub</li>
+<li>If recovery is not imminent, raise the bonnet (distress signal)</li>
+<li>Tie something visible to the radio aerial — a shirt, reflective material, flagging tape</li>
+</ol>
+<h3>Setting Up Signals</h3>
+<p>See <a href="vehicle-as-resource.html">Vehicle as Resource</a> for detailed signaling instructions. Key actions while waiting:</p>
+<ul>
+<li>Prepare a tyre fire — remove the spare, make fuel and tinder ready</li>
+<li>Lay out ground signals — stomp SOS in red sand, arrange rocks</li>
+<li>Charge phone from vehicle battery (run engine briefly if fuel permits)</li>
+<li>Make UHF calls every 15 minutes on channel 40 (truckies) and channel 5 (emergency)</li>
+</ul>
+<hr />
+<h2 id="8-post-recovery-checklist">8. Post-Recovery Checklist</h2>
+<p>After the vehicle is free, do not just drive off. A full post-recovery check prevents a second breakdown 5 km down the track.</p>
+<h3>Tyres</h3>
+<ul>
+<li>Re-inflate tyres to road pressure (typically 35–40 PSI for highway driving)</li>
+<li>Check bead — look for a gap between the tyre and rim (especially if aired below 15 PSI)</li>
+<li>Check for cuts, bulges, or sidewall damage (rocks and spinifex stubs can puncture tyres)</li>
+<li>Check valve stems — sand and mud can push a valve stem off-centre</li>
+</ul>
+<h3>Underbody</h3>
+<ul>
+<li>Check for damage to the exhaust, fuel tank, and bash plates</li>
+<li>Look for bent or broken suspension components (control arms, shock absorbers)</li>
+<li>Check CV boots for tears (sand destroys CV joints within minutes if the boot is torn)</li>
+<li>Check the diff breathers — sand ingress kills diffs</li>
+<li>Check the brake lines — any rubbing or chafing</li>
+</ul>
+<h3>Radiator and Cooling</h3>
+<ul>
+<li>Check the radiator for mud or sand blocking the fins — bulldust clogs radiators and causes overheating</li>
+<li>Hose out the radiator and intercooler fins if you have water</li>
+<li>Check the radiator fan for bent blades</li>
+<li>Check coolant level (top up if needed)</li>
+</ul>
+<h3>Driveline Check</h3>
+<ul>
+<li>Listen for unusual noises from the driveline as you drive away slowly</li>
+<li>Drive 50 m in a straight line, then turn gently in both directions</li>
+<li>Listen for clicking (CV joint damage), whining (diff damage), or vibration (tailshaft damage)</li>
+<li>Stop, check for fluid leaks under the vehicle</li>
+</ul>
+<h3>Recovery Gear</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Snatch strap</td>
+<td>Rinse with fresh water. Dry in shade. Check for fraying, abrasion, or UV damage. Repack clean.</td>
+</tr>
+<tr>
+<td>Shackles</td>
+<td>Rinse, dry, lubricate the threads with a drop of oil. Check for cracks or deformation.</td>
+</tr>
+<tr>
+<td>Winch cable/rope</td>
+<td>Spool out fully. Clean with fresh water. Inspect for damage. Re-spool neatly under tension.</td>
+</tr>
+<tr>
+<td>Recovery boards</td>
+<td>Scrub cleats clean. Check for cracks. Stack and stow.</td>
+</tr>
+<tr>
+<td>Tree trunk protector</td>
+<td>Rinse, dry, check for tears.</td>
+</tr>
+<tr>
+<td>Snatch block</td>
+<td>Rinse, dry, lubricate the pulley bearing. Check the cheek plates for deformation.</td>
+</tr>
+<tr>
+<td>Shovel</td>
+<td>Clean. Dry. Oil the blade edge.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Never pack recovery gear dirty.</strong> Sand in the fibres of a snatch strap or winch rope acts as an abrasive that significantly reduces the gear's lifespan.</p>
+<h3>Check the Driver</h3>
+<p>This is the most important item on the checklist. Recovery is physically and mentally draining — especially in outback heat.</p>
+<ul>
+<li>Drink water — you may not have noticed how much you sweated during the recovery</li>
+<li>Eat something — even a muesli bar or biscuit</li>
+<li>Rest for 20–30 minutes before driving</li>
+<li>Reassess your plan: should you turn back? Is the track ahead riskier?</li>
+<li>Check passengers — anyone showing signs of heat exhaustion or dehydration?</li>
+</ul>
+<h3>Before Driving On</h3>
+<ul>
+<li>Re-inflate tyres before hitting bitumen — driving on low pressure at speed destroys tyres</li>
+<li>Confirm you are pointed in the right direction</li>
+<li>Set your trip meter, note your GPS coordinates, and make a radio call if possible</li>
+<li>Tell someone your new location and ETA</li>
+</ul>
+<hr />
+<h2 id="recovery-gear-quick-reference">Recovery Gear Quick Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Gear</th>
+<th>Minimum Recommendation</th>
+<th>Bush Alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Snatch strap</td>
+<td>9 m × 8,000 kg rated nylon</td>
+<td>Seatbelts lashed together (last resort only)</td>
+</tr>
+<tr>
+<td>Shackles (×2)</td>
+<td>4.75 t rated bow shackles</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Recovery points</td>
+<td>OEM rated or aftermarket</td>
+<td>Never the tow ball</td>
+</tr>
+<tr>
+<td>Winch</td>
+<td>4,500 kg electric (12,000 lb) with synthetic rope</td>
+<td>Hand winch (Tirfor) for non-electric vehicles</td>
+</tr>
+<tr>
+<td>Snatch block</td>
+<td>4,500 kg rated snatch block</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Tree trunk protector</td>
+<td>3 m × 75 mm nylon sling</td>
+<td>Multiple seatbelts, tow rope doubled</td>
+</tr>
+<tr>
+<td>Recovery boards</td>
+<td>2–4 boards</td>
+<td>Spinifex bundles, woven branches</td>
+</tr>
+<tr>
+<td>Tyre deflator</td>
+<td>Digital with bleed valve</td>
+<td>Valve core tool (watch for grit)</td>
+</tr>
+<tr>
+<td>Compressor</td>
+<td>30 L/min minimum, with pressure gauge</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Shovel</td>
+<td>Long-handle, 1 per 2 people</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Recovery blanket</td>
+<td>Commercial recovery damper</td>
+<td>Heavy coat, folded tarp, floor mats</td>
+</tr>
+<tr>
+<td>Long-handle jack</td>
+<td>Farm jack or high-lift</td>
+<td>Bottle jack + base plate</td>
+</tr>
+<tr>
+<td>Gloves</td>
+<td>Heavy leather or winch gloves</td>
+<td>Any thick gloves (not nitrile)</td>
+</tr>
+<tr>
+<td>First aid kit</td>
+<td>Comprehensive outback kit</td>
+<td>See <a href="what-to-carry.html">What to Carry</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="vehicle-breakdown.html">Vehicle Breakdown: Stay or Go?</a> — Decision framework when recovery is not possible</li>
+<li><a href="vehicle-as-resource.html">Vehicle as a Resource</a> — Using the vehicle for survival while waiting for recovery</li>
+<li><a href="heat-survival.html">Extreme Heat Survival</a> — Managing heat during physical recovery work</li>
+<li><a href="what-to-carry.html">What to Carry</a> — Full outback gear checklist including recovery equipment</li>
+<li><a href="emergency-services.html">Emergency Services</a> — Calling for recovery assistance</li>
+<li><a href="../03-shelter/immediate-shelter.html">Immediate Shelter</a> — Creating shade and shelter while waiting</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

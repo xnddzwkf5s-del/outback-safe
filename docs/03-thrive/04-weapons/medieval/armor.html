@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Armour — Outback Safe</title>
+<meta name="description" content="Leather, padded, chainmail, and helmet construction for personal protection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../../01-immediate/index.html">Survival Basics</a><a href="../../../02-stabilise/index.html">Medicine</a><a href="../../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../../04-reference/communications/index.html">Comms</a><a href="../../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#the-armour-hierarchy">The Armour Hierarchy</a></li>
+<li><a href="#padded-armour-gambeson">Padded Armour (Gambeson)</a></li>
+<li><a href="#hardened-leather-armour">Hardened Leather Armour</a></li>
+<li><a href="#chainmail-mail">Chainmail (Mail)</a></li>
+<li><a href="#helmet-construction">Helmet Construction</a></li>
+<li><a href="#scale-lamellar-armour">Scale / Lamellar Armour</a></li>
+<li><a href="#practical-priorities">Practical Priorities</a></li>
+</ul></details>
+<h1>Armour</h1>
+<p>Armour protects the body from weapons. In a survival context, the primary threat is not battle but accidents, animal attacks, and the occasional hostile encounter. A practical approach to armour prioritises what you can make and what protects the most vital areas.</p>
+<h2 id="the-armour-hierarchy">The Armour Hierarchy</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Protection Level</th>
+<th>Weight (full suit)</th>
+<th>Manufacturing Difficulty</th>
+<th>Best Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Padded (gambeson)</strong></td>
+<td>★★ vs. cuts, ★ vs. thrusts</td>
+<td>2–4 kg</td>
+<td>★★</td>
+<td>Everyday wear, under other armour</td>
+</tr>
+<tr>
+<td><strong>Leather (hardened)</strong></td>
+<td>★★★ vs. cuts, ★★ vs. thrusts</td>
+<td>3–6 kg</td>
+<td>★★★</td>
+<td>Light defense, hunting</td>
+</tr>
+<tr>
+<td><strong>Chainmail</strong></td>
+<td>★★★★ vs. cuts, ★★ vs. thrusts</td>
+<td>8–15 kg</td>
+<td>★★★★★</td>
+<td>Serious defense</td>
+</tr>
+<tr>
+<td><strong>Scale / lamellar</strong></td>
+<td>★★★★ vs. cuts, ★★★ vs. thrusts</td>
+<td>6–12 kg</td>
+<td>★★★★</td>
+<td>Good compromise</td>
+</tr>
+<tr>
+<td><strong>Plate (steel)</strong></td>
+<td>★★★★★ vs. everything</td>
+<td>15–25 kg</td>
+<td>★★★★★</td>
+<td>Best protection, heaviest</td>
+</tr>
+<tr>
+<td><strong>Brigandine</strong></td>
+<td>★★★★ vs. cuts, ★★★ vs. thrusts</td>
+<td>5–8 kg</td>
+<td>★★★★</td>
+<td>Good all-rounder</td>
+</tr>
+<tr>
+<td><strong>Improvised (plastic, tyre, etc.)</strong></td>
+<td>★★–★★★</td>
+<td>3–6 kg</td>
+<td>★</td>
+<td>Emergency use only</td>
+</tr>
+</tbody>
+</table>
+<h2 id="padded-armour-gambeson">Padded Armour (Gambeson)</h2>
+<p>A gambeson is a quilted jacket stuffed with padding. It was worn as standalone armour by poorer soldiers and as padding under mail or plate by everyone else. It is surprisingly effective — a well-made gambeson will stop slashing cuts from most edged weapons.</p>
+<h3>Construction</h3>
+<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Outer shell: Heavy linen, canvas, or strong cotton — approximately 2 m × 1.5 m</li><li>Inner lining: Lighter linen or cotton</li><li>Padding: Raw wool, cotton batting, scrap fabric, or multiple layers of heavy cloth (15–25 layers)</li><li>Heavy thread for quilting</li></ul></div>
+
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut the pattern — A simple T-tunic shape, slightly oversized to accommodate padding. Front and back pieces, with sleeves.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Layer the padding — Spread the padding material evenly between outer shell and inner lining. For layered cloth padding, simply stack 15–25 layers of heavy linen or canvas.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Pin or baste the layers together — Keep everything aligned.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Quilt in vertical lines — Sew through all layers in parallel lines approximately 5–8 cm apart. The quilting prevents the padding from shifting and bunching.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Quilt additional patterns — Diamond or cross-hatch quilting provides more stability than simple vertical lines.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Sew the pieces together — Shoulder seams, side seams, sleeve attachment. Reinforcement stitching at stress points.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Add closures — Toggles and loops (buttons may break), or ties. Front opening is practical.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Try on and adjust — The gambeson should be snug but not restrictive. It will compress slightly with wear.</span></label></li></ol>
+
+<p><strong>Thickness:</strong> Minimum 10 mm of compressed padding. Ideal: 15–20 mm.</p>
+<p>A 15 mm padded gambeson will stop a slashing cut from a knife or sword. It will significantly reduce the penetration of a thrust. It will NOT stop an arrow or crossbow bolt.</p>
+<h2 id="hardened-leather-armour">Hardened Leather Armour</h2>
+<p>Raw leather offers moderate protection. Hardened leather (<em>cuir bouilli</em> — "boiled leather") is significantly better.</p>
+<h3>Hardening Methods</h3>
+<p><strong>Method 1: Hot Water Hardening</strong></p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut and shape the leather piece — Vegetable-tanned leather, 3–5 mm thick. Cut larger than needed (leather shrinks during hardening).;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Immerse in hot water at 80°C (not boiling — boiling makes leather brittle) — Hold submerged for 30–60 seconds until the leather curls and thickens.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Remove from water — The leather will be soft and pliable.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Shape immediately — Form to the desired curve (over a wooden form, or directly on the body part with padding underneath). Work fast — the leather sets in 1–2 minutes.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Allow to cool and dry — The leather hardens as it dries. Full hardness develops over 24 hours.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Seal — Apply beeswax or oil to prevent re-softening from moisture.</span></label></li></ol>
+
+<p><strong>Method 2: Wax Hardening</strong></p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Heat beeswax or paraffin to 90–100°C — Not smoking (fire hazard).;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Heat the leather piece in a low oven or near a fire to warm it — Warm leather absorbs wax better.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Immerse in the hot wax — Hold until bubbles stop rising (1–5 minutes depending on thickness). The wax displaces moisture and fills the leather's fibre structure.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Remove and wipe excess — The leather will be stiff and dark.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Shape while cooling — As the wax solidifies, the leather hardens.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Polish — Buff with a cloth to remove surface wax.</span></label></li></ol>
+
+<p>Wax-hardened leather is stiffer and more water-resistant than hot-water-hardened leather. It provides better protection but is heavier and more brittle in cold weather.</p>
+<h3>Leather Armour Pieces</h3>
+<p><strong>Vambraces (forearm guards):</strong>
+- Simple tube with a gap on the inside of the forearm
+- Lace or buckle closure
+- Protects from string-slap (archery) and defensive cuts</p>
+<p><strong>Cuirass (chest piece):</strong>
+- Shaped front plate covering chest and abdomen
+- Shoulder straps
+- The hardened leather should be at least 4–5 mm thick</p>
+<p><strong>Greaves (shin guards):</strong>
+- Curved plates covering the front of the shins
+- Strapped behind the calf</p>
+<h2 id="chainmail-mail">Chainmail (Mail)</h2>
+<p>Chainmail is the most labour-intensive armour to make, but it is incredibly effective against cuts and provides flexible, comfortable protection.</p>
+<h3>Wire Making</h3>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Draw iron or mild steel wire — Wire approximately 1.5–2.0 mm diameter. If you have access to drawn wire (salvaged fencing wire, etc.), use it. If not, forge wire by drawing a hot iron rod through successively smaller holes in a draw plate.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Anneal the wire — Heat to red and cool slowly. Soft wire is easier to coil and cut.</span></label></li></ol>
+
+<h3>Ring Making</h3>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Coil the wire around a mandrel — A steel rod of the desired inner ring diameter (typically 8–10 mm). Wind tightly into a long coil.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Cut the coil into individual rings — Using wire cutters or a chisel. Each cut produces one ring. The cut ends should meet cleanly with no gap.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Flatten the overlap area (optional — for riveted mail) — Hammer the overlapping ends flat.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Punch or drill a small hole for the rivet — Through both overlapped ends.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Close each ring around its neighbours and rivet — Or, for butted mail (simpler, weaker), simply close the ring by butting the ends together.</span></label></li></ol>
+
+<p><strong>Butted mail</strong> (ends just pressed together, no rivet) is much faster to make but will open under stress. A strong thrust from a spear will pop butted rings apart. <strong>Riveted mail</strong> (each ring secured with a tiny rivet) is the historical standard and dramatically stronger.</p>
+<h3>Weave Pattern</h3>
+<p>The standard European 4-in-1 pattern:</p>
+<pre class="codehilite"><code>    Each ring passes through four others:
+
+    ┌─┐ ┌─┐ ┌─┐
+    │ │ │ │ │ │    ← Ring passes through four neighbouring rings
+    └┬┘ └┬┘ └┬┘
+     │   │   │
+    ┌┼─┐┌┼─┐┌┼─┐
+    ││ │││ │││ │    ← Each ring linked to 4 others
+    └┼─┘└┼─┘└┼─┘
+     │   │   │
+</code></pre>
+
+<p>This pattern hangs correctly, drapes well, and provides natural stretch around curves.</p>
+<h2 id="helmet-construction">Helmet Construction</h2>
+<p>A helmet is the single most important piece of armour. Head wounds are disproportionately fatal.</p>
+<h3>Minimum Viable Helmet</h3>
+<p><strong>Hardened leather skull-cap:</strong>
+- Vegetable-tanned leather, 5–6 mm thick
+- Hot-water hardened as a deep bowl shape
+- Suspension liner inside (leather straps or padded cloth) — creates air gap between head and helmet critical for impact absorption
+- Chin strap</p>
+<p>A hardened leather helmet will stop a glancing blow from a club, deflect a knife cut, and protect from falling debris. It will not stop an arrow or direct blow from an axe.</p>
+<h3>Helmet Liner</h3>
+<p>The liner is as important as the shell. A helmet without a liner transfers impact directly to the skull.</p>
+<pre class="codehilite"><code>        ┌─────────────────────┐
+        │   HELMET SHELL      │
+        │                     │
+        │  ┌───────────────┐  │
+        │  │ Suspension    │  │  ← Leather straps or woven cord
+        │  │ webbing       │  │      creating ~2 cm air gap
+        │  │               │  │
+        │  └───────┬───────┘  │
+        │          │          │
+        │    ┌─────▼─────┐    │
+        │    │  HEAD     │    │
+        └────┴───────────┴────┘
+</code></pre>
+
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Create a suspension cradle — Leather straps or strong cord arranged in a star pattern.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Attach to the helmet rim — Rivets or lacing holes around the inner rim.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Adjust — The head should rest in the cradle with a 2 cm air gap between skull and helmet shell.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Add padding — A padded cloth cap worn underneath provides comfort and additional protection.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Chin strap — Essential. A helmet that falls off is worse than no helmet (it's a distraction).</span></label></li></ol>
+
+<h2 id="scale-lamellar-armour">Scale / Lamellar Armour</h2>
+<p>Scales or lamellae are small plates laced together into a flexible sheet. This is a good compromise between leather (light but weak) and mail (strong but labour-intensive).</p>
+<h3>Materials</h3>
+<ul>
+<li><strong>Leather scales</strong> — Quickest to make. Punch from hardened leather.</li>
+<li><strong>Horn scales</strong> — Water buffalo horn, boiled and flattened. Traditional in Asia.</li>
+<li><strong>Bone scales</strong> — Large animal bones, cut and shaped.</li>
+<li><strong>Steel scales</strong> — Best protection. Cut from 1 mm sheet steel or salvaged metal.</li>
+</ul>
+<h3>Construction</h3>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut identical scales — Rectangular with rounded bottom, approximately 4 cm × 6 cm.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Punch lacing holes — 4–6 holes per scale in a standard pattern.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Lace rows together — Using strong cord (sinew, linen, or leather thong). Each scale overlaps the ones below it (like roof tiles).;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Lace rows to each other — Building from bottom to top, so each row overlaps the row below.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Attach to a cloth or leather backing — Optional but adds structural integrity.;</span></label></li><li><label><input type="checkbox" class="step-checkbox"><span>Shape to body — Lamellar sheets can be assembled into a vest, shoulder guards, or skirt.</span></label></li></ol>
+
+<h2 id="practical-priorities">Practical Priorities</h2>
+<p>For survival, acquire armour in this order:</p>
+<ol>
+<li><strong>Helmet</strong> (head wounds are fatal)</li>
+<li><strong>Gloves/gauntlets</strong> (hands are exposed in every activity)</li>
+<li><strong>Forearm guards</strong> (defensive wounds — forearms take cuts when you raise them to protect face/body)</li>
+<li><strong>Torso protection</strong> (chest and abdomen contain the vital organs)</li>
+<li><strong>Shin guards</strong> (legs are hard to protect in a fight; shin strikes are common)</li>
+</ol>
+<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Animal defence consideration:** If your primary threat is animal attack (dingoes, feral dogs, boar), focus on forearm guards and shin guards. Predators typically go for extremities first. A thick leather vambrace can be the difference between a bad bite and a severed artery.</div></div>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

@@ -253,7 +253,7 @@ def build_page(title, body_html, current_dir="", description=""):
 <link rel="manifest" href="{home}static/manifest.json">
 <style>{CSS}</style>
 <script>
-if('serviceWorker' in navigator){navigator.serviceWorker.register('{home}static/sw.js',{{scope:'/outback-safe/'}})}
+if('serviceWorker' in navigator){{navigator.serviceWorker.register('{home}static/sw.js',{{scope:'/outback-safe/'}})}}
 </script>
 </head>
 <body>

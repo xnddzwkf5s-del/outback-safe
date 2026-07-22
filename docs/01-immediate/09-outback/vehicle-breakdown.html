@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicle Breakdown: Stay or Go? — Outback Safe</title>
+<meta name="description" content="The critical decision: stay with your vehicle or walk for help. Assessment protocol, rationing, and survival timeline in outback conditions.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#the-golden-rule">The Golden Rule</a></li>
+<li><a href="#the-decision-tree">The Decision Tree</a></li>
+<li><a href="#step-by-step-protocol">Step-by-Step Protocol</a></li>
+<li><a href="#survival-timeline-in-45-c-heat">Survival Timeline in 45°C Heat</a></li>
+<li><a href="#rationing-while-waiting">Rationing While Waiting</a></li>
+<li><a href="#what-to-do-while-waiting">What to Do While Waiting</a></li>
+<li><a href="#the-walking-decision-if-you-must-go">The Walking Decision — If You Must Go</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Vehicle Breakdown: Stay or Go?</h1>
+<p>The most important decision you will make after a breakdown in the Australian outback. Make it wrong and you die. Make it right and you survive.</p>
+<hr />
+<h2 id="the-golden-rule">The Golden Rule</h2>
+<p><strong>Stay with the vehicle unless you are certain walking is the better option.</strong></p>
+<p>Vehicles are visible from the air, provide shade, contain water (radiator, tank, washer bottle), fuel for fire, components for signaling, and spare parts for repairs. A person walking in the outback becomes invisible within 1 km. Thousands of kilometres of station tracks and desert crossings are covered with the bones of people who walked.</p>
+<hr />
+<h2 id="the-decision-tree">The Decision Tree</h2>
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Stay with Vehicle</th>
+<th>Walk for Help</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vehicle location</strong></td>
+<td>Visible from air (open plain, ridgeline)</td>
+<td>Hidden in gully, dense scrub, bottom of hill</td>
+</tr>
+<tr>
+<td><strong>Water</strong></td>
+<td>You have &gt; 5 L per person</td>
+<td>You have &lt; 2 L per person</td>
+</tr>
+<tr>
+<td><strong>Route notified</strong></td>
+<td>Someone knows your route and ETA</td>
+<td>No one knows where you are</td>
+</tr>
+<tr>
+<td><strong>Rescue timeframe</strong></td>
+<td>Estimated rescue within 48 hours</td>
+<td>No rescue expected in &gt; 48 hours</td>
+</tr>
+<tr>
+<td><strong>Destination known</strong></td>
+<td>Unsure where help is</td>
+<td>Help is within 20 km and you know exactly where</td>
+</tr>
+<tr>
+<td><strong>Time of day</strong></td>
+<td>Late afternoon / night</td>
+<td>Dawn (walk in cool morning hours)</td>
+</tr>
+<tr>
+<td><strong>Physical condition</strong></td>
+<td>Uninjured or minor injuries</td>
+<td>Fully fit, no injuries</td>
+</tr>
+<tr>
+<td><strong>Phone signal</strong></td>
+<td>Signal at vehicle</td>
+<td>No signal at vehicle but known signal point nearby</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Decision rule:</strong> If 3 or more factors say STAY, stay. If 4 or more say GO, consider walking — but only at dawn.</p>
+<hr />
+<h2 id="step-by-step-protocol">Step-by-Step Protocol</h2>
+<h3>Step 1: Safety First (Immediate)</h3>
+<ol>
+<li>Pull off the road as far as possible — do not block the track</li>
+<li>Turn on hazard lights immediately</li>
+<li>If safe, raise the bonnet (this is the universal distress signal for vehicles)</li>
+<li>Check for injuries in the vehicle</li>
+<li>Check for fuel leaks, electrical fire, or hot components</li>
+<li>Move everyone at least 10 m from the vehicle if you smell fuel</li>
+</ol>
+<h3>Step 2: Assess (First 5 Minutes)</h3>
+<p>Inventory your situation:</p>
+<ul>
+<li><strong>Injuries</strong> — Anyone hurt? Apply <a href="../01-first-aid/index.html">first aid</a> before anything else</li>
+<li><strong>Water</strong> — How many litres do you have total? Include bottles, radiator (no coolant), esky ice</li>
+<li><strong>Food</strong> — What do you have and how long will it last?</li>
+<li><strong>Fuel</strong> — How much fuel? Enough for a signal fire? A tyre fire?</li>
+<li><strong>Phone signal</strong> — Check all networks at all heights. Walk 50 m in each direction holding phone up</li>
+<li><strong>UHF radio</strong> — Call on channel 40 (truckies), then channel 5 (emergency), then channel 10 (general call)</li>
+<li><strong>Time of day</strong> — If it's after 14:00, you are staying overnight. Full stop</li>
+<li><strong>Who knows where you are?</strong> — Did you log a trip plan? Did you tell anyone your route?</li>
+</ul>
+<h3>Step 3: Communicate (First 30 Minutes)</h3>
+<ol>
+<li>Call <strong>000</strong> if you have mobile signal — ask for police</li>
+<li>Try <strong>112</strong> — works on any network, even without a SIM card</li>
+<li>Try UHF calls every 15 minutes on channel 40 (truckies), channel 5 (emergency)</li>
+<li>If no contact: <strong>activate your PLB/EPIRB</strong> — do not wait. See <a href="emergency-services.html">Emergency Services</a></li>
+</ol>
+<h3>Step 4: Prepare for Nightfall (First 2 Hours)</h3>
+<p>Even if you expect rescue today, prepare as if you will be here for 3 days:</p>
+<ol>
+<li>Create shade on the southern side of the vehicle (see <a href="heat-survival.html">Extreme Heat Survival</a>)</li>
+<li>Inventory and ration all water — 500 mL per person every 30 minutes, not chugging</li>
+<li>Gather firewood before dark — at least 3 hours worth</li>
+<li>Prepare signaling materials: mirror, reflective items, spare tyre for burning</li>
+<li>Set up sleeping area outside the vehicle (the vehicle interior becomes an oven)</li>
+<li>Tie something visible to your aerial — flag, shirt, reflective tape</li>
+</ol>
+<h3>Step 5: Overnight</h3>
+<ol>
+<li>Sleep outside under the vehicle or beside it — never inside a stopped car in heat</li>
+<li>Keep a watch rotation if possible (2 hours on, 2 hours off)</li>
+<li>Listen for vehicles — vehicles can be heard from 5 km+ on still nights</li>
+<li>If you hear a vehicle: light a fire, flash hazard lights, wave a light</li>
+<li>Stay warm — outback nights can drop below 10°C even after 45°C days</li>
+</ol>
+<h3>Step 6: Dawn Reassessment</h3>
+<p>At first light, repeat the decision tree:</p>
+<ul>
+<li><strong>Same factors as last night + daylight for walking</strong></li>
+<li>If you decide to stay: improve shade, arrange ground signals, continue UHF calls at 15-minute intervals</li>
+<li>If you decide to walk: leave a detailed note on the dashboard stating direction, time, number of people, and final destination</li>
+</ul>
+<hr />
+<h2 id="survival-timeline-in-45-c-heat">Survival Timeline in 45°C Heat</h2>
+<table>
+<thead>
+<tr>
+<th>Time Elapsed</th>
+<th>Without Shade</th>
+<th>With Shade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 hour</td>
+<td>Heat stress begins</td>
+<td>Manageable with water</td>
+</tr>
+<tr>
+<td>3 hours</td>
+<td>Heat stroke imminent</td>
+<td>Thirsty, still OK</td>
+</tr>
+<tr>
+<td>6 hours</td>
+<td>Life-threatening</td>
+<td>Weak, but alive</td>
+</tr>
+<tr>
+<td>12 hours</td>
+<td>—</td>
+<td>Severe dehydration</td>
+</tr>
+<tr>
+<td>24 hours</td>
+<td>—</td>
+<td>Critical without water</td>
+</tr>
+<tr>
+<td>3 days</td>
+<td>—</td>
+<td>Death without water</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key takeaway:</strong> Shade is not optional. If you cannot create shade, you have less than 3 hours.</p>
+<hr />
+<h2 id="rationing-while-waiting">Rationing While Waiting</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Ration Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Water</strong></td>
+<td>500 mL per person every 20–30 minutes in heat. 4 L per person per day minimum. 8 L better.</td>
+</tr>
+<tr>
+<td><strong>Food</strong></td>
+<td>Eat only enough to maintain energy. Fat and protein need more water to digest — prefer simple carbs.</td>
+</tr>
+<tr>
+<td><strong>Phone battery</strong></td>
+<td>Turn off. Use only for calls. Charge from vehicle battery if engine runs.</td>
+</tr>
+<tr>
+<td><strong>Vehicle battery</strong></td>
+<td>Use hazard lights sparingly. 15 minutes on, 45 minutes off.</td>
+</tr>
+<tr>
+<td><strong>Fuel</strong></td>
+<td>Reserve at least 10 L for signal fire or emergency burn.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="what-to-do-while-waiting">What to Do While Waiting</h2>
+<p>Do not just sit. Survivors stay busy:</p>
+<ul>
+<li>Create larger ground signals — stomp patterns in red sand, arrange rocks, lay out bright clothing</li>
+<li>Dig a sun shelter on the southern side of the vehicle</li>
+<li>Collect firewood and arrange it in a triangle (international distress signal)</li>
+<li>Check the vehicle for useful components — see <a href="vehicle-as-resource.html">Vehicle as a Resource</a></li>
+<li>Walk 200 m in each direction at midday to check for signal — <strong>mark your trail</strong> so you can find the vehicle again</li>
+<li>Keep a written log of time, actions, water consumed — helps rescuers and keeps your mind focused</li>
+</ul>
+<hr />
+<h2 id="the-walking-decision-if-you-must-go">The Walking Decision — If You Must Go</h2>
+<p>Walking in the Australian outback kills people. If you absolutely must:</p>
+<ul>
+<li>Walk at dawn and dusk only. Rest 10:00–16:00.</li>
+<li>Carry all your water. You will need 1 L per 5 km walked in heat.</li>
+<li>Leave a note on the dashboard with: direction, time, names, final destination</li>
+<li>Follow fence lines, power lines, or creek beds downhill</li>
+<li>Mark your path every 200 m — torn cloth, rock cairns, scratches in bark</li>
+<li>Stay on roads and tracks — do not cut cross-country</li>
+<li>Walk at night only if you can navigate by stars or landmarks — see <a href="navigation-basics.html">Navigation Basics</a></li>
+</ul>
+<h3>How Far Can You Walk?</h3>
+<table>
+<thead>
+<tr>
+<th>Conditions</th>
+<th>Distance per day (estimate)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flat track, dawn/dusk, 30°C</td>
+<td>20–25 km</td>
+</tr>
+<tr>
+<td>Flat track, dawn/dusk, 40°C</td>
+<td>10–15 km</td>
+</tr>
+<tr>
+<td>Cross-country, 40°C+</td>
+<td>5–10 km</td>
+</tr>
+<tr>
+<td>With 10 L water load, 40°C+</td>
+<td>8–12 km</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="heat-survival.html">Extreme Heat Survival</a> — Detailed heat illness management</li>
+<li><a href="vehicle-as-resource.html">Vehicle as a Resource</a> — What you can salvage from the vehicle</li>
+<li><a href="emergency-services.html">Emergency Services</a> — Who to call and what to tell them</li>
+<li><a href="../06-signaling/index.html">Signaling</a> — General signaling techniques</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>
