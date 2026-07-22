@@ -97,4 +97,11 @@ This guide is for **educational and informational purposes only**. It is not a s
 
 ### 📱 Save on iPhone/iPad for Offline Use
 
-**Visit once, works forever:** Open this website in Safari → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode. [📖 Download EPUB (3.5 MB)](Outback Safe.epub)
+**Website (read in Safari):** Open this website → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode.
+
+**EPUB (read in Books):** [📖 Download EPUB (3.5 MB)](Outback Safe.epub) — then:
+
+1. Download the EPUB — it saves to the **Files** app
+2. Install the free **Books** app from the App Store (orange icon)
+3. In Files, locate `Outback Safe.epub` → long-press → **Share** → **Books**
+4. Opens in Books with adjustable font, dark mode, and all 60+ photos
