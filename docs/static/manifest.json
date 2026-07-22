@@ -1,0 +1,12 @@
+{
+  "name": "Outback Safe",
+  "short_name": "Outback Safe",
+  "description": "Australian Remote Travel Reference",
+  "start_url": "/outback-safe/",
+  "scope": "/outback-safe/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "any",
+  "icons": []
+}

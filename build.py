@@ -248,7 +248,13 @@ def build_page(title, body_html, current_dir="", description=""):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{escape(title)} — {SITE_TITLE}</title>
 <meta name="description" content="{escape(description or SITE_DESC)}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="{home}static/manifest.json">
 <style>{CSS}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('{home}static/sw.js',{{scope:'/outback-safe/'}})}
+</script>
 </head>
 <body>
 <header>
