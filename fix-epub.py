@@ -27,9 +27,7 @@ for html_file in sorted(SITE.rglob('*.html')):
     # FIX: Convert relative paths to EPUB-internal paths
     # From site/XX/YY/page.html, images are at ../../static/images/...
     # In EPUB, pages are at OEBPS/page.html, images at OEBPS/static/images/...
-    body = re.sub(r'src="\.\./\.\./static/(images|maps)/', r'src="static/\1/', body)
-    body = re.sub(r'src="\.\./static/(images|maps)/', r'src="static/\1/', body)
-    body = re.sub(r'src="static/(images|maps)/', r'src="static/\1/', body)
+    body = re.sub(r'src="(?:\.\./)+static/(images|maps)/', r'src="static/\1/', body)
     
     # Remove link hrefs (EPUB can't do cross-page links easily)
     body = re.sub(r'href="([^"]+)"', 'href="#"', body)
