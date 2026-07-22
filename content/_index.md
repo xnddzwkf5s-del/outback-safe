@@ -97,4 +97,4 @@ This guide is for **educational and informational purposes only**. It is not a s
 
 ### 📱 Save on iPhone/iPad for Offline Use
 
-**Visit once, works forever:** Open this website in Safari → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode.
+**Visit once, works forever:** Open this website in Safari → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode. [📖 Download EPUB (3.5 MB)](Outback Safe.epub)
