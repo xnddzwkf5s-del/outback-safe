@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Gibb River Road — Route Overview</title>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Gibb River Road — Derby to Kununurra</text>
+  <text x="400" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~660 km · Kimberley Region, WA · Dry Season (May–October)</text>
+
+  <!-- Cockburn Range background hint -->
+  <g opacity="0.06">
+    <path d="M 550,180 L 580,140 L 610,175 L 640,130 L 670,170 L 700,135 L 730,180 Z" fill="#1a1a2e"/>
+    <path d="M 560,195 L 590,160 L 620,190 L 650,150 L 680,185 L 710,155 L 740,195 Z" fill="#1a1a2e"/>
+  </g>
+  <text x="645" y="165" font-size="9" fill="#6b7280" font-style="italic" opacity="0.5">Cockburn Range</text>
+
+  <!-- Route line (west to east) -->
+  <polyline points="40,300 120,280 200,260 280,240 340,220 380,250 420,200 480,220 530,210 580,220 630,240 680,260 740,280" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linejoin="round"/>
+
+  <!-- Derby -->
+  <circle cx="40" cy="300" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="30" y="285" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Derby</text>
+  <text x="30" y="318" text-anchor="end" font-size="8" fill="#6b7280">0 km · Start</text>
+  <circle cx="40" cy="300" r="4" fill="#d4a017"/>
+
+  <!-- Distance: Derby to Windjana -->
+  <text x="80" y="268" text-anchor="middle" font-size="8" fill="#6b7280">145 km</text>
+
+  <!-- Windjana Gorge (attraction) -->
+  <g transform="translate(175,240)">
+    <path d="M -6,-8 L 0,-2 L 6,-8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -3,-4 L -3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 3,-4 L 3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+  <text x="185" y="235" font-size="9" font-weight="600" fill="#1a1a2e">Windjana Gorge</text>
+  <text x="185" y="248" font-size="7" fill="#6b7280">~145 km · Freshies</text>
+
+  <!-- Tunnel Creek -->
+  <g transform="translate(200,285)">
+    <path d="M -6,-8 L 0,-2 L 6,-8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -3,-4 L -3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 3,-4 L 3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+  <text x="200" y="305" font-size="9" font-weight="600" fill="#1a1a2e">Tunnel Creek</text>
+
+  <!-- Imintji fuel -->
+  <circle cx="240" cy="260" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="250" y="255" font-size="9" font-weight="600" fill="#1a1a2e">Imintji Roadhouse</text>
+  <circle cx="240" cy="260" r="3" fill="#d4a017"/>
+
+  <text x="310" y="230" text-anchor="middle" font-size="8" fill="#6b7280">50 km</text>
+
+  <!-- Bell Gorge -->
+  <g transform="translate(315,205)">
+    <path d="M -6,-8 L 0,-2 L 6,-8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -3,-4 L -3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 3,-4 L 3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+  <text x="325" y="200" font-size="9" font-weight="600" fill="#1a1a2e">Bell Gorge</text>
+  <text x="325" y="213" font-size="7" fill="#6b7280">~230 km</text>
+
+  <text x="370" y="220" text-anchor="middle" font-size="8" fill="#6b7280">60 km</text>
+
+  <!-- Galvans Gorge -->
+  <g transform="translate(385,240)">
+    <path d="M -6,-8 L 0,-2 L 6,-8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -3,-4 L -3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 3,-4 L 3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+  <text x="395" y="240" font-size="9" font-weight="600" fill="#1a1a2e">Galvans Gorge</text>
+
+  <text x="390" y="285" text-anchor="middle" font-size="8" fill="#6b7280">20 km</text>
+
+  <!-- Mt Barnett Roadhouse -->
+  <circle cx="420" cy="200" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="430" y="195" font-size="9" font-weight="600" fill="#1a1a2e">Mt Barnett</text>
+  <circle cx="420" cy="200" r="3" fill="#d4a017"/>
+  <text x="430" y="208" font-size="7" fill="#b91c1c">Call ahead · Runs out!</text>
+
+  <!-- Manning Gorge -->
+  <g transform="translate(440,175)">
+    <path d="M -6,-8 L 0,-2 L 6,-8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -3,-4 L -3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 3,-4 L 3,4" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+  <text x="450" y="170" font-size="9" font-weight="600" fill="#1a1a2e">Manning Gorge</text>
+  <text x="450" y="183" font-size="7" fill="#6b7280">~310 km</text>
+
+  <text x="475" y="210" text-anchor="middle" font-size="8" fill="#6b7280">80 km</text>
+
+  <!-- Durack River crossing -->
+  <line x1="530" y1="205" x2="530" y2="220" stroke="#3a7bbf" stroke-width="3" opacity="0.6"/>
+  <text x="540" y="210" font-size="9" font-weight="600" fill="#1a1a2e">Durack River</text>
+  <text x="540" y="223" font-size="8" fill="#b22222">🐊 Saltwater crocs</text>
+
+  <text x="570" y="240" text-anchor="middle" font-size="8" fill="#6b7280">30 km</text>
+
+  <!-- Pentecost River crossing -->
+  <line x1="630" y1="235" x2="630" y2="250" stroke="#3a7bbf" stroke-width="3" opacity="0.6"/>
+  <text x="640" y="240" font-size="10" font-weight="700" fill="#1a1a2e">Pentecost River ⚠️</text>
+  <text x="640" y="255" font-size="8" fill="#b22222">🐊 Iconic crossing · Tidal · Crocs · Do not stop</text>
+
+  <text x="680" y="270" text-anchor="middle" font-size="8" fill="#6b7280">30 km</text>
+
+  <!-- Home Valley -->
+  <circle cx="670" cy="260" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="680" y="275" font-size="9" font-weight="600" fill="#1a1a2e">Home Valley</text>
+  <circle cx="670" cy="260" r="3" fill="#d4a017"/>
+
+  <text x="705" y="270" text-anchor="middle" font-size="8" fill="#6b7280">50 km</text>
+
+  <!-- El Questro -->
+  <circle cx="720" cy="280" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="730" y="295" font-size="9" font-weight="600" fill="#1a1a2e">El Questro</text>
+  <circle cx="720" cy="280" r="3" fill="#d4a017"/>
+  <text x="730" y="308" font-size="7" fill="#6b7280">Zebedee Hot Springs</text>
+
+  <!-- Kununurra -->
+  <circle cx="760" cy="310" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="770" y="325" font-size="12" font-weight="700" fill="#1a1a2e">Kununurra</text>
+  <text x="770" y="340" font-size="8" fill="#6b7280">End · Full services</text>
+  <circle cx="760" cy="310" r="4" fill="#d4a017"/>
+
+  <!-- Milestone distances along bottom -->
+  <g transform="translate(0,380)">
+    <text x="40" y="0" text-anchor="middle" font-size="9" fill="#6b7280">0 km</text>
+    <text x="145" y="0" text-anchor="middle" font-size="9" fill="#6b7280">145 km</text>
+    <text x="310" y="0" text-anchor="middle" font-size="9" fill="#6b7280">310 km</text>
+    <text x="420" y="0" text-anchor="middle" font-size="9" fill="#6b7280">420 km</text>
+    <text x="530" y="0" text-anchor="middle" font-size="9" fill="#6b7280">530 km</text>
+    <text x="660" y="0" text-anchor="middle" font-size="9" fill="#6b7280">660 km</text>
+    <line x1="40" y1="5" x2="760" y2="5" stroke="#1a1a2e" stroke-width="1" opacity="0.2"/>
+    <line x1="40" y1="8" x2="40" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+    <line x1="145" y1="8" x2="145" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+    <line x1="310" y1="8" x2="310" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+    <line x1="420" y1="8" x2="420" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+    <line x1="530" y1="8" x2="530" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+    <line x1="660" y1="8" x2="660" y2="2" stroke="#1a1a2e" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Fuel range note -->
+  <g transform="translate(20,420)">
+    <rect x="0" y="0" width="280" height="40" rx="5" fill="#fff" stroke="#d4a017" stroke-width="1"/>
+    <text x="10" y="16" font-size="9" font-weight="600" fill="#1a1a2e">⛽ Fuel Range Required: ~400 km</text>
+    <text x="10" y="31" font-size="8" fill="#6b7280">Carry extra · Roadhouses run out in peak season</text>
+  </g>
+
+  <!-- Croc alert -->
+  <g transform="translate(500,400)">
+    <rect x="0" y="0" width="280" height="55" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="1"/>
+    <text x="140" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#b91c1c">⚠️ Saltwater Crocodile Alert</text>
+    <text x="10" y="33" font-size="8" fill="#6b7280">🐊 Pentecost River · Durack River · Ord River</text>
+    <text x="10" y="47" font-size="8" fill="#6b7280">🐊 Do NOT enter water. Cross at low tide. Walk first.</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(20,500)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#6b7280">Route</text>
+    <circle cx="75" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="83" y="4" font-size="9" fill="#6b7280">Waypoint</text>
+    <circle cx="155" cy="0" r="3" fill="#d4a017"/>
+    <text x="163" y="4" font-size="9" fill="#6b7280">Fuel</text>
+    <path d="M -8,-5 L -2,1 L 4,-5" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M -4,-1 L -4,6" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 2,-1 L 2,6" stroke="#1a1a2e" stroke-width="1.5"/>
+    <text x="12" y="4" font-size="9" fill="#6b7280">Gorge / Attraction</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(760,60)">
+    <polygon points="10,20 20,0 30,20 20,15" fill="#1a1a2e"/>
+    <text x="20" y="33" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Croc icon at Pentecost River -->
+  <g transform="translate(633,240)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+  <!-- Croc icon at Durack River -->
+  <g transform="translate(533,215)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Steep descent in ranges sections -->
+  <g transform="translate(225,258)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+  <g transform="translate(370,242)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+  <g transform="translate(520,213)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+
+  <!-- Dust advisory in dry sections -->
+  <g transform="translate(145,278)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <g transform="translate(450,218)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(500, 480)">
+    <rect x="0" y="0" width="280" height="100" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="140" y="15" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Starting near sea level, rising to ranges, descending -->
+    <polyline points="0,85 20,80 50,75 80,55 100,40 120,45 140,60 160,70 190,55 210,45 230,55 250,70 270,78 280,82" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="95" x2="280" y2="95" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="98" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~500m</text>
+    <text x="140" y="88" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Derby → Kununurra</text>
+  </g>
+</svg>

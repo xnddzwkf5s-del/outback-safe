@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Simpson Desert — French Line Overview</title>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Simpson Desert Crossing — French Line</text>
+  <text x="400" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~500 km · Mt Dare to Birdsville · 1,100+ sand dunes</text>
+
+  <!-- SA/NT/QLD Border lines -->
+  <line x1="140" y1="60" x2="140" y2="490" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="6,4" opacity="0.3"/>
+  <line x1="140" y1="60" x2="800" y2="60" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="6,4" opacity="0.3"/>
+  
+  <!-- Border labels -->
+  <text x="10" y="125" font-size="10" fill="#6b7280" opacity="0.6">NT</text>
+  <text x="10" y="140" font-size="10" fill="#6b7280" opacity="0.6">(West)</text>
+  <text x="150" y="115" font-size="10" fill="#6b7280" opacity="0.6">SA</text>
+  <text x="150" y="130" font-size="10" fill="#6b7280" opacity="0.6">(South)</text>
+  <text x="145" y="80" font-size="10" fill="#6b7280" opacity="0.6">QLD</text>
+  <text x="145" y="95" font-size="10" fill="#6b7280" opacity="0.6">(North-East)</text>
+
+  <!-- French Line (main route) — west to east -->
+  <polyline points="80,350 210,360 340,320 450,280 530,230 600,210 670,220 740,300" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linejoin="round"/>
+
+  <!-- Rig Road (dashed southern alternative) -->
+  <polyline points="210,370 300,400 380,390 450,380 530,340 620,290 740,300" stroke="#1a1a2e" stroke-width="2" fill="none" stroke-dasharray="8,5" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- WAA Line (dotted western approach) -->
+  <polyline points="80,350 150,340 210,360" stroke="#1a1a2e" stroke-width="2" fill="none" stroke-dasharray="3,4" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- Sand dunes pattern (stylized) -->
+  <g opacity="0.08">
+    <path d="M 0,480 Q 100,420 200,470 Q 300,420 400,470 Q 500,420 600,470 Q 700,420 800,470" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+    <path d="M 0,490 Q 100,440 200,490 Q 300,440 400,490 Q 500,440 600,490 Q 700,440 800,490" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+    <path d="M 0,500 Q 100,460 200,500 Q 300,460 400,500 Q 500,460 600,500 Q 700,460 800,500" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+  </g>
+
+  <!-- Dune annotation -->
+  <text x="400" y="505" text-anchor="middle" font-size="11" fill="#6b7280" font-style="italic">~1,100 sand dunes · 5–40 m high</text>
+
+  <!-- Waypoints on French Line -->
+  <!-- Mt Dare -->
+  <circle cx="80" cy="350" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="80" y="335" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a2e">Mt Dare</text>
+
+  <!-- Dalhousie Springs -->
+  <circle cx="210" cy="360" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="210" y="385" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a2e">Dalhousie Springs</text>
+  <!-- Water marker at Dalhousie -->
+  <circle cx="200" cy="360" r="4" fill="#3a7bbf"/>
+
+  <!-- Poeppel Corner -->
+  <circle cx="450" cy="280" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="450" y="265" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a2e">Poeppel Corner</text>
+  <text x="450" y="278" text-anchor="middle" font-size="8" fill="#6b7280">NT · SA · QLD</text>
+
+  <!-- Big Red -->
+  <circle cx="740" cy="300" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="740" y="320" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a2e">Big Red</text>
+
+  <!-- Birdsville -->
+  <circle cx="780" cy="350" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="780" y="340" text-anchor="start" font-size="12" font-weight="700" fill="#1a1a2e">Birdsville</text>
+
+  <!-- Fuel markers -->
+  <circle cx="80" cy="350" r="5" fill="#d4a017"/>  <!-- Mt Dare fuel (limited) -->
+  <circle cx="780" cy="350" r="5" fill="#d4a017"/>  <!-- Birdsville fuel -->
+
+  <!-- Distance labels -->
+  <text x="145" y="348" text-anchor="middle" font-size="9" fill="#6b7280">
+    <tspan x="145" dy="0">70 km</tspan>
+  </text>
+  <text x="330" y="328" text-anchor="middle" font-size="9" fill="#6b7280">
+    <tspan x="330" dy="0">250 km</tspan>
+  </text>
+  <text x="595" y="248" text-anchor="middle" font-size="9" fill="#6b7280">
+    <tspan x="595" dy="0">150 km</tspan>
+  </text>
+  <text x="760" y="270" text-anchor="middle" font-size="9" fill="#6b7280">
+    <tspan x="760" dy="0">35 km</tspan>
+  </text>
+
+  <!-- Legend -->
+  <g transform="translate(20,530)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#6b7280">French Line (main)</text>
+    <line x1="100" y1="0" x2="145" y2="0" stroke="#1a1a2e" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.6"/>
+    <text x="150" y="4" font-size="9" fill="#6b7280">Rig Road (alt)</text>
+    <circle cx="195" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="205" y="4" font-size="9" fill="#6b7280">Waypoint</text>
+    <circle cx="270" cy="0" r="3" fill="#d4a017"/>
+    <text x="280" y="4" font-size="9" fill="#6b7280">Fuel</text>
+    <circle cx="330" cy="0" r="3" fill="#3a7bbf"/>
+    <text x="340" y="4" font-size="9" fill="#6b7280">Water</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(760,45)">
+    <polygon points="0,15 8,0 16,15 8,11" fill="#1a1a2e"/>
+    <text x="8" y="28" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Soft sand icons along French Line -->
+  <g transform="translate(210,360)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+  <g transform="translate(340,320)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+  <g transform="translate(530,230)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+  <g transform="translate(600,210)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+
+  <!-- Steep descent at Big Red -->
+  <g transform="translate(745,290)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+  <text x="755" y="292" font-size="7" fill="#d4a017" font-weight="600">steep</text>
+
+  <!-- Sand dune hazard note -->
+  <text x="400" y="525" text-anchor="middle" font-size="10" fill="#d4a017" font-weight="600">⚠ 1,100+ sand dunes — all blind crests</text>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(500, 480)">
+    <rect x="0" y="0" width="280" height="100" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="140" y="15" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Sawtooth dune pattern -->
+    <polyline points="0,85 10,50 20,85 30,55 40,85 50,60 60,85 70,45 80,85 90,65 100,85 110,50 120,85 130,55 140,85 150,65 160,85 170,45 180,85 190,60 200,85 210,55 220,85 230,50 240,85 250,65 260,85 270,55 280,85" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="95" x2="280" y2="95" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="98" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~150m</text>
+    <text x="140" y="88" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Mt Dare → Birdsville</text>
+  </g>
+</svg>

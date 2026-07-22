@@ -1,0 +1,16 @@
+# Build output
+site/
+site.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Temp files
+*.bak
+/tmp/
+fetch-*.sh
+*.log
