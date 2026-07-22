@@ -97,14 +97,7 @@ This guide is for **educational and informational purposes only**. It is not a s
 
 ### 📱 Save on iPhone/iPad for Offline Use
 
-**Easiest method — 2 minutes:**
-
-1. On your Mac, right-click → **Compress** the `site/` folder (creates `site.zip`)
-2. **AirDrop** the ZIP to your iPhone
-3. On iPhone, tap the ZIP in **Files** app to unzip it
-4. Tap `index.html` to browse offline
-
-**Or visit once for permanent offline:** Open **this website** in Safari → Share → **Add to Home Screen**. First visit caches everything — works offline forever after that.
+**Visit once, works forever:** Open this website in Safari → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode.
 
 ### 📓 Obsidian Vault Download
 
