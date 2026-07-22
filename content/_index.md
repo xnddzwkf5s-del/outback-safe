@@ -98,11 +98,3 @@ This guide is for **educational and informational purposes only**. It is not a s
 ### 📱 Save on iPhone/iPad for Offline Use
 
 **Visit once, works forever:** Open this website in Safari → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode.
-
-### 📓 Obsidian Vault Download
-
-Open as an **[Obsidian](https://obsidian.md)** vault — full graph view, search, backlinks, and offline reading.
-
-1. Download the **[Obsidian Vault ZIP](outback-safe-obsidian.zip)**
-2. In Obsidian → **Open folder as vault** → select the unzipped folder
-3. All pages, photos, and cross-links work natively. Fully offline.
