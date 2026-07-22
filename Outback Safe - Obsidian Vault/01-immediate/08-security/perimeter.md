@@ -67,7 +67,7 @@ Harder shifts but manageable short-term.
 
 ### Noise Traps
 
-{% steps() %}
+{% steps %}
 String cord (paracord, vine) at ankle height around the camp perimeter — 20–50 m out; Hang noisy objects from the cord: empty cans with pebbles inside, bamboo sections that clatter when struck, shells, metal scraps; Anyone or anything approaching through the cord will make noise; Check and reset noise traps after storms, wind, or animal disturbances
 {% end %}
 
@@ -83,7 +83,6 @@ String cord (paracord, vine) at ankle height around the camp perimeter — 20–
 |--------|-----------------|
 | **Birds** | Sudden flight or alarm calls = something is moving (animal or human) |
 | **Kangaroos/wallabies** (AU) | Thumping the ground = alarm. Something is approaching. |
-| **Monkeys/macaques** (SEA, CN) | Alarm barks = predator or human approaching |
 | **Crickets/frogs** | Sudden silence = something large is moving nearby |
 
 **Listen to the animals.** They have better senses than you do.

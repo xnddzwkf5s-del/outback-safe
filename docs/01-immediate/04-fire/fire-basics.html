@@ -132,8 +132,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="materials-checklist">Materials Checklist</h2>
 <p>Before striking a single spark, gather everything:</p>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Tinder:** enough to fill both cupped hands — dry, fine, fluffy material that catches from a spark or ember</li><li>**Stage 1 kindling:** pencil-lead thin twigs (1–2 mm), fistful</li><li>**Stage 2 kindling:** pencil-thick twigs (5–8 mm), fistful</li><li>**Stage 3 kindling:** finger-thick sticks (1–2 cm), armload</li><li>**Stage 4 kindling:** wrist-thick branches (3–5 cm), multiple pieces</li><li>**Fuel wood:** stack of wrist-thick and larger wood, enough for at least 2 hours of burn time</li><li>**Fire site:** cleared area 2 m radius, ring of rocks (not river rocks), water or sand nearby to extinguish</li><li>**Ignition source:** lighter, ferro rod, friction set, or solar lens — whatever method you are using</li></ul></div>
-
+<p>{% materials %}
+<strong>Tinder:</strong> enough to fill both cupped hands — dry, fine, fluffy material that catches from a spark or ember; <strong>Stage 1 kindling:</strong> pencil-lead thin twigs (1–2 mm), fistful; <strong>Stage 2 kindling:</strong> pencil-thick twigs (5–8 mm), fistful; <strong>Stage 3 kindling:</strong> finger-thick sticks (1–2 cm), armload; <strong>Stage 4 kindling:</strong> wrist-thick branches (3–5 cm), multiple pieces; <strong>Fuel wood:</strong> stack of wrist-thick and larger wood, enough for at least 2 hours of burn time; <strong>Fire site:</strong> cleared area 2 m radius, ring of rocks (not river rocks), water or sand nearby to extinguish; <strong>Ignition source:</strong> lighter, ferro rod, friction set, or solar lens — whatever method you are using
+{% end %}</p>
 <hr />
 <h2 id="phase-1-understanding-fire">Phase 1: Understanding Fire</h2>
 <h3>The Fire Triangle</h3>
@@ -145,8 +146,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </ul>
 <h3>The Fire Preparation Rule</h3>
 <p><strong>Gather everything before you strike a single spark.</strong></p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Gather tinder — enough to fill both cupped hands; Gather kindling — three piles: pencil-lead thin, pencil-thick, and finger-thick, each the size of a football; Gather fuel wood — a stack of wrist-thick and larger wood, enough for at least 2 hours of burn time; Prepare the fire site — cleared area, fire lay built and ready; NOW light your tinder</span></label></li></ol>
-
+<p>{% steps %}
+Gather tinder — enough to fill both cupped hands; Gather kindling — three piles: pencil-lead thin, pencil-thick, and finger-thick, each the size of a football; Gather fuel wood — a stack of wrist-thick and larger wood, enough for at least 2 hours of burn time; Prepare the fire site — cleared area, fire lay built and ready; NOW light your tinder
+{% end %}</p>
 <p>If you are fumbling for kindling while your tinder burns, you have already lost.</p>
 <hr />
 <h2 id="phase-2-tinder-what-catches-the-spark">Phase 2: Tinder — What Catches the Spark</h2>
@@ -156,7 +158,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Fine</strong> — separated fibres, fluffed up, air between strands</li>
 <li><strong>Abundant</strong> — you need more than you think</li>
 </ul>
-<h3>Best Natural Tinders (AU/CN/SEA)</h3>
+<h3>Best Natural Tinders (AU/CN/)</h3>
 <table>
 <thead>
 <tr>
@@ -183,23 +185,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 <tr>
 <td><strong>Coconut husk fibres</strong></td>
-<td>Coastal SEA, tropical AU</td>
+<td>Coastal tropical AU</td>
 <td>Excellent — dry fibres catch easily</td>
-</tr>
-<tr>
-<td><strong>Bamboo shavings</strong></td>
-<td>SEA, southern China</td>
-<td>Good — scrape fine shavings with knife edge</td>
 </tr>
 <tr>
 <td><strong>Cattail fluff</strong> (<em>Typha</em>)</td>
 <td>Worldwide near water</td>
 <td>Excellent — but burns very fast; have kindling ready</td>
-</tr>
-<tr>
-<td><strong>Birch bark</strong></td>
-<td>Northern China</td>
-<td>Outstanding — contains natural oils; burns even when damp</td>
 </tr>
 <tr>
 <td><strong>Eucalyptus bark</strong> (stringybark)</td>
@@ -208,12 +200,12 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 <tr>
 <td><strong>Dried bracken fern</strong></td>
-<td>Temperate AU, China</td>
+<td>Temperate AU,</td>
 <td>Good — crush and fluff</td>
 </tr>
 <tr>
 <td><strong>Fatwood/pitch wood</strong> (resin-rich pine)</td>
-<td>China pine forests, introduced pines in AU</td>
+<td>pine forests, introduced pines in AU</td>
 <td>Excellent — natural accelerant; shave fine curls</td>
 </tr>
 <tr>
@@ -225,10 +217,12 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <h3>Making Char Cloth</h3>
 <p>Char cloth is fabric that has been heated without oxygen — it becomes a carbon-rich material that catches the faintest spark.</p>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>100% cotton fabric (t-shirt, denim, bandana — synthetics do not work)</li><li>Small metal tin with a tight lid (shoe polish tin, mint tin)</li><li>Nail or awl to punch a hole in the lid</li></ul></div>
-
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut cotton fabric into squares roughly 5 cm × 5 cm; Punch a small hole (2 mm) in the tin lid — this allows gases to escape; Place fabric squares loosely in the tin — do not pack tightly; Close the tin; Place the tin in the coals of a fire or over a flame; You will see smoke jetting from the hole — the fabric is pyrolising; When smoke stops (3–5 minutes), remove the tin from the heat; Let it cool completely before opening — if you open it hot, the char cloth will ignite on contact with air; The result: black fabric squares that catch a spark instantly; Store in a dry, sealed container</span></label></li></ol>
-
+<p>{% materials %}
+100% cotton fabric (t-shirt, denim, bandana — synthetics do not work); Small metal tin with a tight lid (shoe polish tin, mint tin); Nail or awl to punch a hole in the lid
+{% end %}</p>
+<p>{% steps %}
+Cut cotton fabric into squares roughly 5 cm × 5 cm; Punch a small hole (2 mm) in the tin lid — this allows gases to escape; Place fabric squares loosely in the tin — do not pack tightly; Close the tin; Place the tin in the coals of a fire or over a flame; You will see smoke jetting from the hole — the fabric is pyrolising; When smoke stops (3–5 minutes), remove the tin from the heat; Let it cool completely before opening — if you open it hot, the char cloth will ignite on contact with air; The result: black fabric squares that catch a spark instantly; Store in a dry, sealed container
+{% end %}</p>
 <hr />
 <h2 id="phase-3-kindling-what-carries-the-flame">Phase 3: Kindling — What Carries the Flame</h2>
 <p>Kindling bridges the gap between tinder (fast-burning) and fuel (slow-burning). Without proper kindling, your tinder will burn out before the fuel catches.</p>
@@ -307,7 +301,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<p><strong>AU/CN/SEA fuel woods:</strong></p>
+<p><strong>AU/CN/ fuel woods:</strong></p>
 <table>
 <thead>
 <tr>
@@ -333,24 +327,14 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <td>Good — coals well, some species are smoky</td>
 </tr>
 <tr>
-<td><strong>Bamboo</strong> (dry)</td>
-<td>SEA, southern China</td>
-<td>Fair — burns fast, loud popping (trapped air pockets explode). Split to reduce popping.</td>
-</tr>
-<tr>
 <td><strong>Mango wood</strong> (dry)</td>
-<td>SEA, northern Australia</td>
+<td>northern Australia</td>
 <td>Good — burns relatively clean for a fruitwood</td>
 </tr>
 <tr>
 <td><strong>Pine</strong></td>
-<td>China, introduced AU</td>
+<td>, introduced AU</td>
 <td>Fair — burns fast, resin creates soot. Good for starting; poor for sustained fire.</td>
-</tr>
-<tr>
-<td><strong>Oak</strong></td>
-<td>China</td>
-<td>Excellent — dense, slow-burning, excellent coals</td>
 </tr>
 </tbody>
 </table>
@@ -358,34 +342,41 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="phase-5-fire-lays-configuring-your-fire">Phase 5: Fire Lays — Configuring Your Fire</h2>
 <p>How you stack the wood determines how the fire burns. Choose the lay that matches your purpose.</p>
 <h3>Teepee Fire</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place tinder bundle in the centre; Lean kindling sticks against each other over the tinder, forming a cone/teepee; Start with thinnest kindling against the tinder, thicker outside; Light the tinder through a gap at the base; As the fire catches, add progressively thicker fuel leaned against the teepee</span></label></li></ol>
-
+<p>{% steps %}
+Place tinder bundle in the centre; Lean kindling sticks against each other over the tinder, forming a cone/teepee; Start with thinnest kindling against the tinder, thicker outside; Light the tinder through a gap at the base; As the fire catches, add progressively thicker fuel leaned against the teepee
+{% end %}</p>
 <p><strong>Best for:</strong> Starting fires, quick heat, cooking on a pot hung from a tripod above.</p>
 <h3>Log Cabin Fire</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place two larger sticks parallel, 20 cm apart; Place two more across them perpendicularly, forming a square; Continue stacking, alternating direction, like building a log cabin; Fill the centre with tinder and kindling; Light from the top — the fire burns down through the kindling-filled centre</span></label></li></ol>
-
+<p>{% steps %}
+Place two larger sticks parallel, 20 cm apart; Place two more across them perpendicularly, forming a square; Continue stacking, alternating direction, like building a log cabin; Fill the centre with tinder and kindling; Light from the top — the fire burns down through the kindling-filled centre
+{% end %}</p>
 <p><strong>Best for:</strong> Cooking (flat top), sustained fire, wet conditions (the structure self-feeds as logs burn and fall inward).</p>
 <h3>Star Fire</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a small teepee fire in the centre; Once established, arrange 3–5 long logs like wheel spokes, with ends in the fire; As the ends burn, push the logs further into the fire; Extremely fuel-efficient — you control the burn rate</span></label></li></ol>
-
+<p>{% steps %}
+Build a small teepee fire in the centre; Once established, arrange 3–5 long logs like wheel spokes, with ends in the fire; As the ends burn, push the logs further into the fire; Extremely fuel-efficient — you control the burn rate
+{% end %}</p>
 <p><strong>Best for:</strong> Conserving fuel, all-night fire, solo survival. You can sleep while the fire feeds itself slowly.</p>
 <h3>Dakota Fire Hole</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Dig a vertical hole 30 cm deep and 20 cm wide; Dig a second hole 20 cm away, sloping down to connect with the bottom of the first hole — this is the air intake; The chimney effect draws air in through the intake, feeding oxygen to the fire; Build the fire in the vertical pit; Very fuel-efficient, near-invisible flame, less smoke</span></label></li></ol>
-
+<p>{% steps %}
+Dig a vertical hole 30 cm deep and 20 cm wide; Dig a second hole 20 cm away, sloping down to connect with the bottom of the first hole — this is the air intake; The chimney effect draws air in through the intake, feeding oxygen to the fire; Build the fire in the vertical pit; Very fuel-efficient, near-invisible flame, less smoke
+{% end %}</p>
 <p><strong>Best for:</strong> High-wind conditions, concealment, fuel conservation, windy Australian outback or plains.</p>
 <h3>Reflector Fire</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a wall of green logs or rocks 30–60 cm behind the fire; Angle the wall slightly to reflect heat toward your shelter; The wall should be at least as wide as the fire and slightly taller</span></label></li></ol>
-
+<p>{% steps %}
+Build a wall of green logs or rocks 30–60 cm behind the fire; Angle the wall slightly to reflect heat toward your shelter; The wall should be at least as wide as the fire and slightly taller
+{% end %}</p>
 <p><strong>Best for:</strong> Shelter heating. Redirects 30–50% more heat toward you compared to an open fire.</p>
 <hr />
 <h2 id="phase-6-fire-in-wet-conditions">Phase 6: Fire in Wet Conditions</h2>
-<p>Tropical downpours, monsoons, and persistent drizzle are common across SEA, northern Australia, and southern China. Fire is harder — but still possible.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find dry tinder — look under rock overhangs, inside hollow trees, under dense evergreen canopy; Split wood to access dry interior — the outside is wet; the core may be dry; Use birch bark, fatwood, or bamboo shavings (contain natural oils/waxes); Build a platform of bark or green wood to keep the fire off wet ground; Protect the fledgling fire with your body, a tarp, or a bark shield — do not let rain hit it in the first 2 minutes; Start small — a thumbnail-sized flame is enough. Feed it patiently.</span></label></li></ol>
-
+<p>Tropical downpours, monsoons, and persistent drizzle are common across northern Australia, and southern . Fire is harder — but still possible.</p>
+<p>{% steps %}
+Find dry tinder — look under rock overhangs, inside hollow trees, under dense evergreen canopy; Split wood to access dry interior — the outside is wet; the core may be dry; Use birch bark, fatwood, or bamboo shavings (contain natural oils/waxes); Build a platform of bark or green wood to keep the fire off wet ground; Protect the fledgling fire with your body, a tarp, or a bark shield — do not let rain hit it in the first 2 minutes; Start small — a thumbnail-sized flame is enough. Feed it patiently.
+{% end %}</p>
 <h3>Bamboo Fire in the Rain</h3>
 <p>Bamboo is abundant and surprisingly useful for wet-weather fire:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Select dry(ish) bamboo culms; Split lengthwise and scrape the inner pith into a fine, dry tinder pile; The outer surface may be wet but the inside is often dry; Split thin strips for kindling; Bamboo burns fast and hot — have more fuel ready; The popping sound is normal (trapped air); split pieces to reduce it</span></label></li></ol>
-
+<p>{% steps %}
+Select dry(ish) bamboo culms; Split lengthwise and scrape the inner pith into a fine, dry tinder pile; The outer surface may be wet but the inside is often dry; Split thin strips for kindling; Bamboo burns fast and hot — have more fuel ready; The popping sound is normal (trapped air); split pieces to reduce it
+{% end %}</p>
 <hr />
 <h2 id="troubleshooting">Troubleshooting</h2>
 <table>
@@ -436,23 +427,23 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <hr />
 <h2 id="safety-checkpoints">Safety Checkpoints</h2>
-<p>Fire safety in Australian, Chinese, and SEA conditions:</p>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**⛔ Before lighting — stop and check:**
+<p>Fire safety in Australian, conditions:</p>
+<p>{% info %}
+<strong>⛔ Before lighting — stop and check:</strong>
 - [ ] 2 m radius cleared to bare earth?
 - [ ] Fire ring in place (NOT river rocks)?
 - [ ] Water, sand, or shovel within arm's reach?
 - [ ] No overhanging branches?
 - [ ] Wind not carrying sparks toward dry vegetation?
-- [ ] Checked local fire danger — during Australian bushfire season, a total fire ban may be in place?
-
-**⛔ Extinguishing — the cold-hand test:**
+- [ ] Checked local fire danger — during Australian bushfire season, a total fire ban may be in place?</p>
+<p><strong>⛔ Extinguishing — the cold-hand test:</strong>
 1. Douse with water — pour until hissing stops
 2. Stir ashes and coals with a stick
 3. Douse again
 4. Hold back of hand 5 cm above ashes
 5. If you feel ANY warmth, repeat from step 1
-6. Cold to the touch = fire is out</div></div>
-
+6. Cold to the touch = fire is out
+{% end %}</p>
 <hr />
 <h2 id="common-mistakes">Common Mistakes</h2>
 <ul>
@@ -637,8 +628,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>Check the local fire danger rating at any roadside fire danger sign, online, or ask at a visitor centre. Ignorance is not an excuse — lighting a fire during a total fire ban can result in fines of $27,500+ and/or imprisonment under Australian law.</p>
 <h4>Wet Season Tropics (Northern Australia)</h4>
 <p>Everything is soaked for months. Wood is saturated. Fire-making is genuinely difficult:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Look for **standing dead wood** — branches still attached to trees but dead. These stay drier than fallen wood.; Peel paperbark — the outer layers are wet, but peel deep and the inner layers near the trunk are surprisingly dry.; Split wood lengthwise — the interior of even wet-looking logs is often dry.; Build a fire platform — use green logs (wet, won't burn) as a base to keep your fire off the sodden ground.; Protect the flame — use a tarp, bark sheet, or your body. Once established, the fire's heat will dry incoming fuel.</span></label></li></ol>
-
+<p>{% steps %}
+Look for <strong>standing dead wood</strong> — branches still attached to trees but dead. These stay drier than fallen wood.; Peel paperbark — the outer layers are wet, but peel deep and the inner layers near the trunk are surprisingly dry.; Split wood lengthwise — the interior of even wet-looking logs is often dry.; Build a fire platform — use green logs (wet, won't burn) as a base to keep your fire off the sodden ground.; Protect the flame — use a tarp, bark sheet, or your body. Once established, the fire's heat will dry incoming fuel.
+{% end %}</p>
 <h4>Desert — Scarce Fuel</h4>
 <p>In the Australian desert, fuel is widely scattered and often thorny:</p>
 <ul>

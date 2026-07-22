@@ -29,25 +29,25 @@ Before beginning the test:
 
 ### Phase 1: Plant Selection & Preparation
 
-{% steps() %}
+{% steps %}
 **Separate the plant into parts.** Roots, stems, leaves, flowers, buds, seeds, fruit. Some plants have edible parts and toxic parts (e.g., rhubarb stalks are edible; rhubarb leaves contain oxalic acid and are toxic). Test EACH part separately.; **Inspect for contamination.** Avoid plants with signs of fungal infection (black spots, powdery mildew), insect infestation (holes, webbing), or growing in contaminated soil/water.; **Smell the plant.** Crush a small piece. If it smells like almonds (cyanide), peaches (cyanide), or is unpleasantly acrid/bitter/chemical — do not proceed. Do not rely on smell alone; some toxic plants are odourless.; **Fast for 8 hours.** You must have an empty stomach before testing. Drink water but eat nothing. This ensures any reaction is from the test plant. (Note: this is why the test is not suitable in a crisis where you are already starving — the 8-hour fast may be impossible.)
 {% end %}
 
 ### Phase 2: Skin Contact
 
-{% steps() %}
+{% steps %}
 **Crush a small piece of the plant part** you are testing; **Rub it on the inside of your wrist** or the inside of your elbow (thin, sensitive skin); **Wait 15 minutes.** Watch for: redness, itching, burning, blistering, numbness, or rash; **If any reaction occurs**, wash the area thoroughly with clean water. Do not proceed with this plant part.
 {% end %}
 
 ### Phase 3: Lip & Mouth Contact
 
-{% steps() %}
+{% steps %}
 **Touch a tiny piece of the prepared plant** to the outer surface of your lip; **Wait 5 minutes.** Watch for: tingling, burning, numbness, swelling; If the lip test is clear, **place a tiny piece on your tongue**; **Hold it there for 5 minutes** — do not swallow; Watch for: tingling, burning, numbness, unusual taste, throat constriction; If any reaction occurs, spit out immediately and rinse mouth thoroughly with water
 {% end %}
 
 ### Phase 4: Ingestion — Escalating Doses
 
-{% steps() %}
+{% steps %}
 If the tongue test produces no reaction, **chew a small pea-sized amount** thoroughly; **Hold in the mouth for 5 minutes**, then **swallow**; **Wait 8 hours.** This is the longest wait. Do not eat or drink anything else during this period (water is okay). Monitor for: nausea, stomach cramps, diarrhoea, vomiting, dizziness, headache, drowsiness, blurred vision, difficulty breathing, irregular heartbeat; **If NO symptoms after 8 hours**, prepare a larger amount — roughly a tablespoon-sized portion — using the same preparation method (raw or cooked, depending on how you intend to eat it); **Eat the tablespoon portion**; **Wait another 8 hours**; **If NO symptoms**, the plant part is likely safe to eat in moderate quantities. (Some toxins accumulate over days — continue to monitor over the next 48 hours with gradually increasing portions.)
 {% end %}
 
@@ -56,14 +56,14 @@ If the tongue test produces no reaction, **chew a small pea-sized amount** thoro
 ## The Full Timeline
 
 ```
-    Hour 0:  Begin 8-hour fast
-    Hour 8:  Skin test (15 min wait)
-    Hour 8:  Lip test (5 min wait)
-    Hour 8:  Tongue test (5 min wait)
-    Hour 8:  Swallow pea-sized amount
-    Hour 16: If no reaction, eat tablespoon amount
-    Hour 24: If no reaction, plant is provisionally safe
-    Hour 24-72: Gradually increase portions, continue monitoring
+ Hour 0: Begin 8-hour fast
+ Hour 8: Skin test (15 min wait)
+ Hour 8: Lip test (5 min wait)
+ Hour 8: Tongue test (5 min wait)
+ Hour 8: Swallow pea-sized amount
+ Hour 16: If no reaction, eat tablespoon amount
+ Hour 24: If no reaction, plant is provisionally safe
+ Hour 24-72: Gradually increase portions, continue monitoring
 ```
 
 **Total minimum time: 24 hours** from start to provisional safety. Add 48 hours of monitoring before declaring fully safe.
@@ -74,7 +74,7 @@ If the tongue test produces no reaction, **chew a small pea-sized amount** thoro
 
 **Test the plant in the form you intend to eat it.** Cooking can:
 
-- Destroy some toxins (e.g., oxalic acid in taro leaves, which are eaten throughout SEA and the Pacific AFTER thorough cooking)
+- Destroy some toxins (e.g., oxalic acid in taro leaves, which are eaten throughout and the Pacific AFTER thorough cooking)
 - Make some toxins MORE bioavailable (rare, but documented)
 - Have no effect on other toxins
 
@@ -107,8 +107,8 @@ Some plants are so toxic that even the skin/mouth tests are dangerous. Do NOT at
 | **Oleander** (*Nerium oleander*) | Worldwide | Cardiac glycosides | Heart failure; one leaf can kill |
 | **Castor bean** (*Ricinus communis*) | Worldwide weed | Ricin | Multi-organ failure; 4–8 seeds fatal |
 | **Water hemlock** (*Cicuta*) | Temperate worldwide | Cicutoxin | Violent seizures, respiratory failure within hours |
-| **Rosary pea** (*Abrus precatorius*) | Tropical AU/SEA | Abrin | More toxic than ricin; one seed fatal if chewed |
-| **Angel's trumpet** (*Brugmansia*) | SEA, AU gardens | Tropane alkaloids | Delirium, paralysis, death |
+| **Rosary pea** (*Abrus precatorius*) | Tropical AU/ | Abrin | More toxic than ricin; one seed fatal if chewed |
+| **Angel's trumpet** (*Brugmansia*) | AU gardens | Tropane alkaloids | Delirium, paralysis, death |
 
 ---
 

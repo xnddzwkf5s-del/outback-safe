@@ -7,7 +7,7 @@ weight = 4
 
 # Insects as Food — Safe Protein
 
-Insects are the most reliable wild protein source. They are everywhere, abundant, require no tools to harvest, and — if you can get past the psychological barrier — many are genuinely good food. Across Southeast Asia, China, and Indigenous Australia, entomophagy (insect eating) has been practiced for millennia.
+Insects are the most reliable wild protein source. They are everywhere, abundant, require no tools to harvest, and — if you can get past the psychological barrier — many are genuinely good food. Across , and Indigenous Australia, entomophagy (insect eating) has been practiced for millennia.
 
 ---
 
@@ -51,7 +51,7 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 2. Bamboo Grub / Bamboo Worm (*Omphisa fuscidentalis*)
 
-- **Range:** Throughout SEA, southern China
+- **Range:** Throughout 
 - **What it is:** Moth larva that lives inside bamboo internodes
 - **Taste:** Creamy, slightly sweet
 - **Nutrition:** High in protein (~26%) and fat (~51%)
@@ -60,9 +60,9 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 3. Palm Weevil Larva (*Rhynchophorus* spp.)
 
-- **Range:** Tropical SEA, northern Australia, Pacific Islands
+- **Range:** Tropical northern Australia, Pacific Islands
 - **What it is:** Large white/cream beetle larva found in rotting palm trunks
-- **Taste:** "Bacon-flavoured" when fried; creamy when raw. Considered a delicacy across SEA.
+- **Taste:** "Bacon-flavoured" when fried; creamy when raw. Considered a delicacy across .
 - **Nutrition:** Extremely high in fat (~60%), good protein (~20%)
 - **Preparation:** Skewer and roast, or pan-fry in their own fat
 - **Harvest:** Find fallen or rotting palm trunks. Split open to find larvae. A single palm trunk can yield hundreds.
@@ -80,7 +80,7 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 5. Field Cricket (*Teleogryllus* spp.)
 
-- **Range:** Worldwide — all AU, CN, SEA regions
+- **Range:** Worldwide — all AU, CN, regions
 - **Taste:** Nutty, savoury
 - **Nutrition:** ~60% protein, good iron and B12
 - **Preparation:** Remove wings and legs (the spurs on legs can irritate the throat). Roast or boil. Boiled crickets make a good soup base.
@@ -98,7 +98,7 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 7. Green Tree Ant / Weaver Ant (*Oecophylla smaragdina*)
 
-- **Range:** Northern Australia, SEA, southern China
+- **Range:** Northern Australia, 
 - **What it is:** Arboreal ant that weaves leaf nests in trees
 - **Taste:** Tangy, citrus-like — their abdomens contain formic acid with a lime/lemon flavour
 - **Uses:** Eat the abdomen for a vitamin C boost. Crushed ants in water make a tangy, nutritious beverage. Aboriginal Australians use them for colds and sore throats.
@@ -106,7 +106,7 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 8. Termites (*Isoptera*)
 
-- **Range:** Throughout AU (especially), SEA, southern CN
+- **Range:** Throughout AU (especially), southern CN
 - **Taste:** Nutty, slightly woody
 - **Nutrition:** High in protein (~38%) and fat (~45%)
 - **Preparation:** Roast in a pan or on hot coals. Can be ground into flour. The queen termite is a massive protein/fat source and considered a delicacy.
@@ -132,15 +132,15 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 11. Silkworm Pupae (*Bombyx mori*)
 
-- **Range:** China, parts of SEA (near mulberry trees)
+- **Range:** (near mulberry trees)
 - **What it is:** The pupa left after silk is extracted from the cocoon
 - **Taste:** Creamy, savoury
 - **Nutrition:** High in protein and essential amino acids
-- **Preparation:** Boiled or stir-fried. A traditional byproduct food in Chinese silk-producing regions. If you find mulberry trees, you may find silkworms.
+- **Preparation:** Boiled or stir-fried. A traditional byproduct food in silk-producing regions. If you find mulberry trees, you may find silkworms.
 
 #### 12. Cicadas
 
-- **Range:** Throughout Australia, SEA, China (seasonal — summer)
+- **Range:** Throughout Australia, (seasonal — summer)
 - **Taste:** Asparagus-like
 - **Nutrition:** Good protein
 - **Preparation:** Remove wings. Roast until crispy. The emerging teneral (newly moulted) cicadas are soft and white — these are the best eating. Catch them at dawn during emergence.
@@ -148,13 +148,13 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 #### 13. Giant Water Bug (*Lethocerus indicus*)
 
-- **Range:** Freshwater habitats throughout SEA, southern CN
+- **Range:** Freshwater habitats throughout southern CN
 - **Taste:** Intense, aromatic. Used as a flavouring in Thai and Vietnamese cuisine (nam phrik).
 - **Preparation:** Remove the scent gland. Roast or grind into paste. The aroma is very strong — used more as a seasoning than a main food.
 
 #### 14. Sago Grub (*Rhynchophorus ferrugineus*)
 
-- **Range:** SEA, Pacific Islands (in sago palms)
+- **Range:** Pacific Islands (in sago palms)
 - **What it is:** Weevil larva found in sago palm trunks
 - **Taste:** Rich, fatty, bacon-like when fried
 - **Nutrition:** Very high in fat
@@ -191,19 +191,19 @@ Insects are the most reliable wild protein source. They are everywhere, abundant
 
 ### Roasting (Best All-Purpose Method)
 
-{% steps() %}
+{% steps %}
 Place insects on a flat rock, metal sheet, or pan near/over coals; Turn regularly — they cook quickly (30 seconds – 2 minutes for most); Cook until crispy and aromatic; Remove legs and wings from larger insects (crickets, grasshoppers) before or after roasting
 {% end %}
 
 ### Boiling (For Soups & Stews)
 
-{% steps() %}
+{% steps %}
 Bring water to a boil; Add insects; Boil for 3–5 minutes; The water becomes a nutritious broth — do not discard; Insects can be eaten directly from the broth or strained
 {% end %}
 
 ### Drying & Grinding (For Storage)
 
-{% steps() %}
+{% steps %}
 Roast insects until completely dry and crispy; Crush or grind between stones into a coarse powder/flour; Store in a dry container; Add to stews, soups, or mix with foraged greens for protein fortification; Shelf life: several weeks to months if kept completely dry
 {% end %}
 

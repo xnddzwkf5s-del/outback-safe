@@ -138,27 +138,31 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="the-protocol-12-steps">The Protocol — 12 Steps</h2>
 <h3>Phase 1: Plant Selection &amp; Preparation</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Separate the plant into parts.** Roots, stems, leaves, flowers, buds, seeds, fruit. Some plants have edible parts and toxic parts (e.g., rhubarb stalks are edible; rhubarb leaves contain oxalic acid and are toxic). Test EACH part separately.; **Inspect for contamination.** Avoid plants with signs of fungal infection (black spots, powdery mildew), insect infestation (holes, webbing), or growing in contaminated soil/water.; **Smell the plant.** Crush a small piece. If it smells like almonds (cyanide), peaches (cyanide), or is unpleasantly acrid/bitter/chemical — do not proceed. Do not rely on smell alone; some toxic plants are odourless.; **Fast for 8 hours.** You must have an empty stomach before testing. Drink water but eat nothing. This ensures any reaction is from the test plant. (Note: this is why the test is not suitable in a crisis where you are already starving — the 8-hour fast may be impossible.)</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Separate the plant into parts.</strong> Roots, stems, leaves, flowers, buds, seeds, fruit. Some plants have edible parts and toxic parts (e.g., rhubarb stalks are edible; rhubarb leaves contain oxalic acid and are toxic). Test EACH part separately.; <strong>Inspect for contamination.</strong> Avoid plants with signs of fungal infection (black spots, powdery mildew), insect infestation (holes, webbing), or growing in contaminated soil/water.; <strong>Smell the plant.</strong> Crush a small piece. If it smells like almonds (cyanide), peaches (cyanide), or is unpleasantly acrid/bitter/chemical — do not proceed. Do not rely on smell alone; some toxic plants are odourless.; <strong>Fast for 8 hours.</strong> You must have an empty stomach before testing. Drink water but eat nothing. This ensures any reaction is from the test plant. (Note: this is why the test is not suitable in a crisis where you are already starving — the 8-hour fast may be impossible.)
+{% end %}</p>
 <h3>Phase 2: Skin Contact</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Crush a small piece of the plant part** you are testing; **Rub it on the inside of your wrist** or the inside of your elbow (thin, sensitive skin); **Wait 15 minutes.** Watch for: redness, itching, burning, blistering, numbness, or rash; **If any reaction occurs**, wash the area thoroughly with clean water. Do not proceed with this plant part.</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Crush a small piece of the plant part</strong> you are testing; <strong>Rub it on the inside of your wrist</strong> or the inside of your elbow (thin, sensitive skin); <strong>Wait 15 minutes.</strong> Watch for: redness, itching, burning, blistering, numbness, or rash; <strong>If any reaction occurs</strong>, wash the area thoroughly with clean water. Do not proceed with this plant part.
+{% end %}</p>
 <h3>Phase 3: Lip &amp; Mouth Contact</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Touch a tiny piece of the prepared plant** to the outer surface of your lip; **Wait 5 minutes.** Watch for: tingling, burning, numbness, swelling; If the lip test is clear, **place a tiny piece on your tongue**; **Hold it there for 5 minutes** — do not swallow; Watch for: tingling, burning, numbness, unusual taste, throat constriction; If any reaction occurs, spit out immediately and rinse mouth thoroughly with water</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Touch a tiny piece of the prepared plant</strong> to the outer surface of your lip; <strong>Wait 5 minutes.</strong> Watch for: tingling, burning, numbness, swelling; If the lip test is clear, <strong>place a tiny piece on your tongue</strong>; <strong>Hold it there for 5 minutes</strong> — do not swallow; Watch for: tingling, burning, numbness, unusual taste, throat constriction; If any reaction occurs, spit out immediately and rinse mouth thoroughly with water
+{% end %}</p>
 <h3>Phase 4: Ingestion — Escalating Doses</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>If the tongue test produces no reaction, **chew a small pea-sized amount** thoroughly; **Hold in the mouth for 5 minutes**, then **swallow**; **Wait 8 hours.** This is the longest wait. Do not eat or drink anything else during this period (water is okay). Monitor for: nausea, stomach cramps, diarrhoea, vomiting, dizziness, headache, drowsiness, blurred vision, difficulty breathing, irregular heartbeat; **If NO symptoms after 8 hours**, prepare a larger amount — roughly a tablespoon-sized portion — using the same preparation method (raw or cooked, depending on how you intend to eat it); **Eat the tablespoon portion**; **Wait another 8 hours**; **If NO symptoms**, the plant part is likely safe to eat in moderate quantities. (Some toxins accumulate over days — continue to monitor over the next 48 hours with gradually increasing portions.)</span></label></li></ol>
-
+<p>{% steps %}
+If the tongue test produces no reaction, <strong>chew a small pea-sized amount</strong> thoroughly; <strong>Hold in the mouth for 5 minutes</strong>, then <strong>swallow</strong>; <strong>Wait 8 hours.</strong> This is the longest wait. Do not eat or drink anything else during this period (water is okay). Monitor for: nausea, stomach cramps, diarrhoea, vomiting, dizziness, headache, drowsiness, blurred vision, difficulty breathing, irregular heartbeat; <strong>If NO symptoms after 8 hours</strong>, prepare a larger amount — roughly a tablespoon-sized portion — using the same preparation method (raw or cooked, depending on how you intend to eat it); <strong>Eat the tablespoon portion</strong>; <strong>Wait another 8 hours</strong>; <strong>If NO symptoms</strong>, the plant part is likely safe to eat in moderate quantities. (Some toxins accumulate over days — continue to monitor over the next 48 hours with gradually increasing portions.)
+{% end %}</p>
 <hr />
 <h2 id="the-full-timeline">The Full Timeline</h2>
-<pre class="codehilite"><code>    Hour 0:  Begin 8-hour fast
-    Hour 8:  Skin test (15 min wait)
-    Hour 8:  Lip test (5 min wait)
-    Hour 8:  Tongue test (5 min wait)
-    Hour 8:  Swallow pea-sized amount
-    Hour 16: If no reaction, eat tablespoon amount
-    Hour 24: If no reaction, plant is provisionally safe
-    Hour 24-72: Gradually increase portions, continue monitoring
+<pre class="codehilite"><code> Hour 0: Begin 8-hour fast
+ Hour 8: Skin test (15 min wait)
+ Hour 8: Lip test (5 min wait)
+ Hour 8: Tongue test (5 min wait)
+ Hour 8: Swallow pea-sized amount
+ Hour 16: If no reaction, eat tablespoon amount
+ Hour 24: If no reaction, plant is provisionally safe
+ Hour 24-72: Gradually increase portions, continue monitoring
 </code></pre>
 
 <p><strong>Total minimum time: 24 hours</strong> from start to provisional safety. Add 48 hours of monitoring before declaring fully safe.</p>
@@ -166,7 +170,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="cooking-vs-raw">Cooking vs. Raw</h2>
 <p><strong>Test the plant in the form you intend to eat it.</strong> Cooking can:</p>
 <ul>
-<li>Destroy some toxins (e.g., oxalic acid in taro leaves, which are eaten throughout SEA and the Pacific AFTER thorough cooking)</li>
+<li>Destroy some toxins (e.g., oxalic acid in taro leaves, which are eaten throughout and the Pacific AFTER thorough cooking)</li>
 <li>Make some toxins MORE bioavailable (rare, but documented)</li>
 <li>Have no effect on other toxins</li>
 </ul>
@@ -247,13 +251,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 <tr>
 <td><strong>Rosary pea</strong> (<em>Abrus precatorius</em>)</td>
-<td>Tropical AU/SEA</td>
+<td>Tropical AU/</td>
 <td>Abrin</td>
 <td>More toxic than ricin; one seed fatal if chewed</td>
 </tr>
 <tr>
 <td><strong>Angel's trumpet</strong> (<em>Brugmansia</em>)</td>
-<td>SEA, AU gardens</td>
+<td>AU gardens</td>
 <td>Tropane alkaloids</td>
 <td>Delirium, paralysis, death</td>
 </tr>

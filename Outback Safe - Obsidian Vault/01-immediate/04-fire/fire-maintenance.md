@@ -13,7 +13,7 @@ Starting a fire is one skill. Keeping it alive through the night, through rain, 
 
 ## Materials Checklist
 
-{% materials() %}
+{% materials %}
 **Fire tools:** long green stick (fire poker), two green sticks for tongs, hollow bamboo or reed (bellows), curved bark piece (ash scoop); **Overnight materials:** large log 20–30 cm diameter for all-night burn, ash from previous fires for banking, long logs for star fire; **Transport materials:** punk wood or bracket fungus for slow match, metal tin or folded bark for fire carrier, green branch and bark for torch; **Rain protection:** tarp, plastic sheet, or large bark sheets, green logs for elevated platform
 {% end %}
 
@@ -28,7 +28,6 @@ Fire is alive. It breathes, eats, and needs attention. If you treat it as a task
 ---
 
 ## The Lifecycle of a Fire
-
 
 | Phase | What it needs | What not to do |
 |-------|--------------|----------------|
@@ -45,31 +44,27 @@ Fire is alive. It breathes, eats, and needs attention. If you treat it as a task
 
 ### Method 1: The All-Night Log
 
-
-{% steps() %}
-Build a good coal bed — the fire should have been burning for at least an hour; Select a large, thick log — 20–30 cm diameter, 1–2 m long. Green hardwood is ideal (burns slower). Eucalyptus ironbark or red gum in Australia; oak in China.; Place the log on the coal bed, centred along its length; The log will burn from the bottom up, lasting 4–8 hours depending on thickness and wood density; Place additional logs parallel on either side to trap heat and extend burn time
+{% steps %}
+Build a good coal bed — the fire should have been burning for at least an hour; Select a large, thick log — 20–30 cm diameter, 1–2 m long. Green hardwood is ideal (burns slower). Eucalyptus ironbark or red gum in Australia; oak in .; Place the log on the coal bed, centred along its length; The log will burn from the bottom up, lasting 4–8 hours depending on thickness and wood density; Place additional logs parallel on either side to trap heat and extend burn time
 {% end %}
 
 ### Method 2: Banking Coals
 
 Banking means covering hot coals with insulating material to restrict oxygen, so they smoulder slowly instead of burning out.
 
-
-{% steps() %}
+{% steps %}
 Allow the fire to burn down to a thick bed of hot coals (no flames, red glow throughout); Push the coals into a compact pile in the centre of the fire pit; Cover the coal pile with a thick layer of dry ash (from previous fires) or fine dry dirt — 3–5 cm coverage; The ash/dirt restricts oxygen, slowing the burn to a crawl; The coals will stay hot for 6–12 hours; In the morning: gently uncover the ash; look for a red glow underneath; Place tinder on the exposed coals and blow gently; The fire re-ignites from the banked coals
 {% end %}
 
 ### Method 3: Star Fire Configuration
 
-
-{% steps() %}
+{% steps %}
 Build a small central fire; Arrange 4–5 long logs radiating outward like wheel spokes, ends in the fire; As the ends burn, push the logs further in — the fire feeds itself; One person can maintain this through the night by waking every 1–2 hours to push logs inward; Fuel consumption is roughly half of a standard campfire
 {% end %}
 
 ### Method 4: Long Fire with Reflector
 
-
-{% steps() %}
+{% steps %}
 Build a reflector wall 1–2 m long; Place 3–4 logs end-to-end in front of the reflector, forming a line of fire; The line provides even heat across the length of your shelter; Large logs in this configuration burn for 4–6 hours; The reflector wall radiates heat back toward the shelter
 {% end %}
 
@@ -83,26 +78,23 @@ If you need to move camp, you can carry fire with you.
 
 A slow match is a bundle of material that smoulders slowly — effectively a portable coal.
 
-{% materials() %}
+{% materials %}
 Punk wood (dry rotted wood — the best material for this); Dry bark (paperbark inner layers work well); Dry moss or bracket fungus; Cordage for wrapping
 {% end %}
 
-
-{% steps() %}
+{% steps %}
 Select a large piece of punk wood or bracket fungus — fist-sized or larger; Ignite one end in your campfire until it is glowing throughout; Wrap the smouldering material loosely in layers of dry bark or moss; Wrap the entire bundle with cordage — tight enough to hold together, loose enough to allow smouldering; Carry the bundle — it should smoke gently; Check every 15–20 minutes and blow on the ember to keep it alive; A well-made slow match can smoulder for 4–8 hours; At your new site, place the smouldering material in a tinder bundle and blow into flame
 {% end %}
 
 ### Method 2: Fire Carrier (Improvised)
 
-
-{% steps() %}
+{% steps %}
 Line a container (old tin can, folded bark tray, clay pot) with a thick layer of ash; Place several hot coals inside; Cover with more ash; Carry carefully — the container may become hot; Add dry tinder and kindling at the destination
 {% end %}
 
 ### Method 3: Torch
 
-
-{% steps() %}
+{% steps %}
 Select a green branch — 60–90 cm long, wrist-thick; Wrap one end with dry bark (paperbark is ideal), dry grass, or cloth soaked in animal fat (if available); Ignite the wrapped end in your fire; The green wood of the handle prevents the torch from burning down to your hand; Useful for 15–30 minutes of light and fire transport
 {% end %}
 
@@ -110,19 +102,17 @@ Select a green branch — 60–90 cm long, wrist-thick; Wrap one end with dry ba
 
 ## Phase 3: Rain Protection
 
-In monsoon conditions (SEA, northern Australia) or persistent rain, fire maintenance requires active defence.
+In monsoon conditions (northern Australia) or persistent rain, fire maintenance requires active defence.
 
 ### Tarp/Canopy Shield
 
-
-{% steps() %}
+{% steps %}
 Suspend a tarp, plastic sheet, or large bark sheets above the fire — at least 1.5 m above the flames; Angle the cover so rain runs off AWAY from the fire; The cover must be high enough that heat and sparks do not ignite it; Do not fully enclose the fire — smoke and CO must vent; Even a single large leaf (banana, palm) held over a fledgling fire can save it until it establishes
 {% end %}
 
 ### Elevated Fire Platform
 
-
-{% steps() %}
+{% steps %}
 Build a platform of green logs (3–4 logs laid side by side); Cover the platform with a thick layer of bark or flat stones; Build your fire ON the platform; The platform keeps the fire above wet ground; Green logs will eventually burn through — rebuild the platform every 2–3 days
 {% end %}
 
@@ -131,7 +121,6 @@ Build a platform of green logs (3–4 logs laid side by side); Cover the platfor
 ## Phase 4: Fuel Conservation
 
 Fuel gathering consumes calories. Efficient fire management reduces the fuel burden.
-
 
 | Technique | Fuel saving | Method |
 |-----------|------------|--------|
@@ -158,8 +147,7 @@ Whether to keep a fire burning while you sleep depends on several factors:
 
 ### Extinguishing Procedure
 
-
-{% steps() %}
+{% steps %}
 Spread the coals and logs to break up the heat mass; Douse thoroughly with water — hissing must stop completely; Stir the wet ashes; Feel with the back of your hand — if any warmth, douse again; A properly extinguished fire is COLD to the touch
 {% end %}
 
@@ -168,7 +156,6 @@ Spread the coals and logs to break up the heat mass; Douse thoroughly with water
 ## Fire Tools
 
 Improvised tools make fire management easier:
-
 
 | Tool | How to improvise |
 |------|-----------------|

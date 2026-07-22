@@ -27,8 +27,8 @@ The most common cause of multiple drowning fatalities is a would-be rescuer ente
 ## The Drowning Sequence
 
 ```
-    Panic → Breath-holding → Involuntary inhalation of water
-    → Laryngospasm (throat closes) → Hypoxia → Cardiac arrest
+ Panic → Breath-holding → Involuntary inhalation of water
+ → Laryngospasm (throat closes) → Hypoxia → Cardiac arrest
 ```
 
 Key points:
@@ -43,25 +43,25 @@ Key points:
 
 ### If the Person is Conscious and Breathing
 
-{% steps() %}
+{% steps %}
 Remove wet clothing; Dry and warm the person — wrap in blankets, clothing, emergency blanket; Place in recovery position if nauseous or weak; Give warm (not hot) fluids if fully alert; Monitor for at least 4 hours — secondary drowning can occur
 {% end %}
 
 ### If the Person is Unconscious but Breathing
 
-{% steps() %}
+{% steps %}
 Check airway — clear visible debris from mouth; Place in recovery position; Keep warm — wrap in blankets or emergency blanket; Monitor breathing continuously — breath every 5–10 seconds is normal; Be prepared to start CPR if breathing stops; Monitor for vomiting — drowning victims often vomit swallowed water
 {% end %}
 
 ### If the Person is Not Breathing
 
-{% steps() %}
+{% steps %}
 Shout for help; Open the airway — head-tilt/chin-lift; Give 5 initial rescue breaths — drowning is respiratory arrest, and these early breaths are critical; If still no signs of life, begin CPR: 30 compressions : 2 breaths; Continue until signs of life, help arrives, or you are exhausted
 {% end %}
 
 → For detailed CPR technique, see [CPR & Basic Life Support](01-immediate/01-first-aid/cpr).
 
-{% info() %}
+{% info %}
 **Spinal injury precautions:** If the drowning involved diving into shallow water, surfing, or a fall from height, suspect spinal injury. Open the airway using a jaw thrust (hands on either side of the head, push the jaw forward without tilting the neck) instead of head-tilt/chin-lift. If the jaw thrust does not open the airway, use head-tilt/chin-lift anyway — life over limb.
 {% end %}
 
@@ -91,7 +91,7 @@ Water conducts heat 25 times faster than air. In water below 20°C, hypothermia 
 
 ### Rewarming
 
-{% steps() %}
+{% steps %}
 Move the person to shelter — out of wind and onto insulation (mat, leaves, clothing); Remove all wet clothing — cut it off if necessary; Dry the person thoroughly — pat dry, do not rub (rubbing damages cold skin); Wrap in warm, dry layers — emergency blanket, sleeping bag, multiple layers of clothing; Cover the head — a hat or improvised head covering; Apply warm (not hot) objects to armpits, groin, and neck — wrapped warm rocks, water bottles if available; If conscious and alert, give warm, sweet drinks — no alcohol, no caffeine; Do not rub or massage extremities — this can push cold blood to the heart and cause cardiac arrest; Handle gently — the cold heart is irritable and susceptible to arrhythmia
 {% end %}
 
@@ -121,7 +121,7 @@ A person can appear to recover from a near-drowning, then deteriorate and die ho
 
 ## Water Rescue in Flood Conditions
 
-Monsoons across Southeast Asia, cyclones in northern Australia, and typhoons in southern China create flood conditions regularly.
+Monsoons across , cyclones in northern Australia, and typhoons in southern create flood conditions regularly.
 
 **Flood-specific dangers:**
 - **Debris** — submerged objects, broken glass, sewage
@@ -129,7 +129,7 @@ Monsoons across Southeast Asia, cyclones in northern Australia, and typhoons in 
 - **Currents** — even 15 cm of moving water can knock an adult off their feet
 - **Drains and culverts** — invisible from the surface, create deadly suction
 
-{% steps() %}
+{% steps %}
 Do not enter floodwater unless absolutely necessary; If you must wade, use a pole to probe ahead for holes and debris; Wear footwear — cuts in contaminated water lead to serious infection; After any floodwater contact, wash thoroughly with clean water and soap; Treat any cuts from floodwater debris as potentially infected — clean with antiseptic
 {% end %}
 

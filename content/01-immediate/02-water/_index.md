@@ -6,7 +6,7 @@ weight = 3
 
 # Water — Finding & Purifying
 
-Water is your second priority after life-threatening injuries are controlled. The human body is roughly 60% water. You lose 2–3 litres per day through breathing, sweating, and urination — more in hot or dry conditions common across Australia, China, and Southeast Asia.
+Water is your second priority after life-threatening injuries are controlled. The human body is roughly 60% water. You lose 2–3 litres per day through breathing, sweating, and urination — more in hot or dry conditions common across Australia, and .
 
 ---
 
@@ -20,7 +20,7 @@ Water is your second priority after life-threatening injuries are controlled. Th
 | 48–72 hours | Organ failure, loss of consciousness |
 | 72+ hours | Death |
 
-**In a tropical Australian, Southeast Asian, or southern Chinese summer (35°C+), this timeline compresses dramatically.** At 40°C, death from dehydration can occur in under 24 hours.
+**In a tropical Australian, n, or southern summer (35°C+), this timeline compresses dramatically.** At 40°C, death from dehydration can occur in under 24 hours.
 
 ---
 

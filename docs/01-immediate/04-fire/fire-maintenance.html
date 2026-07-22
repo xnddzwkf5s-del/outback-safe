@@ -130,8 +130,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>Starting a fire is one skill. Keeping it alive through the night, through rain, and across days is another. A well-maintained fire is a constant companion — it requires attention but repays it with warmth, safety, and signalling. Letting a fire die can mean hours of work to restart it.</p>
 <hr />
 <h2 id="materials-checklist">Materials Checklist</h2>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Fire tools:** long green stick (fire poker), two green sticks for tongs, hollow bamboo or reed (bellows), curved bark piece (ash scoop)</li><li>**Overnight materials:** large log 20–30 cm diameter for all-night burn, ash from previous fires for banking, long logs for star fire</li><li>**Transport materials:** punk wood or bracket fungus for slow match, metal tin or folded bark for fire carrier, green branch and bark for torch</li><li>**Rain protection:** tarp, plastic sheet, or large bark sheets, green logs for elevated platform</li></ul></div>
-
+<p>{% materials %}
+<strong>Fire tools:</strong> long green stick (fire poker), two green sticks for tongs, hollow bamboo or reed (bellows), curved bark piece (ash scoop); <strong>Overnight materials:</strong> large log 20–30 cm diameter for all-night burn, ash from previous fires for banking, long logs for star fire; <strong>Transport materials:</strong> punk wood or bracket fungus for slow match, metal tin or folded bark for fire carrier, green branch and bark for torch; <strong>Rain protection:</strong> tarp, plastic sheet, or large bark sheets, green logs for elevated platform
+{% end %}</p>
 <hr />
 <h2 id="the-fire-tender-mindset">The Fire Tender Mindset</h2>
 <p>Fire is alive. It breathes, eats, and needs attention. If you treat it as a task to complete, it will die when you are not looking. If you treat it as a camp member that needs regular feeding and occasional adjustment, it will serve you reliably.</p>
@@ -182,42 +183,52 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="phase-1-keeping-fire-through-the-night">Phase 1: Keeping Fire Through the Night</h2>
 <h3>Method 1: The All-Night Log</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a good coal bed — the fire should have been burning for at least an hour; Select a large, thick log — 20–30 cm diameter, 1–2 m long. Green hardwood is ideal (burns slower). Eucalyptus ironbark or red gum in Australia; oak in China.; Place the log on the coal bed, centred along its length; The log will burn from the bottom up, lasting 4–8 hours depending on thickness and wood density; Place additional logs parallel on either side to trap heat and extend burn time</span></label></li></ol>
-
+<p>{% steps %}
+Build a good coal bed — the fire should have been burning for at least an hour; Select a large, thick log — 20–30 cm diameter, 1–2 m long. Green hardwood is ideal (burns slower). Eucalyptus ironbark or red gum in Australia; oak in .; Place the log on the coal bed, centred along its length; The log will burn from the bottom up, lasting 4–8 hours depending on thickness and wood density; Place additional logs parallel on either side to trap heat and extend burn time
+{% end %}</p>
 <h3>Method 2: Banking Coals</h3>
 <p>Banking means covering hot coals with insulating material to restrict oxygen, so they smoulder slowly instead of burning out.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Allow the fire to burn down to a thick bed of hot coals (no flames, red glow throughout); Push the coals into a compact pile in the centre of the fire pit; Cover the coal pile with a thick layer of dry ash (from previous fires) or fine dry dirt — 3–5 cm coverage; The ash/dirt restricts oxygen, slowing the burn to a crawl; The coals will stay hot for 6–12 hours; In the morning: gently uncover the ash; look for a red glow underneath; Place tinder on the exposed coals and blow gently; The fire re-ignites from the banked coals</span></label></li></ol>
-
+<p>{% steps %}
+Allow the fire to burn down to a thick bed of hot coals (no flames, red glow throughout); Push the coals into a compact pile in the centre of the fire pit; Cover the coal pile with a thick layer of dry ash (from previous fires) or fine dry dirt — 3–5 cm coverage; The ash/dirt restricts oxygen, slowing the burn to a crawl; The coals will stay hot for 6–12 hours; In the morning: gently uncover the ash; look for a red glow underneath; Place tinder on the exposed coals and blow gently; The fire re-ignites from the banked coals
+{% end %}</p>
 <h3>Method 3: Star Fire Configuration</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a small central fire; Arrange 4–5 long logs radiating outward like wheel spokes, ends in the fire; As the ends burn, push the logs further in — the fire feeds itself; One person can maintain this through the night by waking every 1–2 hours to push logs inward; Fuel consumption is roughly half of a standard campfire</span></label></li></ol>
-
+<p>{% steps %}
+Build a small central fire; Arrange 4–5 long logs radiating outward like wheel spokes, ends in the fire; As the ends burn, push the logs further in — the fire feeds itself; One person can maintain this through the night by waking every 1–2 hours to push logs inward; Fuel consumption is roughly half of a standard campfire
+{% end %}</p>
 <h3>Method 4: Long Fire with Reflector</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a reflector wall 1–2 m long; Place 3–4 logs end-to-end in front of the reflector, forming a line of fire; The line provides even heat across the length of your shelter; Large logs in this configuration burn for 4–6 hours; The reflector wall radiates heat back toward the shelter</span></label></li></ol>
-
+<p>{% steps %}
+Build a reflector wall 1–2 m long; Place 3–4 logs end-to-end in front of the reflector, forming a line of fire; The line provides even heat across the length of your shelter; Large logs in this configuration burn for 4–6 hours; The reflector wall radiates heat back toward the shelter
+{% end %}</p>
 <hr />
 <h2 id="phase-2-transporting-fire">Phase 2: Transporting Fire</h2>
 <p>If you need to move camp, you can carry fire with you.</p>
 <h3>Method 1: Fire Bundle / Slow Match</h3>
 <p>A slow match is a bundle of material that smoulders slowly — effectively a portable coal.</p>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Punk wood (dry rotted wood — the best material for this)</li><li>Dry bark (paperbark inner layers work well)</li><li>Dry moss or bracket fungus</li><li>Cordage for wrapping</li></ul></div>
-
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Select a large piece of punk wood or bracket fungus — fist-sized or larger; Ignite one end in your campfire until it is glowing throughout; Wrap the smouldering material loosely in layers of dry bark or moss; Wrap the entire bundle with cordage — tight enough to hold together, loose enough to allow smouldering; Carry the bundle — it should smoke gently; Check every 15–20 minutes and blow on the ember to keep it alive; A well-made slow match can smoulder for 4–8 hours; At your new site, place the smouldering material in a tinder bundle and blow into flame</span></label></li></ol>
-
+<p>{% materials %}
+Punk wood (dry rotted wood — the best material for this); Dry bark (paperbark inner layers work well); Dry moss or bracket fungus; Cordage for wrapping
+{% end %}</p>
+<p>{% steps %}
+Select a large piece of punk wood or bracket fungus — fist-sized or larger; Ignite one end in your campfire until it is glowing throughout; Wrap the smouldering material loosely in layers of dry bark or moss; Wrap the entire bundle with cordage — tight enough to hold together, loose enough to allow smouldering; Carry the bundle — it should smoke gently; Check every 15–20 minutes and blow on the ember to keep it alive; A well-made slow match can smoulder for 4–8 hours; At your new site, place the smouldering material in a tinder bundle and blow into flame
+{% end %}</p>
 <h3>Method 2: Fire Carrier (Improvised)</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Line a container (old tin can, folded bark tray, clay pot) with a thick layer of ash; Place several hot coals inside; Cover with more ash; Carry carefully — the container may become hot; Add dry tinder and kindling at the destination</span></label></li></ol>
-
+<p>{% steps %}
+Line a container (old tin can, folded bark tray, clay pot) with a thick layer of ash; Place several hot coals inside; Cover with more ash; Carry carefully — the container may become hot; Add dry tinder and kindling at the destination
+{% end %}</p>
 <h3>Method 3: Torch</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Select a green branch — 60–90 cm long, wrist-thick; Wrap one end with dry bark (paperbark is ideal), dry grass, or cloth soaked in animal fat (if available); Ignite the wrapped end in your fire; The green wood of the handle prevents the torch from burning down to your hand; Useful for 15–30 minutes of light and fire transport</span></label></li></ol>
-
+<p>{% steps %}
+Select a green branch — 60–90 cm long, wrist-thick; Wrap one end with dry bark (paperbark is ideal), dry grass, or cloth soaked in animal fat (if available); Ignite the wrapped end in your fire; The green wood of the handle prevents the torch from burning down to your hand; Useful for 15–30 minutes of light and fire transport
+{% end %}</p>
 <hr />
 <h2 id="phase-3-rain-protection">Phase 3: Rain Protection</h2>
-<p>In monsoon conditions (SEA, northern Australia) or persistent rain, fire maintenance requires active defence.</p>
+<p>In monsoon conditions (northern Australia) or persistent rain, fire maintenance requires active defence.</p>
 <h3>Tarp/Canopy Shield</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Suspend a tarp, plastic sheet, or large bark sheets above the fire — at least 1.5 m above the flames; Angle the cover so rain runs off AWAY from the fire; The cover must be high enough that heat and sparks do not ignite it; Do not fully enclose the fire — smoke and CO must vent; Even a single large leaf (banana, palm) held over a fledgling fire can save it until it establishes</span></label></li></ol>
-
+<p>{% steps %}
+Suspend a tarp, plastic sheet, or large bark sheets above the fire — at least 1.5 m above the flames; Angle the cover so rain runs off AWAY from the fire; The cover must be high enough that heat and sparks do not ignite it; Do not fully enclose the fire — smoke and CO must vent; Even a single large leaf (banana, palm) held over a fledgling fire can save it until it establishes
+{% end %}</p>
 <h3>Elevated Fire Platform</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Build a platform of green logs (3–4 logs laid side by side); Cover the platform with a thick layer of bark or flat stones; Build your fire ON the platform; The platform keeps the fire above wet ground; Green logs will eventually burn through — rebuild the platform every 2–3 days</span></label></li></ol>
-
+<p>{% steps %}
+Build a platform of green logs (3–4 logs laid side by side); Cover the platform with a thick layer of bark or flat stones; Build your fire ON the platform; The platform keeps the fire above wet ground; Green logs will eventually burn through — rebuild the platform every 2–3 days
+{% end %}</p>
 <hr />
 <h2 id="phase-4-fuel-conservation">Phase 4: Fuel Conservation</h2>
 <p>Fuel gathering consumes calories. Efficient fire management reduces the fuel burden.</p>
@@ -302,8 +313,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tbody>
 </table>
 <h3>Extinguishing Procedure</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Spread the coals and logs to break up the heat mass; Douse thoroughly with water — hissing must stop completely; Stir the wet ashes; Feel with the back of your hand — if any warmth, douse again; A properly extinguished fire is COLD to the touch</span></label></li></ol>
-
+<p>{% steps %}
+Spread the coals and logs to break up the heat mass; Douse thoroughly with water — hissing must stop completely; Stir the wet ashes; Feel with the back of your hand — if any warmth, douse again; A properly extinguished fire is COLD to the touch
+{% end %}</p>
 <hr />
 <h2 id="fire-tools">Fire Tools</h2>
 <p>Improvised tools make fire management easier:</p>

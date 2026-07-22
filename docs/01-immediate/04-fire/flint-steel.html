@@ -131,8 +131,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>Spark-based fire starting is the bridge between modern convenience (lighters, matches) and primitive methods (friction fire). A ferrocerium (ferro) rod produces sparks at over 3000°C — hot enough to ignite almost any tinder — and works in wind, rain, and at altitude. It has no fuel to run out, no moving parts to break, and will last for thousands of fires.</p>
 <hr />
 <h2 id="materials-checklist">Materials Checklist</h2>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Primary ignition:** ferro rod (any size), OR traditional flint and steel striker</li><li>**Striker:** spine of a knife (NOT cutting edge), dedicated steel striker, hacksaw blade piece, or hard sharp rock</li><li>**Tinder:** char cloth (ideal), fine dry grass, paperbark fluff, cattail down — material that catches from a spark</li><li>**Tinder bundle:** prepared and ready to receive the glowing tinder</li><li>**Fire lay:** built and waiting</li></ul></div>
-
+<p>{% materials %}
+<strong>Primary ignition:</strong> ferro rod (any size), OR traditional flint and steel striker; <strong>Striker:</strong> spine of a knife (NOT cutting edge), dedicated steel striker, hacksaw blade piece, or hard sharp rock; <strong>Tinder:</strong> char cloth (ideal), fine dry grass, paperbark fluff, cattail down — material that catches from a spark; <strong>Tinder bundle:</strong> prepared and ready to receive the glowing tinder; <strong>Fire lay:</strong> built and waiting
+{% end %}</p>
 <hr />
 <h2 id="the-hierarchy-of-ignition-methods">The Hierarchy of Ignition Methods</h2>
 <table>
@@ -188,31 +189,38 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="method-1-char-cloth-preparation">Method 1: Char Cloth Preparation</h2>
 <p>Char cloth is the ideal partner for spark-based fire starting. It catches a spark instantly — often on the first strike. Make it before you need it.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>100% cotton fabric (t-shirt, denim, bandana — synthetics do not work)</li><li>Small metal tin with a tight lid (shoe polish tin, mint tin)</li><li>Nail or awl to punch a hole in the lid</li></ul></div>
-
+<p>{% materials %}
+100% cotton fabric (t-shirt, denim, bandana — synthetics do not work); Small metal tin with a tight lid (shoe polish tin, mint tin); Nail or awl to punch a hole in the lid
+{% end %}</p>
 <h3>Step 1: Prepare the Fabric and Tin</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut cotton fabric into squares roughly 5 cm × 5 cm; Punch a small hole (2 mm) in the tin lid — this allows gases to escape</span></label></li></ol>
-
+<p>{% steps %}
+Cut cotton fabric into squares roughly 5 cm × 5 cm; Punch a small hole (2 mm) in the tin lid — this allows gases to escape
+{% end %}</p>
 <h3>Step 2: Pack and Heat</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place fabric squares loosely in the tin — do not pack tightly; Close the tin; Place the tin in the coals of a fire or over a flame; You will see smoke jetting from the hole — the fabric is pyrolising; When smoke stops (3–5 minutes), remove the tin from the heat</span></label></li></ol>
-
+<p>{% steps %}
+Place fabric squares loosely in the tin — do not pack tightly; Close the tin; Place the tin in the coals of a fire or over a flame; You will see smoke jetting from the hole — the fabric is pyrolising; When smoke stops (3–5 minutes), remove the tin from the heat
+{% end %}</p>
 <h3>Step 3: Cool and Store</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Let it cool completely before opening — if you open it hot, the char cloth will ignite on contact with air; The result: black fabric squares that catch a spark instantly; Store in a dry, sealed container</span></label></li></ol>
-
+<p>{% steps %}
+Let it cool completely before opening — if you open it hot, the char cloth will ignite on contact with air; The result: black fabric squares that catch a spark instantly; Store in a dry, sealed container
+{% end %}</p>
 <hr />
 <h2 id="method-2-ferro-rod-striking-technique">Method 2: Ferro Rod Striking Technique</h2>
 <p><img alt="Flint and steel fire starting" src="../../static/images/fire/flint-steel.jpg" />
 <em>Ferro rod striking — produces 3000°C sparks. The most reliable spark-based method. Image: Wikimedia Commons (CC BY-SA).</em></p>
 <p>The ferro rod (ferrocerium) produces 3000°C sparks when scraped with a hard, sharp edge. Technique makes the difference between a shower of sparks and a wasted strike.</p>
 <h3>Step 1: Position the Tinder</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Prepare your tinder pile — placed on a stable surface, shielded from wind; Hold the ferro rod with the tip almost touching the tinder — 2–4 cm above</span></label></li></ol>
-
+<p>{% steps %}
+Prepare your tinder pile — placed on a stable surface, shielded from wind; Hold the ferro rod with the tip almost touching the tinder — 2–4 cm above
+{% end %}</p>
 <h3>Step 2: Strike Correctly</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Position the striker at the TOP of the rod, pressed firmly against it; Scrape DOWN the rod toward the tinder — a firm, controlled stroke that peels off a shower of sparks; The sparks should land directly in the tinder; DO NOT chip at the rod with short, timid strokes — long, committed strokes produce the best sparks</span></label></li></ol>
-
+<p>{% steps %}
+Position the striker at the TOP of the rod, pressed firmly against it; Scrape DOWN the rod toward the tinder — a firm, controlled stroke that peels off a shower of sparks; The sparks should land directly in the tinder; DO NOT chip at the rod with short, timid strokes — long, committed strokes produce the best sparks
+{% end %}</p>
 <h3>Step 3: Ignite the Tinder Bundle</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>When the tinder catches, gently blow to spread the flame (if needed) and transfer to your fire lay; For char cloth: place the glowing cloth in the tinder bundle, fold gently around it, blow steadily; The char cloth does not burst into flame — it glows. The tinder ignites from the heat.</span></label></li></ol>
-
+<p>{% steps %}
+When the tinder catches, gently blow to spread the flame (if needed) and transfer to your fire lay; For char cloth: place the glowing cloth in the tinder bundle, fold gently around it, blow steadily; The char cloth does not burst into flame — it glows. The tinder ignites from the heat.
+{% end %}</p>
 <h3>Common Mistakes — Ferro Rod</h3>
 <table>
 <thead>
@@ -254,27 +262,33 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="method-3-tinder-bundle-preparation">Method 3: Tinder Bundle Preparation</h2>
 <p>A well-prepared tinder bundle is the difference between a spark that lands and a spark that dies.</p>
 <h3>Step 1: Gather and Fluff</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Gather tinder material — enough to fill both hands; Rub and fluff the material between your palms to separate fibres and create air pockets; The finer and fluffier, the easier it ignites</span></label></li></ol>
-
+<p>{% steps %}
+Gather tinder material — enough to fill both hands; Rub and fluff the material between your palms to separate fibres and create air pockets; The finer and fluffier, the easier it ignites
+{% end %}</p>
 <h3>Step 2: Shape the Bundle</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Form a loose bird's nest shape — a cupped bowl with a depression in the centre; The depression is where the spark, ember, or glowing char cloth goes; The bundle should be loose enough to allow airflow but dense enough to contain heat; If you squeeze it, you should still see light through the gaps</span></label></li></ol>
-
+<p>{% steps %}
+Form a loose bird's nest shape — a cupped bowl with a depression in the centre; The depression is where the spark, ember, or glowing char cloth goes; The bundle should be loose enough to allow airflow but dense enough to contain heat; If you squeeze it, you should still see light through the gaps
+{% end %}</p>
 <h3>Step 3: Receive the Ember and Ignite</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place the spark/ember/coal in the depression; Fold the bundle gently around it — do NOT compress; Lift to mouth level and blow steadily; As it ignites, place the burning bundle into your prepared fire lay</span></label></li></ol>
-
+<p>{% steps %}
+Place the spark/ember/coal in the depression; Fold the bundle gently around it — do NOT compress; Lift to mouth level and blow steadily; As it ignites, place the burning bundle into your prepared fire lay
+{% end %}</p>
 <hr />
 <h2 id="method-4-traditional-flint-and-steel">Method 4: Traditional Flint and Steel</h2>
 <p>Before ferro rods, people used high-carbon steel struck against hard stone (flint, chert, quartzite) to produce sparks. This is harder than a ferro rod — true flint-and-steel sparks are tiny shavings of the steel itself, heated by the impact.</p>
 <h3>Step 1: Select Your Flint</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find a hard stone with a sharp edge — flint, chert, quartzite, jade, or obsidian; Test: strike with your steel. Sparks = hard enough. Crumbles = too soft.</span></label></li></ol>
-
+<p>{% steps %}
+Find a hard stone with a sharp edge — flint, chert, quartzite, jade, or obsidian; Test: strike with your steel. Sparks = hard enough. Crumbles = too soft.
+{% end %}</p>
 <h3>Step 2: Position Char Cloth on Flint</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Hold the flint in one hand with the sharp edge facing up; Place a small piece of char cloth ON TOP of the flint, near the edge; Strike the flint edge with the steel — a glancing blow at approximately 30°; The impact shaves tiny fragments of steel, which ignite from the impact heat; The sparks land ON the char cloth on top of the flint</span></label></li></ol>
-
+<p>{% steps %}
+Hold the flint in one hand with the sharp edge facing up; Place a small piece of char cloth ON TOP of the flint, near the edge; Strike the flint edge with the steel — a glancing blow at approximately 30°; The impact shaves tiny fragments of steel, which ignite from the impact heat; The sparks land ON the char cloth on top of the flint
+{% end %}</p>
 <h3>Step 3: Transfer to Tinder</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>When the char cloth glows, transfer to tinder bundle and blow into flame</span></label></li></ol>
-
-<h3>Finding Natural Flint (AU/CN/SEA)</h3>
+<p>{% steps %}
+When the char cloth glows, transfer to tinder bundle and blow into flame
+{% end %}</p>
+<h3>Finding Natural Flint (AU/CN/)</h3>
 <table>
 <thead>
 <tr>
@@ -287,27 +301,22 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <tr>
 <td><strong>Flint</strong></td>
 <td>Chalk and limestone areas, beach pebbles</td>
-<td>Southern China (Guilin karst), some Australian coasts</td>
+<td>(Guilin karst), some Australian coasts</td>
 </tr>
 <tr>
 <td><strong>Chert</strong></td>
 <td>Sedimentary rock exposures, river gravel</td>
-<td>Widespread across Australia and China</td>
+<td>Widespread across Australia and</td>
 </tr>
 <tr>
 <td><strong>Quartzite</strong></td>
 <td>Metamorphic rock areas, creek beds</td>
-<td>Australian interior, Chinese mountain regions</td>
+<td>Australian interior, mountain regions</td>
 </tr>
 <tr>
 <td><strong>Obsidian</strong></td>
 <td>Volcanic areas</td>
-<td>Not common in AU/SEA; exists in parts of China</td>
-</tr>
-<tr>
-<td><strong>Jade</strong></td>
-<td>Riverbeds</td>
-<td>Southern China, parts of SEA</td>
+<td>Not common in AU/; exists in parts of</td>
 </tr>
 </tbody>
 </table>
@@ -364,13 +373,15 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="method-5-magnesium-block">Method 5: Magnesium Block</h2>
 <p>A magnesium fire starter combines a ferro rod with a block of magnesium metal. You shave magnesium filings off the block, then spark them with the ferro rod. The magnesium burns at 2200°C — hot enough to ignite damp kindling.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Shave a pile of magnesium filings off the block — about the size of a 10-cent coin; Pile the shavings on your tinder or kindling; Use the ferro rod on the block to spark directly into the magnesium pile; Magnesium ignites with an intensely bright white flame — do NOT look directly at it; The magnesium burns hot enough to ignite damp or marginal kindling</span></label></li></ol>
-
+<p>{% steps %}
+Shave a pile of magnesium filings off the block — about the size of a 10-cent coin; Pile the shavings on your tinder or kindling; Use the ferro rod on the block to spark directly into the magnesium pile; Magnesium ignites with an intensely bright white flame — do NOT look directly at it; The magnesium burns hot enough to ignite damp or marginal kindling
+{% end %}</p>
 <hr />
 <h2 id="method-6-batteries-and-steel-wool">Method 6: Batteries and Steel Wool</h2>
 <p>A 9-volt battery touched to fine steel wool creates instant fire through electrical resistance. This is a useful emergency technique if you scavenge post-disaster.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Fluff a small amount of fine steel wool (grade 000 or 0000) into a loose ball; Touch both terminals of a 9V battery to the steel wool simultaneously; The steel wool will glow, spark, and burn rapidly — have tinder ready; Immediately place the burning steel wool into your prepared tinder bundle; Any battery works — 9V is easiest; AA/AAA require wiring</span></label></li></ol>
-
+<p>{% steps %}
+Fluff a small amount of fine steel wool (grade 000 or 0000) into a loose ball; Touch both terminals of a 9V battery to the steel wool simultaneously; The steel wool will glow, spark, and burn rapidly — have tinder ready; Immediately place the burning steel wool into your prepared tinder bundle; Any battery works — 9V is easiest; AA/AAA require wiring
+{% end %}</p>
 <hr />
 <h2 id="wet-conditions">Wet Conditions</h2>
 <p>Spark methods work in rain better than any other fire-starting method:</p>

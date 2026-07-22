@@ -250,13 +250,15 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 2 minutes — get in, close doors, settle. Fastest effective shelter available.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 2 minutes — get in, close doors, settle. Fastest effective shelter available.
+{% end %}</p>
 <p><strong>Vehicle safety rules:</strong></p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Crack a window 1 cm — prevents condensation build-up and CO₂ accumulation; Remove metal objects from pockets — the vehicle body becomes very cold at night; Use seat covers and floor mats as extra insulation over yourself; Do NOT run the engine while sleeping — carbon monoxide poisoning is silent, odourless, and fatal; If multiple people, huddle together — shared body heat significantly warms the cabin</span></label></li></ol>
-
+<p>{% steps %}
+Crack a window 1 cm — prevents condensation build-up and CO₂ accumulation; Remove metal objects from pockets — the vehicle body becomes very cold at night; Use seat covers and floor mats as extra insulation over yourself; Do NOT run the engine while sleeping — carbon monoxide poisoning is silent, odourless, and fatal; If multiple people, huddle together — shared body heat significantly warms the cabin
+{% end %}</p>
 <h3>Shipping Containers &amp; Trailers</h3>
-<p>Abandoned shipping containers (common at ports, industrial areas across AU/CN/SEA) provide instant shelter:</p>
+<p>Abandoned shipping containers (common at ports, industrial areas across AU/CN/) provide instant shelter:</p>
 <table>
 <thead>
 <tr>
@@ -279,8 +281,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 5 minutes to inspect and occupy.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 5 minutes to inspect and occupy.
+{% end %}</p>
 <hr />
 <h2 id="natural-cavities">Natural Cavities</h2>
 <h3>Caves &amp; Rock Overhangs</h3>
@@ -322,12 +325,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 5–10 minutes — includes safety inspection.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 5–10 minutes — includes safety inspection.
+{% end %}</p>
 <p><strong>Australian cave warning:</strong> Many Australian caves are in sandstone escarpments (Blue Mountains, Kimberley, Grampians). Some are Aboriginal rock art sites — do not damage or disturb them. Northern Australian caves may contain freshwater crocodiles.</p>
-<p><strong>SEA cave warning:</strong> Limestone caves in Thailand, Vietnam, and southern China may flood rapidly during monsoon rains. Check weather patterns before occupying.</p>
+<p>** cave warning:** Limestone caves in Thailand, Vietnam, and southern may flood rapidly during monsoon rains. Check weather patterns before occupying.</p>
 <h3>Hollow Trees</h3>
-<p>Large trees with hollow bases (common in old-growth eucalypts in Australia, banyan trees in SEA and southern China) can shelter 1–2 people:</p>
+<p>Large trees with hollow bases (common in old-growth eucalypts in Australia, banyan trees in and southern ) can shelter 1–2 people:</p>
 <table>
 <thead>
 <tr>
@@ -350,8 +354,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 10 minutes to inspect and clear.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 10 minutes to inspect and clear.
+{% end %}</p>
 <hr />
 <h2 id="dense-vegetation">Dense Vegetation</h2>
 <h3>Under Large Trees</h3>
@@ -366,11 +371,6 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </thead>
 <tbody>
 <tr>
-<td><strong>Banyan</strong></td>
-<td>SEA, southern China</td>
-<td>Excellent — enormous canopies, aerial roots form natural "rooms"</td>
-</tr>
-<tr>
 <td><strong>Moreton Bay fig</strong></td>
 <td>Eastern Australia</td>
 <td>Excellent — massive canopy spread</td>
@@ -382,8 +382,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 15–20 minutes for basic setup with ground clearing.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 15–20 minutes for basic setup with ground clearing.
+{% end %}</p>
 <h3>Bamboo Groves</h3>
 <p>Bamboo is self-spacing — between clumps, there is often clear ground sheltered by the tall culms:</p>
 <ul>
@@ -391,22 +392,25 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li>Thatch with bamboo leaves</li>
 <li>Bamboo groves are warmer than open ground — the dense stalks trap air</li>
 </ul>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 20–30 minutes for an A-frame shelter.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 20–30 minutes for an A-frame shelter.
+{% end %}</p>
 <h3>Swamp/Mangrove — AVOID</h3>
 <p><strong>Do not sleep in mangroves or swamps:</strong>
 - Tidal flooding risk
-- Crocodile habitat (northern Australia, SEA)
+- Crocodile habitat (northern Australia)
 - Mosquito density is extreme
 - Mud is insulating but immersion in wet ground kills faster than exposure</p>
 <hr />
 <h2 id="terrain-features">Terrain Features</h2>
 <h3>Ditches, Gullies, Embankments</h3>
 <p>Natural depressions provide wind protection and can be improved quickly:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find a gully or ditch with a wall on the windward side; Clear the floor of debris; Lay bedding (leaves, grass, clothing); Cover yourself with whatever is available — branches with leaves, bark, clothing; If you have a tarp or emergency blanket, anchor one edge on the windward lip and pull it over you; The gully wall blocks wind; your body heat warms the enclosed space</span></label></li></ol>
-
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 10–15 minutes.</div></div>
-
+<p>{% steps %}
+Find a gully or ditch with a wall on the windward side; Clear the floor of debris; Lay bedding (leaves, grass, clothing); Cover yourself with whatever is available — branches with leaves, bark, clothing; If you have a tarp or emergency blanket, anchor one edge on the windward lip and pull it over you; The gully wall blocks wind; your body heat warms the enclosed space
+{% end %}</p>
+<p>{% info %}
+<strong>Time estimate:</strong> 10–15 minutes.
+{% end %}</p>
 <p><strong>Warning:</strong> Do not shelter in dry creek beds or drainage lines if rain is forecast. Flash floods kill.</p>
 <h3>Against Rock Faces or Embankments</h3>
 <p>A solid wall on one side blocks 50% of wind exposure:</p>
@@ -415,8 +419,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li>Build a small windbreak on the opposite side with branches or rocks</li>
 <li>The wall radiates stored heat back at night (especially dark rock that has been in sun all day)</li>
 </ul>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 5–10 minutes to set up.</div></div>
-
+<p>{% info %}
+<strong>Time estimate:</strong> 5–10 minutes to set up.
+{% end %}</p>
 <hr />
 <h2 id="clothing-as-shelter">Clothing as Shelter</h2>
 <p>Your clothing is your first and most portable shelter. Maximise it:</p>
@@ -480,15 +485,18 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tbody>
 </table>
 <h3>Emergency Blanket (Mylar) as Clothing</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut a head hole in the centre; Wear like a poncho; Cinch at the waist with cord or belt; Reflective side INWARD — reflects your body heat back to you (the "reflect heat outward" guidance is for signalling, not warmth); Cover your head — a mylar hood or beanie dramatically reduces heat loss</span></label></li></ol>
-
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Time estimate:** 3 minutes. **Effectiveness:** Can raise perceived temperature by 5–10°C.</div></div>
-
+<p>{% steps %}
+Cut a head hole in the centre; Wear like a poncho; Cinch at the waist with cord or belt; Reflective side INWARD — reflects your body heat back to you (the "reflect heat outward" guidance is for signalling, not warmth); Cover your head — a mylar hood or beanie dramatically reduces heat loss
+{% end %}</p>
+<p>{% info %}
+<strong>Time estimate:</strong> 3 minutes. <strong>Effectiveness:</strong> Can raise perceived temperature by 5–10°C.
+{% end %}</p>
 <hr />
 <h2 id="10-minute-debris-pile">10-Minute Debris Pile</h2>
 <p>If you have nothing and need shelter NOW:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find a dry spot — under a tree canopy, against a log, or beside a rock; Pile dry leaves, pine needles, grass, or bark into a mound at least 60 cm high; Burrow into the side of the pile — create a cavity just large enough for your body; Pull material over yourself once inside; The debris traps your body heat; you are essentially bedding down like an animal; This is not comfortable, but it keeps you alive through a cold night</span></label></li></ol>
-
+<p>{% steps %}
+Find a dry spot — under a tree canopy, against a log, or beside a rock; Pile dry leaves, pine needles, grass, or bark into a mound at least 60 cm high; Burrow into the side of the pile — create a cavity just large enough for your body; Pull material over yourself once inside; The debris traps your body heat; you are essentially bedding down like an animal; This is not comfortable, but it keeps you alive through a cold night
+{% end %}</p>
 <table>
 <thead>
 <tr>

@@ -54,7 +54,6 @@ In post-disaster scenarios, buildings may be available but compromised:
 
 A vehicle is an outstanding emergency shelter:
 
-
 | Feature | Why it matters |
 |---------|---------------|
 | **Windproof & waterproof** | Already built — zero construction time |
@@ -62,19 +61,19 @@ A vehicle is an outstanding emergency shelter:
 | **Elevated off ground** | No ground conduction heat loss |
 | **Reclining seats** | Keeps you off the cold floor |
 
-{% info() %}
+{% info %}
 **Time estimate:** 2 minutes — get in, close doors, settle. Fastest effective shelter available.
 {% end %}
 
 **Vehicle safety rules:**
 
-{% steps() %}
+{% steps %}
 Crack a window 1 cm — prevents condensation build-up and CO₂ accumulation; Remove metal objects from pockets — the vehicle body becomes very cold at night; Use seat covers and floor mats as extra insulation over yourself; Do NOT run the engine while sleeping — carbon monoxide poisoning is silent, odourless, and fatal; If multiple people, huddle together — shared body heat significantly warms the cabin
 {% end %}
 
 ### Shipping Containers & Trailers
 
-Abandoned shipping containers (common at ports, industrial areas across AU/CN/SEA) provide instant shelter:
+Abandoned shipping containers (common at ports, industrial areas across AU/CN/) provide instant shelter:
 
 | Pros | Cons |
 |------|------|
@@ -82,7 +81,7 @@ Abandoned shipping containers (common at ports, industrial areas across AU/CN/SE
 | Structurally strong | Metal = extreme temperatures (oven in sun, freezer at night) |
 | Large interior space | May have carried toxic cargo — check for chemical residue |
 
-{% info() %}
+{% info %}
 **Time estimate:** 5 minutes to inspect and occupy.
 {% end %}
 
@@ -94,7 +93,6 @@ Abandoned shipping containers (common at ports, industrial areas across AU/CN/SE
 
 Ideal if available — nature's fully-built shelters.
 
-
 **Pre-occupancy hazard checklist:**
 
 | Hazard | How to check | Pass/Fail |
@@ -105,18 +103,17 @@ Ideal if available — nature's fully-built shelters.
 | Bats | Guano (bat droppings) present? | Avoid — histoplasmosis risk (lung infection) |
 | CO₂ / heavy gases | Feel short of breath, dizzy? Flame burns strangely? | Leave immediately if yes |
 
-{% info() %}
+{% info %}
 **Time estimate:** 5–10 minutes — includes safety inspection.
 {% end %}
 
 **Australian cave warning:** Many Australian caves are in sandstone escarpments (Blue Mountains, Kimberley, Grampians). Some are Aboriginal rock art sites — do not damage or disturb them. Northern Australian caves may contain freshwater crocodiles.
 
-**SEA cave warning:** Limestone caves in Thailand, Vietnam, and southern China may flood rapidly during monsoon rains. Check weather patterns before occupying.
+** cave warning:** Limestone caves in Thailand, Vietnam, and southern may flood rapidly during monsoon rains. Check weather patterns before occupying.
 
 ### Hollow Trees
 
-Large trees with hollow bases (common in old-growth eucalypts in Australia, banyan trees in SEA and southern China) can shelter 1–2 people:
-
+Large trees with hollow bases (common in old-growth eucalypts in Australia, banyan trees in and southern ) can shelter 1–2 people:
 
 | Pros | Cons |
 |------|------|
@@ -124,7 +121,7 @@ Large trees with hollow bases (common in old-growth eucalypts in Australia, bany
 | Already standing — zero construction | Must clear debris and check for inhabitants |
 | Rain protection from canopy | Do NOT light a fire inside — hollow tree = chimney |
 
-{% info() %}
+{% info %}
 **Time estimate:** 10 minutes to inspect and clear.
 {% end %}
 
@@ -138,12 +135,10 @@ The canopy of a large tree reduces rainfall by 30–50% and blocks wind:
 
 | Tree type | Region | Shelter quality |
 |-----------|--------|----------------|
-| **Banyan** | SEA, southern China | Excellent — enormous canopies, aerial roots form natural "rooms" |
 | **Moreton Bay fig** | Eastern Australia | Excellent — massive canopy spread |
 | **River red gum** | Australia-wide | Good — broad canopies, always near water |
 
-
-{% info() %}
+{% info %}
 **Time estimate:** 15–20 minutes for basic setup with ground clearing.
 {% end %}
 
@@ -155,7 +150,7 @@ Bamboo is self-spacing — between clumps, there is often clear ground sheltered
 - Thatch with bamboo leaves
 - Bamboo groves are warmer than open ground — the dense stalks trap air
 
-{% info() %}
+{% info %}
 **Time estimate:** 20–30 minutes for an A-frame shelter.
 {% end %}
 
@@ -163,7 +158,7 @@ Bamboo is self-spacing — between clumps, there is often clear ground sheltered
 
 **Do not sleep in mangroves or swamps:**
 - Tidal flooding risk
-- Crocodile habitat (northern Australia, SEA)
+- Crocodile habitat (northern Australia)
 - Mosquito density is extreme
 - Mud is insulating but immersion in wet ground kills faster than exposure
 
@@ -175,12 +170,11 @@ Bamboo is self-spacing — between clumps, there is often clear ground sheltered
 
 Natural depressions provide wind protection and can be improved quickly:
 
-
-{% steps() %}
+{% steps %}
 Find a gully or ditch with a wall on the windward side; Clear the floor of debris; Lay bedding (leaves, grass, clothing); Cover yourself with whatever is available — branches with leaves, bark, clothing; If you have a tarp or emergency blanket, anchor one edge on the windward lip and pull it over you; The gully wall blocks wind; your body heat warms the enclosed space
 {% end %}
 
-{% info() %}
+{% info %}
 **Time estimate:** 10–15 minutes.
 {% end %}
 
@@ -194,7 +188,7 @@ A solid wall on one side blocks 50% of wind exposure:
 - Build a small windbreak on the opposite side with branches or rocks
 - The wall radiates stored heat back at night (especially dark rock that has been in sun all day)
 
-{% info() %}
+{% info %}
 **Time estimate:** 5–10 minutes to set up.
 {% end %}
 
@@ -212,7 +206,6 @@ Your clothing is your first and most portable shelter. Maximise it:
 | **Mid layer** | Insulation — traps warm air | Fleece, wool, down |
 | **Outer layer** | Wind and water protection | Waterproof-breathable shell; emergency poncho; plastic bag with holes cut |
 
-
 ### Improvised Insulation Techniques
 
 | Technique | How to do it | Time to apply |
@@ -224,12 +217,11 @@ Your clothing is your first and most portable shelter. Maximise it:
 
 ### Emergency Blanket (Mylar) as Clothing
 
-
-{% steps() %}
+{% steps %}
 Cut a head hole in the centre; Wear like a poncho; Cinch at the waist with cord or belt; Reflective side INWARD — reflects your body heat back to you (the "reflect heat outward" guidance is for signalling, not warmth); Cover your head — a mylar hood or beanie dramatically reduces heat loss
 {% end %}
 
-{% info() %}
+{% info %}
 **Time estimate:** 3 minutes. **Effectiveness:** Can raise perceived temperature by 5–10°C.
 {% end %}
 
@@ -239,8 +231,7 @@ Cut a head hole in the centre; Wear like a poncho; Cinch at the waist with cord 
 
 If you have nothing and need shelter NOW:
 
-
-{% steps() %}
+{% steps %}
 Find a dry spot — under a tree canopy, against a log, or beside a rock; Pile dry leaves, pine needles, grass, or bark into a mound at least 60 cm high; Burrow into the side of the pile — create a cavity just large enough for your body; Pull material over yourself once inside; The debris traps your body heat; you are essentially bedding down like an animal; This is not comfortable, but it keeps you alive through a cold night
 {% end %}
 

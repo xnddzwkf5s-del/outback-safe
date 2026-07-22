@@ -14,40 +14,40 @@ Water exists in every terrestrial environment on Earth — even deserts. The tri
 ## Decision Tree — Where to Look First
 
 ```
-                    START: You Need Water
-                            |
-                     Do you see/hear
-                     flowing water?
-                      /         \
-                    YES          NO
-                     |            |
-                Go to it.     Are you on
-                Treat before   high ground?
-                drinking.      /         \
-                             YES          NO
-                              |            |
-                         Walk downhill.  Look for green
-                         Follow drainage  vegetation lines.
-                         lines.           Are there animals
-                              |            or insects?
-                         Any damp soil    /         \
-                         or green area?  YES          NO
-                              |           |            |
-                         Dig seep well.  Follow       Look for
-                              |        bird flight    rock outcrops,
-                              |        lines at       dry creek beds,
-                         Water found?  dawn/dusk.     valley junctions.
-                           /      \        |          Dig at lowest
-                         YES       NO    Water found?  point.
-                          |         |     /      \
-                        Treat &   Climb to  YES    NO
-                        drink.   ridge for    |     |
-                                 visibility. Treat.  Set up
-                                 Scan for            solar still
-                                 valleys, green     or transpiration
-                                 lines, water.      bag. Conserve
-                                                    energy. Wait
-                                                    for dawn/dew.
+ START: You Need Water
+ |
+ Do you see/hear
+ flowing water?
+ / \
+ YES NO
+ | |
+ Go to it. Are you on
+ Treat before high ground?
+ drinking. / \
+ YES NO
+ | |
+ Walk downhill. Look for green
+ Follow drainage vegetation lines.
+ lines. Are there animals
+ | or insects?
+ Any damp soil / \
+ or green area? YES NO
+ | | |
+ Dig seep well. Follow Look for
+ | bird flight rock outcrops,
+ | lines at dry creek beds,
+ Water found? dawn/dusk. valley junctions.
+ / \ | Dig at lowest
+ YES NO Water found? point.
+ | | / \
+ Treat & Climb to YES NO
+ drink. ridge for | |
+ visibility. Treat. Set up
+ Scan for solar still
+ valleys, green or transpiration
+ lines, water. bag. Conserve
+ energy. Wait
+ for dawn/dew.
 ```
 
 ---
@@ -65,12 +65,12 @@ If you are lost and thirsty, the single most reliable strategy is to follow the 
 ### Drainage Patterns
 
 ```
-    Ridge
-     /\
-    /  \        ← No water on ridges — they shed water
-   /    \
-  /      \_____  ← Look for darker vegetation along drainage lines
- /  GREEN  \         (indicates moisture near surface)
+ Ridge
+ /\
+ / \ ← No water on ridges — they shed water
+ / \
+ / \_____ ← Look for darker vegetation along drainage lines
+ / GREEN \ (indicates moisture near surface)
 /____________\___ Water collects at the valley floor
 ```
 
@@ -79,25 +79,22 @@ If you are lost and thirsty, the single most reliable strategy is to follow the 
 - **Drainage lines** — Even dry creek beds in Australia's outback may hold water just below the surface. Dig at the **outside bend** of a dry creek bed — water scours deeper there.
 - **Converging valleys** — Where two valleys meet, the water table is shallowest. Dig at the junction.
 - **Rock outcrops** — Water seeps from cracks and fissures at the base of cliffs and rock faces. In Australian sandstone escarpments (Blue Mountains, Kimberley), water pools in rock hollows (gnammas) for days after rain.
-- **Limestone karst** — Common in southern China (Guilin, Yunnan) and parts of SEA. Caves and sinkholes may contain underground streams. Enter with extreme caution — flash flooding risk.
-
+- **Limestone karst** — Common in southern (Guilin, Yunnan) and parts of . Caves and sinkholes may contain underground streams. Enter with extreme caution — flash flooding risk.
 
 ### Green Lines in Dry Country
 
-In arid Australia (the "Red Centre"), Southeast Asian dry season, or northern Chinese steppe:
+In arid Australia (the "Red Centre"), n dry season, or northern steppe:
 
 - **Lines of green vegetation** snaking through brown terrain = watercourse. Even if the surface is dry, water is near the surface.
 - **River red gums** (*Eucalyptus camaldulensis*) in Australia always indicate permanent or semi-permanent water — their roots reach the water table.
-- **Pandanus palms** (coastal northern Australia and SEA) grow only where fresh water is near the surface.
-- **Bamboo thickets** (throughout SEA and southern China) indicate high soil moisture — often near streams.
-
+- **Pandanus palms** (coastal northern Australia ) grow only where fresh water is near the surface.
+- **Bamboo thickets** (throughout and southern ) indicate high soil moisture — often near streams.
 
 ---
 
 ## Animal Signs
 
 Animals need water daily. They know where it is. Learn to read their behaviour.
-
 
 ### Birds
 
@@ -112,7 +109,7 @@ Animals need water daily. They know where it is. Learn to read their behaviour.
 
 - **Game trails converging downhill** — follow them. The wider and more worn the trail, the closer you are to water.
 - **Kangaroos and wallabies** (Australia) dig shallow wells in dry creek beds — called "kangaroo wells." These can be deepened for human use.
-- **Wild pigs** (Australia, SEA, southern China) wallow near water sources. Their wallows may contain water but it will be heavily contaminated.
+- **Wild pigs** (Australia) wallow near water sources. Their wallows may contain water but it will be heavily contaminated.
 - **Bats** emerging from caves at dusk in large numbers — often near water.
 
 ### Insects
@@ -128,19 +125,13 @@ Animals need water daily. They know where it is. Learn to read their behaviour.
 | Plant | Region | What it indicates |
 |-------|--------|-------------------|
 | Cattails / bullrushes (*Typha*) | Worldwide | Permanent shallow water or saturated soil |
-| Willows (*Salix*) | Temperate China | Water within 5 m |
-| Cottonwoods / poplars | Northern China | Water within 10 m |
 | River red gum (*E. camaldulensis*) | Australia-wide | Permanent groundwater |
 | Melaleuca / paperbark | Northern Australia | Swampy, seasonal water |
-| Bamboo | SEA, southern China | High soil moisture |
-| Banana / plantain | SEA | Planted near water sources |
-| Water spinach (*Ipomoea aquatica*) | SEA, southern China | Grows IN water |
-| Taro | SEA, Pacific islands | Wet soil, near streams |
 | Lantana thickets | Northern Australia | Riparian zones |
 
 ### Devil's Advocate — False Water Indicators
 
-- **Mango trees** and **coconut palms** are often planted near water, but they can survive far from it in SEA. Do not rely on them.
+- **Mango trees** and **coconut palms** are often planted near water, but they can survive far from it in . Do not rely on them.
 - **Cacti** — The "barrel cactus full of water" myth is largely Hollywood. Most cactus fluid is alkaline, bitter, and causes diarrhoea — which worsens dehydration. In real emergencies, prickly pear fruit (Australia) is a moisture source, but the pads are not.
 
 ---
@@ -156,24 +147,6 @@ Animals need water daily. They know where it is. Learn to read their behaviour.
 | **Summer (Dec–Feb)** | Southern Australia | Hot and dry. Surface water scarce. Dig in drainage lines. Morning dew is reliable near coast. |
 | **Winter (Jun–Aug)** | Southern Australia | Cooler. Creeks flow in higher country (Great Dividing Range). Frost melt provides small amounts in alpine areas. |
 
-### Southeast Asia
-
-| Season | Region | Water availability |
-|--------|--------|-------------------|
-| **Wet/Southwest Monsoon (May–Oct)** | Thailand, Myanmar, Laos, Cambodia, Vietnam, Philippines | Torrential rain. Rain catchment primary. Surface water abundant but turbid and contaminated. Bamboo water available. |
-| **Dry/Northeast Monsoon (Nov–Apr)** | Most of SEA | Surface water reduces. Dig in dry riverbeds. Bamboo water less reliable. Mountain streams still flow in highland areas (northern Thailand, Laos, Vietnam). |
-| **Year-round** | Equatorial (Malaysia, Indonesia, southern Philippines) | Consistent rainfall. Water sources steady but always treat — high pathogen load in tropical water. |
-
-### China
-
-| Season | Region | Water availability |
-|--------|--------|-------------------|
-| **Summer (Jun–Aug)** | Southern China (Guangdong, Guangxi, Yunnan) | Heavy monsoon rain. Abundant surface water. Flood risk. Treat for turbidity. |
-| **Summer (Jun–Aug)** | Northern China (Inner Mongolia, Gansu, Xinjiang) | Hot and arid. Limited surface water. Groundwater deep. Dew collection at dawn. Dig in dry riverbeds. |
-| **Winter (Dec–Feb)** | Northern China | Snow and ice are water sources but must be melted (eating snow directly lowers core temperature — dangerous). Frozen rivers require breaking through ice. |
-| **Spring/Autumn** | Nationwide | Transitional. Southern water stable. Northern water scarce until snowmelt (spring) or before freeze (autumn). |
-
-
 ---
 
 ## Collecting Water in Dry Environments
@@ -182,43 +155,40 @@ Animals need water daily. They know where it is. Learn to read their behaviour.
 
 Where the ground is damp or green vegetation grows in an otherwise dry area:
 
-
-{% steps() %}
+{% steps %}
 Find a low point — base of a dry creek bank, valley floor, damp depression; Dig a hole approximately 30 cm wide and 30–50 cm deep; If the soil becomes damp, stop — water will seep into the hole; Wait 20–30 minutes for water to collect; Scoop the clear water from the surface — do not stir up sediment; Filter through cloth before drinking; Treat before consumption (see Purification)
 {% end %}
 
 ```
-   Seep Well — Cross Section
+ Seep Well — Cross Section
 
-   Ground level  ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                      \               /
-                       \  _________  /
-                        \/   water  \/
-                     soil  \_______/  soil
-                            seepage ↑
+ Ground level ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ \ /
+ \ _________ /
+ \/ water \/
+ soil \_______/ soil
+ seepage ↑
 ```
 
 ### Dew Collection
 
 In coastal or humid environments, dew can provide useful quantities of water.
 
-
-{% materials() %}
+{% materials %}
 Absorbent cloth (t-shirt, towel, bandana); A container for wringing
 {% end %}
 
-{% steps() %}
+{% steps %}
 Before dawn, walk through tall grass, meadows, or low vegetation dragging the absorbent cloth behind you; The cloth will collect dew from the vegetation; Wring the cloth into a container; Repeat; Treat before drinking; Expected yield: 100–500 mL per cloth in humid conditions — enough for survival but not comfort
 {% end %}
 
 ### Tree Transpiration Bags
 
-{% materials() %}
+{% materials %}
 Large clear plastic bag; Cord or tape
 {% end %}
 
-
-{% steps() %}
+{% steps %}
 Select a leafy branch on a non-toxic tree (avoid eucalyptus — oils can leach into water) on a sunny morning; Place the plastic bag over the branch end, enclosing as many leaves as possible; Seal the open end tightly around the branch with cord or tape; Place a small rock in the bottom corner of the bag to create a collection point; Leave for several hours — the sun drives transpiration, and water vapour condenses inside the bag; Collect water from the bag corner
 {% end %}
 
@@ -226,7 +196,7 @@ Expected yield: 200–500 mL per bag per sunny day.
 
 ---
 
-## Water in Tropical Environments (SEA, Northern Australia, Southern China)
+## Water in Tropical Environments (Northern Australia)
 
 These regions receive heavy seasonal rainfall but can be surprisingly dry in the dry season.
 
@@ -236,16 +206,14 @@ These regions receive heavy seasonal rainfall but can be surprisingly dry in the
 - **Banana/plantain stumps**: cut the trunk about 30 cm above ground. Scoop out a bowl-shaped depression in the stump. It will fill with water within hours.
 - **Vines**: cut a vine as high as you can reach, then cut near the bottom. Water flows from the bottom if the vine contains it. **Test vine sap on skin before drinking** — some vines are toxic.
 
-
 ---
 
-## Water in Arid Environments (Outback Australia, Northern China)
+## Water in Arid Environments (Outback Australia)
 
 - **Kangaroo/rock wallaby wells** — dig out and deepen existing animal wells in dry creek beds
 - **Rock hollows (gnammas)** — still water in rock depressions after rain. Must be treated.
 - **Clay pans** — flat depressions in arid Australia that hold water briefly after rain. Dig at the lowest point.
 - **Morning dew on metal** — any metal object (vehicle wreckage, sign) collects heavy dew at dawn. Wipe with cloth and wring.
-
 
 ---
 
@@ -326,11 +294,11 @@ Australian birds are excellent water indicators. Learn their patterns:
 
 In the Australian desert, morning dew can provide useful water:
 
-{% materials() %}
+{% materials %}
 Cloth (t-shirt, towel, bandana); Container for wringing; Vehicle with metal surfaces (ideal)
 {% end %}
 
-{% steps() %}
+{% steps %}
 Before dawn, wipe all metal surfaces (vehicle, sign, wreckage) with the cloth; Wring the cloth into a container; Repeat until no more water collects; Expected yield: 200–500 mL per car in desert conditions — enough to extend your water supply
 {% end %}
 

@@ -29,12 +29,11 @@ The lean-to is the fastest enclosed shelter you can build. If you have a tarp, e
 
 ### Variation 1: A-Frame Lean-To (Fastest)
 
-
-{% materials() %}
+{% materials %}
 Tarp, emergency blanket, or plastic sheet; Ridge line (cord, paracord, rope, or strong vine); Two anchor points (trees, poles, or forked sticks at each end); 4–6 ground stakes or heavy rocks; Additional cord for tie-downs if windy
 {% end %}
 
-{% steps() %}
+{% steps %}
 Tie the ridge line tightly between two trees at approximately 1.2–1.5 m height; Drape the tarp over the ridge line so it forms an A-frame (equal lengths on both sides); Pull the tarp edges out to form the shelter walls; Stake down or weigh down the side edges with rocks; If you have a groundsheet, place it inside before staking the walls; The tarp should be taut but not drum-tight — allow some give for wind; Angle the closed end toward the wind; The open ends face away from wind
 {% end %}
 
@@ -51,8 +50,7 @@ Tie the ridge line tightly between two trees at approximately 1.2–1.5 m height
 
 ### Variation 2: Single-Slope Lean-To (Fire-Friendly)
 
-
-{% steps() %}
+{% steps %}
 Tie the ridge line between two trees at approximately 1.5 m height (high side); Pull the tarp from the ridge line down to the ground at a 45° angle; Stake the bottom edge to the ground; The back (high side) faces the wind — wind hits the tarp and goes over; The open front faces away from wind; This design is better for a fire — the open front lets radiant heat in
 {% end %}
 
@@ -65,7 +63,7 @@ Tie the ridge line between two trees at approximately 1.5 m height (high side); 
 | **Fire compatibility** | Excellent — open front captures radiant heat |
 | **Best for** | Cold, dry conditions with a fire |
 
-{% info() %}
+{% info %}
 **With a fire:** A single-slope lean-to with the open face toward a fire and a reflector wall behind the fire is one of the coziest survival setups. The tarp reflects radiant heat back down onto you.
 {% end %}
 
@@ -73,8 +71,7 @@ Tie the ridge line between two trees at approximately 1.5 m height (high side); 
 
 ### Variation 3: Plow-Point (Wind-Directional)
 
-
-{% steps() %}
+{% steps %}
 Tie one corner of the tarp to a tree at approximately 1.5 m height; Pull the opposite corner straight back along the ground and stake it; Stake the two remaining corners to the ground, creating a wedge shape; The narrow opening faces away from wind; The wedge shape sheds wind aerodynamically; Tighten all edges — the tarp should be taut
 {% end %}
 
@@ -95,13 +92,11 @@ If you have no tarp, you can build an effective lean-to from natural materials i
 
 ### Ridge Pole Lean-To
 
-
-
-{% materials() %}
+{% materials %}
 Strong ridge pole (3–4 m, wrist-thick); Two support poles with forked tops (or use a tree fork); 8–12 rafter poles (thumb-thick, 2 m long); Thatching material (leaves, grass, bark, palm fronds); Cordage for lashing (vines, bark strips, paracord); Bedding material
 {% end %}
 
-{% steps() %}
+{% steps %}
 Set two forked support poles into the ground at the desired shelter length — about 1.2–1.5 m high; Alternatively, lash the ridge pole to a tree at one end and use one support at the other; Lay the ridge pole across the fork supports and lash it in place; Lean rafter poles against the ridge pole at 45–60° angle, spacing 15–20 cm apart; The rafter poles extend from the ridge pole down to the ground; Begin thatching from the bottom up — overlapping layers like roof shingles; Thatch thickness: 30+ cm for rain protection; Cover the ridge line thoroughly — this is where most leaks occur; Optional: build side walls by adding shorter rafters at each end
 {% end %}
 
@@ -113,7 +108,7 @@ Set two forked support poles into the ground at the desired shelter length — a
 | **Space** | 1–3 people |
 | **Durability** | 1–4 weeks depending on thatch material |
 
-### Thatching Materials (AU/CN/SEA)
+### Thatching Materials (AU/CN/)
 
 | Material | How to prepare | Durability |
 |----------|---------------|------------|
@@ -123,14 +118,12 @@ Set two forked support poles into the ground at the desired shelter length — a
 | **Split bamboo** | Split lengthwise; remove nodes; alternate concave-up/concave-down like roof tiles | 1–3 months |
 | **Grass bundles** | Tie grass into handful-sized bundles; tie to rafters from bottom up | 2–4 weeks |
 | **Bark sheets** (eucalyptus) | Peel from dead trees; lay flat; heavy — needs strong rafters | 1–3 months |
-| **Coconut fronds (atap)** | Traditional SEA method; weave fronds into panels; time-consuming but excellent | 3–6 months |
 
 ---
 
 ## Reflector Wall Addition
 
 A lean-to becomes dramatically more effective when combined with a fire and reflector wall:
-
 
 **Key dimensions:**
 - Fire: 1.5–2 m from the lean-to opening
@@ -140,11 +133,11 @@ A lean-to becomes dramatically more effective when combined with a fire and refl
 
 **The reflector wall bounces heat back into the shelter.** Without it, 90% of the fire's radiant heat is lost to the open air.
 
-{% steps() %}
+{% steps %}
 Build a wall of logs (green wood, so it does not catch fire) or rocks; Stack to 60–90 cm height; Slightly concave toward the shelter — it focuses reflected heat; Alternatively: drive four stakes into the ground and stack logs between them; Ensure the wall is stable — collapsing logs into the fire is dangerous
 {% end %}
 
-{% info() %}
+{% info %}
 **Temperature boost:** A reflector wall can increase perceived warmth inside the shelter by 5–10°C when a fire is burning. This is the difference between shivering and comfortable sleep.
 {% end %}
 
@@ -179,7 +172,6 @@ Build a wall of logs (green wood, so it does not catch fire) or rocks; Stack to 
 
 Before you settle in for the night:
 
-
 1. **Lie inside and look up** — can you see sky through any gaps? Patch them.
 2. **Pour a cup of water on the ridge line** — does it run off or seep through? If it seeps, add more thatch at the ridge.
 3. **Check the ground slope** — if water runs under the shelter, dig a drainage trench on the uphill side.
@@ -190,7 +182,7 @@ Before you settle in for the night:
 
 If you have time and the weather is cold, convert your lean-to:
 
-{% steps() %}
+{% steps %}
 Thatch more heavily — build up to 60+ cm; Close off one or both ends with additional poles and thatch; Create a door plug for the entrance; The lean-to becomes an A-frame debris hut with better weatherproofing; This conversion takes an additional 1–2 hours but significantly improves warmth
 {% end %}
 

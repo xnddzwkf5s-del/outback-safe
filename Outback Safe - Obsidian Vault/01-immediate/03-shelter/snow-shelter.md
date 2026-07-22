@@ -9,8 +9,8 @@ weight = 4
 
 Snow is one of the best insulating materials on Earth. The air trapped between snow crystals gives it an R-value comparable to fibreglass insulation. A properly built snow shelter can maintain an interior temperature around 0°C even when outside temperatures drop to -40°C — a life-saving 40°C difference.
 
-{% info() %}
-**Regional relevance:** This page applies to northern China (Heilongjiang, Inner Mongolia, Xinjiang, Tibetan plateau), the Australian Alps (Snowy Mountains, Tasmanian highlands — winter only), and high-altitude SEA (northern Vietnam, northern Thailand peaks, Myanmar highlands). If you are in tropical SEA or northern Australia, skip to [Debris Hut](01-immediate/03-shelter/debris-hut).
+{% info %}
+**Regional relevance:** This page applies to northern (Heilongjiang, Inner Mongolia, Xinjiang, Tibetan plateau), the Australian Alps (Snowy Mountains, Tasmanian highlands — winter only), and high-altitude (northern Vietnam, northern Thailand peaks, Myanmar highlands). If you are in tropical or northern Australia, skip to [Debris Hut](01-immediate/03-shelter/debris-hut).
 {% end %}
 
 ---
@@ -42,8 +42,7 @@ Snow is one of the best insulating materials on Earth. The air trapped between s
 
 When you have minutes, not hours:
 
-
-{% steps() %}
+{% steps %}
 Find deep snow (at least 1 m); Dig a trench slightly longer and wider than your body, about 60–80 cm deep; Pile the excavated snow on the windward side for additional wind breaking; Lay poles, skis, or branches across the trench; Cover the poles with a tarp, emergency blanket, or packed snow blocks; Leave one end open for entry; Block the entry with your pack or piled snow once inside; Insulate the floor with evergreen boughs, a sleeping mat, or pack — do not lie directly on snow
 {% end %}
 
@@ -61,8 +60,7 @@ Find deep snow (at least 1 m); Dig a trench slightly longer and wider than your 
 
 A natural snowdrift on the lee side of a ridge is ideal. Snow caves are faster to build than quinzhees if a suitable drift exists.
 
-
-{% steps() %}
+{% steps %}
 Find a snowdrift at least 2 m deep on the lee (downwind) side of a ridge — drifts form where wind drops snow; Dig an entrance tunnel that slopes UPWARD into the drift — this traps warm air inside (warm air rises); The sleeping platform should be higher than the entrance — you sleep above the cold air that settles at the entrance; The interior ceiling should be dome-shaped — flat ceilings drip; smooth domes let water run down walls; Poke a ventilation hole through the ceiling (a ski pole or stick works) — this prevents CO₂ build-up and allows moisture to escape; Keep the ventilation hole open — clear it periodically if snowing; Smooth interior walls — rough surfaces collect dripping condensation; Mark the entrance clearly — a buried entrance is a deathtrap; Line the floor with evergreen boughs or a sleeping mat — never lie directly on snow
 {% end %}
 
@@ -82,33 +80,29 @@ A quinzhee (also spelled quin-zhee or quinzee) is a hollowed-out mound of piled 
 
 ### Step 1: Pile the Snow
 
-
-{% steps() %}
+{% steps %}
 Pile snow into a large mound — 2–2.5 m high and 3–4 m in diameter; Mix snow from different layers as you pile — this helps the snow sinter (bond together); Compact the mound by patting it down as you build; Shape it into a dome — no flat spots or sharp angles
 {% end %}
 
 ### Step 2: Wait for Sintering
 
-
-{% steps() %}
+{% steps %}
 Let the mound sit for 1–2 hours — the snow crystals bond through sublimation and refreezing. This is critical. Do not skip this step.; While waiting, gather evergreen boughs or other insulation for the floor; Insert sticks 30–40 cm deep all over the mound — these are your thickness guides for hollowing; Prepare your digging tool — shovel, pot lid, snowshoe
 {% end %}
 
-{% info() %}
+{% info %}
 **The sintering wait is not optional.** If you start digging immediately after piling the snow, the quinzhee will collapse. The 1–2 hour wait allows the disturbed snow crystals to interlock. This is the difference between a shelter and a snow burial.
 {% end %}
 
 ### Step 3: Hollow the Interior
 
-
-{% steps() %}
+{% steps %}
 Begin hollowing from the entrance side; Dig an entrance tunnel that slopes upward; When you hit the guide sticks from inside, stop — your wall thickness is 30–40 cm; The ceiling should be dome-shaped — rough, flat ceilings drip and collapse; Create a ventilation hole in the top; Smooth interior walls thoroughly — rough surfaces collect dripping condensation; The sleeping platform should be higher than the entrance tunnel
 {% end %}
 
 ### Step 4: Final Setup
 
-
-{% steps() %}
+{% steps %}
 Line the sleeping platform with evergreen boughs or sleeping mat — at least 15 cm of insulation from the snow; Create small drainage channels around the perimeter of the sleeping platform (finger-width groove in snow) to direct meltwater away; Block the entrance partially with your pack — leave enough gap for airflow; Leave a digging tool inside — if entrance collapses, you need to dig out; Keep the ventilation hole clear
 {% end %}
 
@@ -125,7 +119,6 @@ Line the sleeping platform with evergreen boughs or sleeping mat — at least 15
 ## Construction Rules for All Snow Shelters
 
 ### Ventilation is Life and Death
-
 
 | Warning sign | What it means | Action |
 |-------------|---------------|--------|
@@ -152,7 +145,6 @@ Line the sleeping platform with evergreen boughs or sleeping mat — at least 15
 
 ## Sleeping in a Snow Shelter
 
-
 - **Lie on insulation** — evergreen boughs, sleeping mat, pack, or a thick layer of dry grass packed in
 - **Sleep in dry clothing** — change out of damp clothing before entering
 - **Keep boots inside with you** (in a stuff sack or at your feet) — frozen boots in the morning are useless
@@ -177,7 +169,6 @@ Line the sleeping platform with evergreen boughs or sleeping mat — at least 15
 
 Snow shelters are built in avalanche terrain. Do not become a victim.
 
-
 **Avalanche terrain signs — AVOID building shelters here:**
 
 - Slopes between 30° and 45° (the prime avalanche angle)
@@ -199,8 +190,7 @@ Snow shelters are built in avalanche terrain. Do not become a victim.
 
 If caught in a blizzard with no time for a proper shelter:
 
-
-{% steps() %}
+{% steps %}
 Get below the wind — behind a rock, tree, or ridge; Dig straight into a snowdrift face; Create just enough space to curl up; Block the entrance with your pack; Use your breathing and body heat to warm the tiny interior; Do not fall asleep if deeply hypothermic — maintain some awareness; This is a survival pod, not a shelter. It keeps you alive until the storm passes or morning comes.
 {% end %}
 

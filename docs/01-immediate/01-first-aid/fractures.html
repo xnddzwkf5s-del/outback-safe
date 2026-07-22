@@ -175,13 +175,14 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </ol>
 <hr />
 <h2 id="splinting-materials">Splinting Materials</h2>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Rigid splint material (sticks, tent poles, trekking poles, rolled magazines, cardboard, SAM splint if in kit)</li><li>Padding (clothing, moss, grass, foam, towels)</li><li>Binding material (strips of cloth, bandages, belts, paracord, tape)</li><li>Sling material (triangular bandage, large cloth, shirt)</li></ul></div>
-
+<p>{% materials %}
+Rigid splint material (sticks, tent poles, trekking poles, rolled magazines, cardboard, SAM splint if in kit); Padding (clothing, moss, grass, foam, towels); Binding material (strips of cloth, bandages, belts, paracord, tape); Sling material (triangular bandage, large cloth, shirt)
+{% end %}</p>
 <h3>Improvised Splints</h3>
 <p>Any rigid object long enough to span the joint above and below the fracture. In the bush:</p>
 <ul>
 <li><strong>Sticks or branches</strong> — straight, thumb-thick, padded with moss or grass</li>
-<li><strong>Bamboo</strong> (abundant in SEA and southern China) — split lengthwise, excellent rigidity</li>
+<li><strong>Bamboo</strong> (abundant in and southern ) — split lengthwise, excellent rigidity</li>
 <li><strong>Rolled bark</strong> from paperbark trees (Melaleuca, common in northern Australia)</li>
 <li><strong>Trekking poles</strong> — collapse to appropriate length</li>
 <li><strong>Sleeping pad</strong> — roll tightly around the limb, secure with cord</li>
@@ -189,36 +190,42 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="splinting-by-body-region">Splinting by Body Region</h2>
 <h3>Forearm/Wrist</h3>
-<pre class="codehilite"><code>    [Fracture site]
-         |
-    ====|====  &lt;-- Splint from elbow to beyond fingertips
-         |
+<pre class="codehilite"><code> [Fracture site]
+ |
+ ====|==== &lt;-- Splint from elbow to beyond fingertips
+ |
 </code></pre>
 
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Pad the splint where it contacts the elbow and wrist; Place the padded splint under the forearm from elbow to fingertips; Secure with bindings above the fracture, below the fracture, and above the elbow; Create a sling to support the forearm against the chest; Check: can the person feel their fingers? Is the hand warm?</span></label></li></ol>
-
+<p>{% steps %}
+Pad the splint where it contacts the elbow and wrist; Place the padded splint under the forearm from elbow to fingertips; Secure with bindings above the fracture, below the fracture, and above the elbow; Create a sling to support the forearm against the chest; Check: can the person feel their fingers? Is the hand warm?
+{% end %}</p>
 <h3>Upper Arm (Humerus)</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Pad a rigid splint from shoulder to elbow; Place the splint on the outside of the arm; Secure at the shoulder, above the fracture, and below the fracture; Sling the arm against the chest; Bind the sling to the torso with a second wrap around the chest (not too tight — must allow breathing)</span></label></li></ol>
-
+<p>{% steps %}
+Pad a rigid splint from shoulder to elbow; Place the splint on the outside of the arm; Secure at the shoulder, above the fracture, and below the fracture; Sling the arm against the chest; Bind the sling to the torso with a second wrap around the chest (not too tight — must allow breathing)
+{% end %}</p>
 <h3>Lower Leg (Tibia/Fibula)</h3>
-<pre class="codehilite"><code>       [Fracture site]
-            |
-    ========|========  &lt;-- Splint from above knee to below ankle
-            |
+<pre class="codehilite"><code> [Fracture site]
+ |
+ ========|======== &lt;-- Splint from above knee to below ankle
+ |
 </code></pre>
 
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Use two splints — one on each side of the leg; Splints must extend from above the knee to below the ankle; Pad generously at knee, ankle, and fracture site; Secure at thigh, above fracture, below fracture, and ankle; Tie the legs together for additional stability (the uninjured leg serves as a natural splint)</span></label></li></ol>
-
+<p>{% steps %}
+Use two splints — one on each side of the leg; Splints must extend from above the knee to below the ankle; Pad generously at knee, ankle, and fracture site; Secure at thigh, above fracture, below fracture, and ankle; Tie the legs together for additional stability (the uninjured leg serves as a natural splint)
+{% end %}</p>
 <h3>Thigh (Femur)</h3>
 <p>A femur fracture is <strong>serious</strong> — the thigh muscles can spasm and cause the bone ends to override, damaging the femoral artery. Massive internal bleeding is possible.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Apply manual traction: one person holds the ankle and pulls gently but firmly in line with the leg until the limb length matches the uninjured side; Maintain traction while a second person applies the splint; The splint must extend from armpit to beyond the foot; Pad the groin, knee, and ankle; Secure at chest, waist, above fracture, below fracture, and ankle; Maintain traction until the splint is fully secured</span></label></li></ol>
-
+<p>{% steps %}
+Apply manual traction: one person holds the ankle and pulls gently but firmly in line with the leg until the limb length matches the uninjured side; Maintain traction while a second person applies the splint; The splint must extend from armpit to beyond the foot; Pad the groin, knee, and ankle; Secure at chest, waist, above fracture, below fracture, and ankle; Maintain traction until the splint is fully secured
+{% end %}</p>
 <h3>Ankle/Foot</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Remove footwear carefully — check circulation in toes; Pad the ankle with soft material; Wrap with a compressive bandage (not too tight — toes must remain pink and warm); Splint with rigid material in a U-shape around the ankle; Elevate to reduce swelling</span></label></li></ol>
-
+<p>{% steps %}
+Remove footwear carefully — check circulation in toes; Pad the ankle with soft material; Wrap with a compressive bandage (not too tight — toes must remain pink and warm); Splint with rigid material in a U-shape around the ankle; Elevate to reduce swelling
+{% end %}</p>
 <h3>Collarbone (Clavicle)</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place the arm on the injured side in a sling; Add a swathe (broad bandage) around the chest and upper arm to immobilise; The sling supports the arm; the swathe prevents shoulder movement</span></label></li></ol>
-
+<p>{% steps %}
+Place the arm on the injured side in a sling; Add a swathe (broad bandage) around the chest and upper arm to immobilise; The sling supports the arm; the swathe prevents shoulder movement
+{% end %}</p>
 <hr />
 <h2 id="checking-circulation">Checking Circulation</h2>
 <p>After every splint application, check:</p>

@@ -17,8 +17,8 @@ Electronic devices are the most effective signaling tools — when they work. In
 
 ### Getting a Signal When There Is None
 
-{% steps() %}
-Move to the highest ground available — elevation is the single biggest factor in mobile reception; Move out of dense canopy, ravines, or urban canyons — line of sight to a tower is essential; Switch the phone to 3G if 4G/5G is unavailable — 3G has longer range and better building penetration. Settings → Mobile Network → Preferred Network → 3G; Hold the phone at arm's length above your head — even 1 extra metre can make a difference; Text rather than call — SMS requires far less signal and will queue and send when a signal is briefly available; If you cannot get through to emergency services (000 in AU, 119/110 in CN, 191/911 in SEA), try texting someone who can relay
+{% steps %}
+Move to the highest ground available — elevation is the single biggest factor in mobile reception; Move out of dense canopy, ravines, or urban canyons — line of sight to a tower is essential; Switch the phone to 3G if 4G/5G is unavailable — 3G has longer range and better building penetration. Settings → Mobile Network → Preferred Network → 3G; Hold the phone at arm's length above your head — even 1 extra metre can make a difference; Text rather than call — SMS requires far less signal and will queue and send when a signal is briefly available; If you cannot get through to emergency services (000 in AU, 119/110 in CN, 191/911 in ), try texting someone who can relay
 {% end %}
 
 ### Emergency Calls Without a SIM
@@ -57,14 +57,14 @@ If your phone dies but you have a charging cable:
 
 If you have a PLB (Personal Locator Beacon) or EPIRB (Emergency Position Indicating Radio Beacon):
 
-{% steps() %}
+{% steps %}
 Deploy in a location with clear sky view — PLBs need GPS satellite lock; Extend the antenna fully; Activate according to device instructions — usually a switch or button with a safety cover; Once activated, DO NOT turn it off — the search is now in progress; Leave the PLB stationary in a visible location with sky view; The signal is transmitted via satellite to a rescue coordination centre; Typical response time: 30 minutes – 4 hours for satellite detection; rescue assets dispatched within 1–6 hours depending on location and conditions
 {% end %}
 
 **PLBs work almost everywhere on Earth** — they use the Cospas-Sarsat satellite system, which covers the entire globe. They do not require mobile coverage. They DO require battery life and a clear sky view.
 
-{% info() %}
-**Register your PLB.** In Australia, register with AMSA (Australian Maritime Safety Authority). In China, with the CNSA rescue coordination. Registered PLBs with owner contact details dramatically speed up the rescue process — authorities can call your emergency contacts to confirm you are actually missing.
+{% info %}
+**Register your PLB.** In Australia, register with AMSA (Australian Maritime Safety Authority). In , with the CNSA rescue coordination. Registered PLBs with owner contact details dramatically speed up the rescue process — authorities can call your emergency contacts to confirm you are actually missing.
 {% end %}
 
 ---
@@ -76,8 +76,8 @@ Deploy in a location with clear sky view — PLBs need GPS satellite lock; Exten
 If you have a two-way radio (UHF CB in Australia, PMR446 in parts of Asia, marine VHF):
 
 - **Channel:** Emergency channel varies by country
-  - AU: UHF Channel 5 (emergency repeater), Channel 35 (emergency input)
-  - Marine VHF: Channel 16 (international distress)
+ - AU: UHF Channel 5 (emergency repeater), Channel 35 (emergency input)
+ - Marine VHF: Channel 16 (international distress)
 - **Transmit:** "MAYDAY MAYDAY MAYDAY. This is [your name/call sign]. My position is [GPS or description]. I require immediate assistance. [Nature of emergency]. Over."
 - **Repeat every 30 seconds** if no response
 - **If you hear a MAYDAY, do not transmit** — write down the details. Only respond if no one else does for 1 minute.
@@ -136,7 +136,7 @@ If you are near a downed aircraft:
 4. **Search initiated within 1–3 hours** — nearest available SAR asset dispatched
 5. Typical response time: 2–6 hours (remote areas), 30–90 minutes (populated areas)
 
-{% info() %}
+{% info %}
 **A registered PLB is the single most important safety device for remote Australian travel.** It costs $250–$500 AUD. It will save your life when no other signal works. Do not travel remote Australia without one.
 {% end %}
 

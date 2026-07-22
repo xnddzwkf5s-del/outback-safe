@@ -39,14 +39,14 @@ This page focuses on **thermal burns** — the type you will most likely encount
 Estimate percentage of body surface area (BSA) burned:
 
 ```
-    Head & neck: 9%
-    Each arm: 9% (front 4.5% + back 4.5%)
-    Chest: 9%
-    Abdomen: 9%
-    Upper back: 9%
-    Lower back: 9%
-    Each leg: 18% (front 9% + back 9%)
-    Groin: 1%
+ Head & neck: 9%
+ Each arm: 9% (front 4.5% + back 4.5%)
+ Chest: 9%
+ Abdomen: 9%
+ Upper back: 9%
+ Lower back: 9%
+ Each leg: 18% (front 9% + back 9%)
+ Groin: 1%
 ```
 
 **A burn is critical if:**
@@ -68,7 +68,7 @@ Estimate percentage of body surface area (BSA) burned:
 
 ### Step 2: Cool the Burn
 
-{% steps() %}
+{% steps %}
 Cool the burn under cool (not ice-cold) running water for at least 20 minutes; If running water is not available, immerse in cool water or apply wet cloths, changing frequently; The 20-minute window is critical — cooling beyond 3 hours after injury provides minimal benefit; Do not use ice — it causes vasoconstriction and can deepen the burn; For chemical burns, flush with water for at least 20 minutes
 {% end %}
 
@@ -76,7 +76,7 @@ Cool the burn under cool (not ice-cold) running water for at least 20 minutes; I
 
 ### Step 3: Clean and Cover
 
-{% steps() %}
+{% steps %}
 Wash hands thoroughly — infection risk is extreme with burns; Clean the burn gently with clean water and mild soap if available; Do not break blisters — they are sterile, natural dressings; Apply a non-adherent dressing (paraffin gauze, cling film, or clean dry cloth); Cover loosely — burns need to breathe somewhat; For hand burns, wrap each finger separately to prevent webbing
 {% end %}
 
@@ -86,8 +86,8 @@ Wash hands thoroughly — infection risk is extreme with burns; Clean the burn g
 - It is transparent, so you can monitor the burn without removing the dressing
 - Apply lengthwise (not wrapped around — swelling will make wrap too tight)
 
-{% info() %}
-**Honey** is one of the most effective natural burn dressings available. It is antibacterial, creates a moist healing environment, and is found across AU, CN, and SEA. Apply a thin layer of raw honey to cleaned partial-thickness burns and cover loosely. Change daily.
+{% info %}
+**Honey** is one of the most effective natural burn dressings available. It is antibacterial, creates a moist healing environment, and is found across AU, CN, . Apply a thin layer of raw honey to cleaned partial-thickness burns and cover loosely. Change daily.
 {% end %}
 
 ### Step 4: Fluid Replacement
@@ -165,7 +165,7 @@ If infection develops and you have antibiotics, silver sulfadiazine cream is the
 
 ## Sunburn
 
-In Australian, Southeast Asian, and tropical Chinese environments, sunburn can be incapacitating:
+In Australian, n, and tropical environments, sunburn can be incapacitating:
 
 - **Prevention is everything** — cover skin, seek shade 10:00–15:00
 - **Treat as 1st-degree burn** — cool compresses, hydration, aloe vera if available

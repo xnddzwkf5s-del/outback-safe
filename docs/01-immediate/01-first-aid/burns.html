@@ -193,14 +193,14 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <h3>Extent — Rule of Nines</h3>
 <p>Estimate percentage of body surface area (BSA) burned:</p>
-<pre class="codehilite"><code>    Head &amp; neck: 9%
-    Each arm: 9% (front 4.5% + back 4.5%)
-    Chest: 9%
-    Abdomen: 9%
-    Upper back: 9%
-    Lower back: 9%
-    Each leg: 18% (front 9% + back 9%)
-    Groin: 1%
+<pre class="codehilite"><code> Head &amp; neck: 9%
+ Each arm: 9% (front 4.5% + back 4.5%)
+ Chest: 9%
+ Abdomen: 9%
+ Upper back: 9%
+ Lower back: 9%
+ Each leg: 18% (front 9% + back 9%)
+ Groin: 1%
 </code></pre>
 
 <p><strong>A burn is critical if:</strong>
@@ -218,19 +218,22 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>If clothing is stuck to the burn</strong>, do not pull it off. Cut around it.</li>
 </ul>
 <h3>Step 2: Cool the Burn</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cool the burn under cool (not ice-cold) running water for at least 20 minutes; If running water is not available, immerse in cool water or apply wet cloths, changing frequently; The 20-minute window is critical — cooling beyond 3 hours after injury provides minimal benefit; Do not use ice — it causes vasoconstriction and can deepen the burn; For chemical burns, flush with water for at least 20 minutes</span></label></li></ol>
-
+<p>{% steps %}
+Cool the burn under cool (not ice-cold) running water for at least 20 minutes; If running water is not available, immerse in cool water or apply wet cloths, changing frequently; The 20-minute window is critical — cooling beyond 3 hours after injury provides minimal benefit; Do not use ice — it causes vasoconstriction and can deepen the burn; For chemical burns, flush with water for at least 20 minutes
+{% end %}</p>
 <p><strong>Why 20 minutes?</strong> The heat continues to damage tissue even after the source is removed. Adequate cooling limits burn depth progression, reduces pain, and decreases swelling.</p>
 <h3>Step 3: Clean and Cover</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Wash hands thoroughly — infection risk is extreme with burns; Clean the burn gently with clean water and mild soap if available; Do not break blisters — they are sterile, natural dressings; Apply a non-adherent dressing (paraffin gauze, cling film, or clean dry cloth); Cover loosely — burns need to breathe somewhat; For hand burns, wrap each finger separately to prevent webbing</span></label></li></ol>
-
+<p>{% steps %}
+Wash hands thoroughly — infection risk is extreme with burns; Clean the burn gently with clean water and mild soap if available; Do not break blisters — they are sterile, natural dressings; Apply a non-adherent dressing (paraffin gauze, cling film, or clean dry cloth); Cover loosely — burns need to breathe somewhat; For hand burns, wrap each finger separately to prevent webbing
+{% end %}</p>
 <p><strong>Clings film (plastic wrap)</strong> is an excellent field dressing for burns:
 - It is sterile (inside the roll)
 - It does not stick to the wound
 - It is transparent, so you can monitor the burn without removing the dressing
 - Apply lengthwise (not wrapped around — swelling will make wrap too tight)</p>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Honey** is one of the most effective natural burn dressings available. It is antibacterial, creates a moist healing environment, and is found across AU, CN, and SEA. Apply a thin layer of raw honey to cleaned partial-thickness burns and cover loosely. Change daily.</div></div>
-
+<p>{% info %}
+<strong>Honey</strong> is one of the most effective natural burn dressings available. It is antibacterial, creates a moist healing environment, and is found across AU, CN, . Apply a thin layer of raw honey to cleaned partial-thickness burns and cover loosely. Change daily.
+{% end %}</p>
 <h3>Step 4: Fluid Replacement</h3>
 <p>Burns lose massive amounts of fluid through the damaged skin. The person needs more water than normal.</p>
 <ul>
@@ -319,7 +322,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>If infection develops and you have antibiotics, silver sulfadiazine cream is the gold standard for burn infections. Oral antibiotics (amoxicillin-clavulanate or cephalexin) may be needed for systemic infection.</p>
 <hr />
 <h2 id="sunburn">Sunburn</h2>
-<p>In Australian, Southeast Asian, and tropical Chinese environments, sunburn can be incapacitating:</p>
+<p>In Australian, n, and tropical environments, sunburn can be incapacitating:</p>
 <ul>
 <li><strong>Prevention is everything</strong> — cover skin, seek shade 10:00–15:00</li>
 <li><strong>Treat as 1st-degree burn</strong> — cool compresses, hydration, aloe vera if available</li>

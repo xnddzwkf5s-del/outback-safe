@@ -27,21 +27,20 @@ The difference between a good shelter and a good shelter in the wrong location i
 
 **Spend 2 minutes on this before you drive the first stake:**
 
-
 ### Look Up — Overhead Hazards
 - [ ] No dead trees or dead limbs within falling distance
 - [ ] No leaning trees
 - [ ] No loose rock on overhanging ledges
 - [ ] No bee/wasp nests in trees
-- [ ] No coconut palms (if in SEA/coastal — falling coconuts kill more people than sharks)
+- [ ] No coconut palms (if in /coastal — falling coconuts kill more people than sharks)
 - [ ] No power lines (post-disaster scenarios)
 
 ### Look Down — Ground Hazards
-- [ ] No ant nests (bull ants in Australia, fire ants in SEA/CN)
+- [ ] No ant nests (bull ants in Australia, fire ants in /CN)
 - [ ] No snake holes
 - [ ] No termite mounds
 - [ ] No animal tracks running through the site
-- [ ] No poisonous plants (stinging tree in Australia, poison ivy relatives in China)
+- [ ] No poisonous plants (stinging tree in Australia, poison ivy relatives in )
 - [ ] No sharp objects, broken glass, or metal debris (post-disaster)
 
 ### Look Around — Environmental Hazards
@@ -50,7 +49,7 @@ The difference between a good shelter and a good shelter in the wrong location i
 - [ ] Not in a landslide-prone area (deforested slopes, steep loose soil)
 - [ ] Not under cliffs with loose rock
 - [ ] Above the high-water mark (check tree trunks for flood debris lines)
-- [ ] At least 50 m from water's edge in crocodile country (northern Australia, SEA)
+- [ ] At least 50 m from water's edge in crocodile country (northern Australia)
 
 ### Check Ground Conditions
 - [ ] Ground is well-drained (sandy/loamy, not clay that becomes bog)
@@ -61,7 +60,6 @@ The difference between a good shelter and a good shelter in the wrong location i
 ---
 
 ## The Ideal Site — Seven Criteria
-
 
 ### 1. Water Proximity
 
@@ -76,7 +74,6 @@ The difference between a good shelter and a good shelter in the wrong location i
 
 ### 2. Drainage Assessment
 
-
 **Quick drainage test:**
 1. Dig a small hole (15 cm deep, 15 cm wide)
 2. Fill with water
@@ -89,7 +86,7 @@ The difference between a good shelter and a good shelter in the wrong location i
 | 30–60 minutes | Clay loam | Adequate — dig drainage trench on uphill side |
 | > 60 minutes | Heavy clay | Poor — site will become bog in rain; move to higher/drier ground |
 
-**Monsoon note (SEA, northern Australia):** In monsoon conditions, drainage is everything. A shelter without drainage in a tropical downpour will flood within minutes. Dig a drainage trench at least 20 cm deep and 30 cm wide on the uphill side of the shelter.
+**Monsoon note (northern Australia):** In monsoon conditions, drainage is everything. A shelter without drainage in a tropical downpour will flood within minutes. Dig a drainage trench at least 20 cm deep and 30 cm wide on the uphill side of the shelter.
 
 ### 3. Wind Pattern Indicators
 
@@ -106,9 +103,9 @@ The difference between a good shelter and a good shelter in the wrong location i
 
 **Regional prevailing winds:**
 - **Australia:** South/southeast in most regions; northerly in tropical north during wet season
-- **Southeast Asia:** Monsoonal — northeast (dry) and southwest (wet) depending on season
-- **Southern China:** North/northwest in winter, south/southeast in summer
-- **Northern China:** Northwest in winter, southeast in summer
+- **:** Monsoonal — northeast (dry) and southwest (wet) depending on season
+- **:** North/northwest in winter, south/southeast in summer
+- **:** Northwest in winter, southeast in summer
 
 **Build shelter with entrance facing away from prevailing wind.** In cold climates, also aim for east-facing to catch morning sun.
 
@@ -123,19 +120,16 @@ The difference between a good shelter and a good shelter in the wrong location i
 
 ### 5. Natural Hazards (Detailed)
 
-
 **Region-specific hazards:**
 
 | Region | Key hazards |
 |--------|------------|
 | **Australian bush** | Snakes, falling limbs (river red gums notorious), goannas, bull ants |
-| **SEA jungle** | Cobras, kraits, centipedes, leeches, elephant trails |
-| **Chinese countryside** | Abandoned wells (covered or not), unstable slopes after rain, paddy field leeches |
 | **Australian desert** | Mulga snakes (king brown), extreme temperature swings (40°C day → 5°C night) |
-| **Coastal (all regions)** | Saltwater crocodiles (northern Australia, SEA), tidal surge, cliff erosion |
+| **Coastal (all regions)** | Saltwater crocodiles (northern Australia), tidal surge, cliff erosion |
 | **Alpine/snow** | Avalanche terrain, cornice collapse, snow-load tree fall |
 
-**Crocodile country specific (northern Australia, parts of SEA):**
+**Crocodile country specific (northern Australia):**
 - Stay at least 50 m from water's edge
 - Do not camp near estuaries, mangroves, or tidal creeks
 - Crocodiles hunt at night — they can outrun a human in a short sprint
@@ -144,7 +138,6 @@ The difference between a good shelter and a good shelter in the wrong location i
 ### 6. Resources
 
 Your site should be near:
-
 
 | Resource | Ideal distance | Why |
 |----------|---------------|-----|
@@ -171,18 +164,11 @@ If you want rescue, maintain a signal area within sight but not at the shelter i
 
 ### Australian Bush
 
-
 - **Good:** Ridge saddles (below the crest), gentle slopes, near creek lines but above flood level
 - **Bad:** Dry creek beds (flash floods), under river red gums (they drop limbs), near termite mounds (millions of termites, attract echidnas/goannas)
 - **Bushfire escape route:** Always identify at least one escape direction — downhill toward cleared or already-burned ground
 
-### Southeast Asian Jungle
-
-- **Good:** Ridge lines (drier, breezier, fewer insects), near streams but 3+ m above water level
-- **Bad:** Valley floors (damp, mosquito-dense, flood-prone), elephant trails, bamboo groves (rats and snakes)
-- **Specific:** Leeches at ground level; centipedes with painful venomous bite; cobras and kraits — check sleeping area thoroughly
-
-### Chinese Countryside
+### Countryside
 
 - **Good:** South-facing slopes (more sun, drier), near small streams, abandoned agricultural terraces (flat, well-drained)
 - **Bad:** Paddy fields (wet, leeches, pesticides), landslide-prone slopes (deforested hills)
@@ -198,7 +184,7 @@ If you want rescue, maintain a signal area within sight but not at the shelter i
 
 - **Good:** Behind dunes (windbreak), above high tide line (check debris line), near fresh water seeps
 - **Bad:** On the beach (wind, sand in everything, tidal surge), below cliffs (rockfall, erosion)
-- **Croc country:** See croc warning above — saltwater crocodiles in northern Australia and parts of SEA
+- **Croc country:** See croc warning above — saltwater crocodiles in northern Australia and parts of 
 
 ---
 
@@ -206,8 +192,7 @@ If you want rescue, maintain a signal area within sight but not at the shelter i
 
 Before you commit to a site, spend 2 minutes checking:
 
-
-{% steps() %}
+{% steps %}
 Look up — 360° scan for dead trees or limbs; Look down — scan ground for insect nests, holes, tracks, droppings; Walk the perimeter — 20 m radius, check drainage, hazards, resources; Press foot into ground — does water seep up? If yes, move uphill; Check wind — which direction? Does the site have a windbreak?; Estimate distance to water — is there a visible water source within sight and sound?; Mark the high-water/debris line — look at nearby tree trunks and vegetation for flood debris; If all checks pass: build here; If any fail: move. There is always another site.
 {% end %}
 
@@ -216,7 +201,6 @@ Look up — 360° scan for dead trees or limbs; Look down — scan ground for in
 ## Multi-Day Camp Expansion
 
 If you stay more than one night:
-
 
 | Zone | Distance from shelter | Notes |
 |------|----------------------|-------|
@@ -275,7 +259,7 @@ If you stay more than one night:
 
 If camping in southern Australia during bushfire season (Oct–Mar):
 
-{% steps() %}
+{% steps %}
 Identify the prevailing wind direction — bushfires travel fastest with the wind; Identify two escape routes — ideally at 90° to the expected fire front direction (never run directly away from a fire; run at an angle to the fire front); Your escape routes should lead to: (1) already-burned ground (the safest place in a bushfire), (2) a large river crossing, (3) a wide clearing with minimal fuel; Do NOT camp in a narrow valley or box canyon — fire can trap you; Have a woollen blanket or drenching water available to cover yourself if caught.
 {% end %}
 

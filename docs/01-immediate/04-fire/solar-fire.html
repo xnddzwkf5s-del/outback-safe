@@ -128,11 +128,12 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><a href="#related">Related</a></li>
 </ul></details>
 <h1>Solar Fire</h1>
-<p>Solar fire-starting is the only method that requires zero physical effort and zero consumables. If the sun is out, you can focus its energy to ignite tinder. This makes it the ideal method for conserving energy in hot, sunny environments — which describes much of Australia, Southeast Asia, and southern China for large parts of the year.</p>
+<p>Solar fire-starting is the only method that requires zero physical effort and zero consumables. If the sun is out, you can focus its energy to ignite tinder. This makes it the ideal method for conserving energy in hot, sunny environments — which describes much of Australia, and southern for large parts of the year.</p>
 <hr />
 <h2 id="materials-checklist">Materials Checklist</h2>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**For lens methods:** magnifying glass, Fresnel lens, OR clear water-filled plastic bottle, OR clear ice disc</li><li>**For reflector methods:** aluminium can (soft drink or beer), OR polished metal surface</li><li>**Polishing material** (for can reflector): chocolate, toothpaste, fine ash, or metal polish</li><li>**Tinder:** char cloth (best), punk wood, cattail fluff, paperbark fibres — dark-coloured, low-ignition-temperature material</li><li>**Tinder bundle and fire lay:** prepared and ready</li></ul></div>
-
+<p>{% materials %}
+<strong>For lens methods:</strong> magnifying glass, Fresnel lens, OR clear water-filled plastic bottle, OR clear ice disc; <strong>For reflector methods:</strong> aluminium can (soft drink or beer), OR polished metal surface; <strong>Polishing material</strong> (for can reflector): chocolate, toothpaste, fine ash, or metal polish; <strong>Tinder:</strong> char cloth (best), punk wood, cattail fluff, paperbark fibres — dark-coloured, low-ignition-temperature material; <strong>Tinder bundle and fire lay:</strong> prepared and ready
+{% end %}</p>
 <hr />
 <h2 id="the-physics">The Physics</h2>
 <p>Sunlight delivers approximately 1,000 watts per square metre at the Earth's surface. A lens or reflector concentrates that energy onto a tiny point, raising the temperature to over 400°C — sufficient to ignite dry tinder. The key variable is <strong>concentration ratio</strong>: the ratio of the collection area to the focal spot size. A larger lens or reflector = more energy concentrated = faster ignition.</p>
@@ -142,11 +143,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <em>Solar fire starting — focusing sunlight to ignite tinder. Zero consumables required. Image: Wikimedia Commons (CC BY-SA).</em></p>
 <p>The simplest and most effective solar method — if you have a lens.</p>
 <h3>Step 1: Find the Focal Point</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Hold the lens perpendicular to the sun; Adjust distance between lens and tinder until the bright circle of light becomes the smallest possible point — this is the focal point; The focal point should be pinhead-sized and dazzlingly bright</span></label></li></ol>
-
+<p>{% steps %}
+Hold the lens perpendicular to the sun; Adjust distance between lens and tinder until the bright circle of light becomes the smallest possible point — this is the focal point; The focal point should be pinhead-sized and dazzlingly bright
+{% end %}</p>
 <h3>Step 2: Hold Steady on Tinder</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Hold the focal point steady on the tinder; Within seconds to minutes (depending on tinder type and sun strength), the tinder will smoke, char, and ignite; Once ignited, gently blow to spread the flame into your fire lay</span></label></li></ol>
-
+<p>{% steps %}
+Hold the focal point steady on the tinder; Within seconds to minutes (depending on tinder type and sun strength), the tinder will smoke, char, and ignite; Once ignited, gently blow to spread the flame into your fire lay
+{% end %}</p>
 <h3>Fresnel Lens (Credit-Card Sized)</h3>
 <ul>
 <li>Same technique as magnifying glass</li>
@@ -157,31 +160,38 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="method-2-water-filled-bottle-lens">Method 2: Water-Filled Bottle Lens</h2>
 <p>A clear plastic water bottle filled with water acts as a spherical lens. No specialised equipment needed — just a bottle and water.</p>
 <h3>Step 1: Fill and Position</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Fill a clear, smooth plastic bottle completely with water — no air bubbles; Hold the bottle horizontally</span></label></li></ol>
-
+<p>{% steps %}
+Fill a clear, smooth plastic bottle completely with water — no air bubbles; Hold the bottle horizontally
+{% end %}</p>
 <h3>Step 2: Find the Focal Strip and Ignite</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find the focal point — it will be a bright, concentrated strip of light (not a round point, because the bottle is cylindrical); The focal strip is about 1–2 cm from the bottle surface; Hold the tinder at the brightest, narrowest part of the strip; This method works best with char cloth or very fine, dark tinder; Expect 15–60 seconds to ignition in strong sun</span></label></li></ol>
-
+<p>{% steps %}
+Find the focal point — it will be a bright, concentrated strip of light (not a round point, because the bottle is cylindrical); The focal strip is about 1–2 cm from the bottle surface; Hold the tinder at the brightest, narrowest part of the strip; This method works best with char cloth or very fine, dark tinder; Expect 15–60 seconds to ignition in strong sun
+{% end %}</p>
 <hr />
 <h2 id="method-3-soda-can-reflector">Method 3: Soda Can Reflector</h2>
 <p>A polished aluminium can base can be shaped into a parabolic reflector. The chocolate-and-can method is a well-known bushcraft technique.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Aluminium can (soft drink or beer)</li><li>Polishing material: chocolate, toothpaste, fine ash, or metal polish</li><li>Soft cloth</li></ul></div>
-
+<p>{% materials %}
+Aluminium can (soft drink or beer); Polishing material: chocolate, toothpaste, fine ash, or metal polish; Soft cloth
+{% end %}</p>
 <h3>Step 1: Remove and Polish the Can Base</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Remove the base of the can — carefully cut around the bottom rim; Polish the concave inner surface of the can base to a mirror finish: rub chocolate or toothpaste into the surface, then buff with a soft cloth. The chocolate oils and mild abrasives create a surprising mirror finish.</span></label></li></ol>
-
+<p>{% steps %}
+Remove the base of the can — carefully cut around the bottom rim; Polish the concave inner surface of the can base to a mirror finish: rub chocolate or toothpaste into the surface, then buff with a soft cloth. The chocolate oils and mild abrasives create a surprising mirror finish.
+{% end %}</p>
 <h3>Step 2: Find Focal Point and Ignite</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>The polished concave surface is a parabolic reflector — sunlight hitting it concentrates at the focal point; Hold tinder at the focal point — about 2–4 cm above the centre of the reflector; Adjust distance until the light is brightest and smallest</span></label></li></ol>
-
+<p>{% steps %}
+The polished concave surface is a parabolic reflector — sunlight hitting it concentrates at the focal point; Hold tinder at the focal point — about 2–4 cm above the centre of the reflector; Adjust distance until the light is brightest and smallest
+{% end %}</p>
 <h3>Full Can Parabolic Reflector</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Polish the entire bottom third of an aluminium can; Angle the can so sunlight reflects off the curved bottom and concentrates onto a small point; More reflective area = more energy = faster ignition; Requires more polishing effort</span></label></li></ol>
-
+<p>{% steps %}
+Polish the entire bottom third of an aluminium can; Angle the can so sunlight reflects off the curved bottom and concentrates onto a small point; More reflective area = more energy = faster ignition; Requires more polishing effort
+{% end %}</p>
 <hr />
 <h2 id="method-4-ice-lens">Method 4: Ice Lens</h2>
-<p>In snow conditions (northern China winter, Australian Alps), clear ice can be shaped into a lens.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Find or make clear ice — lake ice or boiled-water ice (fewer bubbles); Shape into a rough disc, 5–10 cm diameter, thicker in the middle, thinner at edges; Polish the surfaces smooth by rubbing with your hands (body heat melts the surface briefly, then it refreezes smooth); Use as you would a magnifying glass; The ice will melt from the focused sunlight — work quickly</span></label></li></ol>
-
+<p>In snow conditions (northern winter, Australian Alps), clear ice can be shaped into a lens.</p>
+<p>{% steps %}
+Find or make clear ice — lake ice or boiled-water ice (fewer bubbles); Shape into a rough disc, 5–10 cm diameter, thicker in the middle, thinner at edges; Polish the surfaces smooth by rubbing with your hands (body heat melts the surface briefly, then it refreezes smooth); Use as you would a magnifying glass; The ice will melt from the focused sunlight — work quickly
+{% end %}</p>
 <p>This is a niche technique that requires specific conditions (clear ice, strong sun, cold enough that the lens does not melt instantly), but it works and is well-documented.</p>
 <hr />
 <h2 id="best-tinders-for-solar-ignition">Best Tinders for Solar Ignition</h2>
@@ -232,8 +242,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Char the tinder spot first.** If you have marginal tinder, hold the focal point on it for 10–15 seconds to create a small charred spot. The charred spot is darker and ignites more easily. Then refocus on the charred spot.</div></div>
-
+<p>{% info %}
+<strong>Char the tinder spot first.</strong> If you have marginal tinder, hold the focal point on it for 10–15 seconds to create a small charred spot. The charred spot is darker and ignites more easily. Then refocus on the charred spot.
+{% end %}</p>
 <hr />
 <h2 id="solar-conditions-required">Solar Conditions Required</h2>
 <p>Solar fire starting requires:</p>
@@ -256,21 +267,6 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <td><strong>Australia</strong></td>
 <td>Year-round in north; Sep–Apr in south</td>
 <td>Australia has the highest solar radiation per m² on Earth. Solar fire is reliable almost anywhere, almost any time.</td>
-</tr>
-<tr>
-<td><strong>Southeast Asia</strong></td>
-<td>Year-round near equator; Nov–Apr (dry season) elsewhere</td>
-<td>Monsoon cloud cover blocks solar in wet season.</td>
-</tr>
-<tr>
-<td><strong>Southern China</strong></td>
-<td>Apr–Oct</td>
-<td>Summer is ideal; winter sun is weaker.</td>
-</tr>
-<tr>
-<td><strong>Northern China</strong></td>
-<td>May–Sep</td>
-<td>Winter sun is too low and weak for reliable solar.</td>
 </tr>
 </tbody>
 </table>

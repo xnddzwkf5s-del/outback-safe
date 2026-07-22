@@ -36,7 +36,7 @@ weight = 2
 | **Chemical (iodine)** | ✅ | ✅ | ❌**** | ❌ | ❌ | No | No | 30 min |
 | **Distillation** | ✅ | ✅ | ✅ | ✅ | ✅ | No | Yes (sun) | 4–8 hrs |
 
-{% info() %}
+{% info %}
 **Legend:** ✅ = Effective 　 ⚠️ = Partial 　 ❌ = Not effective
 
 \* SODIS less effective against Cryptosporidium cysts
@@ -59,7 +59,7 @@ weight = 2
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Metal container (pot, billy can, canteen cup); Heat source (fire, stove, camp burner); Cloth for pre-filtering (if water is cloudy)
 {% end %}
 
@@ -75,22 +75,19 @@ The myth of "boil for 10 minutes" wastes fuel and water. Water is pasteurised at
 | 70°C | 10 seconds |
 | 100°C (boiling) | Instant |
 
-**In practice:** Bring water to a rolling boil. It is now safe — let it cool and drink. At altitudes above 2000 m (western China, parts of SEA), boil for 1 additional minute (water boils at a lower temperature at altitude).
+**In practice:** Bring water to a rolling boil. It is now safe — let it cool and drink. At altitudes above 2000 m , boil for 1 additional minute (water boils at a lower temperature at altitude).
 
 ### Step 1: Pre-Filter (If Cloudy)
 
 Pour turbid water through a clean cloth into the boiling container. This removes sediment that can harbour pathogens and improves taste.
 
-
 ### Step 2: Bring to a Rolling Boil
 
 Place the container on your heat source. A rolling boil means large bubbles breaking the surface continuously — not just small bubbles on the bottom.
 
-
 ### Step 3: Cool and Aerate
 
 Remove from heat and let cool. Boiled water tastes flat because dissolved oxygen has been driven off. Pour between two clean containers several times to re-aerate.
-
 
 ### Time Required
 
@@ -116,28 +113,25 @@ Roughly 1 kg of dry wood to boil 5 L of water. Plan your firewood accordingly.
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Clear PET plastic bottles (water/soft drink type — not coloured, not PVC, not glass); Direct sunlight for 6+ hours; Pre-filtered (clear) water
 {% end %}
 
 ### How It Works
 
-UVA radiation and heat synergistically kill pathogens. At water temperatures above 50°C, the process is complete in 1 hour. SODIS works best in Australia (high UV), tropical SEA, high-altitude China, and anywhere between 35°N and 35°S latitude.
+UVA radiation and heat synergistically kill pathogens. At water temperatures above 50°C, the process is complete in 1 hour. SODIS works best in Australia (high UV), tropical high-altitude , and anywhere between 35°N and 35°S latitude.
 
 ### Step 1: Prepare Bottles
 
 Use clear PET bottles only. Remove labels so UV can penetrate. Wash bottles if dirty — mud or residue blocks UV.
 
-
 ### Step 2: Fill and Shake
 
 Fill bottles ¾ full with pre-filtered (clear) water. Leave air space. Shake vigorously for 20 seconds — oxygenation accelerates UV disinfection.
 
-
 ### Step 3: Place in Sun
 
 Lay bottles horizontally in direct sunlight. A corrugated iron roof is ideal — the metal reflects additional UV and conducts heat. If no metal surface, use any sun-exposed surface.
-
 
 ### Step 4: Wait
 
@@ -171,7 +165,7 @@ Water is now safe to drink.
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Clean, tightly woven cloth (cotton t-shirt, bandana, coffee filter, muslin); Two containers (one for dirty water, one for filtered); Cord or elastic band (optional, to secure cloth)
 {% end %}
 
@@ -183,16 +177,13 @@ Cloth filtration reduces turbidity and removes larger pathogens like Giardia cys
 
 Stretch the cloth over the mouth of the clean collection container. Secure with cord or hold in place. The cloth should be taut but not stretched thin — multiple layers are better than one.
 
-
 ### Step 2: Pour Slowly
 
 Pour the turbid water slowly through the cloth. Do not overfill — let it drain before adding more. If the cloth clogs, replace or rinse.
 
-
 ### Step 3: Treat the Filtered Water
 
 The filtered water is clearer but NOT safe. Boil, chemically treat, or SODIS before drinking.
-
 
 ### Time Required
 
@@ -214,32 +205,31 @@ The filtered water is clearer but NOT safe. Boil, chemically treat, or SODIS bef
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Plastic bottle (cut off bottom) or bucket with a small hole; Clean cloth or coffee filter; Fine sand (20 cm); Crushed charcoal (15 cm); Coarse sand (10 cm); Fine gravel (5 cm); Collection container
 {% end %}
 
 ```
-    Charcoal-Sand Filter — Cross Section
+ Charcoal-Sand Filter — Cross Section
 
-    ===========================
-    |  Water in               |
-    |                         |
-    |  ~~~~  Fine gravel   ~~~|  (5 cm — traps large particles)
-    |  ~~~~  Coarse sand    ~~|  (10 cm — traps medium particles)
-    |  ####  Crushed charcoal #|  (15 cm — adsorbs chemicals, odours)
-    |  ....  Fine sand     ...|  (20 cm — traps fine particles)
-    |----- Cloth filter ------|
-    |         |  Drip         |
-            / \
-           /   \
-          /     \
-    Filtered water (treat before drinking)
+ ===========================
+ | Water in |
+ | |
+ | ~~~~ Fine gravel ~~~| (5 cm — traps large particles)
+ | ~~~~ Coarse sand ~~| (10 cm — traps medium particles)
+ | #### Crushed charcoal #| (15 cm — adsorbs chemicals, odours)
+ | .... Fine sand ...| (20 cm — traps fine particles)
+ |----- Cloth filter ------|
+ | | Drip |
+ / \
+ / \
+ / \
+ Filtered water (treat before drinking)
 ```
 
 ### Step 1: Prepare the Container
 
 Cut the bottom off a plastic bottle. Place cloth over the bottle opening and secure with cord or rubber band. The bottle neck faces down into your collection container.
-
 
 ### Step 2: Layer the Filter Media
 
@@ -250,11 +240,9 @@ Add layers from bottom to top (fine to coarse). Each layer must be level and gen
 3. Coarse sand (10 cm) — mechanical barrier
 4. Fine gravel (5 cm) — top layer, catches the largest debris
 
-
 ### Step 3: Pour and Collect
 
 Pour turbid water slowly into the top. Do not pour hard enough to disturb the layers. Collect the filtrate below. The water will emerge clearer but still requires treatment.
-
 
 ### Step 4: Treat the Output
 
@@ -285,7 +273,7 @@ The filtered water is clearer and has fewer pathogens and chemicals, but it is N
 
 #### Materials
 
-{% materials() %}
+{% materials %}
 Unscented household bleach (sodium hypochlorite, no additives, no thickeners, no fragrances); Dropper or measuring device; Container for treated water; Timer (watch, phone, or count)
 {% end %}
 
@@ -299,22 +287,19 @@ Check the label. Standard household bleach is 4–6% sodium hypochlorite.
 | 4–6% (standard household) | 2 drops |
 | 8% | 1 drop |
 
-
 #### Step 2: Add Bleach and Mix
 
 Add the appropriate number of drops per litre. Shake or stir thoroughly. If water is cloudy, double the dose.
-
 
 #### Step 3: Wait 30 Minutes
 
 Let the water stand for 30 minutes. After 30 minutes, smell the water — it should have a faint chlorine odour.
 
-{% info() %}
+{% info %}
 If there is **no** chlorine smell after 30 minutes: repeat the dose and wait another 15 minutes.
 
 If the smell is **too strong**: pour between containers several times to dissipate excess chlorine.
 {% end %}
-
 
 ### Time Required
 
@@ -333,7 +318,7 @@ If the smell is **too strong**: pour between containers several times to dissipa
 
 #### Materials
 
-{% materials() %}
+{% materials %}
 Iodine tincture (2%) OR iodine tablets (tetraglycine hydroperiodide); Dropper; Timer
 {% end %}
 
@@ -343,7 +328,6 @@ Iodine tincture (2%) OR iodine tablets (tetraglycine hydroperiodide); Dropper; T
 |------|-----------------|-------------------|
 | 2% tincture | 5 drops / L | 10 drops / L |
 | Tablets | 1 tablet / L | 2 tablets / L |
-
 
 #### Step 2: Mix and Wait
 
@@ -374,17 +358,15 @@ If you have a first-aid kit with potassium permanganate:
 
 Add crystals gradually until water turns **light pink** — roughly 3–4 crystals per litre.
 
-
 #### Step 2: Wait and Check
 
 Wait 30 minutes. The water should retain a light pink tint.
 
-{% info() %}
+{% info %}
 - **Light pink** = correctly treated
 - **Clear/colourless** = too little — add more
 - **Brown or purple** = overdose — discard and start again
 {% end %}
-
 
 ---
 

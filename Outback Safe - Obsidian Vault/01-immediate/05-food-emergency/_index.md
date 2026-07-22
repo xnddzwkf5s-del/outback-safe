@@ -50,7 +50,7 @@ This section exists for when you are ready — typically Day 3 or later, once wa
 ## Subsections
 
 - [Universal Edibility Test](01-immediate/05-food-emergency/universal-edibility-test) — Step-by-step protocol for unknown plants
-- [Common Edibles](01-immediate/05-food-emergency/common-edibles) — 20 safest wild foods with AU/CN/SEA focus
+- [Common Edibles](01-immediate/05-food-emergency/common-edibles) — 20 safest wild foods with AU/CN/ focus
 - [Common Toxics](01-immediate/05-food-emergency/common-toxics) — 20 deadliest look-alikes and what to never eat
 - [Insects as Food](01-immediate/05-food-emergency/insects) — Safe species, preparation, protein content
 - [Emergency Rationing](01-immediate/05-food-emergency/emergency-rationing) — How little you can survive on, fair distribution

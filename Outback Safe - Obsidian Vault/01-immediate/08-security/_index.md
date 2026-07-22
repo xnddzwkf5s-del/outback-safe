@@ -46,7 +46,7 @@ Security is not paranoia — it is preparation.
 | Time | Primary threats | Security focus |
 |------|----------------|----------------|
 | **Day** | Other humans, some predators (snakes active in heat) | Visual watch, scout patrols, approach management |
-| **Night** | Predators (crocodiles, big cats in SEA, dingoes in AU), surprise human approach | Sentry rotation, fire perimeter, noise traps |
+| **Night** | Predators (crocodiles, big cats in dingoes in AU), surprise human approach | Sentry rotation, fire perimeter, noise traps |
 
 ---
 

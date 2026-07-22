@@ -32,7 +32,7 @@ Some of the world's most toxic plants grow in Australian gardens and bushland. *
 
 ### 2. Strychnine Tree (*Strychnos nux-vomica*)
 
-- **Where:** Tropical Qld, NT, northern WA. Also common in SEA.
+- **Where:** Tropical Qld, NT, northern WA. Also common in .
 - **Toxin:** Strychnine.
 - **Lethal dose:** A few seeds.
 - **Look-alike:** The fruit looks like a small orange — about the size of a golf ball, orange when ripe. It can be mistaken for a wild citrus.
@@ -131,7 +131,7 @@ Some of the world's most toxic plants grow in Australian gardens and bushland. *
 
 If you have exhausted all other options and must try an unknown plant, the Universal Edibility Test is your last resort. **This is NOT a substitute for positive identification.**
 
-{% info() %}
+{% info %}
 **The Universal Edibility Test is a step-by-step protocol for testing an unknown plant for toxicity.** It takes approximately 24 hours and involves testing the plant on your skin, lips, tongue, and finally eating a small amount. If any step produces a negative reaction (burning, numbness, nausea), stop and discard the plant.
 
 → Full protocol: [Universal Edibility Test](01-immediate/05-food-emergency/universal-edibility-test)
@@ -161,7 +161,7 @@ Be aware of these groups when foraging:
 
 If someone eats a suspected toxic plant:
 
-{% steps() %}
+{% steps %}
 Call 000 (Triple Zero) if you have phone reception — describe the plant and the symptoms; If no reception, treat with: If conscious: do NOT induce vomiting unless instructed by medical personnel. Some toxins cause more damage on the way back up.; Remove any remaining plant material from the mouth; Rinse mouth with water; Take a sample of the plant — if the person can be evacuated, the sample helps medical treatment.; If the person becomes unconscious, place in recovery position; If breathing stops, begin CPR; If you have activated charcoal (from a first-aid kit), it can bind some toxins if administered within 1 hour — do NOT give charcoal and then induce vomiting; The Poisons Information Centre in Australia can be reached on 13 11 26 (available 24/7 if you have reception)
 {% end %}
 

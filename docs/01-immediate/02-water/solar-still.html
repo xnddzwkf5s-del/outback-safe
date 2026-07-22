@@ -136,19 +136,19 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="how-a-solar-still-works">How a Solar Still Works</h2>
 <p><img alt="Solar still diagram — evaporation and condensation" src="../../static/images/water/solar-still.jpg" />
 <em>Solar still cross-section — sunlight evaporates moisture, which condenses on the plastic and drips into the collection container. Image: Wikimedia Commons (CC BY-SA).</em></p>
-<pre class="codehilite"><code>    Sunlight
-      |   |   |   |
-      v   v   v   v
-    =======================  ← Clear plastic sheet
-    \                     /
-     \     💧 droplet    /
-      \   (condensed)   /
-       \      v        /
-        \     O       /
-         \          /
-          \   🪣  /         ← Collection container
-           \     /
-            =====            ← Ground (moist soil/vegetation/contaminated water)
+<pre class="codehilite"><code> Sunlight
+ | | | |
+ v v v v
+ ======================= ← Clear plastic sheet
+ \ /
+ \ 💧 droplet /
+ \ (condensed) /
+ \ v /
+ \ O /
+ \ /
+ \ 🪣 / ← Collection container
+ \ /
+ ===== ← Ground (moist soil/vegetation/contaminated water)
 </code></pre>
 
 <p><strong>The process:</strong></p>
@@ -161,8 +161,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="construction-pit-still-standard-ground-still">Construction — Pit Still (Standard Ground Still)</h2>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Clear plastic sheet (at least 1.5 m × 1.5 m — larger is better)</li><li>Collection container (cup, can, cut bottle, bowl — preferably not metal, which can leach into distilled water)</li><li>Drinking tube (optional — allows drinking without dismantling the still)</li><li>Rocks or soil to hold plastic edges down</li><li>A small stone to weight the centre of the plastic</li><li>Digging tool</li><li>Green vegetation (optional — increases yield dramatically)</li><li>Contaminated water source (optional — pour into soil, NOT directly into container)</li></ul></div>
-
+<p>{% materials %}
+Clear plastic sheet (at least 1.5 m × 1.5 m — larger is better); Collection container (cup, can, cut bottle, bowl — preferably not metal, which can leach into distilled water); Drinking tube (optional — allows drinking without dismantling the still); Rocks or soil to hold plastic edges down; A small stone to weight the centre of the plastic; Digging tool; Green vegetation (optional — increases yield dramatically); Contaminated water source (optional — pour into soil, NOT directly into container)
+{% end %}</p>
 <h3>Step 1: Select Location and Dig</h3>
 <p>Choose a location with full sun all day. Avoid shade from trees, rocks, or buildings. Dig a bowl-shaped hole approximately 1 m wide and 40–60 cm deep. The wider the hole, the more collection area — and more yield.</p>
 <h3>Step 2: Place Collection Container</h3>
@@ -178,18 +179,18 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>Run a drinking tube from the collection container, under the plastic edge, and seal around it with soil. This lets you drink from the still without dismantling it — preserving the vapour seal.</p>
 <h3>Step 7: Wait</h3>
 <p>Production begins within 1–2 hours in strong sun. Check in the late afternoon for your water. Distilled water tastes flat — this is normal.</p>
-<pre class="codehilite"><code>    Pit Still — Complete Cross Section
+<pre class="codehilite"><code> Pit Still — Complete Cross Section
 
-    Rocks holding    clear plastic     Rocks holding
-    plastic edge \=====================/ plastic edge
-                 \         O          /     ← Weight stone
-                  \       /|\        /
-                   \_____/ | \______/
-    Ground ~~~~~~~~~     \ | /     ~~~~~~~~~~  Ground
-    (soil/veg)       collection container
-                            |
-                            v
-                     Drink tube (optional)
+ Rocks holding clear plastic Rocks holding
+ plastic edge \=====================/ plastic edge
+ \ O / ← Weight stone
+ \ /|\ /
+ \_____/ | \______/
+ Ground ~~~~~~~~~ \ | / ~~~~~~~~~~ Ground
+ (soil/veg) collection container
+ |
+ v
+ Drink tube (optional)
 </code></pre>
 
 <h3>Time Required</h3>
@@ -207,8 +208,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="variation-vegetation-bag-still-transpiration-still">Variation: Vegetation Bag Still (Transpiration Still)</h2>
 <p>A simpler, faster still using a living plant. Lower yield but no digging required.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Large clear plastic bag</li><li>Cord or tape</li><li>Small rock</li></ul></div>
-
+<p>{% materials %}
+Large clear plastic bag; Cord or tape; Small rock
+{% end %}</p>
 <h3>Step 1: Select a Branch</h3>
 <p>Choose a large, leafy branch on the sunny side of a <strong>non-toxic</strong> tree. Avoid eucalyptus (oils can leach into water). Good choices: most broadleaf trees, fruit trees, shrubs.</p>
 <h3>Step 2: Enclose and Seal</h3>
@@ -258,7 +260,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<p><strong>In optimal Australian or SEA conditions (35°C+, full sun), yields can exceed 1.5 L per day from a single large pit still.</strong></p>
+<p><strong>In optimal Australian conditions (35°C+, full sun), yields can exceed 1.5 L per day from a single large pit still.</strong></p>
 <h3>Yield Calculation Formula</h3>
 <p>For a pit still:</p>
 <blockquote>
@@ -288,21 +290,21 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </ul>
 <hr />
 <h2 id="environmental-performance">Environmental Performance</h2>
-<h3>Tropical (SEA, Northern Australia Summer)</h3>
+<h3>Tropical (Northern Australia Summer)</h3>
 <ul>
 <li>High humidity reduces evaporation differential — lower yield than expected from temperature alone</li>
 <li>BUT abundant vegetation compensates — pack the still full of fresh leaves</li>
 <li>Multiple <strong>vegetation bag stills</strong> may be more productive than pit stills in humid conditions</li>
 <li>Cover still from sudden tropical downpours — rain can collapse the plastic or contaminate the distilled water</li>
 </ul>
-<h3>Arid (Outback Australia, Northern China)</h3>
+<h3>Arid (Outback Australia)</h3>
 <ul>
 <li>Low humidity = high evaporation differential = <strong>excellent yield</strong></li>
 <li>BUT limited vegetation — add contaminated water or urine to the soil to boost moisture</li>
 <li>The desert is where solar stills perform best (high sun, low humidity, large temperature differential)</li>
 <li>Night-time temperature drop creates strong condensation on the plastic — collect dew in addition to still output</li>
 </ul>
-<h3>Temperate (Southern China, Southern Australia)</h3>
+<h3>Temperate (Southern Australia)</h3>
 <ul>
 <li>Variable sun; stills work best in summer (December–February AU, June–August CN)</li>
 <li>Winter production drops 60–80%. Supplement with other methods.</li>

@@ -23,19 +23,19 @@ It is the **only method** capable of purifying:
 *Solar still cross-section — sunlight evaporates moisture, which condenses on the plastic and drips into the collection container. Image: Wikimedia Commons (CC BY-SA).*
 
 ```
-    Sunlight
-      |   |   |   |
-      v   v   v   v
-    =======================  ← Clear plastic sheet
-    \                     /
-     \     💧 droplet    /
-      \   (condensed)   /
-       \      v        /
-        \     O       /
-         \          /
-          \   🪣  /         ← Collection container
-           \     /
-            =====            ← Ground (moist soil/vegetation/contaminated water)
+ Sunlight
+ | | | |
+ v v v v
+ ======================= ← Clear plastic sheet
+ \ /
+ \ 💧 droplet /
+ \ (condensed) /
+ \ v /
+ \ O /
+ \ /
+ \ 🪣 / ← Collection container
+ \ /
+ ===== ← Ground (moist soil/vegetation/contaminated water)
 ```
 
 **The process:**
@@ -51,7 +51,7 @@ It is the **only method** capable of purifying:
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Clear plastic sheet (at least 1.5 m × 1.5 m — larger is better); Collection container (cup, can, cut bottle, bowl — preferably not metal, which can leach into distilled water); Drinking tube (optional — allows drinking without dismantling the still); Rocks or soil to hold plastic edges down; A small stone to weight the centre of the plastic; Digging tool; Green vegetation (optional — increases yield dramatically); Contaminated water source (optional — pour into soil, NOT directly into container)
 {% end %}
 
@@ -59,11 +59,9 @@ Clear plastic sheet (at least 1.5 m × 1.5 m — larger is better); Collection c
 
 Choose a location with full sun all day. Avoid shade from trees, rocks, or buildings. Dig a bowl-shaped hole approximately 1 m wide and 40–60 cm deep. The wider the hole, the more collection area — and more yield.
 
-
 ### Step 2: Place Collection Container
 
 Place the collection container in the centre of the hole. The container must sit level and stable. If it sits above the hole floor, build a small platform of flat stones or packed soil.
-
 
 ### Step 3: Add Moisture Source
 
@@ -71,39 +69,35 @@ If available, pack green vegetation, leaves, or cactus pieces around and under t
 
 If using contaminated water (seawater, urine, grey water), pour it into the soil around the container — **do not pour directly into the collection container.** The soil absorbs it, and the still distills the vapour.
 
-
 ### Step 4: Cover and Seal
 
 Drape the plastic sheet over the hole. Seal the edges with the excavated soil, sand, or rocks — the seal must be **airtight**. Any gap allows vapour to escape instead of condensing.
-
 
 ### Step 5: Weight the Centre
 
 Place a small stone in the centre of the plastic, directly above the collection container, to create a 30–45° slope. The slope guides condensed droplets toward the centre, where they drip into the container.
 
-
 ### Step 6: Add Drinking Tube (Optional)
 
 Run a drinking tube from the collection container, under the plastic edge, and seal around it with soil. This lets you drink from the still without dismantling it — preserving the vapour seal.
-
 
 ### Step 7: Wait
 
 Production begins within 1–2 hours in strong sun. Check in the late afternoon for your water. Distilled water tastes flat — this is normal.
 
 ```
-    Pit Still — Complete Cross Section
+ Pit Still — Complete Cross Section
 
-    Rocks holding    clear plastic     Rocks holding
-    plastic edge \=====================/ plastic edge
-                 \         O          /     ← Weight stone
-                  \       /|\        /
-                   \_____/ | \______/
-    Ground ~~~~~~~~~     \ | /     ~~~~~~~~~~  Ground
-    (soil/veg)       collection container
-                            |
-                            v
-                     Drink tube (optional)
+ Rocks holding clear plastic Rocks holding
+ plastic edge \=====================/ plastic edge
+ \ O / ← Weight stone
+ \ /|\ /
+ \_____/ | \______/
+ Ground ~~~~~~~~~ \ | / ~~~~~~~~~~ Ground
+ (soil/veg) collection container
+ |
+ v
+ Drink tube (optional)
 ```
 
 ### Time Required
@@ -125,7 +119,7 @@ A simpler, faster still using a living plant. Lower yield but no digging require
 
 ### Materials
 
-{% materials() %}
+{% materials %}
 Large clear plastic bag; Cord or tape; Small rock
 {% end %}
 
@@ -133,16 +127,13 @@ Large clear plastic bag; Cord or tape; Small rock
 
 Choose a large, leafy branch on the sunny side of a **non-toxic** tree. Avoid eucalyptus (oils can leach into water). Good choices: most broadleaf trees, fruit trees, shrubs.
 
-
 ### Step 2: Enclose and Seal
 
 Insert the branch end into the bag, enclosing as many leaves as possible. Seal the bag opening tightly around the branch with cord or tape. The seal must be airtight.
 
-
 ### Step 3: Weight and Angle
 
 Place the small rock in the bottom corner of the bag. Angle the bag so the weighted corner is the lowest point — this is where water will collect.
-
 
 ### Step 4: Collect
 
@@ -169,7 +160,7 @@ Same as pit still — pure distilled water, but lower volume.
 | Pit still (with contaminated water added) | Sunny, 30°C+ | 1,000–1,500 mL |
 | Vegetation bag | Sunny, 25°C+ | 200–500 mL per bag |
 
-**In optimal Australian or SEA conditions (35°C+, full sun), yields can exceed 1.5 L per day from a single large pit still.**
+**In optimal Australian conditions (35°C+, full sun), yields can exceed 1.5 L per day from a single large pit still.**
 
 ### Yield Calculation Formula
 
@@ -206,26 +197,25 @@ In practical terms:
 
 ## Environmental Performance
 
-### Tropical (SEA, Northern Australia Summer)
+### Tropical (Northern Australia Summer)
 
 - High humidity reduces evaporation differential — lower yield than expected from temperature alone
 - BUT abundant vegetation compensates — pack the still full of fresh leaves
 - Multiple **vegetation bag stills** may be more productive than pit stills in humid conditions
 - Cover still from sudden tropical downpours — rain can collapse the plastic or contaminate the distilled water
 
-### Arid (Outback Australia, Northern China)
+### Arid (Outback Australia)
 
 - Low humidity = high evaporation differential = **excellent yield**
 - BUT limited vegetation — add contaminated water or urine to the soil to boost moisture
 - The desert is where solar stills perform best (high sun, low humidity, large temperature differential)
 - Night-time temperature drop creates strong condensation on the plastic — collect dew in addition to still output
 
-### Temperate (Southern China, Southern Australia)
+### Temperate (Southern Australia)
 
 - Variable sun; stills work best in summer (December–February AU, June–August CN)
 - Winter production drops 60–80%. Supplement with other methods.
 - Spring and autumn: moderate yield. Works, but don't rely on it as sole source.
-
 
 ---
 
@@ -251,7 +241,6 @@ Solar stills do not produce distilled water at night (no sun), BUT:
 - At dawn, carefully lift one edge and wipe the underside of the plastic with a cloth — wring into a container
 - **A second still** can be set up overnight in a different location to maximise collection area
 - In coastal or tropical environments, dew collection from still plastic can add 100–300 mL overnight
-
 
 ---
 

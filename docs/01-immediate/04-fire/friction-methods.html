@@ -135,9 +135,10 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <em>Bow drill method — most reliable friction technique. Image: Wikimedia Commons (CC BY-SA).</em></p>
 <p>The bow drill uses a bow to spin a spindle against a hearth board. It is the most mechanically efficient friction method — and the one you should master first.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Bow:** curved green branch, 60–80 cm long, finger-thick, with some flex but not floppy</li><li>**Bow string:** paracord, bootlace, strong vine, or strip of bark (paperbark or hibiscus bark in AU, bamboo fibre in CN/SEA)</li><li>**Spindle:** straight dry stick, 15–20 cm long, 2–3 cm diameter. Round is important — carve to shape if necessary.</li><li>**Hearth board:** flat piece of dry softwood, 30–40 cm long, 10 cm wide, 2–3 cm thick</li><li>**Handhold (bearing block):** piece of hardwood, stone with a depression, shell, or bottle cap. Must not generate friction at the top.</li><li>**Tinder bundle:** dry, fluffy tinder to receive the coal (see Fire Basics)</li><li>**Leaf or bark:** to catch the coal dust</li></ul></div>
-
-<h3>Choosing Woods (AU/CN/SEA)</h3>
+<p>{% materials %}
+<strong>Bow:</strong> curved green branch, 60–80 cm long, finger-thick, with some flex but not floppy; <strong>Bow string:</strong> paracord, bootlace, strong vine, or strip of bark (paperbark or hibiscus bark in AU, bamboo fibre in CN/); <strong>Spindle:</strong> straight dry stick, 15–20 cm long, 2–3 cm diameter. Round is important — carve to shape if necessary.; <strong>Hearth board:</strong> flat piece of dry softwood, 30–40 cm long, 10 cm wide, 2–3 cm thick; <strong>Handhold (bearing block):</strong> piece of hardwood, stone with a depression, shell, or bottle cap. Must not generate friction at the top.; <strong>Tinder bundle:</strong> dry, fluffy tinder to receive the coal (see Fire Basics); <strong>Leaf or bark:</strong> to catch the coal dust
+{% end %}</p>
+<h3>Choosing Woods (AU/CN/)</h3>
 <p>The spindle must be harder than the hearth board. Friction concentrates on the softer wood, producing char dust while the harder spindle resists wear.</p>
 <p><strong>Good hearth woods (softer):</strong></p>
 <table>
@@ -149,24 +150,16 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </thead>
 <tbody>
 <tr>
-<td>Cottonwood / poplar</td>
-<td>China</td>
-</tr>
-<tr>
 <td>Willow</td>
-<td>China, temperate AU</td>
+<td>, temperate AU</td>
 </tr>
 <tr>
 <td>Cedar</td>
-<td>Introduced in AU, China</td>
+<td>Introduced in AU,</td>
 </tr>
 <tr>
 <td>Mulga (<em>Acacia aneura</em>)</td>
 <td>Arid Australia — good for BOTH hearth and spindle</td>
-</tr>
-<tr>
-<td>Paulownia</td>
-<td>China — very soft, excellent hearth</td>
 </tr>
 </tbody>
 </table>
@@ -184,14 +177,6 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <td>Arid Australia — outstanding spindle wood</td>
 </tr>
 <tr>
-<td>Bamboo (dry)</td>
-<td>SEA, southern China</td>
-</tr>
-<tr>
-<td>Oak</td>
-<td>China</td>
-</tr>
-<tr>
 <td>Ironbark</td>
 <td>Australia — very hard, excellent spindle</td>
 </tr>
@@ -200,30 +185,37 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p><strong>Test the woods:</strong> Press your thumbnail into the hearth board. If it leaves a mark, it is soft enough. If it does not, choose a softer wood or harder spindle.</p>
 <hr />
 <h3>Step 1: Assemble the Bow Drill Set</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Carve the spindle:** Round, straight, 15–20 cm long. The top end (against handhold) should be pointed (conical) — this minimises friction at the handhold. The bottom end (against hearth) should be blunt-rounded — maximises friction surface.; **Prepare the hearth board:** The board must be flat on both sides. Carve or sand smooth if necessary.; **Prepare the handhold:** Carve a depression in the handhold for the top of the spindle. Lubricate with oil, grease, green leaves (crushed), or soap. This reduces friction at the top — you want friction ONLY at the bottom.; **String the bow:** The cord should be taut enough to grip the spindle but loose enough to wrap around. Tie one end of the cord to the bow, wrap the cord once around the spindle, then tie the other end. The spindle should be on the OUTSIDE of the bow (between the bow and your body).</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Carve the spindle:</strong> Round, straight, 15–20 cm long. The top end (against handhold) should be pointed (conical) — this minimises friction at the handhold. The bottom end (against hearth) should be blunt-rounded — maximises friction surface.; <strong>Prepare the hearth board:</strong> The board must be flat on both sides. Carve or sand smooth if necessary.; <strong>Prepare the handhold:</strong> Carve a depression in the handhold for the top of the spindle. Lubricate with oil, grease, green leaves (crushed), or soap. This reduces friction at the top — you want friction ONLY at the bottom.; <strong>String the bow:</strong> The cord should be taut enough to grip the spindle but loose enough to wrap around. Tie one end of the cord to the bow, wrap the cord once around the spindle, then tie the other end. The spindle should be on the OUTSIDE of the bow (between the bow and your body).
+{% end %}</p>
 <h3>Step 2: Burn the Seating Hole</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Position the spindle about 2 cm from the edge of the hearth board; Spin the spindle by hand to create a dark, smooth depression that centres the spindle; This is your "seat" — it prevents the spindle from skating across the board under pressure</span></label></li></ol>
-
+<p>{% steps %}
+Position the spindle about 2 cm from the edge of the hearth board; Spin the spindle by hand to create a dark, smooth depression that centres the spindle; This is your "seat" — it prevents the spindle from skating across the board under pressure
+{% end %}</p>
 <h3>Step 3: Cut the Notch</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut a V-shaped notch from the edge of the hearth board INTO the seating hole; The notch should be about 1/8 of the circle (a 45° pie-slice); The notch collects char dust and allows it to fall through onto your coal catcher; Place a green leaf or piece of bark under the notch to catch the coal dust</span></label></li></ol>
-
+<p>{% steps %}
+Cut a V-shaped notch from the edge of the hearth board INTO the seating hole; The notch should be about 1/8 of the circle (a 45° pie-slice); The notch collects char dust and allows it to fall through onto your coal catcher; Place a green leaf or piece of bark under the notch to catch the coal dust
+{% end %}</p>
 <h3>Step 4: Position and Start Bowing</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Position: Place your left foot (if right-handed) on the hearth board to hold it steady. The notch should face away from you, with the leaf underneath.; Insert spindle: Loop the bow string once around the spindle. The spindle should be between the bow and your shin.; Position hands: Place the spindle tip in the seating hole. Place the handhold on top of the spindle. Grip the bow with your right hand near the middle.; Start slow and steady: Begin bowing slowly and steadily. The spindle should spin without wobbling. If it wobbles, your spindle is not round, your seating hole is not centred, or your bowing motion is uneven.; Build speed gradually: Once the spindle is spinning smoothly, increase speed. You are NOT trying to produce a coal yet — just getting the feel.</span></label></li></ol>
-
+<p>{% steps %}
+Position: Place your left foot (if right-handed) on the hearth board to hold it steady. The notch should face away from you, with the leaf underneath.; Insert spindle: Loop the bow string once around the spindle. The spindle should be between the bow and your shin.; Position hands: Place the spindle tip in the seating hole. Place the handhold on top of the spindle. Grip the bow with your right hand near the middle.; Start slow and steady: Begin bowing slowly and steadily. The spindle should spin without wobbling. If it wobbles, your spindle is not round, your seating hole is not centred, or your bowing motion is uneven.; Build speed gradually: Once the spindle is spinning smoothly, increase speed. You are NOT trying to produce a coal yet — just getting the feel.
+{% end %}</p>
 <h3>Step 5: Build Heat Until Smoke Appears</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Look for smoke: After 30–60 seconds of steady bowing at decent speed, smoke should appear. Smoke means the wood is heating up and charring — it does NOT mean you have a coal.; Increase pressure and speed: As smoke builds, press down harder on the handhold AND bow faster. This increases friction heat.</span></label></li></ol>
-
+<p>{% steps %}
+Look for smoke: After 30–60 seconds of steady bowing at decent speed, smoke should appear. Smoke means the wood is heating up and charring — it does NOT mean you have a coal.; Increase pressure and speed: As smoke builds, press down harder on the handhold AND bow faster. This increases friction heat.
+{% end %}</p>
 <h3>Step 6: Form the Coal</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Watch for the coal: After smoke is consistent, look at the notch. Dark char dust will accumulate on the leaf below. When the dust continues to smoke AFTER you stop bowing, you have a coal.; Remove the spindle carefully: The coal is in the notch debris, not attached to the spindle. Lift the spindle away gently without disturbing the coal pile.</span></label></li></ol>
-
+<p>{% steps %}
+Watch for the coal: After smoke is consistent, look at the notch. Dark char dust will accumulate on the leaf below. When the dust continues to smoke AFTER you stop bowing, you have a coal.; Remove the spindle carefully: The coal is in the notch debris, not attached to the spindle. Lift the spindle away gently without disturbing the coal pile.
+{% end %}</p>
 <p><strong>Signs of a successful coal:</strong>
 - Char dust continues smoking for 10+ seconds after you stop drilling
 - A faint glow is visible in the dust pile (shield from light to see it)
 - The dust pile is dark brown/black</p>
 <h3>Step 7: Transfer Coal to Tinder</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Gently tap the hearth board to release any remaining coal dust onto the leaf; Transfer the smoking coal dust to your tinder bundle — the tinder should already be in your hand, cupped around the coal; Do not dump the coal into the tinder. Place the tinder AROUND the coal.; Close the tinder bundle gently around the coal — do not compress it (smothers the coal); Lift the bundle to mouth level — NOT directly in front of your face (fire safety); Blow gently but steadily into the bundle — long, controlled breaths, not short puffs; You are oxygenating the coal, not blowing it out. Steady airflow.; Smoke will increase dramatically. Keep blowing.; The tinder will burst into flame — usually when you least expect it; Place the burning tinder into your prepared fire lay</span></label></li></ol>
-
+<p>{% steps %}
+Gently tap the hearth board to release any remaining coal dust onto the leaf; Transfer the smoking coal dust to your tinder bundle — the tinder should already be in your hand, cupped around the coal; Do not dump the coal into the tinder. Place the tinder AROUND the coal.; Close the tinder bundle gently around the coal — do not compress it (smothers the coal); Lift the bundle to mouth level — NOT directly in front of your face (fire safety); Blow gently but steadily into the bundle — long, controlled breaths, not short puffs; You are oxygenating the coal, not blowing it out. Steady airflow.; Smoke will increase dramatically. Keep blowing.; The tinder will burst into flame — usually when you least expect it; Place the burning tinder into your prepared fire lay
+{% end %}</p>
 <h3>Common Mistakes — Bow Drill</h3>
 <ul>
 <li><strong>Spindle not round:</strong> If it wobbles, carve it until it spins true. A wobbly spindle wastes energy and produces no coal.</li>
@@ -247,11 +239,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <em>Hand drill method — the simplest but most physically demanding friction technique. Image: Wikimedia Commons (CC BY-SA).</em></p>
 <p>The hand drill is the simplest friction method — no bow, no cord. Just your hands spinning a spindle against a hearth. It is also the hardest. Master the bow drill first.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Spindle:** straight, dry stick, 60–90 cm long, 1–1.5 cm diameter. Must be perfectly straight and round.</li><li>**Hearth board:** same as bow drill — flat, dry softwood with notch</li><li>**Tinder bundle:** prepared and ready</li><li>**Leaf or bark:** coal catcher</li></ul></div>
-
+<p>{% materials %}
+<strong>Spindle:</strong> straight, dry stick, 60–90 cm long, 1–1.5 cm diameter. Must be perfectly straight and round.; <strong>Hearth board:</strong> same as bow drill — flat, dry softwood with notch; <strong>Tinder bundle:</strong> prepared and ready; <strong>Leaf or bark:</strong> coal catcher
+{% end %}</p>
 <h3>Technique</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Use a longer, thinner spindle (60–90 cm, 1–1.5 cm diameter); Start with hands at the top of the spindle, rolling it between palms while pressing down; As hands reach the bottom, quickly move them back to the top — do not stop spinning; This "floating" technique maintains continuous rotation; Same hearth board and notch setup as bow drill; Expect this to take 3–10 times longer than a bow drill — build endurance; Suitable dry, soft woods for hand drill: mullein stalks, yucca, hibiscus, pawpaw</span></label></li></ol>
-
+<p>{% steps %}
+Use a longer, thinner spindle (60–90 cm, 1–1.5 cm diameter); Start with hands at the top of the spindle, rolling it between palms while pressing down; As hands reach the bottom, quickly move them back to the top — do not stop spinning; This "floating" technique maintains continuous rotation; Same hearth board and notch setup as bow drill; Expect this to take 3–10 times longer than a bow drill — build endurance; Suitable dry, soft woods for hand drill: mullein stalks, yucca, hibiscus, pawpaw
+{% end %}</p>
 <h3>Common Mistakes — Hand Drill</h3>
 <ul>
 <li><strong>Stopping between strokes:</strong> Every pause cools the friction point. Maintain continuous rotation via floating.</li>
@@ -265,23 +259,27 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li>Char dust accumulating in the notch</li>
 <li>Coal formation takes 3–5× longer than bow drill</li>
 </ul>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Hand drill is an advanced skill.** If you have not practiced it before your emergency, use a bow drill instead. The hand drill requires specific wood types and considerable upper-body endurance. Most beginners take 20+ attempts to get their first coal.</div></div>
-
+<p>{% info %}
+<strong>Hand drill is an advanced skill.</strong> If you have not practiced it before your emergency, use a bow drill instead. The hand drill requires specific wood types and considerable upper-body endurance. Most beginners take 20+ attempts to get their first coal.
+{% end %}</p>
 <hr />
 <h2 id="method-3-fire-plow">Method 3: Fire Plow</h2>
 <p><img alt="Fire plow technique" src="../../static/images/fire/fire-plow.jpg" />
 <em>Fire plow — rubbing a hardwood stick along a softwood groove. The most physically demanding method. Image: Wikimedia Commons (CC BY-SA).</em></p>
 <p>The fire plow rubs a hardwood stick along a groove in a softwood board, pushing char dust ahead of the plow tip until it ignites. It is the simplest design — two pieces of wood and no cord — but the least mechanically efficient.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Hearth board:** softwood, flat, 40–60 cm long, 10 cm wide. Paulownia, poplar, cottonwood are ideal.</li><li>**Plow stick:** hardwood, 20–30 cm long, 2–3 cm diameter. Blunt, rounded tip.</li><li>**Tinder bundle:** prepared and ready</li></ul></div>
-
+<p>{% materials %}
+<strong>Hearth board:</strong> softwood, flat, 40–60 cm long, 10 cm wide. Paulownia, poplar, cottonwood are ideal.; <strong>Plow stick:</strong> hardwood, 20–30 cm long, 2–3 cm diameter. Blunt, rounded tip.; <strong>Tinder bundle:</strong> prepared and ready
+{% end %}</p>
 <h3>Technique</h3>
 <h3>Step 1: Prepare the Groove</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Carve a straight groove down the length of a softwood hearth board, 1 cm deep; Smooth the groove sides — the plow stick must slide freely without catching</span></label></li></ol>
-
+<p>{% steps %}
+Carve a straight groove down the length of a softwood hearth board, 1 cm deep; Smooth the groove sides — the plow stick must slide freely without catching
+{% end %}</p>
 <h3>Step 2: Plow Rapidly</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Use a hardwood plow stick with a blunt, rounded tip; Rub the plow stick rapidly back and forth along the groove; Char dust accumulates at the far end of the groove; Continue until the dust pile is smoking and glowing; Transfer to tinder as with bow drill</span></label></li></ol>
-
+<p>{% steps %}
+Use a hardwood plow stick with a blunt, rounded tip; Rub the plow stick rapidly back and forth along the groove; Char dust accumulates at the far end of the groove; Continue until the dust pile is smoking and glowing; Transfer to tinder as with bow drill
+{% end %}</p>
 <p><strong>Best woods for fire plow:</strong> Soft hearth (paulownia, poplar, cottonwood), hard plow stick (oak, ironbark, bamboo).</p>
 <h3>Common Mistakes — Fire Plow</h3>
 <ul>
@@ -301,15 +299,18 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="method-4-pump-drill">Method 4: Pump Drill</h2>
 <p>The pump drill uses a flywheel and a crossbar to convert vertical pumping motion into sustained spindle rotation. It is more efficient than a bow drill — but requires more construction.</p>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>**Spindle:** straight stick, 50–70 cm long, 2 cm diameter</li><li>**Flywheel:** heavy disc — stone with centre hole, thick wooden disc, or clay disc. 10–15 cm diameter, heavy enough to maintain momentum.</li><li>**Crossbar:** wooden bar, 30–40 cm long, with a centre hole the spindle passes through freely</li><li>**Cord:** 2 lengths of cord, tied from crossbar ends to top of spindle</li><li>**Handhold:** same as bow drill — lubricated bearing block</li><li>**Hearth board:** same as bow drill</li></ul></div>
-
+<p>{% materials %}
+<strong>Spindle:</strong> straight stick, 50–70 cm long, 2 cm diameter; <strong>Flywheel:</strong> heavy disc — stone with centre hole, thick wooden disc, or clay disc. 10–15 cm diameter, heavy enough to maintain momentum.; <strong>Crossbar:</strong> wooden bar, 30–40 cm long, with a centre hole the spindle passes through freely; <strong>Cord:</strong> 2 lengths of cord, tied from crossbar ends to top of spindle; <strong>Handhold:</strong> same as bow drill — lubricated bearing block; <strong>Hearth board:</strong> same as bow drill
+{% end %}</p>
 <h3>Technique</h3>
 <h3>Step 1: Assemble the Pump Drill</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Fit the flywheel onto the spindle, low down (near the bottom); Slide the crossbar onto the spindle above the flywheel — it must move freely up and down; Tie one cord from left end of crossbar to the top of the spindle; Tie the second cord from right end of crossbar to the top of the spindle; The cords should wrap around the spindle shaft so that pushing the crossbar down unwinds them, spinning the spindle; The flywheel momentum carries the spindle through, rewinding the cords in reverse, ready for the next push</span></label></li></ol>
-
+<p>{% steps %}
+Fit the flywheel onto the spindle, low down (near the bottom); Slide the crossbar onto the spindle above the flywheel — it must move freely up and down; Tie one cord from left end of crossbar to the top of the spindle; Tie the second cord from right end of crossbar to the top of the spindle; The cords should wrap around the spindle shaft so that pushing the crossbar down unwinds them, spinning the spindle; The flywheel momentum carries the spindle through, rewinding the cords in reverse, ready for the next push
+{% end %}</p>
 <h3>Step 2: Operate the Pump Drill</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Place spindle tip in hearth board seating hole; Hold the handhold on top of the spindle; Push the crossbar down smoothly — the spindle spins as the cords unwind; At the bottom of the stroke, the flywheel continues spinning, rewinding the cords; Push down again — continuous pumping = continuous spinning; Same coal formation and transfer process as bow drill</span></label></li></ol>
-
+<p>{% steps %}
+Place spindle tip in hearth board seating hole; Hold the handhold on top of the spindle; Push the crossbar down smoothly — the spindle spins as the cords unwind; At the bottom of the stroke, the flywheel continues spinning, rewinding the cords; Push down again — continuous pumping = continuous spinning; Same coal formation and transfer process as bow drill
+{% end %}</p>
 <h3>Common Mistakes — Pump Drill</h3>
 <ul>
 <li><strong>Flywheel too light:</strong> Insufficient momentum to rewind the cords. Use a heavier flywheel or spin it manually to start.</li>

@@ -137,8 +137,8 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </ul>
 <hr />
 <h2 id="the-drowning-sequence">The Drowning Sequence</h2>
-<pre class="codehilite"><code>    Panic → Breath-holding → Involuntary inhalation of water
-    → Laryngospasm (throat closes) → Hypoxia → Cardiac arrest
+<pre class="codehilite"><code> Panic → Breath-holding → Involuntary inhalation of water
+ → Laryngospasm (throat closes) → Hypoxia → Cardiac arrest
 </code></pre>
 
 <p>Key points:
@@ -149,17 +149,21 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="resuscitation-after-water-rescue">Resuscitation After Water Rescue</h2>
 <h3>If the Person is Conscious and Breathing</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Remove wet clothing; Dry and warm the person — wrap in blankets, clothing, emergency blanket; Place in recovery position if nauseous or weak; Give warm (not hot) fluids if fully alert; Monitor for at least 4 hours — secondary drowning can occur</span></label></li></ol>
-
+<p>{% steps %}
+Remove wet clothing; Dry and warm the person — wrap in blankets, clothing, emergency blanket; Place in recovery position if nauseous or weak; Give warm (not hot) fluids if fully alert; Monitor for at least 4 hours — secondary drowning can occur
+{% end %}</p>
 <h3>If the Person is Unconscious but Breathing</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Check airway — clear visible debris from mouth; Place in recovery position; Keep warm — wrap in blankets or emergency blanket; Monitor breathing continuously — breath every 5–10 seconds is normal; Be prepared to start CPR if breathing stops; Monitor for vomiting — drowning victims often vomit swallowed water</span></label></li></ol>
-
+<p>{% steps %}
+Check airway — clear visible debris from mouth; Place in recovery position; Keep warm — wrap in blankets or emergency blanket; Monitor breathing continuously — breath every 5–10 seconds is normal; Be prepared to start CPR if breathing stops; Monitor for vomiting — drowning victims often vomit swallowed water
+{% end %}</p>
 <h3>If the Person is Not Breathing</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Shout for help; Open the airway — head-tilt/chin-lift; Give 5 initial rescue breaths — drowning is respiratory arrest, and these early breaths are critical; If still no signs of life, begin CPR: 30 compressions : 2 breaths; Continue until signs of life, help arrives, or you are exhausted</span></label></li></ol>
-
+<p>{% steps %}
+Shout for help; Open the airway — head-tilt/chin-lift; Give 5 initial rescue breaths — drowning is respiratory arrest, and these early breaths are critical; If still no signs of life, begin CPR: 30 compressions : 2 breaths; Continue until signs of life, help arrives, or you are exhausted
+{% end %}</p>
 <p>→ For detailed CPR technique, see <a href="cpr.html">CPR &amp; Basic Life Support</a>.</p>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Spinal injury precautions:** If the drowning involved diving into shallow water, surfing, or a fall from height, suspect spinal injury. Open the airway using a jaw thrust (hands on either side of the head, push the jaw forward without tilting the neck) instead of head-tilt/chin-lift. If the jaw thrust does not open the airway, use head-tilt/chin-lift anyway — life over limb.</div></div>
-
+<p>{% info %}
+<strong>Spinal injury precautions:</strong> If the drowning involved diving into shallow water, surfing, or a fall from height, suspect spinal injury. Open the airway using a jaw thrust (hands on either side of the head, push the jaw forward without tilting the neck) instead of head-tilt/chin-lift. If the jaw thrust does not open the airway, use head-tilt/chin-lift anyway — life over limb.
+{% end %}</p>
 <hr />
 <h2 id="hypothermia-after-immersion">Hypothermia After Immersion</h2>
 <p>Water conducts heat 25 times faster than air. In water below 20°C, hypothermia develops rapidly.</p>
@@ -218,8 +222,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tbody>
 </table>
 <h3>Rewarming</h3>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Move the person to shelter — out of wind and onto insulation (mat, leaves, clothing); Remove all wet clothing — cut it off if necessary; Dry the person thoroughly — pat dry, do not rub (rubbing damages cold skin); Wrap in warm, dry layers — emergency blanket, sleeping bag, multiple layers of clothing; Cover the head — a hat or improvised head covering; Apply warm (not hot) objects to armpits, groin, and neck — wrapped warm rocks, water bottles if available; If conscious and alert, give warm, sweet drinks — no alcohol, no caffeine; Do not rub or massage extremities — this can push cold blood to the heart and cause cardiac arrest; Handle gently — the cold heart is irritable and susceptible to arrhythmia</span></label></li></ol>
-
+<p>{% steps %}
+Move the person to shelter — out of wind and onto insulation (mat, leaves, clothing); Remove all wet clothing — cut it off if necessary; Dry the person thoroughly — pat dry, do not rub (rubbing damages cold skin); Wrap in warm, dry layers — emergency blanket, sleeping bag, multiple layers of clothing; Cover the head — a hat or improvised head covering; Apply warm (not hot) objects to armpits, groin, and neck — wrapped warm rocks, water bottles if available; If conscious and alert, give warm, sweet drinks — no alcohol, no caffeine; Do not rub or massage extremities — this can push cold blood to the heart and cause cardiac arrest; Handle gently — the cold heart is irritable and susceptible to arrhythmia
+{% end %}</p>
 <hr />
 <h2 id="secondary-drowning-delayed-drowning">Secondary Drowning (Delayed Drowning)</h2>
 <p>A person can appear to recover from a near-drowning, then deteriorate and die hours later. This is caused by:</p>
@@ -241,14 +246,15 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p><strong>If these develop, the person needs advanced medical care.</strong> In the field, keep the person resting, warm, and sitting upright. Monitor breathing continuously.</p>
 <hr />
 <h2 id="water-rescue-in-flood-conditions">Water Rescue in Flood Conditions</h2>
-<p>Monsoons across Southeast Asia, cyclones in northern Australia, and typhoons in southern China create flood conditions regularly.</p>
+<p>Monsoons across , cyclones in northern Australia, and typhoons in southern create flood conditions regularly.</p>
 <p><strong>Flood-specific dangers:</strong>
 - <strong>Debris</strong> — submerged objects, broken glass, sewage
 - <strong>Contaminated water</strong> — floodwater carries cholera, leptospirosis, typhoid
 - <strong>Currents</strong> — even 15 cm of moving water can knock an adult off their feet
 - <strong>Drains and culverts</strong> — invisible from the surface, create deadly suction</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Do not enter floodwater unless absolutely necessary; If you must wade, use a pole to probe ahead for holes and debris; Wear footwear — cuts in contaminated water lead to serious infection; After any floodwater contact, wash thoroughly with clean water and soap; Treat any cuts from floodwater debris as potentially infected — clean with antiseptic</span></label></li></ol>
-
+<p>{% steps %}
+Do not enter floodwater unless absolutely necessary; If you must wade, use a pole to probe ahead for holes and debris; Wear footwear — cuts in contaminated water lead to serious infection; After any floodwater contact, wash thoroughly with clean water and soap; Treat any cuts from floodwater debris as potentially infected — clean with antiseptic
+{% end %}</p>
 <hr />
 <h2 id="emptying-water-from-the-lungs">Emptying Water from the Lungs</h2>
 <p><strong>Do not attempt to drain water from the lungs.</strong> The old technique of abdominal compressions or hanging someone upside down is outdated and dangerous:</p>

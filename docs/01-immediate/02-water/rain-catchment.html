@@ -126,7 +126,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><a href="#related">Related</a></li>
 </ul></details>
 <h1>Rain Catchment</h1>
-<p>Rainwater is the safest natural water source — it is naturally distilled by the sun and requires only that your collection surface be clean. Across monsoonal Southeast Asia, tropical northern Australia, and southern China, rainfall can provide all the water a survivor needs if captured effectively.</p>
+<p>Rainwater is the safest natural water source — it is naturally distilled by the sun and requires only that your collection surface be clean. Across monsoonal , tropical northern Australia, and southern , rainfall can provide all the water a survivor needs if captured effectively.</p>
 <hr />
 <h2 id="why-rainwater-is-superior">Why Rainwater is Superior</h2>
 <ul>
@@ -138,21 +138,22 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="setup-1-simple-slope-tarp-fastest-to-deploy">Setup 1: Simple Slope Tarp (Fastest to Deploy)</h2>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Tarp, emergency blanket, plastic sheet, or poncho (at least 1.5 m × 1.5 m)</li><li>Cordage (paracord, rope, vines)</li><li>Two high anchor points (tree branches, poles, vehicle roof) approximately 1.5–2 m high</li><li>Two low anchor points approximately 30 cm above ground</li><li>Collection container (bucket, pot, drum, cut bottle)</li></ul></div>
+<p>{% materials %}
+Tarp, emergency blanket, plastic sheet, or poncho (at least 1.5 m × 1.5 m); Cordage (paracord, rope, vines); Two high anchor points (tree branches, poles, vehicle roof) approximately 1.5–2 m high; Two low anchor points approximately 30 cm above ground; Collection container (bucket, pot, drum, cut bottle)
+{% end %}</p>
+<pre class="codehilite"><code> Slope Tarp Setup — Side View
 
-<pre class="codehilite"><code>    Slope Tarp Setup — Side View
-
-    High anchor (tree/pole)
-         |\
-         | \  ← Tarp angled at 30–45°
-         |  \
-         |   \_____
-         |        /
-         |       /  ← Low corner funnels water
-         |      /
-         |     /
-         v    v
-       Collection container
+ High anchor (tree/pole)
+ |\
+ | \ ← Tarp angled at 30–45°
+ | \
+ | \_____
+ | /
+ | / ← Low corner funnels water
+ | /
+ | /
+ v v
+ Collection container
 </code></pre>
 
 <h3>Step 1: Secure High Anchors</h3>
@@ -171,19 +172,20 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="setup-2-bowl-trough-tarp-maximum-catchment-area">Setup 2: Bowl/Trough Tarp (Maximum Catchment Area)</h2>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Large tarp or plastic sheet (bigger is better — 3 m × 3 m ideal)</li><li>Four poles or four tie points (trees)</li><li>Cordage</li><li>Small rock for centre weight</li><li>Collection container (placed underneath centre)</li></ul></div>
+<p>{% materials %}
+Large tarp or plastic sheet (bigger is better — 3 m × 3 m ideal); Four poles or four tie points (trees); Cordage; Small rock for centre weight; Collection container (placed underneath centre)
+{% end %}</p>
+<pre class="codehilite"><code> Bowl Tarp Setup — Top and Side View
 
-<pre class="codehilite"><code>    Bowl Tarp Setup — Top and Side View
-
-    Top View:                     Side View:
-    =========================      Poles at corners
-    \                       /      |               |
-     \                     /       |  \===========/  |
-      \                   /        |   \         /   |
-       \_________________/         |    \_______/    |
-                |                  |        |        |
-                v                  |        v        |
-          Container (below)        |    Container    |
+ Top View: Side View:
+ ========================= Poles at corners
+ \ / | |
+ \ / | \===========/ |
+ \ / | \ / |
+ \_________________/ | \_______/ |
+ | | | |
+ v | v |
+ Container (below) | Container |
 </code></pre>
 
 <h3>Step 1: Anchor All Four Corners High</h3>
@@ -240,22 +242,26 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="natural-rain-catchment-methods">Natural Rain Catchment Methods</h2>
 <h3>Banana / Taro Leaves</h3>
 <p>Large tropical leaves are natural water funnels:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut a large banana or taro leaf — at least 30 cm long; Fold it into a funnel shape — wide at top, narrow at bottom; Secure the funnel shape with a small stick or thorn pushed through the leaf; Tie the funnel to a support stick so the narrow end drains into a container; Replace leaves daily — they dry and curl within 24–48 hours; Run multiple funnels to increase collection area</span></label></li></ol>
-
+<p>{% steps %}
+Cut a large banana or taro leaf — at least 30 cm long; Fold it into a funnel shape — wide at top, narrow at bottom; Secure the funnel shape with a small stick or thorn pushed through the leaf; Tie the funnel to a support stick so the narrow end drains into a container; Replace leaves daily — they dry and curl within 24–48 hours; Run multiple funnels to increase collection area
+{% end %}</p>
 <h3>Bamboo Guttering</h3>
-<p>Bamboo is nature's guttering — hollow, straight, and abundant across SEA and southern China:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Cut a length of bamboo approximately 1–2 m long; Split it lengthwise — you now have two half-pipes; Remove the internal nodes (the solid partitions at each joint) — use a stick to punch them out; Set one end higher using a forked stick and angle it down toward the collection container; Multiple bamboo sections can be lashed together with cord or vine to extend length; Ensure joints overlap so water flows freely — upper section drains into lower section</span></label></li></ol>
-
+<p>Bamboo is nature's guttering — hollow, straight, and abundant across and southern :</p>
+<p>{% steps %}
+Cut a length of bamboo approximately 1–2 m long; Split it lengthwise — you now have two half-pipes; Remove the internal nodes (the solid partitions at each joint) — use a stick to punch them out; Set one end higher using a forked stick and angle it down toward the collection container; Multiple bamboo sections can be lashed together with cord or vine to extend length; Ensure joints overlap so water flows freely — upper section drains into lower section
+{% end %}</p>
 <h3>Rock Surfaces</h3>
 <p>Large flat rock surfaces (common in Australian sandstone country) make excellent natural catchments:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Identify a large, sloping, clean rock face — at least 2 m²; Build a small dam of clay, mud, or packed soil at the bottom edge to catch runoff; Channel water from the dam into a container below — a split bamboo or folded bark works as a channel; The rock surface must be clean — avoid areas with animal droppings, lichen, or bird roosts; After rain starts, let the first few minutes wash the rock clean before collecting</span></label></li></ol>
-
+<p>{% steps %}
+Identify a large, sloping, clean rock face — at least 2 m²; Build a small dam of clay, mud, or packed soil at the bottom edge to catch runoff; Channel water from the dam into a container below — a split bamboo or folded bark works as a channel; The rock surface must be clean — avoid areas with animal droppings, lichen, or bird roosts; After rain starts, let the first few minutes wash the rock clean before collecting
+{% end %}</p>
 <hr />
 <h2 id="building-and-vehicle-catchment">Building and Vehicle Catchment</h2>
 <h3>Roof Catchment (Intact Buildings)</h3>
 <p>If you have access to an intact building with gutters:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Sweep the roof of debris, bird droppings, and leaves before rain begins; Place clean containers under downpipes or gutter outlets; Let the first 5–10 minutes of rain wash the roof clean — then start collecting; Cover containers with mesh or cloth to prevent debris and mosquito breeding; Check gutters for blockages — a blocked gutter overflows and wastes water</span></label></li></ol>
-
+<p>{% steps %}
+Sweep the roof of debris, bird droppings, and leaves before rain begins; Place clean containers under downpipes or gutter outlets; Let the first 5–10 minutes of rain wash the roof clean — then start collecting; Cover containers with mesh or cloth to prevent debris and mosquito breeding; Check gutters for blockages — a blocked gutter overflows and wastes water
+{% end %}</p>
 <h3>Vehicle Roof/Windscreen</h3>
 <ul>
 <li>A vehicle's roof and windscreen funnel water to the sides and base of the windscreen</li>
@@ -268,28 +274,28 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <h2 id="first-flush-diversion">First-Flush Diversion</h2>
 <p>The first rain after a dry period washes accumulated dust, bird droppings, leaves, and pollutants off the collection surface. This "first flush" should be discarded.</p>
 <h3>How It Works</h3>
-<pre class="codehilite"><code>    First-Flush Diversion System
+<pre class="codehilite"><code> First-Flush Diversion System
 
-    Collection surface (roof/tarp)
-                |
-                v
-          =============
-          |           |  ← Pipe, guttering, or channel
-          =============
-                |
-                v
-    =======================
-    |    First flush     |  ← Discard first 1–2 L per m² of catchment
-    |   (5 L container)  |
-    =======================
-                |
-                | (overflow when container is full)
-                v
-    =======================
-    |                     |
-    |  Storage container  |  ← Clean rainwater (main collection)
-    |                     |
-    =======================
+ Collection surface (roof/tarp)
+ |
+ v
+ =============
+ | | ← Pipe, guttering, or channel
+ =============
+ |
+ v
+ =======================
+ | First flush | ← Discard first 1–2 L per m² of catchment
+ | (5 L container) |
+ =======================
+ |
+ | (overflow when container is full)
+ v
+ =======================
+ | |
+ | Storage container | ← Clean rainwater (main collection)
+ | |
+ =======================
 </code></pre>
 
 <h3>Step 1: Set Up First-Flush Container</h3>
@@ -352,7 +358,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tbody>
 </table>
 <p><strong>Quick formula:</strong> Area (m²) × Rainfall (mm) = Litres collected (assume 100% efficiency — in practice, 80–90% due to splash and absorption).</p>
-<p><strong>In a northern Australian wet season or SEA monsoon (100+ mm per day), a single 4 m² tarp can collect 400+ L in 24 hours</strong> — more than enough for a small group.</p>
+<p><strong>In a northern Australian wet season monsoon (100+ mm per day), a single 4 m² tarp can collect 400+ L in 24 hours</strong> — more than enough for a small group.</p>
 <hr />
 <h2 id="improvising-in-a-pinch">Improvising in a Pinch</h2>
 <table>
@@ -391,20 +397,20 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <hr />
 <h2 id="rain-catchment-by-region">Rain Catchment by Region</h2>
-<h3>Monsoonal SEA &amp; Northern Australia</h3>
+<h3>Monsoonal &amp; Northern Australia</h3>
 <ul>
 <li>Wet season (roughly November–April in Darwin, May–October in Thailand): <strong>primary water source</strong></li>
 <li>Single tarp can support a group of 10+</li>
 <li>Build permanent catchment early — the dry season is long and hard</li>
 <li>Typhoon/cyclone season: secure everything. High winds will destroy poorly anchored tarps.</li>
 </ul>
-<h3>Tropical Queensland &amp; Southern China</h3>
+<h3>Tropical Queensland &amp;</h3>
 <ul>
 <li>Year-round rainfall, heaviest in summer</li>
 <li>Consistent rain catchment is viable year-round</li>
 <li>Typhoon season brings intense rain — have storm-ready collection ready</li>
 </ul>
-<h3>Arid/Semi-arid Australia &amp; Northern China</h3>
+<h3>Arid/Semi-arid Australia &amp;</h3>
 <ul>
 <li>Rain is infrequent but often heavy when it comes</li>
 <li><strong>Harvest every drop</strong> — the opportunity may not return for weeks</li>

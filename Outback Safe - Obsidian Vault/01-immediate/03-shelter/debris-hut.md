@@ -16,23 +16,23 @@ The debris hut is the most reliable improvised wilderness shelter. Properly buil
 A debris hut traps your body heat inside a small enclosed space, insulated by a thick layer of dry organic material (leaves, grass, pine needles, bark). The insulation works the same way a sleeping bag or doona does — it traps tiny pockets of still air that your body warms.
 
 ```
-    Debris Hut — Cross Section
+ Debris Hut — Cross Section
 
-         Wind
-    -------->
-                 debris thatch (60+ cm)
-              /////////////////////////
-             /////////////////////////
-            /////////////////////////
-           ///  ridge pole  \\\\\\\\\
-          ////=============\\\\\\\\\\
-         /////////////////////////////
-        //                           \\
-       //                             \\
-      //    ~~~~ bedding 30+ cm ~~~~~  \\
-     //    ~~~~~~~~~~~~~~~~~~~~~~~~~~   \\
-    //___________________________________\\
-   (_______________ ground _______________)
+ Wind
+ -------->
+ debris thatch (60+ cm)
+ /////////////////////////
+ /////////////////////////
+ /////////////////////////
+ /// ridge pole \\\\\\\\\
+ ////=============\\\\\\\\\\
+ /////////////////////////////
+ // \\
+ // \\
+ // ~~~~ bedding 30+ cm ~~~~~ \\
+ // ~~~~~~~~~~~~~~~~~~~~~~~~~~ \\
+ //___________________________________\\
+ (_______________ ground _______________)
 ```
 
 ---
@@ -52,30 +52,25 @@ A debris hut traps your body heat inside a small enclosed space, insulated by a 
 
 ## Materials
 
-{% materials() %}
+{% materials %}
 One strong ridge pole (3–4 m long, wrist-thick, straight); 15–20 ribbing sticks (1.5–2 m long, thumb-thick, reasonably straight); Large quantity of dry leaves, grass, pine needles, or fern fronds (you need more than you think — keep gathering); Bark sheets or a layer of finer debris for waterproofing the outer layer; Additional sticks or logs to weigh down the thatch in windy conditions; Bedding material (30+ cm of compressed dry material)
 {% end %}
 
-**What to use as thatch (AU/CN/SEA):**
+**What to use as thatch (AU/CN/):**
 
 | Material | Region | Quality |
 |----------|--------|---------|
 | Paperbark sheets (*Melaleuca*) | Northern & eastern Australia | Excellent — water-resistant, large sheets |
 | Spinifex grass | Arid/central Australia | Good — very dry, insulates well |
-| Pine needles | Plantation forests, China | Good — readily available, fine thatching |
-| Bracken fern | Temperate Australia, southern China | Good — abundant, dry well |
-| Coconut / palm fronds | Coastal SEA, northern Australia | Good — large coverage, water-shedding |
-| Bamboo leaves | SEA, southern China | Adequate — need large quantity |
+| Bracken fern | Temperate Australia | Good — abundant, dry well |
+| Coconut / palm fronds | Coastal northern Australia | Good — large coverage, water-shedding |
 | Eucalyptus leaves | Australia-wide | Poor — do not compact well, contain oils that can irritate skin. Use only as last resort. |
-| Rice straw | SEA, southern China | Good — if you are near abandoned farmland |
-| Banana leaves | SEA | Good — large, shed water, dry quickly |
 
 ---
 
 ## Construction — Step by Step
 
 ### Step 0: Site Selection
-
 
 → See [Site Selection](01-immediate/03-shelter/site-selection) for full details. Quick checklist for a debris hut:
 
@@ -90,8 +85,7 @@ One strong ridge pole (3–4 m long, wrist-thick, straight); 15–20 ribbing sti
 
 ### Step 1: Ridgepole
 
-
-{% steps() %}
+{% steps %}
 Find a natural support for one end of the ridge pole — a tree stump, a low fork in a tree, a rock, or a large fallen log; The supported end should be 1–1.2 m above the ground; The other end rests on the ground; Alternatively: lash two forked sticks together as an A-frame to support the high end; Alternatively: pile rocks to create a support; The ridge pole must be strong enough to support the weight of the thatch plus snow if applicable — test by hanging your weight from it briefly; The total length should be 3–4 m — long enough to cover your body with 30 cm margin at head and foot
 {% end %}
 
@@ -99,8 +93,7 @@ Find a natural support for one end of the ridge pole — a tree stump, a low for
 
 ### Step 2: Ribbing
 
-
-{% steps() %}
+{% steps %}
 Lean sticks against both sides of the ridge pole at roughly 45°; Space them 15–20 cm apart along the ridge pole; Stick the bottom ends into the ground slightly to anchor them; The ribbing creates the A-frame shape and will support the thatch; At the foot end, the ribs should meet close together — the foot end is narrower; At the head end, leave a wider opening for entry
 {% end %}
 
@@ -108,10 +101,9 @@ Lean sticks against both sides of the ridge pole at roughly 45°; Space them 15�
 
 ### Step 3: Debris Layer (Thatching)
 
-
 This is the most critical and most commonly skimped step. Do not skimp.
 
-{% steps() %}
+{% steps %}
 Start at the bottom and work up — like roof shingles, so water runs off; Pile dry leaves, grass, pine needles, or other material onto the ribbing; Apply at least 60 cm thickness (compressed) — yes, sixty centimetres. More is better.; When you think you have enough, hold your arm up to the thatch — if light shines through any gaps, you need more; Add a waterproof outer layer: sheets of bark (paperbark is ideal), large leaves (banana, palm), or if available, a tarp or emergency blanket over the thatch; Secure the outer layer with additional sticks laid across the ridge pole — gravity and friction hold them; In windy conditions, place heavier logs or rocks on the outer sticks to prevent the thatch from blowing away
 {% end %}
 
@@ -119,8 +111,7 @@ Start at the bottom and work up — like roof shingles, so water runs off; Pile 
 
 ### Step 4: Insulation & Bedding
 
-
-{% steps() %}
+{% steps %}
 Clear the floor of the shelter of any sharp sticks or rocks; Lay down at least 30 cm of dry, soft material — leaves, grass, pine needles, ferns; Compact it by lying on it; If you can feel the ground through it, add more; Create a slight depression where your hips and shoulders will be — this reduces pressure points for sleeping; A layer of bark or flat stones beneath the bedding provides an additional moisture barrier
 {% end %}
 
@@ -130,15 +121,13 @@ Clear the floor of the shelter of any sharp sticks or rocks; Lay down at least 3
 
 ### Step 5: Door Plug
 
-
-{% steps() %}
+{% steps %}
 Gather debris (leaves, grass) into a bundle roughly the size of the shelter entrance; Tie loosely with vine or cord to keep it together; When you enter the shelter for the night, pull the door plug into the entrance behind you; The door plug seals the opening, trapping warm air inside; Leave a small ventilation gap at the top if condensation is a concern
 {% end %}
 
 ---
 
 ### Completed Hut + Fire Reflector (Optional)
-
 
 For cold climates, add a fire reflector wall 1–2 m from the shelter entrance. The reflector wall bounces heat from the fire into the shelter entrance. With this setup, a debris hut can be comfortable even in freezing conditions.
 
@@ -185,7 +174,7 @@ After the shelter is built, spend 10 minutes inside:
 
 ## Regional Variations
 
-### Tropical (SEA, Northern Australia)
+### Tropical (Northern Australia)
 
 The standard debris hut is too warm for tropical conditions. Modify:
 
@@ -194,7 +183,7 @@ The standard debris hut is too warm for tropical conditions. Modify:
 - **Elevate the floor** — build a raised platform of poles covered with bark or leaves to stay off wet ground
 - **Mosquito protection** — if you have no net, burn green leaves to produce smoke near the entrance
 
-### Snow/Winter (Northern China, Australian Alps)
+### Snow/Winter (Australian Alps)
 
 → See [Snow Shelter](01-immediate/03-shelter/snow-shelter) for dedicated snow shelters, but a debris hut in snow country:
 

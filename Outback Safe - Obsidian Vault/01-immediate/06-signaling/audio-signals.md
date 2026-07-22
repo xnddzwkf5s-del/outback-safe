@@ -47,7 +47,6 @@ A whistle should be part of every survival kit. It requires minimal effort, carr
 | Open, still air | 1–2 km |
 | Open, windy | 500 m – 1 km |
 | Dense forest | 200–500 m |
-| Jungle (SEA tropical) | 100–300 m |
 | Mountains with echo | Variable — echoes can confuse direction |
 | Over water | 500 m – 1.5 km |
 

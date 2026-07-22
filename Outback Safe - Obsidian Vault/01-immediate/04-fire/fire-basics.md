@@ -15,7 +15,7 @@ Most failed fires fail before they begin — because the builder did not prepare
 
 Before striking a single spark, gather everything:
 
-{% materials() %}
+{% materials %}
 **Tinder:** enough to fill both cupped hands — dry, fine, fluffy material that catches from a spark or ember; **Stage 1 kindling:** pencil-lead thin twigs (1–2 mm), fistful; **Stage 2 kindling:** pencil-thick twigs (5–8 mm), fistful; **Stage 3 kindling:** finger-thick sticks (1–2 cm), armload; **Stage 4 kindling:** wrist-thick branches (3–5 cm), multiple pieces; **Fuel wood:** stack of wrist-thick and larger wood, enough for at least 2 hours of burn time; **Fire site:** cleared area 2 m radius, ring of rocks (not river rocks), water or sand nearby to extinguish; **Ignition source:** lighter, ferro rod, friction set, or solar lens — whatever method you are using
 {% end %}
 
@@ -27,7 +27,6 @@ Before striking a single spark, gather everything:
 
 Every fire needs three elements. Remove any one and the fire dies:
 
-
 - **Heat** — ignition source (spark, friction, focused sunlight)
 - **Fuel** — material that burns (tinder, kindling, fuel wood)
 - **Oxygen** — air flow (a smothered fire dies; a well-ventilated fire thrives)
@@ -36,7 +35,7 @@ Every fire needs three elements. Remove any one and the fire dies:
 
 **Gather everything before you strike a single spark.**
 
-{% steps() %}
+{% steps %}
 Gather tinder — enough to fill both cupped hands; Gather kindling — three piles: pencil-lead thin, pencil-thick, and finger-thick, each the size of a football; Gather fuel wood — a stack of wrist-thick and larger wood, enough for at least 2 hours of burn time; Prepare the fire site — cleared area, fire lay built and ready; NOW light your tinder
 {% end %}
 
@@ -52,42 +51,37 @@ Tinder is material that ignites from a spark, ember, or brief flame. It must be:
 - **Fine** — separated fibres, fluffed up, air between strands
 - **Abundant** — you need more than you think
 
-### Best Natural Tinders (AU/CN/SEA)
-
+### Best Natural Tinders (AU/CN/)
 
 | Material | Region | Quality |
 |----------|--------|---------|
 | **Paperbark inner fibres** (*Melaleuca*) | Northern/eastern Australia | Outstanding — rub between hands to fluff into a fine, flammable nest |
 | **Dry grass** | Everywhere | Good — crush and fluff thoroughly |
 | **Punk wood** (rotted dry wood) | Everywhere | Excellent — holds an ember for hours |
-| **Coconut husk fibres** | Coastal SEA, tropical AU | Excellent — dry fibres catch easily |
-| **Bamboo shavings** | SEA, southern China | Good — scrape fine shavings with knife edge |
+| **Coconut husk fibres** | Coastal tropical AU | Excellent — dry fibres catch easily |
 | **Cattail fluff** (*Typha*) | Worldwide near water | Excellent — but burns very fast; have kindling ready |
-| **Birch bark** | Northern China | Outstanding — contains natural oils; burns even when damp |
 | **Eucalyptus bark** (stringybark) | Australia-wide | Good — fibrous; shred finely |
-| **Dried bracken fern** | Temperate AU, China | Good — crush and fluff |
-| **Fatwood/pitch wood** (resin-rich pine) | China pine forests, introduced pines in AU | Excellent — natural accelerant; shave fine curls |
+| **Dried bracken fern** | Temperate AU, | Good — crush and fluff |
+| **Fatwood/pitch wood** (resin-rich pine) | pine forests, introduced pines in AU | Excellent — natural accelerant; shave fine curls |
 | **Char cloth** | Made, not found | Outstanding — catches the smallest spark |
 
 ### Making Char Cloth
 
 Char cloth is fabric that has been heated without oxygen — it becomes a carbon-rich material that catches the faintest spark.
 
-{% materials() %}
+{% materials %}
 100% cotton fabric (t-shirt, denim, bandana — synthetics do not work); Small metal tin with a tight lid (shoe polish tin, mint tin); Nail or awl to punch a hole in the lid
 {% end %}
 
-{% steps() %}
+{% steps %}
 Cut cotton fabric into squares roughly 5 cm × 5 cm; Punch a small hole (2 mm) in the tin lid — this allows gases to escape; Place fabric squares loosely in the tin — do not pack tightly; Close the tin; Place the tin in the coals of a fire or over a flame; You will see smoke jetting from the hole — the fabric is pyrolising; When smoke stops (3–5 minutes), remove the tin from the heat; Let it cool completely before opening — if you open it hot, the char cloth will ignite on contact with air; The result: black fabric squares that catch a spark instantly; Store in a dry, sealed container
 {% end %}
-
 
 ---
 
 ## Phase 3: Kindling — What Carries the Flame
 
 Kindling bridges the gap between tinder (fast-burning) and fuel (slow-burning). Without proper kindling, your tinder will burn out before the fuel catches.
-
 
 **Kindling progression — must be gathered in this sequence:**
 
@@ -102,7 +96,6 @@ Kindling bridges the gap between tinder (fast-burning) and fuel (slow-burning). 
 
 ### Gathering Kindling in Wet Conditions
 
-
 - **Dead standing wood** — branches still attached to trees but dead. They stay drier than ground wood.
 - **Split open thicker dead wood** — the interior is often dry even in rain.
 - **Under dense tree canopies** — the ground may be drier directly against the trunk.
@@ -114,7 +107,6 @@ Kindling bridges the gap between tinder (fast-burning) and fuel (slow-burning). 
 
 Once the fire is established with kindling, fuel wood sustains it.
 
-
 **Fuel wood types:**
 
 | Type | Characteristics | Best for |
@@ -123,17 +115,15 @@ Once the fire is established with kindling, fuel wood sustains it.
 | **Hardwoods** (eucalypt, oak, acacia) | Burns slow, hot, coals well | Sustained fire, cooking, overnight banking |
 | **Green wood** | Does not burn well — sizzles, smokes | NOT for fire. For construction, tool handles. |
 
-**AU/CN/SEA fuel woods:**
+**AU/CN/ fuel woods:**
 
 | Wood | Region | Quality |
 |------|--------|---------|
 | **Ironbark** (*Eucalyptus*) | Eastern Australia | Excellent — burns very hot, long-lasting coals |
 | **Red gum** (*E. camaldulensis*) | Australia-wide | Excellent — dense, coals well |
 | **Acacia / wattle** | Australia-wide | Good — coals well, some species are smoky |
-| **Bamboo** (dry) | SEA, southern China | Fair — burns fast, loud popping (trapped air pockets explode). Split to reduce popping. |
-| **Mango wood** (dry) | SEA, northern Australia | Good — burns relatively clean for a fruitwood |
-| **Pine** | China, introduced AU | Fair — burns fast, resin creates soot. Good for starting; poor for sustained fire. |
-| **Oak** | China | Excellent — dense, slow-burning, excellent coals |
+| **Mango wood** (dry) | northern Australia | Good — burns relatively clean for a fruitwood |
+| **Pine** | , introduced AU | Fair — burns fast, resin creates soot. Good for starting; poor for sustained fire. |
 
 ---
 
@@ -143,8 +133,7 @@ How you stack the wood determines how the fire burns. Choose the lay that matche
 
 ### Teepee Fire
 
-
-{% steps() %}
+{% steps %}
 Place tinder bundle in the centre; Lean kindling sticks against each other over the tinder, forming a cone/teepee; Start with thinnest kindling against the tinder, thicker outside; Light the tinder through a gap at the base; As the fire catches, add progressively thicker fuel leaned against the teepee
 {% end %}
 
@@ -152,8 +141,7 @@ Place tinder bundle in the centre; Lean kindling sticks against each other over 
 
 ### Log Cabin Fire
 
-
-{% steps() %}
+{% steps %}
 Place two larger sticks parallel, 20 cm apart; Place two more across them perpendicularly, forming a square; Continue stacking, alternating direction, like building a log cabin; Fill the centre with tinder and kindling; Light from the top — the fire burns down through the kindling-filled centre
 {% end %}
 
@@ -161,8 +149,7 @@ Place two larger sticks parallel, 20 cm apart; Place two more across them perpen
 
 ### Star Fire
 
-
-{% steps() %}
+{% steps %}
 Build a small teepee fire in the centre; Once established, arrange 3–5 long logs like wheel spokes, with ends in the fire; As the ends burn, push the logs further into the fire; Extremely fuel-efficient — you control the burn rate
 {% end %}
 
@@ -170,8 +157,7 @@ Build a small teepee fire in the centre; Once established, arrange 3–5 long lo
 
 ### Dakota Fire Hole
 
-
-{% steps() %}
+{% steps %}
 Dig a vertical hole 30 cm deep and 20 cm wide; Dig a second hole 20 cm away, sloping down to connect with the bottom of the first hole — this is the air intake; The chimney effect draws air in through the intake, feeding oxygen to the fire; Build the fire in the vertical pit; Very fuel-efficient, near-invisible flame, less smoke
 {% end %}
 
@@ -179,8 +165,7 @@ Dig a vertical hole 30 cm deep and 20 cm wide; Dig a second hole 20 cm away, slo
 
 ### Reflector Fire
 
-
-{% steps() %}
+{% steps %}
 Build a wall of green logs or rocks 30–60 cm behind the fire; Angle the wall slightly to reflect heat toward your shelter; The wall should be at least as wide as the fire and slightly taller
 {% end %}
 
@@ -190,10 +175,9 @@ Build a wall of green logs or rocks 30–60 cm behind the fire; Angle the wall s
 
 ## Phase 6: Fire in Wet Conditions
 
-Tropical downpours, monsoons, and persistent drizzle are common across SEA, northern Australia, and southern China. Fire is harder — but still possible.
+Tropical downpours, monsoons, and persistent drizzle are common across northern Australia, and southern . Fire is harder — but still possible.
 
-
-{% steps() %}
+{% steps %}
 Find dry tinder — look under rock overhangs, inside hollow trees, under dense evergreen canopy; Split wood to access dry interior — the outside is wet; the core may be dry; Use birch bark, fatwood, or bamboo shavings (contain natural oils/waxes); Build a platform of bark or green wood to keep the fire off wet ground; Protect the fledgling fire with your body, a tarp, or a bark shield — do not let rain hit it in the first 2 minutes; Start small — a thumbnail-sized flame is enough. Feed it patiently.
 {% end %}
 
@@ -201,7 +185,7 @@ Find dry tinder — look under rock overhangs, inside hollow trees, under dense 
 
 Bamboo is abundant and surprisingly useful for wet-weather fire:
 
-{% steps() %}
+{% steps %}
 Select dry(ish) bamboo culms; Split lengthwise and scrape the inner pith into a fine, dry tinder pile; The outer surface may be wet but the inside is often dry; Split thin strips for kindling; Bamboo burns fast and hot — have more fuel ready; The popping sound is normal (trapped air); split pieces to reduce it
 {% end %}
 
@@ -223,9 +207,9 @@ Select dry(ish) bamboo culms; Split lengthwise and scrape the inner pith into a 
 
 ## Safety Checkpoints
 
-Fire safety in Australian, Chinese, and SEA conditions:
+Fire safety in Australian, conditions:
 
-{% info() %}
+{% info %}
 **⛔ Before lighting — stop and check:**
 - [ ] 2 m radius cleared to bare earth?
 - [ ] Fire ring in place (NOT river rocks)?
@@ -317,7 +301,7 @@ Check the local fire danger rating at any roadside fire danger sign, online, or 
 
 Everything is soaked for months. Wood is saturated. Fire-making is genuinely difficult:
 
-{% steps() %}
+{% steps %}
 Look for **standing dead wood** — branches still attached to trees but dead. These stay drier than fallen wood.; Peel paperbark — the outer layers are wet, but peel deep and the inner layers near the trunk are surprisingly dry.; Split wood lengthwise — the interior of even wet-looking logs is often dry.; Build a fire platform — use green logs (wet, won't burn) as a base to keep your fire off the sodden ground.; Protect the flame — use a tarp, bark sheet, or your body. Once established, the fire's heat will dry incoming fuel.
 {% end %}
 

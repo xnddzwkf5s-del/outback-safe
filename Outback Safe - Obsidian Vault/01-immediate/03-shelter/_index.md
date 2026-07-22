@@ -91,8 +91,8 @@ Build in this order:
 
 ## Subsections
 
-{% info() %}
-Each section below has been rewritten with step-by-step image guides, time estimates, temperature ratings, and regional material recommendations for Australia, China, and Southeast Asia.
+{% info %}
+Each section below has been rewritten with step-by-step image guides, time estimates, temperature ratings, and regional material recommendations for Australia, and .
 {% end %}
 
 - [Immediate Shelter](01-immediate/03-shelter/immediate-shelter) — Using what exists: caves, vehicles, overhangs, clothing, debris pile. Quick-reference decision matrix with time estimates.
@@ -111,31 +111,19 @@ Each section below has been rewritten with step-by-step image guides, time estim
 - **Central (desert):** Shade primary; windbreak secondary; insulation from hot ground; winter nights can drop below freezing — be prepared
 - **Southern (temperate):** Four-season preparation; cold wet winters; bushfire-aware site selection in summer; abundant timber for construction
 
-### Southeast Asia
-
-- **Monsoon:** Waterproof roof is everything; elevated floor essential (flooding); build on high ground; drainage trench around shelter
-- **Jungle:** Ventilation and insect protection; do not sleep on bare ground (leeches, centipedes, snakes); bamboo and palm fronds are your primary materials
-- **Dry season:** Less urgent but still essential — tropical nights can be surprisingly cool
-
-### China
-
-- **Southern:** Similar to SEA — monsoon-ready, well-ventilated, insect-protected
-- **Central/northern:** Four-season; winter insulation critical; abundant loess soil for earth-sheltered construction
-- **Western (Tibetan plateau):** Extreme cold, wind, altitude; snow shelter in winter; sun exposure at 4000+ m is intense
-
 ---
 
 ## Bedding — The Forgotten Half of Shelter
 
 A shelter without proper bedding is half a shelter. You lose more heat to the ground than to the air.
 
-{% materials() %}
+{% materials %}
 Thick layer of dry leaves, grass, or pine needles (30 cm minimum compressed); Ferns or bracken; Bark sheets (paperbark in Australia is excellent); Cardboard (scavenged — surprisingly good insulation); Spruce/pine boughs (springy, insulate well); Sleeping mat or inflatable pad (if in kit)
 {% end %}
 
 **The compression test:** Lie on your bedding. If you can feel the ground through it, add more. Your body weight compresses loose material to 1/3 of its lofted thickness.
 
-{% info() %}
+{% info %}
 **Australian specific:** Paperbark (Melaleuca) is one of the best natural bedding materials on Earth. It is soft, insulating, water-resistant, and peels in large sheets. Found across northern and eastern Australia. Aboriginal Australians have used it for shelter and bedding for tens of thousands of years.
 
 ---

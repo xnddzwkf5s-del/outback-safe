@@ -30,10 +30,8 @@ Water is heavy — 1 L = 1 kg. You cannot carry more than a few days' supply. Bu
 | **Glass bottles** | Chemically inert; easy to clean; no taste transfer | Heavy; fragile; breakage risk in rough conditions |
 | **PET plastic bottles** (water/soft drink) | Light; abundant as post-disaster litter; free | UV degradation makes them brittle over months; cannot boil; may leach after years |
 | **HDPE buckets/containers** (food-grade) | Large capacity; durable; stackable | Scarce in wilderness; bulky to carry |
-| **Ceramic/clay pots** | Natural evaporative cooling; traditional in SEA/CN | Heavy; fragile; porous (slow seepage) |
 | **Plastic bags** | Extremely light; scavengeable anywhere | Puncture easily; no UV resistance; short lifespan |
 | **Improvised** (bamboo, bark, large leaves) | Available everywhere at no cost | Leak; rot within weeks; limited capacity |
-
 
 ### Scavenging Containers Post-Disaster
 
@@ -53,14 +51,13 @@ In urban or semi-urban collapse scenarios, check these locations:
 
 Before using any found container for water storage:
 
-
 ### Step 1: Scrub
 
 Remove all visible dirt, residue, and debris. Use clean water and, if available, a small amount of unscented bleach or soap. Pay attention to threads on bottle caps — contaminants hide there.
 
 ### Step 2: Sanitise
 
-{% steps() %}
+{% steps %}
 For containers that held food/beverages: rinse with a weak bleach solution (1 teaspoon per litre), shake thoroughly, rinse again with clean water; For containers that held non-food items: fill with water and 1 tablespoon bicarbonate soda (if available), soak overnight, scrub again, rinse thoroughly; For containers of unknown history: treat as contaminated — fill with water, heavily chlorinate (10 drops bleach per litre), soak 24 hours, drain, rinse multiple times
 {% end %}
 
@@ -82,8 +79,7 @@ Water stored for more than 3–5 days in warm conditions needs preservation trea
 | 1–4 weeks | 2 drops per litre |
 | 1–6 months | 4 drops per litre |
 
-
-{% steps() %}
+{% steps %}
 Add the correct amount of unscented bleach; Seal the container tightly; Shake or stir to distribute; Store in a cool, dark place — ideally below 20°C; Mark the container with the treatment date (scratch into plastic or charcoal on label); Check monthly — if water smells bad or has visible growth, discard or re-boil; Before drinking, aerate by pouring between containers to dissipate the chlorine taste
 {% end %}
 
@@ -93,9 +89,9 @@ If chlorine is not available, water can be boiled, cooled, and sealed while stil
 
 ### Silver (Traditional Method)
 
-A silver coin or piece of silver jewellery placed in stored water has a mild antibacterial effect — silver ions inhibit bacterial growth. This practice was used by Australian settlers, traditional Chinese households, and ancient civilisations.
+A silver coin or piece of silver jewellery placed in stored water has a mild antibacterial effect — silver ions inhibit bacterial growth. This practice was used by Australian settlers, traditional households, and ancient civilisations.
 
-{% info() %}
+{% info %}
 Silver helps but is **not a substitute for proper treatment**. It extends storage life marginally — do not rely on it alone for more than a few days of storage in warm conditions.
 {% end %}
 
@@ -103,8 +99,7 @@ Silver helps but is **not a substitute for proper treatment**. It extends storag
 
 ## Mosquito Prevention
 
-**Standing water breeds mosquitoes.** In tropical SEA and northern Australia, this is not just an annoyance — it is a disease vector (dengue, malaria, Ross River virus, Japanese encephalitis).
-
+**Standing water breeds mosquitoes.** In tropical and northern Australia, this is not just an annoyance — it is a disease vector (dengue, malaria, Ross River virus, Japanese encephalitis).
 
 | Method | How it works | Best for |
 |--------|-------------|----------|
@@ -113,14 +108,13 @@ Silver helps but is **not a substitute for proper treatment**. It extends storag
 | **Oil film** | Thin layer of cooking oil on water surface prevents larvae from breathing | Emergency use, short-term open containers |
 | **Frequent draining** | Empty and refill every 3 days — breaks the 7+ day mosquito life cycle | Any container that cannot be sealed |
 
-{% steps() %}
+{% steps %}
 Cover all water containers with fine mesh, cloth, or a tight-fitting lid — this is the single most important step; If no lid is available and the container is large, pour a thin layer of cooking oil on the water surface — it prevents mosquito larvae from accessing air; Change water in open containers every 3 days — the mosquito life cycle (egg to adult) takes 7+ days, so frequent changes break the cycle; Do not allow ANY standing water around camp — tip out empty containers, fill puddles, drain depressions; Keep stored water in the dark — mosquitoes are attracted to light-reflecting water surfaces
 {% end %}
 
 ---
 
 ## Storage Location
-
 
 | Requirement | Why | How |
 |-------------|-----|-----|
@@ -147,10 +141,9 @@ Water does not "expire" the way food does, but stored water degrades over time. 
 
 ### Rotation Rules
 
-{% steps() %}
+{% steps %}
 Mark every container with the date it was filled — scratch into plastic, write on tape, charcoal on a label; Always drink the oldest water first (first in, first out); Replace consumed water with fresh; If water approaches its storage limit, re-boil it and transfer to a clean container — this resets the clock; If water shows any signs of spoilage (see below), do not rotate — discard or re-treat
 {% end %}
-
 
 ---
 
@@ -165,7 +158,7 @@ Mark every container with the date it was filled — scratch into plastic, write
 | **Earthy/musty smell** | Algae or fungi | Boil thoroughly; if odour persists, distill or discard |
 | **Sour or metallic taste** | Chemical leaching from container or bacterial acids | Do not drink — source is uncertain; distill or discard |
 
-{% info() %}
+{% info %}
 **When in doubt, throw it out.** Dehydration is dangerous, but waterborne illness in a survival situation is potentially fatal. The risk of drinking questionable water outweighs the benefit of saving it.
 {% end %}
 
@@ -177,19 +170,18 @@ When you have no manufactured containers:
 
 ### Bamboo Water Containers
 
-
-{% steps() %}
+{% steps %}
 Select a large-diameter bamboo culm (at least 10 cm across); Cut a section that includes two intact nodes — the solid partitions at the bamboo joints; The bottom node forms the base; the top node can be punctured for a drinking/pouring hole; If you cut between nodes accidentally, plug the bottom with a wooden stopper wrapped in cloth; Bamboo has mild natural antimicrobial properties — water stays fresher longer than in other improvised containers; Replace containers every 2–3 weeks — bamboo eventually cracks and leaks as it dries
 {% end %}
 
 ### Bark Containers
 
 - **Paperbark (Melaleuca)** — common across northern Australia. Peel large sheets from the tree trunk. Fold corners up and tie with cord or vine. Line with a plastic bag if available. Lasts several days.
-- **Birch bark** (northern China) — traditional container material for centuries. Fold rectangular piece, fold corners, peg with small sticks. Waterproof and surprisingly durable.
+- **Birch bark** — traditional container material for centuries. Fold rectangular piece, fold corners, peg with small sticks. Waterproof and surprisingly durable.
 
 ### Clay-Lined Pits
 
-{% steps() %}
+{% steps %}
 Dig a pit approximately 50 cm deep and 50 cm wide; Line the pit with a 5–10 cm layer of clay — river clay is ideal, termite mound clay (ant bed) works well in Australia; Smooth the clay by hand into a bowl shape, compressing it to seal pores; Let the clay dry and harden in the sun for at least a day before filling; Fill with collected water; Cover with bark, leaves, or tarp to prevent debris, evaporation, and animal access; Expect 10–20% water loss per day through seepage — not a long-term solution; Re-line if cracks appear
 {% end %}
 
@@ -197,7 +189,7 @@ Dig a pit approximately 50 cm deep and 50 cm wide; Line the pit with a 5–10 cm
 
 In Australian sandstone country, natural rock hollows (gnammas) hold water for weeks after rain. They were used by Aboriginal Australians for millennia.
 
-{% info() %}
+{% info %}
 Rock hollow water develops a surface film and may contain organic matter (leaves, insects, animal droppings). Always filter and treat before drinking. Scoop from the surface gently — avoid stirring up sediment at the bottom.
 {% end %}
 

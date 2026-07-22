@@ -30,7 +30,7 @@ Conflict in a survival group is inevitable. People are stressed, hungry, tired, 
 
 When tempers flare, the goal is to reduce emotional intensity so rational discussion can occur.
 
-{% steps() %}
+{% steps %}
 **Stay calm yourself** — your calm is the anchor. Do not match their anger.; **Lower your voice** — shouting at a shouting person escalates. A quiet, steady voice forces them to quiet down to hear you.; **Use their name** — "James, I hear you. Tell me what is wrong." Names are grounding.; **Acknowledge the emotion** — "I can see you are angry. That is understandable." Validation without agreement.; **Do not argue facts yet** — an angry person cannot process logic. Address emotion first, facts later.; **Create physical space** — step back. Invite them to sit down. Physical de-escalation precedes verbal.; **Offer a break** — "Let us both take 10 minutes and come back to this." Time reduces adrenaline.; **Reframe the problem** — "We both want the group to survive. We just disagree on how. Let us work on that together."
 {% end %}
 
@@ -40,7 +40,7 @@ When tempers flare, the goal is to reduce emotional intensity so rational discus
 
 When two group members are in conflict, a neutral third party (the leader or another trusted person) mediates:
 
-{% steps() %}
+{% steps %}
 **Separate the parties** — talk to each one individually first. Let each tell their side without interruption.; **Bring them together** — in a neutral space, not in front of the whole group.; **Set ground rules** — no interrupting, no personal attacks, focus on the problem not the person.; **Each person states their view** — what happened, how they feel, what they need.; **Identify common ground** — "You both want what is best for the group."; **Brainstorm solutions** — what could resolve this?; **Agree on a solution** — both parties must accept it. If they cannot agree, the mediator decides.; **Follow up** — check in the next day. Is the solution holding?
 {% end %}
 
@@ -61,13 +61,11 @@ Some conflicts cannot be resolved. When conflict threatens group safety:
 
 ---
 
-## Cultural Considerations (AU/CN/SEA)
+## Cultural Considerations (AU/CN/)
 
 | Region | Cultural note |
 |--------|--------------|
 | **Australia** | Direct communication is culturally normal. "Tell it like it is" can resolve issues quickly but may feel aggressive to some. |
-| **Southeast Asia** | Many SEA cultures prioritise harmony and indirect communication. Direct confrontation may cause shame ("loss of face") and make conflict worse. Use private conversation, save face. |
-| **China** | Similar face-saving dynamics. Criticise privately, praise publicly. Involve elders or respected figures if they are present. |
 
 ---
 
@@ -124,7 +122,7 @@ Sometimes a disagreement cannot be resolved. The convoy splits:
 
 When a disagreement arises in the convoy:
 
-{% steps() %}
+{% steps %}
 **Stop the vehicles** — do not argue while driving. Pull over at a safe spot.; **Get everyone out** — sitting in a hot vehicle makes everything worse. Stand in the shade.; **One person speaks at a time** — the lead driver (or tail driver if the lead is involved) facilitates.; **State the problem clearly** — "We disagree on whether to take the Tanami or stay on the highway. What are everyone's concerns?"; **Find the common ground** — everyone wants to get home safely. The disagreement is about HOW, not WHY.; **Decide** — if consensus cannot be reached, refer to the veto rule or use the decision protocol.; **Move on** — once decided, drop the topic. Do not re-litigate at the campfire.
 {% end %}
 

@@ -1,6 +1,6 @@
 +++
 title = "Animal Threats — Predators & Venomous Species"
-description = "How to identify, avoid, and respond to dangerous animals in Australia, China, and Southeast Asia. Defensive vs. aggressive behaviour."
+description = "How to identify, avoid, and respond to dangerous animals in Australia, and . Defensive vs. aggressive behaviour."
 date = 2026-07-22
 weight = 2
 +++
@@ -9,7 +9,7 @@ weight = 2
 
 # Animal Threats — Predators & Venomous Species
 
-The AU/CN/SEA region has some of the world's most dangerous animals. But the real risk is often misunderstood: most animal attacks are defensive, not predatory. Understanding the difference changes how you respond.
+The AU/CN/ region has some of the world's most dangerous animals. But the real risk is often misunderstood: most animal attacks are defensive, not predatory. Understanding the difference changes how you respond.
 
 ---
 
@@ -18,7 +18,6 @@ The AU/CN/SEA region has some of the world's most dangerous animals. But the rea
 | Behaviour | Defensive | Predatory |
 |-----------|-----------|-----------|
 | **Why** | It feels threatened, cornered, or is protecting young | It sees you as food |
-| **Common in** | Snakes, crocodiles (on land), kangaroos, wild pigs | Saltwater crocodiles, big cats (SEA), dingo packs (rare) |
 | **Response** | Back away slowly. Give it space. It will usually disengage. | Make yourself big. Make noise. Fight back aggressively. Predators want easy prey. |
 
 **Most animal encounters are defensive.** If you surprise a snake, it will warn you (or flee). If you corner a wild pig, it will charge to escape. Giving the animal an exit resolves most situations.
@@ -226,7 +225,7 @@ See **[First Aid](01-immediate/01-first-aid/)** for full treatment protocol. Sum
 
 ---
 
-## Southeast Asia — Top Threats
+## — Top Threats
 
 ### Tiger (Indochinese, Malayan)
 
@@ -236,14 +235,14 @@ See **[First Aid](01-immediate/01-first-aid/)** for full treatment protocol. Sum
 
 ### Asian Elephant
 
-- **Range:** Forested areas of SEA, southern Yunnan (China)
+- **Range:** Forested areas of southern Yunnan 
 - **Behaviour:** Generally peaceful. Dangerous when surprised, protecting young, or in musth (males).
 - **Prevention:** If you see elephant trails or fresh dung, move away. Elephants are surprisingly quiet movers.
 - **If charged:** Most charges are mock charges (bluffs). Stand your ground, shout, wave arms. IF it is a real charge (ears flat, trunk tucked, silent), run — but not in a straight line. Zigzag. Get behind a large tree. Elephants cannot turn sharply.
 
 ### Cobra (King Cobra, Monocled Cobra, Spitting Cobra)
 
-- **Range:** Throughout SEA, southern China
+- **Range:** Throughout 
 - **Behaviour:** Will rear up and spread hood as warning. Spitting cobras can project venom accurately into eyes at 2–3 m distance.
 - **Prevention:** Watch where you step. Cobras are active day and night.
 - **If confronted:** Freeze. Back away slowly. Do not make sudden movements.
@@ -251,29 +250,29 @@ See **[First Aid](01-immediate/01-first-aid/)** for full treatment protocol. Sum
 
 ### Reticulated Python
 
-- **Range:** SEA, including urban areas
+- **Range:** including urban areas
 - **Behaviour:** Non-venomous constrictor. Can reach 6+ m. Attacks on adult humans are extremely rare.
 - **Risk to:** Small children, pets. A large python could theoretically constrict a small adult.
 - **If a python wraps around you:** Unwrap from the tail — unwinding from the head tightens the coils. Bite the tail (odd but reported to work). Attack the head/eyes.
 
 ---
 
-## China — Top Threats
+## — Top Threats
 
 ### Asiatic Black Bear (Moon Bear)
 
-- **Range:** Forested mountains of central and southern China
+- **Range:** Forested mountains of central and southern 
 - **Behaviour:** Generally avoid humans. Can be aggressive if surprised or protecting cubs.
 - **If encountered:** Do not run. Make yourself large. Make noise. Back away.
-- **If attacked:** Fight back. Black bears can be deterred. (Unlike grizzlies — but there are no grizzlies in China outside far northwest.)
+- **If attacked:** Fight back. Black bears can be deterred. (Unlike grizzlies — but there are no grizzlies in outside far northwest.)
 
 ### Wild Boar
 
-- **Range:** Throughout China, especially forested hills
+- **Range:** Throughout , especially forested hills
 - **Behaviour:** Aggressive when surprised. Will charge.
 - **Response:** Same as feral pigs — climb a tree, dodge sideways.
 
-### Venomous Snakes (Many-Spotted Krait, Chinese Cobra, Habu)
+### Venomous Snakes (Many-Spotted Krait, Cobra, Habu)
 
 - **Prevention:** Watch footing in forest and farmland. Snakes are common near rice paddies and water.
 - **Treatment:** Same as Australian snakebite — pressure immobilisation, immobilise limb, seek medical help.

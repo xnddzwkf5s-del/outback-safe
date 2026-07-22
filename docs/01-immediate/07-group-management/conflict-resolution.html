@@ -117,7 +117,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><a href="#de-escalation-techniques">De-escalation Techniques</a></li>
 <li><a href="#mediation-framework">Mediation Framework</a></li>
 <li><a href="#when-to-separate">When to Separate</a></li>
-<li><a href="#cultural-considerations-au-cn-sea">Cultural Considerations (AU/CN/SEA)</a></li>
+<li><a href="#cultural-considerations-au-cn">Cultural Considerations (AU/CN/)</a></li>
 <li><a href="#australian-convoy-conflict-context">🇦🇺 Australian Convoy Conflict Context</a></li>
 </ul></details>
 <blockquote>
@@ -164,13 +164,15 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <hr />
 <h2 id="de-escalation-techniques">De-escalation Techniques</h2>
 <p>When tempers flare, the goal is to reduce emotional intensity so rational discussion can occur.</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Stay calm yourself** — your calm is the anchor. Do not match their anger.; **Lower your voice** — shouting at a shouting person escalates. A quiet, steady voice forces them to quiet down to hear you.; **Use their name** — "James, I hear you. Tell me what is wrong." Names are grounding.; **Acknowledge the emotion** — "I can see you are angry. That is understandable." Validation without agreement.; **Do not argue facts yet** — an angry person cannot process logic. Address emotion first, facts later.; **Create physical space** — step back. Invite them to sit down. Physical de-escalation precedes verbal.; **Offer a break** — "Let us both take 10 minutes and come back to this." Time reduces adrenaline.; **Reframe the problem** — "We both want the group to survive. We just disagree on how. Let us work on that together."</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Stay calm yourself</strong> — your calm is the anchor. Do not match their anger.; <strong>Lower your voice</strong> — shouting at a shouting person escalates. A quiet, steady voice forces them to quiet down to hear you.; <strong>Use their name</strong> — "James, I hear you. Tell me what is wrong." Names are grounding.; <strong>Acknowledge the emotion</strong> — "I can see you are angry. That is understandable." Validation without agreement.; <strong>Do not argue facts yet</strong> — an angry person cannot process logic. Address emotion first, facts later.; <strong>Create physical space</strong> — step back. Invite them to sit down. Physical de-escalation precedes verbal.; <strong>Offer a break</strong> — "Let us both take 10 minutes and come back to this." Time reduces adrenaline.; <strong>Reframe the problem</strong> — "We both want the group to survive. We just disagree on how. Let us work on that together."
+{% end %}</p>
 <hr />
 <h2 id="mediation-framework">Mediation Framework</h2>
 <p>When two group members are in conflict, a neutral third party (the leader or another trusted person) mediates:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Separate the parties** — talk to each one individually first. Let each tell their side without interruption.; **Bring them together** — in a neutral space, not in front of the whole group.; **Set ground rules** — no interrupting, no personal attacks, focus on the problem not the person.; **Each person states their view** — what happened, how they feel, what they need.; **Identify common ground** — "You both want what is best for the group."; **Brainstorm solutions** — what could resolve this?; **Agree on a solution** — both parties must accept it. If they cannot agree, the mediator decides.; **Follow up** — check in the next day. Is the solution holding?</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Separate the parties</strong> — talk to each one individually first. Let each tell their side without interruption.; <strong>Bring them together</strong> — in a neutral space, not in front of the whole group.; <strong>Set ground rules</strong> — no interrupting, no personal attacks, focus on the problem not the person.; <strong>Each person states their view</strong> — what happened, how they feel, what they need.; <strong>Identify common ground</strong> — "You both want what is best for the group."; <strong>Brainstorm solutions</strong> — what could resolve this?; <strong>Agree on a solution</strong> — both parties must accept it. If they cannot agree, the mediator decides.; <strong>Follow up</strong> — check in the next day. Is the solution holding?
+{% end %}</p>
 <hr />
 <h2 id="when-to-separate">When to Separate</h2>
 <p>Some conflicts cannot be resolved. When conflict threatens group safety:</p>
@@ -202,7 +204,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <p><strong>Separation is a last resort but sometimes the only option.</strong> A group of 4 functional people survives better than a group of 5 with one person destroying cohesion.</p>
 <hr />
-<h2 id="cultural-considerations-au-cn-sea">Cultural Considerations (AU/CN/SEA)</h2>
+<h2 id="cultural-considerations-au-cn">Cultural Considerations (AU/CN/)</h2>
 <table>
 <thead>
 <tr>
@@ -214,14 +216,6 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <tr>
 <td><strong>Australia</strong></td>
 <td>Direct communication is culturally normal. "Tell it like it is" can resolve issues quickly but may feel aggressive to some.</td>
-</tr>
-<tr>
-<td><strong>Southeast Asia</strong></td>
-<td>Many SEA cultures prioritise harmony and indirect communication. Direct confrontation may cause shame ("loss of face") and make conflict worse. Use private conversation, save face.</td>
-</tr>
-<tr>
-<td><strong>China</strong></td>
-<td>Similar face-saving dynamics. Criticise privately, praise publicly. Involve elders or respected figures if they are present.</td>
 </tr>
 </tbody>
 </table>
@@ -321,8 +315,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </table>
 <h3>De-escalation in the Outback Context</h3>
 <p>When a disagreement arises in the convoy:</p>
-<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>**Stop the vehicles** — do not argue while driving. Pull over at a safe spot.; **Get everyone out** — sitting in a hot vehicle makes everything worse. Stand in the shade.; **One person speaks at a time** — the lead driver (or tail driver if the lead is involved) facilitates.; **State the problem clearly** — "We disagree on whether to take the Tanami or stay on the highway. What are everyone's concerns?"; **Find the common ground** — everyone wants to get home safely. The disagreement is about HOW, not WHY.; **Decide** — if consensus cannot be reached, refer to the veto rule or use the decision protocol.; **Move on** — once decided, drop the topic. Do not re-litigate at the campfire.</span></label></li></ol>
-
+<p>{% steps %}
+<strong>Stop the vehicles</strong> — do not argue while driving. Pull over at a safe spot.; <strong>Get everyone out</strong> — sitting in a hot vehicle makes everything worse. Stand in the shade.; <strong>One person speaks at a time</strong> — the lead driver (or tail driver if the lead is involved) facilitates.; <strong>State the problem clearly</strong> — "We disagree on whether to take the Tanami or stay on the highway. What are everyone's concerns?"; <strong>Find the common ground</strong> — everyone wants to get home safely. The disagreement is about HOW, not WHY.; <strong>Decide</strong> — if consensus cannot be reached, refer to the veto rule or use the decision protocol.; <strong>Move on</strong> — once decided, drop the topic. Do not re-litigate at the campfire.
+{% end %}</p>
 <h3>Related</h3>
 <ul>
 <li><a href="leadership.html">Leadership</a></li>

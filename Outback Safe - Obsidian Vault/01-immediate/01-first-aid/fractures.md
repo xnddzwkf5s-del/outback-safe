@@ -37,7 +37,7 @@ A broken bone, properly managed, is painful but survivable. Improperly managed, 
 
 ## Splinting Materials
 
-{% materials() %}
+{% materials %}
 Rigid splint material (sticks, tent poles, trekking poles, rolled magazines, cardboard, SAM splint if in kit); Padding (clothing, moss, grass, foam, towels); Binding material (strips of cloth, bandages, belts, paracord, tape); Sling material (triangular bandage, large cloth, shirt)
 {% end %}
 
@@ -46,7 +46,7 @@ Rigid splint material (sticks, tent poles, trekking poles, rolled magazines, car
 Any rigid object long enough to span the joint above and below the fracture. In the bush:
 
 - **Sticks or branches** — straight, thumb-thick, padded with moss or grass
-- **Bamboo** (abundant in SEA and southern China) — split lengthwise, excellent rigidity
+- **Bamboo** (abundant in and southern ) — split lengthwise, excellent rigidity
 - **Rolled bark** from paperbark trees (Melaleuca, common in northern Australia)
 - **Trekking poles** — collapse to appropriate length
 - **Sleeping pad** — roll tightly around the limb, secure with cord
@@ -58,32 +58,32 @@ Any rigid object long enough to span the joint above and below the fracture. In 
 ### Forearm/Wrist
 
 ```
-    [Fracture site]
-         |
-    ====|====  <-- Splint from elbow to beyond fingertips
-         |
+ [Fracture site]
+ |
+ ====|==== <-- Splint from elbow to beyond fingertips
+ |
 ```
 
-{% steps() %}
+{% steps %}
 Pad the splint where it contacts the elbow and wrist; Place the padded splint under the forearm from elbow to fingertips; Secure with bindings above the fracture, below the fracture, and above the elbow; Create a sling to support the forearm against the chest; Check: can the person feel their fingers? Is the hand warm?
 {% end %}
 
 ### Upper Arm (Humerus)
 
-{% steps() %}
+{% steps %}
 Pad a rigid splint from shoulder to elbow; Place the splint on the outside of the arm; Secure at the shoulder, above the fracture, and below the fracture; Sling the arm against the chest; Bind the sling to the torso with a second wrap around the chest (not too tight — must allow breathing)
 {% end %}
 
 ### Lower Leg (Tibia/Fibula)
 
 ```
-       [Fracture site]
-            |
-    ========|========  <-- Splint from above knee to below ankle
-            |
+ [Fracture site]
+ |
+ ========|======== <-- Splint from above knee to below ankle
+ |
 ```
 
-{% steps() %}
+{% steps %}
 Use two splints — one on each side of the leg; Splints must extend from above the knee to below the ankle; Pad generously at knee, ankle, and fracture site; Secure at thigh, above fracture, below fracture, and ankle; Tie the legs together for additional stability (the uninjured leg serves as a natural splint)
 {% end %}
 
@@ -91,19 +91,19 @@ Use two splints — one on each side of the leg; Splints must extend from above 
 
 A femur fracture is **serious** — the thigh muscles can spasm and cause the bone ends to override, damaging the femoral artery. Massive internal bleeding is possible.
 
-{% steps() %}
+{% steps %}
 Apply manual traction: one person holds the ankle and pulls gently but firmly in line with the leg until the limb length matches the uninjured side; Maintain traction while a second person applies the splint; The splint must extend from armpit to beyond the foot; Pad the groin, knee, and ankle; Secure at chest, waist, above fracture, below fracture, and ankle; Maintain traction until the splint is fully secured
 {% end %}
 
 ### Ankle/Foot
 
-{% steps() %}
+{% steps %}
 Remove footwear carefully — check circulation in toes; Pad the ankle with soft material; Wrap with a compressive bandage (not too tight — toes must remain pink and warm); Splint with rigid material in a U-shape around the ankle; Elevate to reduce swelling
 {% end %}
 
 ### Collarbone (Clavicle)
 
-{% steps() %}
+{% steps %}
 Place the arm on the injured side in a sling; Add a swathe (broad bandage) around the chest and upper arm to immobilise; The sling supports the arm; the swathe prevents shoulder movement
 {% end %}
 

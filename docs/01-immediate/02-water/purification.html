@@ -274,13 +274,13 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">**Legend:** ✅ = Effective 　 ⚠️ = Partial 　 ❌ = Not effective
-
-\* SODIS less effective against Cryptosporidium cysts
-\*\* Cloth removes protozoan cysts (5–15 microns) but not smaller pathogens
-\*\*\* Chlorine less effective against Cryptosporidium
-\*\*\*\* Iodine is NOT effective against Cryptosporidium</div></div>
-
+<p>{% info %}
+<strong>Legend:</strong> ✅ = Effective 　 ⚠️ = Partial 　 ❌ = Not effective</p>
+<p>* SODIS less effective against Cryptosporidium cysts
+** Cloth removes protozoan cysts (5–15 microns) but not smaller pathogens
+*** Chlorine less effective against Cryptosporidium
+**** Iodine is NOT effective against Cryptosporidium
+{% end %}</p>
 <hr />
 <h2 id="method-1-boiling-the-gold-standard">Method 1: Boiling (The Gold Standard)</h2>
 <p><img alt="Boiling water over a campfire" src="../../static/images/water/water-boiling.jpg" />
@@ -291,8 +291,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Does NOT remove:</strong> Chemicals, heavy metals, sediment, salt</li>
 </ul>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Metal container (pot, billy can, canteen cup)</li><li>Heat source (fire, stove, camp burner)</li><li>Cloth for pre-filtering (if water is cloudy)</li></ul></div>
-
+<p>{% materials %}
+Metal container (pot, billy can, canteen cup); Heat source (fire, stove, camp burner); Cloth for pre-filtering (if water is cloudy)
+{% end %}</p>
 <h3>The Truth About Boiling Time</h3>
 <p>The myth of "boil for 10 minutes" wastes fuel and water. Water is pasteurised at temperatures well below boiling:</p>
 <table>
@@ -325,7 +326,7 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 </tr>
 </tbody>
 </table>
-<p><strong>In practice:</strong> Bring water to a rolling boil. It is now safe — let it cool and drink. At altitudes above 2000 m (western China, parts of SEA), boil for 1 additional minute (water boils at a lower temperature at altitude).</p>
+<p><strong>In practice:</strong> Bring water to a rolling boil. It is now safe — let it cool and drink. At altitudes above 2000 m , boil for 1 additional minute (water boils at a lower temperature at altitude).</p>
 <h3>Step 1: Pre-Filter (If Cloudy)</h3>
 <p>Pour turbid water through a clean cloth into the boiling container. This removes sediment that can harbour pathogens and improves taste.</p>
 <h3>Step 2: Bring to a Rolling Boil</h3>
@@ -350,10 +351,11 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Does NOT remove:</strong> Chemicals, heavy metals, sediment. Less effective against Cryptosporidium cysts.</li>
 </ul>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Clear PET plastic bottles (water/soft drink type — not coloured, not PVC, not glass)</li><li>Direct sunlight for 6+ hours</li><li>Pre-filtered (clear) water</li></ul></div>
-
+<p>{% materials %}
+Clear PET plastic bottles (water/soft drink type — not coloured, not PVC, not glass); Direct sunlight for 6+ hours; Pre-filtered (clear) water
+{% end %}</p>
 <h3>How It Works</h3>
-<p>UVA radiation and heat synergistically kill pathogens. At water temperatures above 50°C, the process is complete in 1 hour. SODIS works best in Australia (high UV), tropical SEA, high-altitude China, and anywhere between 35°N and 35°S latitude.</p>
+<p>UVA radiation and heat synergistically kill pathogens. At water temperatures above 50°C, the process is complete in 1 hour. SODIS works best in Australia (high UV), tropical high-altitude , and anywhere between 35°N and 35°S latitude.</p>
 <h3>Step 1: Prepare Bottles</h3>
 <p>Use clear PET bottles only. Remove labels so UV can penetrate. Wash bottles if dirty — mud or residue blocks UV.</p>
 <h3>Step 2: Fill and Shake</h3>
@@ -388,8 +390,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Does NOT remove:</strong> Bacteria, viruses, chemicals, heavy metals. This is a <strong>pre-treatment</strong>, not a standalone method.</li>
 </ul>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Clean, tightly woven cloth (cotton t-shirt, bandana, coffee filter, muslin)</li><li>Two containers (one for dirty water, one for filtered)</li><li>Cord or elastic band (optional, to secure cloth)</li></ul></div>
-
+<p>{% materials %}
+Clean, tightly woven cloth (cotton t-shirt, bandana, coffee filter, muslin); Two containers (one for dirty water, one for filtered); Cord or elastic band (optional, to secure cloth)
+{% end %}</p>
 <h3>What Cloth Filtration Actually Does</h3>
 <p>Cloth filtration reduces turbidity and removes larger pathogens like Giardia cysts (5–15 microns). It is the bare-minimum first step before boiling or chemical treatment. <strong>Never drink cloth-filtered water without additional treatment.</strong></p>
 <h3>Step 1: Secure the Cloth</h3>
@@ -414,23 +417,24 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Does NOT remove:</strong> Viruses, most bacteria, protozoan cysts reliably. This is <strong>not a standalone method</strong> — always follow with boiling or chemical treatment.</li>
 </ul>
 <h3>Materials</h3>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Plastic bottle (cut off bottom) or bucket with a small hole</li><li>Clean cloth or coffee filter</li><li>Fine sand (20 cm)</li><li>Crushed charcoal (15 cm)</li><li>Coarse sand (10 cm)</li><li>Fine gravel (5 cm)</li><li>Collection container</li></ul></div>
+<p>{% materials %}
+Plastic bottle (cut off bottom) or bucket with a small hole; Clean cloth or coffee filter; Fine sand (20 cm); Crushed charcoal (15 cm); Coarse sand (10 cm); Fine gravel (5 cm); Collection container
+{% end %}</p>
+<pre class="codehilite"><code> Charcoal-Sand Filter — Cross Section
 
-<pre class="codehilite"><code>    Charcoal-Sand Filter — Cross Section
-
-    ===========================
-    |  Water in               |
-    |                         |
-    |  ~~~~  Fine gravel   ~~~|  (5 cm — traps large particles)
-    |  ~~~~  Coarse sand    ~~|  (10 cm — traps medium particles)
-    |  ####  Crushed charcoal #|  (15 cm — adsorbs chemicals, odours)
-    |  ....  Fine sand     ...|  (20 cm — traps fine particles)
-    |----- Cloth filter ------|
-    |         |  Drip         |
-            / \
-           /   \
-          /     \
-    Filtered water (treat before drinking)
+ ===========================
+ | Water in |
+ | |
+ | ~~~~ Fine gravel ~~~| (5 cm — traps large particles)
+ | ~~~~ Coarse sand ~~| (10 cm — traps medium particles)
+ | #### Crushed charcoal #| (15 cm — adsorbs chemicals, odours)
+ | .... Fine sand ...| (20 cm — traps fine particles)
+ |----- Cloth filter ------|
+ | | Drip |
+ / \
+ / \
+ / \
+ Filtered water (treat before drinking)
 </code></pre>
 
 <h3>Step 1: Prepare the Container</h3>
@@ -468,8 +472,9 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <li><strong>Does NOT remove:</strong> Chemicals, heavy metals, Cryptosporidium (resistant), sediment</li>
 </ul>
 <h4>Materials</h4>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Unscented household bleach (sodium hypochlorite, no additives, no thickeners, no fragrances)</li><li>Dropper or measuring device</li><li>Container for treated water</li><li>Timer (watch, phone, or count)</li></ul></div>
-
+<p>{% materials %}
+Unscented household bleach (sodium hypochlorite, no additives, no thickeners, no fragrances); Dropper or measuring device; Container for treated water; Timer (watch, phone, or count)
+{% end %}</p>
 <h4>Step 1: Identify Your Bleach Concentration</h4>
 <p>Check the label. Standard household bleach is 4–6% sodium hypochlorite.</p>
 <table>
@@ -498,10 +503,10 @@ if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/
 <p>Add the appropriate number of drops per litre. Shake or stir thoroughly. If water is cloudy, double the dose.</p>
 <h4>Step 3: Wait 30 Minutes</h4>
 <p>Let the water stand for 30 minutes. After 30 minutes, smell the water — it should have a faint chlorine odour.</p>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">If there is **no** chlorine smell after 30 minutes: repeat the dose and wait another 15 minutes.
-
-If the smell is **too strong**: pour between containers several times to dissipate excess chlorine.</div></div>
-
+<p>{% info %}
+If there is <strong>no</strong> chlorine smell after 30 minutes: repeat the dose and wait another 15 minutes.</p>
+<p>If the smell is <strong>too strong</strong>: pour between containers several times to dissipate excess chlorine.
+{% end %}</p>
 <h3>Time Required</h3>
 <ul>
 <li>Setup: 1 minute</li>
@@ -516,8 +521,9 @@ If the smell is **too strong**: pour between containers several times to dissipa
 <li><strong>Does NOT remove:</strong> Chemicals, heavy metals, sediment. <strong>NOT effective against Cryptosporidium.</strong></li>
 </ul>
 <h4>Materials</h4>
-<div class="materials-box"><div class="materials-title">📋 Materials</div><ul class="materials-list"><li>Iodine tincture (2%) OR iodine tablets (tetraglycine hydroperiodide)</li><li>Dropper</li><li>Timer</li></ul></div>
-
+<p>{% materials %}
+Iodine tincture (2%) OR iodine tablets (tetraglycine hydroperiodide); Dropper; Timer
+{% end %}</p>
 <h4>Step 1: Measure Dose</h4>
 <table>
 <thead>
@@ -563,10 +569,11 @@ If the smell is **too strong**: pour between containers several times to dissipa
 <p>Add crystals gradually until water turns <strong>light pink</strong> — roughly 3–4 crystals per litre.</p>
 <h4>Step 2: Wait and Check</h4>
 <p>Wait 30 minutes. The water should retain a light pink tint.</p>
-<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">- **Light pink** = correctly treated
-- **Clear/colourless** = too little — add more
-- **Brown or purple** = overdose — discard and start again</div></div>
-
+<p>{% info %}
+- <strong>Light pink</strong> = correctly treated
+- <strong>Clear/colourless</strong> = too little — add more
+- <strong>Brown or purple</strong> = overdose — discard and start again
+{% end %}</p>
 <hr />
 <h2 id="method-6-distillation">Method 6: Distillation</h2>
 <p><img alt="Solar still diagram" src="../../static/images/water/solar-still.jpg" />
