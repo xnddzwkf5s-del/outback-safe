@@ -26,10 +26,10 @@ header{background:var(--color-header-bg);color:var(--color-header-text);padding:
 header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
 header h1 a{color:var(--color-header-text);text-decoration:none}
 header h1 a:hover{color:var(--color-accent)}
-nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
-nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
-nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
-nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
 main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
 .content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
 .content h3{margin-top:2rem}
