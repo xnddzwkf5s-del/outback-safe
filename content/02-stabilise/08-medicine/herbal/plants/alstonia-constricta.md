@@ -61,5 +61,5 @@ categories = ["herbal"]
 
 ## See Also
 - **[Outback Bush Medicine](02-stabilise/08-medicine/outback-bush-medicine)** — Australian native plants usable in remote areas
-- **[Safety in Natural Medicine](02-stabilise/08-medicine/safety)** — Plant identification and safety principles
-- **[Natural Medicine by Ailment](02-stabilise/08-medicine/by-ailment)** — Find plants by condition
+- **[Herbal Medicine Database](02-stabilise/08-medicine/herbal/)** — Browse all medicinal plants with identification and safety guidance
+- **[Herbal Medicine Database](02-stabilise/08-medicine/herbal/)** — Browse all medicinal plants

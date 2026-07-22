@@ -163,4 +163,4 @@ Walking in the Australian outback kills people. If you absolutely must:
 - [Extreme Heat Survival](01-immediate/09-outback/heat-survival) — Detailed heat illness management
 - [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — What you can salvage from the vehicle
 - [Emergency Services](01-immediate/09-outback/emergency-services) — Who to call and what to tell them
-- [Signaling](01-immediate/06-signaling/) — General signaling techniques
+- [What to Carry](01-immediate/09-outback/what-to-carry) — Essential gear and communication devices

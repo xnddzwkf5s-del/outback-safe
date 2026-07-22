@@ -174,4 +174,4 @@ If you are walking away from the vehicle, you must mark your route so rescuers c
 - [Vehicle Breakdown: Stay or Go?](01-immediate/09-outback/vehicle-breakdown) — Navigation decisions when walking
 - [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — GPS, maps, compass in the vehicle
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Navigation tools to carry
-- [Signaling](01-immediate/06-signaling/) — Marking your position for rescuers
+- [Emergency Services](01-immediate/09-outback/emergency-services) — PLB activation and emergency contacts

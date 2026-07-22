@@ -332,4 +332,4 @@ If in doubt, activate. The cost of a false alarm is negligible compared to the c
 - [Emergency Services](01-immediate/09-outback/emergency-services) — Contacting help, PLB/EPIRB, UHF channels
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Outback gear checklist
 - [First Aid](01-immediate/01-first-aid/) — General medical emergencies
-- [Water — Finding & Purifying](01-immediate/02-water/) — Finding and treating water
+- [Heat Survival](01-immediate/09-outback/heat-survival) — Hydration and heat illness prevention

@@ -279,4 +279,4 @@ BAG CHECK:
 - **[Heat Survival](heat-survival)** — If stuck without vehicle shelter
 - **[Outback First Aid](outback-first-aid)** — Using the medical contents
 - **[Navigation Basics](navigation-basics)** — Without GPS
-- **[Survival Psychology](../07-group-management/survival-psychology)** — Staying calm in crisis
+- **[Vehicle Breakdown](01-immediate/09-outback/vehicle-breakdown)** — The stay-or-go decision

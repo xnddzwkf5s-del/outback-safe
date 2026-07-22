@@ -1,68 +1,29 @@
 +++
-title = "First Aid — Emergency Medical Care"
-description = "What kills fastest: bleeding, airway obstruction, and shock. Immediate life-saving interventions for the first minutes of an emergency."
+title = "CPR & Basic Life Support"
+description = "Cardiopulmonary resuscitation and recovery position for remote emergencies."
 weight = 2
 insert_anchor_links = "right"
 +++
 
-# First Aid — Emergency Medical Care
+# CPR & Basic Life Support
 
-In a survival situation without access to medical services, your ability to treat injuries determines who lives. The priority order is simple: **treat what kills fastest first.**
+In a remote area, professional medical help is hours or days away. CPR buys time.
 
-## The Killers — In Order
+## CPR — Compression-Only
 
-| Condition | Time to death | Key intervention |
-|-----------|---------------|------------------|
-| Airway obstruction | 3–5 minutes | Head tilt, chin lift, finger sweep |
-| Severe arterial bleeding | 2–5 minutes | Direct pressure, tourniquet |
-| Tension pneumothorax | 5–15 minutes | Needle decompression (advanced) |
-| Shock (hypovolemic) | Minutes to hours | Stop bleeding, position, warmth |
-| Hypothermia | Hours | Shelter, insulation, warm fluids |
+If you are untrained or unsure, compression-only CPR is effective and simple:
 
-**If you can only learn one skill from this section, learn to stop bleeding.** Exsanguination is the most preventable cause of traumatic death.
+1. **Check for response** — shout and shake shoulders
+2. **Call for help** — activate PLB or call 000 if possible
+3. **Start compressions** — centre of chest, push hard and fast (100–120/min, 5–6 cm deep)
+4. **Do not stop** — continue until help arrives, the person shows signs of life, or you are physically unable to continue
 
----
+**Hands-only CPR is better than no CPR.** Do not hesitate.
 
-## Golden Rules of Field First Aid
+## Recovery Position
 
-1. **Scene safety first.** You cannot help anyone if you become a casualty yourself. Assess for fire, unstable structures, electrical hazards, contaminated water, and hostile threats before approaching.
+If the person is breathing but unconscious, place them in the recovery position to keep the airway clear.
 
-2. **Triage before treatment.** In mass-casualty situations, treat the most salvageable first. Someone not breathing with no pulse is lower priority than someone bleeding heavily who can be saved with a tourniquet.
+## Pages
 
-3. **Do no further harm.** If you don't know what you're doing, do less. Clean pressure on a wound is better than an incorrectly applied tourniquet.
-
-4. **Infection is tomorrow's problem. Bleeding is today's problem.** In the first hours, control haemorrhage and airway. Clean wounds when stable.
-
-5. **Document everything.** If you have paper, write down: what happened, what treatment was given, when. If the person reaches medical care, this record is invaluable.
-
----
-
-## Subsections
-
-- [Severe Bleeding](01-immediate/01-first-aid/severe-bleeding) — Direct pressure, tourniquets, wound packing, haemostatic agents
-- [Fractures & Immobilisation](01-immediate/01-first-aid/fractures) — Splinting materials, traction, when to move
-- [Burns](01-immediate/01-first-aid/burns) — Cooling, debridement, infection prevention, fluid replacement
-- [Shock](01-immediate/01-first-aid/shock) — Recognition, positioning, warmth, psychological first aid
-- [CPR & Basic Life Support](01-immediate/01-first-aid/cpr) — Compression-only CPR, airway management, recovery position
-- [Drowning & Water Rescue](01-immediate/01-first-aid/drowning) — Recovery position, hypothermia after immersion, secondary drowning
-
----
-
-## Basic First-Aid Kit — Minimum Field Setup
-
-If you have a kit, these are the items to prioritise. If you don't, improvisation techniques are covered in each subsection.
-
-{% materials() %}
-Trauma dressing (Israeli bandage or similar); Tourniquet (CAT or improvised); Gauze rolls (for wound packing); Medical tape; Triangular bandages (2; slings and splints); Antiseptic (povidone-iodine or alcohol wipes); Gloves (nitrile; protect yourself from blood exposure); Scissors (trauma shears); Pain relief (paracetamol or ibuprofen if available); Emergency blanket (shock and hypothermia)
-{% end %}
-
----
-
-## Universal Precautions
-
-In any situation involving blood or bodily fluids:
-
-- **Wear gloves if available.** Improvise with plastic bags over hands if necessary.
-- **Avoid direct contact with blood.** Bloodborne diseases (Hepatitis B, Hepatitis C, HIV) survive hours to days outside the body.
-- **Wash hands thoroughly** with soap and clean water after treatment. Ash and water works if soap is unavailable.
-- **Dispose of contaminated materials** by burning or burying away from water sources.
+- [CPR & Basic Life Support](01-immediate/01-first-aid/cpr) — Full CPR guide including rescue breaths, children/infants, and recovery position

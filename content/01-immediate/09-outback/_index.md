@@ -40,8 +40,6 @@ This section covers everything specific to vehicle-based outback survival: wheth
 
 ## Related Sections
 
-- [Water — Finding & Purifying](01-immediate/02-water/) — How to locate and treat water in the outback
-- [Signaling](01-immediate/06-signaling/) — General signaling methods including mirrors, fires, and ground signals
-- [First Aid](01-immediate/01-first-aid/) — Snake bite, heat illness, and general first aid
-- [Shelter](01-immediate/03-shelter/) — Improvised shelter from heat and sun
-- [Fire](01-immediate/04-fire/) — Fire starting with vehicle components
+- [Outback First Aid](01-immediate/09-outback/outback-first-aid) — Snake bite, heat illness, and general first aid
+- [Water & Food in the Outback](01-immediate/09-outback/water-food-outback) — Finding and managing water
+- [Water Storage](01-immediate/09-outback/water-storage) — Vehicle-based water storage

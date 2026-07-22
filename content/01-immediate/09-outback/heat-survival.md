@@ -349,6 +349,6 @@ The Australian desert has some of the most extreme temperature swings on Earth. 
 - [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — Using the vehicle for shade, water, and tools
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Outback gear checklist
 - [Emergency Services](01-immediate/09-outback/emergency-services) — When to call for help
-- [Water — Finding & Purifying](01-immediate/02-water/) — Finding and treating water
+- [Heat Survival](01-immediate/09-outback/heat-survival) — Hydration strategy for extreme heat
 - [Outback First Aid](01-immediate/09-outback/outback-first-aid) — Remote area first aid: snake bite, wounds, fractures, PLB activation
 - [First Aid](01-immediate/01-first-aid/) — General medical emergencies including heat illness

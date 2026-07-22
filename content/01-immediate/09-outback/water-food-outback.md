@@ -136,7 +136,7 @@ In dry creek beds and certain terrain, groundwater may be close to the surface.
 
 ## Water Purification in the Outback
 
-See [Water Purification](01-immediate/02-water/purification) for detailed methods. This section covers outback-specific considerations.
+See [Water Storage](01-immediate/09-outback/water-storage) for storage and treatment methods.
 
 ### Outback-Specific Water Sources
 
@@ -390,4 +390,4 @@ Both conditions need water. Heat stroke needs **immediate cooling and evacuation
 6. **Replace electrolytes** — plain water alone isn't enough in extreme heat
 7. **Food is secondary** — 3 weeks without food vs 3 days without water
 
-See related guides: [Heat Survival](01-immediate/09-outback/heat-survival), [Water Purification](01-immediate/02-water/purification), [First Aid](01-immediate/01-first-aid/).
+See related guides: [Heat Survival](01-immediate/09-outback/heat-survival), [Water Storage](01-immediate/09-outback/water-storage), [Outback First Aid](01-immediate/09-outback/outback-first-aid).

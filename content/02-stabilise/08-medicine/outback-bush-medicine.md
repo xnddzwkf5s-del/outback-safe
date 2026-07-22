@@ -10,7 +10,7 @@ weight = 20
 
 This page covers plants that are actually found in remote Australian outback areas (arid and tropical). It is a curated selection, not the full database — for the complete 30-plant reference, see the [Natural Medicine Database](02-stabilise/08-medicine/herbal/).
 
-For general safety principles including plant identification techniques, see [Safety in Natural Medicine](02-stabilise/08-medicine/safety).
+For general safety principles including plant identification techniques, see plant entries below for detailed identification guidance.
 
 ---
 
@@ -149,7 +149,5 @@ These are not plants but are encountered in the same environments and require sp
 ## Related Pages
 
 - [Natural Medicine Database](02-stabilise/08-medicine/herbal/) — Full plant database with detailed ID, preparation, and safety info
-- [Safety in Natural Medicine](02-stabilise/08-medicine/safety) — Plant identification techniques, toxic look-alikes, dosage principles
-- [Natural Medicine — By Ailment](02-stabilise/08-medicine/by-ailment) — Cross-reference index for treating specific conditions
 - [Outback First Aid](01-immediate/09-outback/outback-first-aid) — Snake bite, heat illness, bleeding, fractures
-- [Water — Finding & Purifying](01-immediate/02-water/) — Finding water to prepare bush medicines
+- [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques) — Wound closure, splinting, dental emergencies

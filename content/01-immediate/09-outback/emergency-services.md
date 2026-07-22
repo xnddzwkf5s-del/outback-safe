@@ -157,5 +157,5 @@ A trip plan is a written document left with someone responsible:
 - [Vehicle Breakdown: Stay or Go?](01-immediate/09-outback/vehicle-breakdown) — When and how to call for help
 - [What to Carry](01-immediate/09-outback/what-to-carry) — PLB, UHF radio, satellite phone
 - [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — Signaling methods
-- [Signaling](01-immediate/06-signaling/) — How to attract rescuers
+- [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — Using your vehicle for signaling and survival
 - [First Aid](01-immediate/01-first-aid/) — Medical emergencies that prompt a call

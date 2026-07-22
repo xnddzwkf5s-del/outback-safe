@@ -14,7 +14,7 @@ A broken-down vehicle is not a failure — it is a survival kit on wheels. Every
 
 | Source | Approximate Volume | Notes |
 |--------|-------------------|-------|
-| Radiator | 8–12 L | **Only if no coolant.** Coolant is toxic — if it smells sweet or is coloured (green/pink/red), do not drink. In older vehicles with plain water, radiator water is safe after boiling. See [Purification](01-immediate/02-water/purification). |
+| See [Water & Food in the Outback](01-immediate/09-outback/water-food-outback) for water treatment methods.radiator: 8–12 L | **Only if no coolant.** Coolant is toxic — if it smells sweet or is coloured (green/pink/red), do not drink. In older vehicles with plain water, radiator water is safe after boiling. |
 | Windscreen washer reservoir | 2–5 L | Contains alcohol/detergent. Pass through a filter of charcoal or cloth to reduce contaminants. Ingest only as a last resort. |
 | Heater core (hoses) | 1–2 L | Same coolant risk as radiator. |
 | Esky / cooler | Variable | Melted ice water. Safe to drink. |
@@ -26,7 +26,7 @@ A broken-down vehicle is not a failure — it is a survival kit on wheels. Every
 
 **Do not drink radiator water if it contains coolant.** Glycol-based coolant (antifreeze) causes kidney failure and death even in small amounts. The sweet taste is deceptive — it tastes pleasant. If in doubt, use radiator water only for external cooling (wet cloths) and save drinking water for consumption.
 
-If the radiator contains plain water (common in older vehicles or after a repair): boil it for 5 minutes before drinking. See [Water Purification](01-immediate/02-water/purification).
+If the radiator contains plain water (common in older vehicles or after a repair): boil it for 5 minutes before drinking.
 
 ---
 
@@ -41,7 +41,7 @@ If the radiator contains plain water (common in older vehicles or after a repair
 | **Brake fluid + chlorine** | Brake fluid, pool chlorine (if carried) | Mix in small amounts — chemical reaction produces intense flame. Handle with extreme caution. |
 | **Tyre fire** | Spare tyre, fuel | Stack tyre on rim, add fuel, ignite. Produces massive black smoke visible for 30 km+. See Signaling below. |
 
-**For detailed fire-making techniques, see [Fire Basics](01-immediate/04-fire/fire-basics).**
+**For fire-making, use vehicle components:**
 
 ---
 
@@ -49,7 +49,7 @@ If the radiator contains plain water (common in older vehicles or after a repair
 
 | Method | Effectiveness | Notes |
 |--------|---------------|-------|
-| **Signal mirror** | Best. Visible up to 30 km on a clear day. | Use side mirror, rear-view mirror, or any reflective surface. See [Signal Mirror](01-immediate/06-signaling/signal-mirror). |
+| **Signal mirror** | Best. Visible up to 30 km on a clear day. | Use side mirror, rear-view mirror, or any reflective surface. Flash toward aircraft or searchers. |
 | **Burning spare tyre** | Excellent. Black smoke visible 30 km+. | Remove spare tyre from carrier. Stack with rim. Pour 1–2 L of fuel on it. Ignite. The smoke column is unmistakable from air. |
 | **Hazard lights** | Good at night. Limited daytime range. | Keep vehicle battery alive — run hazards 15 min on, 45 min off. |
 | **Bonnet up** | Universal distress signal. | Do this immediately after breakdown. |
@@ -57,8 +57,8 @@ If the radiator contains plain water (common in older vehicles or after a repair
 | **Flag on aerial** | Good. | Tie bright clothing, reflective tape, or emergency blanket to the radio aerial. Makes the vehicle visible from distance. |
 | **Headlight flashing** | Night only. | Flashes can be seen from 5+ km at night. |
 | **Whistle** | Short range (500 m) but carries further than shouting. | Three blasts = universal distress. |
-| **Ground signals** | Very good for aerial search. | Arrange rocks, stomp patterns in sand, or lay out bright clothing in an SOS or large arrow. See [Ground Signals](01-immediate/06-signaling/ground-signals). |
-| **Signal fire** | Good — three fires in a triangle. | Prepare three piles of wood 30 m apart in a triangle. Light when you hear/see aircraft. See [Signal Fire](01-immediate/06-signaling/signal-fire). |
+| **Ground signals** | Very good for aerial search. | Arrange rocks, stomp patterns in sand, or lay out bright clothing in an SOS or large arrow. Make letters at least 3 m tall for visibility. |
+| **Signal fire** | Good — three fires in a triangle. | Prepare three piles of wood 30 m apart in a triangle. Light when you hear/see aircraft. |
 
 ---
 
@@ -75,7 +75,7 @@ If the radiator contains plain water (common in older vehicles or after a repair
 | **Spare tyre cover** | Waterproof sheet. Can be used as ground sheet, rain catchment, or shade. |
 | **Tool roll / bag** | Storage for collected items. |
 
-For more shelter techniques, see [Immediate Shelter](01-immediate/03-shelter/immediate-shelter).
+The vehicle itself provides the best shelter — use the south side for shade, remove seats for bedding, and use floor mats for ground insulation.
 
 ---
 
@@ -119,7 +119,7 @@ When it rains in the outback — and it does, even in deserts — collect every 
 3. **Vehicle roofline:** If the roof has gutters, water pools there. Sponge it up or drill/tap a small hole to drain into a container.
 4. **Windscreen base:** Rain runs down the windscreen and collects at the base below the wipers. Sponge out.
 
-All collected rain should be treated before drinking — see [Water Purification](01-immediate/02-water/purification).
+All collected rain should be treated before drinking — boil for 5 minutes or use purification tablets if available.
 
 **Expected collection:** A 2 m × 3 m tarp and 10 mm of rain yields approximately 60 L of water.
 
@@ -130,6 +130,4 @@ All collected rain should be treated before drinking — see [Water Purification
 - [Extreme Heat Survival](01-immediate/09-outback/heat-survival) — Using the vehicle for shade and cooling
 - [Vehicle Breakdown: Stay or Go?](01-immediate/09-outback/vehicle-breakdown) — When to use the vehicle vs. leave it
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Gear that complements vehicle resources
-- [Signaling](01-immediate/06-signaling/) — General signaling methods
-- [Fire](01-immediate/04-fire/) — Fire starting techniques
-- [Water](01-immediate/02-water/) — Finding and purifying water
+- [Emergency Services](01-immediate/09-outback/emergency-services) — PLB activation and emergency contacts

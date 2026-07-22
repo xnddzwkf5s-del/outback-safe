@@ -1,24 +1,17 @@
 +++
-title = "Survival Basics"
-description = "Core survival skills for Australian conditions. Water, fire, shelter, food, signaling, group management, and safety."
+title = "Outback Travel"
+description = "Australian outback 4WD travel — vehicle preparation, breakdown protocol, navigation, and emergency first aid."
 weight = 10
 sort_by = "weight"
 +++
 
-# Survival Basics
+# Outback Travel
 
-Core survival skills adapted for Australian conditions. Whether you're in the outback, the bush, or coastal regions — these fundamentals apply.
+Everything you need for remote Australian outback travel by vehicle. Whether you're crossing the Simpson Desert, tackling the Canning Stock Route, or exploring Cape York.
 
-These skills are your backup. The **[Outback 4WD Survival](01-immediate/09-outback/)** section covers vehicle-based travel specifically.
-
-**If you are in an emergency now, start with [Emergency Priorities](01-immediate/00-start-here).**
+Your vehicle is your lifeline. These pages cover preparation, breakdown response, navigation, and what to do when things go wrong.
 
 ## In This Section
 
-- **[Water](01-immediate/02-water/)** — Finding, purifying, and storing water in Australian environments
-- **[Shelter](01-immediate/03-shelter/)** — Emergency and semi-permanent shelters for Australian climates
-- **[Fire](01-immediate/04-fire/)** — Fire-starting methods with Australian materials
-- **[Food (Emergency)](01-immediate/05-food-emergency/)** — Australian edible plants, foraging, and what to avoid
-- **[Signaling](01-immediate/06-signaling/)** — Rescue signals, PLB activation, communications
-- **[Group Management](01-immediate/07-group-management/)** — Convoy procedures, group decision-making, morale
-- **[Safety](01-immediate/08-security/)** — Australian animal threats, camp safety, remote area security
+- **[Outback 4WD Survival](01-immediate/09-outback/)** — Route planning, vehicle preparation, breakdown protocol, heat survival, bush mechanics, vehicle recovery, water management, navigation
+- **[CPR & Life Support](01-immediate/01-first-aid/)** — Cardiopulmonary resuscitation and recovery position

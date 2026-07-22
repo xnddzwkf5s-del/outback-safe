@@ -100,7 +100,7 @@ Drowning victims need rescue breaths — the primary problem is lack of oxygen, 
 Give 5 initial rescue breaths before starting compressions (drowning is a respiratory arrest first); Then continue 30:2 ratio as normal; If you are alone, perform 1 minute of CPR before leaving to get help
 {% end %}
 
-→ See [Drowning & Water Rescue](01-immediate/01-first-aid/drowning) for full details.
+→ See the [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques) page for field treatment guidance.
 
 ---
 
@@ -208,6 +208,5 @@ Performing CPR is intense. If the person does not survive, understand:
 
 ## Related
 
-- [Drowning & Water Rescue](01-immediate/01-first-aid/drowning)
-- [Shock](01-immediate/01-first-aid/shock)
-- [Severe Bleeding](01-immediate/01-first-aid/severe-bleeding)
+- [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques)
+- [ARC Guidelines](https://resus.org.au/)

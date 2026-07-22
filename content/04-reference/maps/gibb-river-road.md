@@ -216,7 +216,7 @@ The route is described here west-to-east (Derby → Kununurra). Most travellers 
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Outback gear checklist
 - [Vehicle Breakdown](01-immediate/09-outback/vehicle-breakdown) — Stay or go decision framework
 - [Heat Survival](01-immediate/09-outback/heat-survival) — Kimberley heat management
-- [Water — Finding & Purifying](01-immediate/02-water/) — Treating bore and river water
+- [Water & Food in the Outback](01-immediate/09-outback/water-food-outback) — Finding and managing water
 
 ---
 

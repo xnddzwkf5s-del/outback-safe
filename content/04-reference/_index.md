@@ -14,4 +14,4 @@ Supplementary reference material for Australian outback travel and survival.
 - **[Herbal Medicine Database](02-stabilise/08-medicine/herbal/)** — 10 Australian native medicinal plants with identification, preparation, and safety notes
 - **[Maps & Track Guides](04-reference/maps/)** — Detailed route information for all major outback tracks with GPS waypoints, SVGs, and free topo map downloads
 - **[Communications](04-reference/communications/)** — 146 2M amateur radio repeaters across all states and territories, UHF channels, emergency comms
-- **[Weapons Reference](03-thrive/04-weapons/)** — Historical weapon-making and fortification (educational interest only, not relevant to outback travel)
+

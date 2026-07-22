@@ -524,4 +524,5 @@ This is the most important item on the checklist. Recovery is physically and men
 - [Extreme Heat Survival](01-immediate/09-outback/heat-survival) — Managing heat during physical recovery work
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Full outback gear checklist including recovery equipment
 - [Emergency Services](01-immediate/09-outback/emergency-services) — Calling for recovery assistance
-- [Immediate Shelter](01-immediate/03-shelter/immediate-shelter) — Creating shade and shelter while waiting
+- [Emergency Services](01-immediate/09-outback/emergency-services) — PLB activation and emergency contacts
+- [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource) — Using your vehicle for survival

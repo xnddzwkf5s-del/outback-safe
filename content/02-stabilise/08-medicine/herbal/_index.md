@@ -20,16 +20,25 @@ These plants have been selected for:
 ## How to Use This Database
 
 ### Step 1: Identify Your Need
-Start from the [By Ailment](../by-ailment) index if you have a specific condition to treat.
+Browse the plant list below and match your condition to a plant's primary use.
 
 ### Step 2: Verify the Plant
 Each plant entry includes detailed identification information. Cross-reference at least three features (leaf, flower, habitat, season) before harvesting. When in doubt, do not use.
 
 ### Step 3: Choose a Preparation
-Refer to [Preparation Methods](../preparation-methods) for instructions on infusions, decoctions, poultices, tinctures, salves, and syrups.
+Use the appropriate method for the plant part:
+
+| Method | Best For | How | Times |
+|--------|----------|-----|-------|
+| **Infusion** | Leaves, flowers | Pour boiling water, steep covered | 5–15 min |
+| **Decoction** | Roots, bark, seeds | Simmer in water | 15–30 min |
+| **Poultice** | External wounds, inflammation | Crush fresh or reconstitute dried, apply directly | 20 min–2 hrs |
+| **Tincture** | Long-term storage, concentrated dose | Steep in 40–60% alcohol | 2–6 weeks |
+| **Salve** | Skin conditions, burns | Infuse in oil, add beeswax | N/A |
+| **Syrup** | Cough, sore throat, children | Decoction + sugar/honey, reduce | N/A |
 
 ### Step 4: Follow Safety Protocols
-Review the [Safety Guide](../safety) for dosage principles, contraindications, and toxic look-alike information.
+Always start with small doses. Test for allergic reactions. Consult multiple identification features.
 
 ## Plant Identification Basics
 
@@ -56,19 +65,6 @@ Never identify a plant by a single feature. Confirm at least three of:
 ### Regional Field Guides (Survival Context)
 If you have access to printed materials:
 - Australia: *Australian Medicinal Plants* (Lassak & McCarthy)
-
-## Preparation Methods (Summary)
-
-| Method | Best For | How | Times |
-|--------|----------|-----|-------|
-| **Infusion** | Leaves, flowers | Pour boiling water, steep covered | 5–15 min |
-| **Decoction** | Roots, bark, seeds | Simmer in water | 15–30 min |
-| **Poultice** | External wounds, inflammation | Crush fresh or reconstitute dried, apply directly | 20 min–2 hrs |
-| **Tincture** | Long-term storage, concentrated dose | Steep in 40–60% alcohol | 2–6 weeks |
-| **Salve** | Skin conditions, burns | Infuse in oil, add beeswax | N/A |
-| **Syrup** | Cough, sore throat, children | Decoction + sugar/honey, reduce | N/A |
-
-See [Preparation Methods](../preparation-methods) for detailed instructions.
 
 ## Plant List
 

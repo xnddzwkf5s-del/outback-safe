@@ -24,8 +24,8 @@ Your Australian remote travel reference. Whether you're crossing the Simpson Des
 | 💧 **Dehydration** | [Water & Electrolytes →](01-immediate/09-outback/water-food-outback) |
 | 🤧 **Anaphylaxis** | [EpiPen & Treatment →](02-stabilise/08-medicine/anaphylaxis) |
 | 🎣 **Marine Stinger** | [Box Jellyfish & Irukandji →](02-stabilise/08-medicine/marine-stingers) |
-| 🩸 **Severe Bleeding** | [Tourniquet & Wounds →](01-immediate/01-first-aid/severe-bleeding) |
-| 🦴 **Fracture** | [Splinting & Immobilisation →](01-immediate/01-first-aid/fractures) |
+| 🩸 **Bleeding / Wound** | [Remote First Aid →](02-stabilise/08-medicine/remote-first-aid-techniques) |
+| 🦴 **Fracture / Injury** | [Remote First Aid →](02-stabilise/08-medicine/remote-first-aid-techniques) |
 
 ---
 
@@ -55,11 +55,11 @@ Detailed route information for all major outback tracks — Simpson Desert, Cape
 ### 📻 Communications
 146 amateur radio repeaters across all 8 Australian states and territories — frequencies, CTCSS tones, call signs. UHF CB channels, satellite phone guide, PLB activation, WICEN emergency communications, APRS tracking setup.
 
-### 🔥 Survival Basics
-Core survival skills adapted for Australian conditions — finding and purifying water, starting fire (5 methods), building shelter, emergency food. Keep these in your back pocket.
+### 🏥 Remote First Aid
+Wound closure, splinting, dental emergencies, fractures, burns, head injury, childbirth in remote areas. Snake bite, spider bite, marine stingers, tick bites, anaphylaxis.
 
-### 📚 Reference
-Herbal medicine database (10 species), historical weapons reference (educational only), group management for convoys and remote travel.
+### 🌿 Bush Medicine
+26 medicinal plants found in arid and tropical outback Australia, with photos, preparation methods, and deadly look-alike warnings.
 
 ---
 

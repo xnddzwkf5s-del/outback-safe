@@ -32,12 +32,13 @@ This section is about what you can do in that gap — the hours between injury a
 | Page | What It Covers |
 |------|----------------|
 | [Snake Bite](02-stabilise/08-medicine/snake-bite) | Definitive Australian snake bite guide — ID, PIB technique, symptoms, regional risk, collapse management |
+| [Spider Bites](02-stabilise/08-medicine/spider-bites) | Funnel-web, Redback, Mouse Spider, White-tailed Spider identification and treatment |
+| [Marine Stingers](02-stabilise/08-medicine/marine-stingers) | Box jellyfish, Irukandji, Bluebottle, Stonefish, Cone shells, Blue-ringed octopus, Stingrays |
+| [Tick Bites](02-stabilise/08-medicine/tick-bites) | Paralysis tick, removal technique, mammalian meat allergy |
+| [Anaphylaxis](02-stabilise/08-medicine/anaphylaxis) | EpiPen/adrenaline administration, recognition, action plan for remote areas |
 | [Outback Bush Medicine](02-stabilise/08-medicine/outback-bush-medicine) | Curated plants available in arid and tropical outback regions, including deadly look-alike warnings |
-| [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques) | Wound closure without stitches, improvised splints, dental emergencies, eye injuries, fractures, childbirth |
-| [Natural Medicine Database](02-stabilise/08-medicine/herbal/) | Full herbal database — plant identification, preparation, dosage, and safety |
-| [Natural Medicine — By Ailment](02-stabilise/08-medicine/by-ailment) | Cross-reference index for treating specific conditions with plants |
-| [Natural Medicine — Preparation Methods](02-stabilise/08-medicine/preparation-methods) | Infusion, decoction, poultice, tincture, salve, syrup |
-| [Natural Medicine — Safety Guide](02-stabilise/08-medicine/safety) | Plant identification, toxic look-alikes, dosage, contraindications |
+| [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques) | Wound closure without stitches, improvised splints, dental emergencies, eye injuries, fractures, burns, head injury, childbirth |
+| [Herbal Medicine Database](02-stabilise/08-medicine/herbal/) | 10 Australian native medicinal plants with detailed identification, preparation, and safety |
 
 ## Cross-References
 
@@ -46,8 +47,19 @@ This section is about what you can do in that gap — the hours between injury a
 - [Vehicle Breakdown: Stay or Go?](01-immediate/09-outback/vehicle-breakdown) — The core outback survival decision
 - [Emergency Services](01-immediate/09-outback/emergency-services) — PLB/EPIRB, UHF channels, RFDS contact
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Outback gear checklist including medical kit
-- [First Aid](01-immediate/01-first-aid/) — General first aid (CPR, choking, allergic reaction)
+- [CPR & Life Support](01-immediate/01-first-aid/cpr) — Compression-only CPR and recovery position
 
-## Remember
+## Outback Medical Priorities
 
-Your first aid kit is not just bandages and antiseptic. It is knowledge. In the outback, knowing what to do in the first five minutes determines survival more than any piece of equipment. Read these pages before you go. Practice the techniques. Teach them to your travelling companions.
+In the Australian outback, professional medical help is not minutes away — it is hours or days.
+
+| Threat | Time to Death (Untreated) | Priority |
+|--------|---------------------------|----------|
+| Snake bite (brown snake, taipan) | 30 min – 3 hours | **Highest** — correct first aid buys hours |
+| Heat stroke | Minutes after collapse | **Highest** — cool before anything else |
+| Major bleeding | 3–5 minutes (arterial) | **Highest** — compress immediately |
+| Dehydration | 6–48 hours | **High** — preventable, daily priority |
+| Severe allergic reaction | 5–30 minutes | **High** — adrenaline saves |
+| Infection | Days to weeks | **Medium** — treat early |
+
+**In the outback, you cannot treat everything. Your job is to treat what will kill first, stabilise what you can, and evacuate what you cannot.**

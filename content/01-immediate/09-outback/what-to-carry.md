@@ -139,7 +139,7 @@ See [Navigation Basics](01-immediate/09-outback/navigation-basics).
 | Flares | 3–4 handheld. Check expiry dates. |
 | Torch / headlamp | 1 per person. Spare batteries. |
 
-See [Signaling](01-immediate/06-signaling/) and [Fire](01-immediate/04-fire/).
+See [Emergency Services](01-immediate/09-outback/emergency-services) and [Vehicle as a Resource](01-immediate/09-outback/vehicle-as-resource).
 
 ---
 

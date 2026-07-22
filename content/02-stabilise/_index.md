@@ -19,7 +19,6 @@ Everything you need to handle medical emergencies when you're hours or days from
 - **[Tick Bites](02-stabilise/08-medicine/tick-bites)** — Paralysis tick, removal technique, mammalian meat allergy (alpha-gal syndrome), tick-borne diseases
 - **[Anaphylaxis](02-stabilise/08-medicine/anaphylaxis)** — EpiPen/adrenaline administration, recognition, action plan for remote areas
 - **[Herbal Medicine Database](02-stabilise/08-medicine/herbal/)** — 10 Australian native medicinal plants with detailed identification, preparation, and safety information
-- **[By Ailment](02-stabilise/08-medicine/by-ailment)** — Find the right treatment by condition. Cross-referenced index for wounds, digestive, respiratory, pain, and more
 
 ## See Also
 
