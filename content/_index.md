@@ -99,11 +99,17 @@ This guide is for **educational and informational purposes only**. It is not a s
 
 **Easiest method — 2 minutes:**
 
-1. On your Mac, compress the site folder: right-click the `site/` folder → **Compress** (creates `site.zip`)
-2. **AirDrop** the ZIP file to your iPhone
-3. On iPhone, open the **Files** app → tap the ZIP to unzip it
-4. Open the unzipped folder → tap `index.html` to browse
+1. On your Mac, right-click → **Compress** the `site/` folder (creates `site.zip`)
+2. **AirDrop** the ZIP to your iPhone
+3. On iPhone, tap the ZIP in **Files** app to unzip it
+4. Tap `index.html` to browse offline
 
-**Works completely offline** — no internet, no app store, no subscriptions. All pages, photos, and maps included. ~5MB total.
+**Or visit once for permanent offline:** Open **this website** in Safari → Share → **Add to Home Screen**. First visit caches everything — works offline forever after that.
 
-**Alternative:** Download the free [Documents by Readdle](https://apps.apple.com/au/app/documents-by-readdle/id364901807) app (better HTML rendering than Files app).
+### 📓 Obsidian Vault Download
+
+Open as an **[Obsidian](https://obsidian.md)** vault — full graph view, search, backlinks, and offline reading.
+
+1. Download the **[Obsidian Vault ZIP](outback-safe-obsidian.zip)**
+2. In Obsidian → **Open folder as vault** → select the unzipped folder
+3. All pages, photos, and cross-links work natively. Fully offline.
