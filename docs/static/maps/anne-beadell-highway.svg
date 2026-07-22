@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Anne Beadell Highway — Route Overview</title>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Anne Beadell Highway</text>
+  <text x="400" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~1,360 km · Coober Pedy to Laverton · Len Beadell's Gunbarrel Road</text>
+
+  <!-- Great Victoria Desert annotation -->
+  <text x="400" y="280" text-anchor="middle" font-size="18" fill="#1a1a2e" opacity="0.06" font-weight="900" transform="rotate(-5,400,280)">GREAT VICTORIA DESERT</text>
+
+  <!-- SA/WA Border -->
+  <line x1="400" y1="60" x2="400" y2="520" stroke="#1a1a2e" stroke-width="2" stroke-dasharray="8,4" opacity="0.3"/>
+  <text x="410" y="100" font-size="10" fill="#6b7280" opacity="0.6">SA</text>
+  <text x="370" y="100" font-size="10" fill="#6b7280" opacity="0.6" text-anchor="end">WA</text>
+
+  <!-- Route line (mostly straight — rocket range heritage) -->
+  <polyline points="30,380 80,370 150,340 240,310 340,290 400,280 460,270 540,250 620,230 700,210 770,190" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linejoin="round"/>
+
+  <!-- Background pattern — straight survey lines -->
+  <g opacity="0.03">
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#1a1a2e" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#1a1a2e" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#1a1a2e" stroke-width="1"/>
+  </g>
+
+  <!-- Waypoints (east to west) -->
+
+  <!-- Coober Pedy -->
+  <circle cx="30" cy="380" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="20" y="365" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Coober Pedy</text>
+  <text x="20" y="398" text-anchor="end" font-size="8" fill="#6b7280">0 km · Start · Fill EVERYTHING</text>
+  <circle cx="30" cy="380" r="4" fill="#d4a017"/>
+
+  <!-- Mabel Creek -->
+  <circle cx="110" cy="350" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="100" y="340" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Mabel Creek</text>
+  <text x="100" y="353" text-anchor="end" font-size="7" fill="#6b7280">Old homestead · No services</text>
+
+  <!-- Emu -->
+  <circle cx="200" cy="325" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="190" y="315" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Emu Field</text>
+  <text x="190" y="328" text-anchor="end" font-size="7" fill="#b91c1c">Do not enter fenced areas</text>
+
+  <!-- Vokes Hill -->
+  <circle cx="270" cy="300" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="280" y="295" font-size="9" font-weight="600" fill="#1a1a2e">Vokes Hill</text>
+
+  <!-- Mamungari CP boundary -->
+  <g transform="translate(320,295)">
+    <path d="M-15,0 L-10,-8 L-5,0 L0,-8 L5,0 L10,-8 L15,0" fill="none" stroke="#1a1a2e" stroke-width="1" opacity="0.5"/>
+    <text x="0" y="10" text-anchor="middle" font-size="8" fill="#6b7280">Mamungari CP</text>
+  </g>
+
+  <!-- Ilkurlka (critical midpoint) -->
+  <circle cx="460" cy="270" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="470" y="255" font-size="11" font-weight="700" fill="#1a1a2e">Ilkurlka Roadhouse</text>
+  <text x="470" y="268" font-size="8" fill="#6b7280">~680 km · MIDPOINT</text>
+  <circle cx="460" cy="270" r="5" fill="#d4a017"/>
+  <text x="470" y="282" font-size="8" fill="#b91c1c">Only fuel for 1,360 km · $3–5/L</text>
+
+  <!-- Serpentine Lakes -->
+  <circle cx="520" cy="255" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="530" y="250" font-size="9" font-weight="600" fill="#1a1a2e">Serpentine Lakes</text>
+  <text x="530" y="263" font-size="7" fill="#6b7280">WA border · Salt lake</text>
+
+  <!-- Neale Junction -->
+  <circle cx="600" cy="235" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="610" y="230" font-size="9" font-weight="600" fill="#1a1a2e">Neale Junction</text>
+  <text x="610" y="243" font-size="7" fill="#6b7280">Connie Sue Hwy intersection</text>
+
+  <!-- Yeo -->
+  <circle cx="680" cy="215" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="690" y="210" font-size="9" font-weight="600" fill="#1a1a2e">Yeo Homestead</text>
+  <text x="690" y="223" font-size="7" fill="#6b7280">Abandoned · Good camp</text>
+
+  <!-- Laverton -->
+  <circle cx="770" cy="190" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="780" y="180" font-size="12" font-weight="700" fill="#1a1a2e">Laverton</text>
+  <text x="780" y="200" font-size="8" fill="#6b7280">End · Full services</text>
+  <circle cx="770" cy="190" r="4" fill="#d4a017"/>
+
+  <!-- Distance labels -->
+  <text x="65" y="365" text-anchor="middle" font-size="8" fill="#6b7280">100 km</text>
+  <text x="155" y="338" text-anchor="middle" font-size="8" fill="#6b7280">130 km</text>
+  <text x="240" y="310" text-anchor="middle" font-size="8" fill="#6b7280">100 km</text>
+  <text x="370" y="290" text-anchor="middle" font-size="8" fill="#6b7280">350 km</text>
+  <text x="500" y="260" text-anchor="middle" font-size="8" fill="#6b7280">120 km</text>
+  <text x="570" y="240" text-anchor="middle" font-size="8" fill="#6b7280">160 km</text>
+  <text x="650" y="225" text-anchor="middle" font-size="8" fill="#6b7280">130 km</text>
+  <text x="735" y="205" text-anchor="middle" font-size="8" fill="#6b7280">120 km</text>
+
+  <!-- Warning callout: No water -->
+  <g transform="translate(20,420)">
+    <rect x="0" y="0" width="240" height="45" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="120" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#b91c1c">💧 No Water Anywhere</text>
+    <text x="10" y="33" font-size="9" fill="#6b7280">No reliable natural surface water on entire route</text>
+  </g>
+
+  <!-- Warning callout: Corrugations -->
+  <g transform="translate(420,420)">
+    <rect x="0" y="0" width="280" height="45" rx="5" fill="#fff" stroke="#d4a017" stroke-width="1.5"/>
+    <text x="140" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#d4a017">🛞 Worst Corrugations in Australia</text>
+    <text x="10" y="33" font-size="9" fill="#6b7280">Carry 2 spare shocks · 30–50 km/h max · Check tyres each stop</text>
+  </g>
+
+  <!-- Fuel stops note -->
+  <g transform="translate(20,490)">
+    <text x="0" y="0" font-size="9" font-weight="600" fill="#1a1a2e">Fuel Stops: 3 total in 1,360 km</text>
+    <text x="0" y="15" font-size="8" fill="#6b7280">Coober Pedy → Ilkurlka → Laverton (680 km gaps)</text>
+    <text x="0" y="28" font-size="8" fill="#6b7280">Min range: 800 km · Carry 100–200 L extra</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(460,490)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#6b7280">Route</text>
+    <circle cx="75" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="83" y="4" font-size="9" fill="#6b7280">Waypoint</text>
+    <circle cx="155" cy="0" r="3" fill="#d4a017"/>
+    <text x="163" y="4" font-size="9" fill="#6b7280">Fuel</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(760,60)">
+    <polygon points="10,20 20,0 30,20 20,15" fill="#1a1a2e"/>
+    <text x="20" y="33" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Corrugation warnings throughout -->
+  <g transform="translate(100,352)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(220,320)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(340,288)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(500,262)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(640,232)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+
+  <!-- No water icons along route -->
+  <g transform="translate(160,345)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+  <g transform="translate(380,282)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+  <g transform="translate(580,238)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+
+  <!-- Fuel warning at Ilkurlka -->
+  <g transform="translate(466,268)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <rect x="0" y="0" width="10" height="14" rx="1"/>
+    <line x1="10" y1="2" x2="14" y2="0"/>
+    <text x="5" y="12" text-anchor="middle" font-size="12" font-weight="bold" fill="#d4a017">!</text>
+  </g>
+
+  <!-- Dust advisory -->
+  <g transform="translate(720,205)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(480, 340)">
+    <rect x="0" y="0" width="280" height="100" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="140" y="15" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Gradual rise east to west -->
+    <polyline points="0,85 30,80 60,75 90,70 120,65 150,60 180,58 210,55 240,55 270,60 280,62" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="95" x2="280" y2="95" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="98" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~500m</text>
+    <text x="140" y="88" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Coober Pedy → Laverton</text>
+  </g>
+</svg>

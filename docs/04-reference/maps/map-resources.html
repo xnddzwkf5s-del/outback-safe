@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Map Resources &amp; Navigation Tools — Outback Safe</title>
+<meta name="description" content="Essential maps for Australian outback travel: Hema, Westprint, Geoscience Australia series. Digital navigation apps, GPS waypoints, UHF channels, emergency communications, and datum conversion notes.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html" class=active>Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#paper-maps-essential-series">Paper Maps — Essential Series</a></li>
+<li><a href="#digital-maps-amp-apps">Digital Maps &amp; Apps</a></li>
+<li><a href="#gps-waypoints-major-track-junctions-amp-fuel-stops">GPS Waypoints — Major Track Junctions &amp; Fuel Stops</a></li>
+<li><a href="#uhf-cb-radio-channels">UHF CB Radio Channels</a></li>
+<li><a href="#emergency-communications">Emergency Communications</a></li>
+<li><a href="#trip-notification-amp-safety">Trip Notification &amp; Safety</a></li>
+<li><a href="#australian-datum-quick-reference">Australian Datum — Quick Reference</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Map Resources &amp; Navigation Tools</h1>
+<p>Navigating the Australian outback requires multiple map sources and backup navigation methods. GPS and digital mapping have made outback travel safer, but they are not infallible — screens break, batteries die, and satellite devices can fail in extreme heat. Paper maps remain essential equipment for every remote trip.</p>
+<p>This page covers the recommended map resources, digital tools, communications channels, and key GPS waypoints for major tracks.</p>
+<hr />
+<h2 id="paper-maps-essential-series">Paper Maps — Essential Series</h2>
+<h3>Hema Maps</h3>
+<p>Hema is the most popular brand for outback 4WD travellers. Their maps are designed specifically for remote travel with fuel stops, waypoints, distance markers, and notes on road conditions.</p>
+<table>
+<thead>
+<tr>
+<th>Map Product</th>
+<th>Coverage</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Great Desert Tracks — East</td>
+<td>Simpson Desert, Birdsville Track, Strzelecki Track, Oodnadatta Track</td>
+<td>Central desert crossings</td>
+</tr>
+<tr>
+<td>Great Desert Tracks — West</td>
+<td>Canning Stock Route, Tanami, Gunbarrel, Anne Beadell, Great Central</td>
+<td>WA/NT desert routes</td>
+</tr>
+<tr>
+<td>Great Desert Tracks — South</td>
+<td>Gawler Ranges, Nullarbor, Flinders Ranges</td>
+<td>Southern SA desert routes</td>
+</tr>
+<tr>
+<td>Great Desert Tracks — North</td>
+<td>Gibb River Road, Kimberley, Cape York, Savannah Way</td>
+<td>Northern Australian routes</td>
+</tr>
+<tr>
+<td>Hema Simpson Desert Map</td>
+<td>Simpson Desert detail map</td>
+<td>Dune line navigation</td>
+</tr>
+<tr>
+<td>Hema Canning Stock Route Map</td>
+<td>CSR Well 1–51 detail</td>
+<td>CSR navigation, well locations</td>
+</tr>
+<tr>
+<td>Hema Cape York Map</td>
+<td>OTT, PDR, creek crossings</td>
+<td>Cape York planning</td>
+</tr>
+<tr>
+<td>Hema Gibb River Road Map</td>
+<td>Gibb georges, fuel stops</td>
+<td>Kimberley travel</td>
+</tr>
+<tr>
+<td>Hema Binns Track Map</td>
+<td>Full Binns Track route</td>
+<td>NT Binns Track</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where to buy</strong>: Hema stockists in all major cities. Online via Hema Maps website. Available at most outback roadhouses.</p>
+<h3>Westprint Maps</h3>
+<p>Westprint is the gold standard for technical navigation on the Canning Stock Route, Simpson Desert, and Anne Beadell Highway. Their maps include detailed well information, water quality notes, historical notes, and GPS coordinates.</p>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>Coverage</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Westprint Canning Stock Route Map</td>
+<td>CSR Well 1–51, fuel drop notes</td>
+<td>Well condition, depth, salinity, pump type</td>
+</tr>
+<tr>
+<td>Westprint Anne Beadell Highway Map</td>
+<td>Coober Pedy to Laverton</td>
+<td>All waypoints, fuel info, permit zones</td>
+</tr>
+<tr>
+<td>Westprint Birdsville Track Map</td>
+<td>Marree to Birdsville</td>
+<td>Mound springs, historical stops</td>
+</tr>
+<tr>
+<td>Westprint Oodnadatta Track Map</td>
+<td>Marree to Marla</td>
+<td>Old Ghan railway heritage, artesian bores</td>
+</tr>
+<tr>
+<td>Westprint Simpson Desert Map</td>
+<td>Dalhousie to Birdsville</td>
+<td>Sand dune detail, waypoints</td>
+</tr>
+<tr>
+<td>Westprint Flinders Ranges Map</td>
+<td>Flinders Ranges region</td>
+<td>Gorges, walking tracks</td>
+</tr>
+</tbody>
+</table>
+<h3>Geoscience Australia Topographic Series</h3>
+<p>The official national topographic map series at 1:250,000 and 1:100,000 scales.</p>
+<table>
+<thead>
+<tr>
+<th>Series</th>
+<th>Scale</th>
+<th>Coverage</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GA 1:250K</td>
+<td>1:250,000 (1 cm = 2.5 km)</td>
+<td>546 sheets cover all of Australia</td>
+<td>The standard reference map. Essential for primary navigation.</td>
+</tr>
+<tr>
+<td>GA 1:100K</td>
+<td>1:100,000 (1 cm = 1 km)</td>
+<td>~3,000 sheets, selected coverage</td>
+<td>Greater detail. Not all remote areas available.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sheet names</strong>: Each 1:250K sheet has a name (e.g. Birdsville SG 54-05). Cross-reference with Hema maps to order the correct sheets for your route.</p>
+<hr />
+<h2 id="digital-maps-amp-apps">Digital Maps &amp; Apps</h2>
+<table>
+<thead>
+<tr>
+<th>App / Tool</th>
+<th>Platform</th>
+<th>Best For</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hema 4WD Maps</strong></td>
+<td>iOS, Android</td>
+<td>All Hema maps on your phone/tablet. Offline GPS. Waypoint recording.</td>
+<td>$50–150 AUD (map packs)</td>
+</tr>
+<tr>
+<td><strong>Avenza Maps</strong></td>
+<td>iOS, Android</td>
+<td>Import GEOpdf maps (GA, Westprint, Hema). GPS tracks on any imported map.</td>
+<td>Free (basic), Pro $20 AUD/year</td>
+</tr>
+<tr>
+<td><strong>ExplorOz Traveller</strong></td>
+<td>iOS, Android, Web</td>
+<td>Australian-specific. Trip planning, waypoints, fuel database, campsites.</td>
+<td>$70 AUD/year</td>
+</tr>
+<tr>
+<td><strong>Gaia GPS</strong></td>
+<td>iOS, Android, Web</td>
+<td>US-developed but works well in Australia. Offline topo maps. Route planning.</td>
+<td>$50 AUD/year (Premium)</td>
+</tr>
+<tr>
+<td><strong>Google Maps</strong></td>
+<td>All</td>
+<td><strong>Do not rely on this for outback navigation.</strong> Not designed for unsealed roads.</td>
+<td>Free</td>
+</tr>
+<tr>
+<td><strong>ViewRanger</strong> (now Outdooractive)</td>
+<td>iOS, Android</td>
+<td>UK/EU developed. Limited Australia content.</td>
+<td>Free (basic)</td>
+</tr>
+</tbody>
+</table>
+<h3>Which Digital Setup to Use</h3>
+<p><strong>Recommended minimum</strong>: Hema 4WD Maps app on a phone or tablet plus Avenza Maps with GEOpdf downloads of the relevant GA 1:250K or Westprint sheets for your route. Use a dedicated GPS device for primary navigation (Garmin Zumo, Garmin GPSMAP series) and keep the phone/tablet as backup.</p>
+<hr />
+<h2 id="gps-waypoints-major-track-junctions-amp-fuel-stops">GPS Waypoints — Major Track Junctions &amp; Fuel Stops</h2>
+<p>Below are key GPS waypoints (WGS84 datum) for major tracks. These are provided in a format compatible with most GPS devices. Enter manually or download as GPX from Hema/ExplorOz.</p>
+<h3>Simpson Desert</h3>
+<table>
+<thead>
+<tr>
+<th>Waypoint Name</th>
+<th>Latitude (S)</th>
+<th>Longitude (E)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dalhousie Springs</td>
+<td>26°24'00"</td>
+<td>135°30'00"</td>
+<td>South entry, hot springs</td>
+</tr>
+<tr>
+<td>Purnie Bore</td>
+<td>26°25'00"</td>
+<td>135°55'00"</td>
+<td>Artesian bore, hot water</td>
+</tr>
+<tr>
+<td>French Line / WAA Junction</td>
+<td>25°57'00"</td>
+<td>136°35'00"</td>
+<td>Track junction</td>
+</tr>
+<tr>
+<td>Poeppel Corner</td>
+<td>26°00'00"</td>
+<td>138°00'00"</td>
+<td>NT/SA/QLD border</td>
+</tr>
+<tr>
+<td>Big Red</td>
+<td>25°24'00"</td>
+<td>138°39'00"</td>
+<td>Largest dune, 15 km from Birdsville</td>
+</tr>
+<tr>
+<td>Birdsville</td>
+<td>25°54'00"</td>
+<td>139°21'00"</td>
+<td>End, fuel</td>
+</tr>
+</tbody>
+</table>
+<h3>Canning Stock Route (selected wells)</h3>
+<table>
+<thead>
+<tr>
+<th>Waypoint Name</th>
+<th>Latitude (S)</th>
+<th>Longitude (E)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wiluna (Start)</td>
+<td>26°35'00"</td>
+<td>120°13'00"</td>
+<td>Southern end, full services</td>
+</tr>
+<tr>
+<td>Carnegie Station</td>
+<td>25°42'00"</td>
+<td>122°59'00"</td>
+<td>Fuel (expensive)</td>
+</tr>
+<tr>
+<td>Well 15 (Durba Hills)</td>
+<td>24°38'00"</td>
+<td>123°29'00"</td>
+<td>Water, campsite</td>
+</tr>
+<tr>
+<td>Well 23 (fuel drop)</td>
+<td>24°10'00"</td>
+<td>124°03'00"</td>
+<td>Common fuel cache</td>
+</tr>
+<tr>
+<td><strong>Kunawarritji (Well 33)</strong></td>
+<td><strong>23°38'00"</strong></td>
+<td><strong>124°27'00"</strong></td>
+<td><strong>Only fuel on CSR</strong></td>
+</tr>
+<tr>
+<td>Godfreys Tank</td>
+<td>21°54'00"</td>
+<td>126°34'00"</td>
+<td>Water</td>
+</tr>
+<tr>
+<td>Well 46 (Mindibungu)</td>
+<td>20°09'00"</td>
+<td>127°49'00"</td>
+<td>Community, water</td>
+</tr>
+<tr>
+<td>Billiluna</td>
+<td>19°38'00"</td>
+<td>127°39'00"</td>
+<td>Northern section</td>
+</tr>
+<tr>
+<td>Halls Creek (End)</td>
+<td>18°13'00"</td>
+<td>127°40'00"</td>
+<td>Full services</td>
+</tr>
+</tbody>
+</table>
+<h3>Cape York</h3>
+<table>
+<thead>
+<tr>
+<th>Waypoint Name</th>
+<th>Latitude (S)</th>
+<th>Longitude (E)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cairns (Start)</td>
+<td>16°55'00"</td>
+<td>145°46'00"</td>
+<td>Full services</td>
+</tr>
+<tr>
+<td>Lakeland</td>
+<td>15°54'00"</td>
+<td>144°52'00"</td>
+<td>PDR start</td>
+</tr>
+<tr>
+<td>Laura</td>
+<td>15°33'00"</td>
+<td>144°27'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Musgrave</td>
+<td>14°47'00"</td>
+<td>143°32'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Coen</td>
+<td>13°57'00"</td>
+<td>143°12'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Archer River</td>
+<td>13°28'00"</td>
+<td>142°56'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Bramwell Junction</td>
+<td>12°27'00"</td>
+<td>142°36'00"</td>
+<td>OTT / PDR split</td>
+</tr>
+<tr>
+<td>Jardine River Ferry</td>
+<td>11°06'00"</td>
+<td>142°21'00"</td>
+<td>Ferry crossing</td>
+</tr>
+<tr>
+<td>The Tip (Pajinka)</td>
+<td>10°41'00"</td>
+<td>142°31'00"</td>
+<td>Northernmost point</td>
+</tr>
+</tbody>
+</table>
+<h3>Anne Beadell Highway</h3>
+<table>
+<thead>
+<tr>
+<th>Waypoint Name</th>
+<th>Latitude (S)</th>
+<th>Longitude (E)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coober Pedy (Start)</td>
+<td>29°00'00"</td>
+<td>134°45'00"</td>
+<td>Full services</td>
+</tr>
+<tr>
+<td>Mabel Creek</td>
+<td>28°59'00"</td>
+<td>133°30'00"</td>
+<td>Homestead, no services</td>
+</tr>
+<tr>
+<td>Vokes Hill</td>
+<td>28°35'00"</td>
+<td>130°35'00"</td>
+<td>Track junction</td>
+</tr>
+<tr>
+<td><strong>Ilkurlka Roadhouse</strong></td>
+<td><strong>28°10'00"</strong></td>
+<td><strong>126°25'00"</strong></td>
+<td><strong>Only fuel midpoint</strong></td>
+</tr>
+<tr>
+<td>Serpentine Lakes</td>
+<td>28°10'00"</td>
+<td>125°30'00"</td>
+<td>WA border</td>
+</tr>
+<tr>
+<td>Neale Junction</td>
+<td>28°15'00"</td>
+<td>124°15'00"</td>
+<td>Track junction</td>
+</tr>
+<tr>
+<td>Yeo Homestead</td>
+<td>28°15'00"</td>
+<td>122°30'00"</td>
+<td>Abandoned, good camp</td>
+</tr>
+<tr>
+<td>Laverton (End)</td>
+<td>28°37'00"</td>
+<td>122°24'00"</td>
+<td>Full services</td>
+</tr>
+</tbody>
+</table>
+<h3>Gibb River Road</h3>
+<table>
+<thead>
+<tr>
+<th>Waypoint Name</th>
+<th>Latitude (S)</th>
+<th>Longitude (E)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Derby (Start)</td>
+<td>17°18'00"</td>
+<td>123°37'00"</td>
+<td>Full services</td>
+</tr>
+<tr>
+<td>Windjana Gorge turnoff</td>
+<td>17°25'00"</td>
+<td>124°57'00"</td>
+<td>15 km side road</td>
+</tr>
+<tr>
+<td>Imintji Roadhouse</td>
+<td>17°07'00"</td>
+<td>125°51'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Bell Gorge turnoff</td>
+<td>16°59'00"</td>
+<td>125°16'00"</td>
+<td>15 km south</td>
+</tr>
+<tr>
+<td>Mt Barnett Roadhouse</td>
+<td>16°40'00"</td>
+<td>125°58'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>Manning Gorge</td>
+<td>16°40'00"</td>
+<td>126°00'00"</td>
+<td>Walk from Mt Barnett</td>
+</tr>
+<tr>
+<td>Drysdale River turnoff</td>
+<td>15°44'00"</td>
+<td>126°25'00"</td>
+<td>Fuel at roadhouse</td>
+</tr>
+<tr>
+<td>Pentecost River</td>
+<td>15°28'00"</td>
+<td>127°52'00"</td>
+<td>Crocodile crossing</td>
+</tr>
+<tr>
+<td>Home Valley Station</td>
+<td>15°45'00"</td>
+<td>128°38'00"</td>
+<td>Fuel</td>
+</tr>
+<tr>
+<td>El Questro</td>
+<td>16°01'00"</td>
+<td>128°01'00"</td>
+<td>Fuel, hot springs</td>
+</tr>
+<tr>
+<td>Kununurra (End)</td>
+<td>15°46'00"</td>
+<td>128°44'00"</td>
+<td>Full services</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="uhf-cb-radio-channels">UHF CB Radio Channels</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Usage</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CH 40</td>
+<td>Default highway/track calling channel</td>
+<td>Monitor this for oncoming traffic, convoy coordination</td>
+</tr>
+<tr>
+<td>CH 5</td>
+<td>Emergency calling</td>
+<td>Recommended for emergency use</td>
+</tr>
+<tr>
+<td>CH 10</td>
+<td>4WD club channel (some states)</td>
+<td></td>
+</tr>
+<tr>
+<td>CH 29</td>
+<td>4WD/camping channel (some regions)</td>
+<td></td>
+</tr>
+<tr>
+<td>CH 11</td>
+<td>Road train calling (outback roads)</td>
+<td>Monitor on roads with heavy truck traffic</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Channel protocol</strong>: Call on channel 40, then suggest moving to a different channel for conversation (e.g. "Can we move to channel 20? Over").</p>
+<p><strong>Range</strong>: UHF range in flat outback terrain is approximately 15–30 km between vehicles. In dune country (Simpson) or ranges (MacDonnells), range may drop to 2–5 km. Never rely on UHF as a primary emergency method.</p>
+<hr />
+<h2 id="emergency-communications">Emergency Communications</h2>
+<h3>PLB / EPIRB</h3>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Best For</th>
+<th>Registration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLB (Personal Locator Beacon)</td>
+<td>Individual/vehicle emergency. Uses 406 MHz satellite signal.</td>
+<td>Register with <strong>AMSA</strong> (Australian Maritime Safety Authority) at www.amsa.gov.au</td>
+</tr>
+<tr>
+<td>EPIRB (Emergency Position-Indicating Radio Beacon)</td>
+<td>Maritime emergency. Same 406 MHz technology.</td>
+<td>Same registration process</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Registration is mandatory under Australian law.</strong> Your PLB/EPIRB must be registered with AMSA. Update your registration before each trip. Ensure battery is within expiry date.</p>
+<h3>Satellite Phone</h3>
+<table>
+<thead>
+<tr>
+<th>Network</th>
+<th>Coverage</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Iridium</strong></td>
+<td>Global — covers entire Australian outback, poles, everywhere</td>
+<td>Best choice. Reliable voice and text.</td>
+</tr>
+<tr>
+<td>Thuraya</td>
+<td>Regional — covers most of Australia but gaps in central desert</td>
+<td>Cheaper but less reliable in remote areas.</td>
+</tr>
+<tr>
+<td>Inmarsat</td>
+<td>Satellite phone / data</td>
+<td>Less common in outback 4WD circles.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sat phone recommendation</strong>: Iridium 9575 or similar. Buy a prepaid SIM from Pivotel or Telstra for Australian coverage.</p>
+<h3>HF Radio</h3>
+<table>
+<thead>
+<tr>
+<th>Network</th>
+<th>Coverage</th>
+<th>Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>VKS-737</strong></td>
+<td>Remote Australia — outback coverage via base stations at Meekatharra, Charleville, etc.</td>
+<td>~$2,000+ for radio + installation, $300/year membership</td>
+<td>The gold standard for remote travel. Base stations can relay messages.</td>
+</tr>
+<tr>
+<td>4WD Networks (UHF repeaters)</td>
+<td>Selected outback areas</td>
+<td>Variable</td>
+<td>Some 4WD associations maintain remote repeaters.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HF practical note</strong>: HF radio is not common in the general 4WD community, but it is strongly recommended for extreme outback tracks (Canning Stock Route, Anne Beadell, Kidson). VKS-737 is the only non-satellite network with reliable remote coverage.</p>
+<hr />
+<h2 id="trip-notification-amp-safety">Trip Notification &amp; Safety</h2>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>How to Use</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SA Police Trip Intention</td>
+<td>Online form + lodge at local police stations</td>
+<td>SA Police will act on overdue reports.</td>
+</tr>
+<tr>
+<td>WA Parks (DBCA)</td>
+<td>Lodge with DBCA permit</td>
+<td>Required for some permits.</td>
+</tr>
+<tr>
+<td>Personal contact</td>
+<td>Leave detailed itinerary with trusted contact</td>
+<td>Include: route, campsites, departure/return dates, vehicle description, comms method, emergency contact.</td>
+</tr>
+<tr>
+<td>PLB activation</td>
+<td>Push button + wait</td>
+<td>406 MHz signal reaches SAR satellites within 5 minutes. GPIRB also transmits GPS position.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Automatic activation</strong>: If you have an InReach or similar satellite messenger (Garmin InReach Mini, Zoleo), set up automatic check-in messages and an SOS button. These are increasingly common as a middle ground between PLB and full sat phone.</p>
+<hr />
+<h2 id="australian-datum-quick-reference">Australian Datum — Quick Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Datum</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>GDA94</strong></td>
+<td>Current standard</td>
+<td>= WGS84 for practical purposes (sub-1 m difference)</td>
+</tr>
+<tr>
+<td><strong>WGS84</strong></td>
+<td>GPS standard</td>
+<td>Set GPS to this as default</td>
+</tr>
+<tr>
+<td><strong>GDA2020</strong></td>
+<td>Updated 2020</td>
+<td>~1.8 m difference from GDA94 — ignore for outback navigation</td>
+</tr>
+<tr>
+<td><strong>AGD66</strong></td>
+<td><strong>Old — do not use</strong></td>
+<td>~200 m offset from WGS84. Still found on old topographic maps.</td>
+</tr>
+<tr>
+<td><strong>AGD84</strong></td>
+<td>Old — similar to AGD66</td>
+<td>~180 m offset from WGS84</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critical</strong>: Always check the datum on any paper map before plotting GPS coordinates. A 200 m error in the outback can mean missing a well, a fuel cache, or the right turn.</p>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="australia-overview.html">Australia Overview Map Reference</a> — States, regions, climate, distances</li>
+<li><a href="../../01-immediate/09-outback/navigation-basics.html">Navigation Basics</a> — Finding direction without GPS</li>
+<li><a href="../../01-immediate/09-outback/emergency-services.html">Emergency Services</a> — Emergency contacts, PLB protocols</li>
+<li><a href="../../01-immediate/09-outback/route-planning.html">Route Planning</a> — Fuel calculations, trip planning</li>
+<li><a href="../../01-immediate/09-outback/what-to-carry.html">What to Carry</a> — Outback gear checklist</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

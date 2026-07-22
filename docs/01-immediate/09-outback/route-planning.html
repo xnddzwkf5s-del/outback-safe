@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Route Planning &amp; Trip Preparation — Outback Safe</title>
+<meta name="description" content="Planning an outback 4WD trip. Permits, communications schedules, vehicle preparation, route cards, and safety systems that save lives.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#before-you-leave-the-safety-triangle">Before You Leave — The Safety Triangle</a></li>
+<li><a href="#route-planning">Route Planning</a></li>
+<li><a href="#communications-schedule">Communications Schedule</a></li>
+<li><a href="#permits-amp-legal">Permits &amp; Legal</a></li>
+<li><a href="#vehicle-preparation-checklist">Vehicle Preparation Checklist</a></li>
+<li><a href="#convoy-procedures">Convoy Procedures</a></li>
+<li><a href="#emergency-response-plan">Emergency Response Plan</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h2 id="before-you-leave-the-safety-triangle">Before You Leave — The Safety Triangle</h2>
+<p>The most important safety tool on any outback trip is a properly briefed person who is <strong>not going</strong> with you.</p>
+<h3>Trip Intention Form</h3>
+<p>Prepare a written trip intention form and leave it with a responsible contact. Include every detail — no such thing as too much.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Details to Include</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Route</strong></td>
+<td>List every waypoint, track name, and planned camp. Include dates and estimated arrival times.</td>
+</tr>
+<tr>
+<td><strong>Vehicle</strong></td>
+<td>Make, model, colour, registration number. Attach a photo if possible.</td>
+</tr>
+<tr>
+<td><strong>People</strong></td>
+<td>Full names, ages, mobile numbers, known medical conditions/allergies.</td>
+</tr>
+<tr>
+<td><strong>Equipment</strong></td>
+<td>Water carried (litres per person), comms gear, recovery kit, first aid.</td>
+</tr>
+<tr>
+<td><strong>Return</strong></td>
+<td>Expected return date and time. Include a <strong>"Raise alarm by"</strong> deadline — the time at which your contact should stop waiting and call emergency services.</td>
+</tr>
+</tbody>
+</table>
+<h3>Who to Leave It With</h3>
+<ul>
+<li>Local police station (preferred — they hold formal Job Sheets)</li>
+<li>Park ranger (for national park trips)</li>
+<li>Responsible family member or friend who will act on it</li>
+</ul>
+<p><strong>Critical rule:</strong> If you change your route — even a single detour to a different track — notify your contact immediately. An alarm raised at the wrong location can be fatal.</p>
+<hr />
+<h2 id="route-planning">Route Planning</h2>
+<h3>Paper Maps (Your Primary Navigation)</h3>
+<p>Digital devices fail. Paper maps do not. Carry them and know how to read them.</p>
+<table>
+<thead>
+<tr>
+<th>Brand</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hema</strong></td>
+<td>Best all-rounder for outback. Their Desert Series and Great Desert Tracks atlases are the gold standard.</td>
+</tr>
+<tr>
+<td><strong>Westprint</strong></td>
+<td>Specialist maps for SA, NT and WA deserts.</td>
+</tr>
+<tr>
+<td><strong>State Government Topographic</strong></td>
+<td>Free or low-cost. Best detail for walking/emergency navigation.</td>
+</tr>
+</tbody>
+</table>
+<h3>GPS &amp; Digital Navigation</h3>
+<ul>
+<li><strong>Garmin</strong> — with offline topo maps. Most reliable dedicated device.</li>
+<li><strong>Hema Explorer</strong> — mobile app, works well, download maps before you go.</li>
+<li><strong>Avenza Maps</strong> — georeferenced PDF maps on your phone. Download from state mapping agencies.</li>
+<li><strong>Gaia GPS</strong> — good for topo, satellite overlay, and route tracking.</li>
+</ul>
+<p>Carry a secondary device with offline maps as backup. Phones lose signal. Devices run out of battery.</p>
+<h3>Map Reading Basics</h3>
+<ul>
+<li><strong>Grid references:</strong> Learn MGRS or GDA94/MGA — 6-digit gives 100 m accuracy, 8-digit gives 10 m.</li>
+<li><strong>Contour lines:</strong> 20 m intervals on most outback maps. Closer lines = steeper terrain.</li>
+<li><strong>Track classifications:</strong> Understand the difference between a sealed road (Class 1), a maintained gravel road (Class 2-3), and a formed earth track (Class 4-5).</li>
+</ul>
+<h3>Track Research Before You Go</h3>
+<p>Check current conditions — not old forum posts, not last year's trip report:</p>
+<ul>
+<li><strong>Facebook groups</strong> for the area (e.g. Flinders Ranges 4WD, Simpson Desert tours)</li>
+<li><strong>National park websites</strong> for closures and fire danger ratings</li>
+<li><strong>BOM weather</strong> for flood warnings and severe heat</li>
+<li><strong>Track condition reports</strong> from Parks Victoria, NPWS, QPWS — many publish weekly updates in season</li>
+</ul>
+<h3>Seasonal Considerations</h3>
+<table>
+<thead>
+<tr>
+<th>Season</th>
+<th>Restriction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wet season (Nov–Apr)</strong> — Northern Australia</td>
+<td>Most tracks impassable. Flooding closes roads for days. Do not travel during this period in remote NT, QLD, or northern WA.</td>
+</tr>
+<tr>
+<td><strong>Summer (Dec–Feb)</strong> — Southern Australia</td>
+<td>Extreme fire danger. Many national parks close entirely on Total Fire Ban days. Heatstroke risk above 40°C.</td>
+</tr>
+<tr>
+<td><strong>Autumn/Spring</strong></td>
+<td>Prime travel window for most of Australia.</td>
+</tr>
+<tr>
+<td><strong>Winter (Jun–Aug)</strong></td>
+<td>Excellent in the north. Very cold nights (below 0°C) in inland SA, QLD, and central Australia.</td>
+</tr>
+</tbody>
+</table>
+<h3>Fuel Planning</h3>
+<p>Run the numbers before you leave. Do not rely on "I'll find a servo."</p>
+<ol>
+<li>Calculate total trip distance (include detours and exploring)</li>
+<li>Multiply by 1.15 for rough terrain consumption increase</li>
+<li>Identify your last guaranteed fuel stop</li>
+<li>Determine if you need to carry jerry cans</li>
+</ol>
+<p><strong>Typical consumption estimates:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Terrain</th>
+<th>Consumption (L/100 km)</th>
+<th>Range from 80 L tank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sealed highway</td>
+<td>11–14</td>
+<td>570–730 km</td>
+</tr>
+<tr>
+<td>Gravel road</td>
+<td>14–18</td>
+<td>440–570 km</td>
+</tr>
+<tr>
+<td>Rough/soft tracks</td>
+<td>18–25</td>
+<td>320–440 km</td>
+</tr>
+<tr>
+<td>Deep sand</td>
+<td>22–30</td>
+<td>260–360 km</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Jerry can rule:</strong> Carry 20 L per jerry and strap securely. Never mount on bonnet (blocks vision, hazards in crash). Roof-rack only if rated and low-profile.</p>
+<h3>Daily Distance Limits</h3>
+<table>
+<thead>
+<tr>
+<th>Terrain</th>
+<th>Daily Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sealed roads (highway)</td>
+<td>300–500 km</td>
+</tr>
+<tr>
+<td>Gravel roads</td>
+<td>200–300 km</td>
+</tr>
+<tr>
+<td>Rough tracks</td>
+<td>100–200 km</td>
+</tr>
+<tr>
+<td>Deep sand/dune fields</td>
+<td>50–100 km</td>
+</tr>
+</tbody>
+</table>
+<p>These are <strong>including</strong> breaks, recovery time, and photograph stops. Outback driving is exhausting. Plan for fewer km than you think.</p>
+<h3>Camp Location Planning</h3>
+<p>Pre-plan your camp each day. Look for:</p>
+<ul>
+<li>Near a reliable water source (where known — never assume)</li>
+<li>Shade (trees, cliff faces, vehicle shadow)</li>
+<li>Away from floodways and creek beds — flash flooding kills</li>
+<li>High ground if rain is forecast</li>
+<li>Clear of heavy fuel load (grass, scrub) in fire season</li>
+<li>Good UHF reception if possible (hilltop/clearing)</li>
+</ul>
+<hr />
+<h2 id="communications-schedule">Communications Schedule</h2>
+<h3>Daily Check-In Protocol</h3>
+<p>Establish a specific check-in time with your contact. Every day, without fail, at the same time.</p>
+<ol>
+<li><strong>Call or sat-text</strong> your contact at the scheduled time</li>
+<li><strong>Report:</strong> current GPS coordinates (MGRS or lat/lon), next waypoint, crew condition</li>
+<li><strong>State:</strong> next day's planned route and campsite</li>
+<li><strong>Confirm:</strong> next check-in time</li>
+</ol>
+<h3>Missed Check-In Procedure</h3>
+<p>Your contact must know exactly when to escalate:</p>
+<table>
+<thead>
+<tr>
+<th>Time Since Missed Check-In</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+0 hours</td>
+<td>Check-in was due. Contact waits.</td>
+</tr>
+<tr>
+<td>+1 hour</td>
+<td>Contact tries to reach you — phone, text, email.</td>
+</tr>
+<tr>
+<td>+3 hours</td>
+<td>Contact calls the local police station with your trip intention form.</td>
+</tr>
+<tr>
+<td>Raise alarm</td>
+<td>Police initiate search using your route card.</td>
+</tr>
+</tbody>
+</table>
+<h3>UHF Radio Protocol</h3>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ch 5</td>
+<td><strong>EMERGENCY ONLY</strong> (repeater-enabled, legal restriction) — do not use for general chat</td>
+</tr>
+<tr>
+<td>Ch 10</td>
+<td>4WD clubs and convoys</td>
+</tr>
+<tr>
+<td>Ch 11</td>
+<td><strong>CALLING channel</strong> — make contact, then move to another channel</td>
+</tr>
+<tr>
+<td>Ch 18</td>
+<td>Caravan and camper convoys</td>
+</tr>
+<tr>
+<td>Ch 29</td>
+<td>Pacific Highway (NSW/QLD)</td>
+</tr>
+<tr>
+<td>Ch 40</td>
+<td><strong>HIGHWAY</strong> — trucks, road trains, general highway use. Monitor this when driving.</td>
+</tr>
+<tr>
+<td>Ch 35 (Deprecated)</td>
+<td>Historically the emergency channel. Some legacy repeaters may still operate, but Ch 5 is the official emergency channel. Do not rely on Ch 35.</td>
+</tr>
+</tbody>
+</table>
+<p>If travelling in convoy, agree on a dedicated convoy channel (typically 4WD clubs use channels 12–16, 24–30, or 34–40 depending on your radio — check the manual for repeater/official allocations in your state).</p>
+<h3>Satellite Communications</h3>
+<p>Only reliable way to communicate from deep outback. Options:</p>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Type</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Garmin inReach</td>
+<td>Two-way satellite texting + SOS</td>
+<td>Reliable, map sharing, weather forecasts</td>
+<td>Subscription required</td>
+</tr>
+<tr>
+<td>Zoleo</td>
+<td>Two-way satellite texting + SOS</td>
+<td>Lower cost, pairs with phone app</td>
+<td>Phone battery dependent</td>
+</tr>
+<tr>
+<td>Iridium GO</td>
+<td>Satellite hotspot (voice + text)</td>
+<td>Full voice calls over satellite</td>
+<td>Bulky, expensive, redundant for most trips</td>
+</tr>
+<tr>
+<td>PLB (EPIRB)</td>
+<td>One-way emergency beacon</td>
+<td>No subscription, 406 MHz + homing</td>
+<td>No messaging — only SOS</td>
+</tr>
+</tbody>
+</table>
+<p>Carry a PLB <strong>in addition to</strong> a satellite messenger. PLBs have no subscription, never fail to connect, and work in the worst conditions.</p>
+<hr />
+<h2 id="permits-amp-legal">Permits &amp; Legal</h2>
+<h3>National Park Permits</h3>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Agency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NSW</strong></td>
+<td>NPWS</td>
+<td>Most parks require vehicle entry and camping permits. Book via their website.</td>
+</tr>
+<tr>
+<td><strong>QLD</strong></td>
+<td>QPWS</td>
+<td>Camping permits required for nearly all parks. Online booking system.</td>
+</tr>
+<tr>
+<td><strong>SA</strong></td>
+<td>DEWNR / National Parks SA</td>
+<td>Desert parks (Flinders, Lake Eyre, etc.) need permits. Book online.</td>
+</tr>
+<tr>
+<td><strong>WA</strong></td>
+<td>DBCA</td>
+<td>Remote parks (Karijini, Cape Range, etc.) need entry and camping permits.</td>
+</tr>
+<tr>
+<td><strong>NT</strong></td>
+<td>NT Parks</td>
+<td>Central desert parks (Finke Gorge, Watarrka, etc.) require permits.</td>
+</tr>
+<tr>
+<td><strong>VIC</strong></td>
+<td>Parks Victoria</td>
+<td>Mostly free entry, but camping must be booked, especially in Alpine areas.</td>
+</tr>
+<tr>
+<td><strong>TAS</strong></td>
+<td>Parks and Wildlife Service</td>
+<td>Parks Pass required for vehicle entry to most parks.</td>
+</tr>
+<tr>
+<td><strong>ACT</strong></td>
+<td>ACT Parks</td>
+<td>Limited remote travel but camping permits required in Namadgi.</td>
+</tr>
+</tbody>
+</table>
+<h3>Aboriginal Land Permits</h3>
+<p>Large areas of remote Australia are Aboriginal land. <strong>You must have a permit to enter.</strong></p>
+<ul>
+<li><strong>NT</strong> — Northern Land Council (north) or Central Land Council (south). Apply 2–4 weeks in advance. Covers Arnhem Land, Simpson Desert access, and many remote areas.</li>
+<li><strong>SA</strong> — APY Lands — strict permits required. Apply via the APY Lands office.</li>
+<li><strong>WA</strong> — Various PBCs (Prescribed Body Corporates). Check individual areas.</li>
+<li><strong>QLD</strong> — Cape York — many communities require permits. Check before you go.</li>
+</ul>
+<p>Aboriginal land permits are enforced. Fines apply. Some areas also have cultural fees.</p>
+<h3>Station / Private Land</h3>
+<p>Never enter a cattle station or private property without permission.</p>
+<ul>
+<li><strong>Ring ahead</strong> — most station homesteads are visible from access roads but may be unoccupied.</li>
+<li><strong>Leave gates as you find them</strong> — open to open, closed to closed. This is not optional.</li>
+<li><strong>Do not camp</strong> without asking. Some stations offer paid camp sites.</li>
+<li><strong>Do not approach stock</strong> — do not harass cattle, sheep, or horses.</li>
+</ul>
+<h3>Camping Permits</h3>
+<p>Required in most national parks and some state forests. Book online before you leave — many remote camp sites have limited capacity.</p>
+<ul>
+<li><strong>Some national parks have self-registration</strong> (envelope system at the park entrance). Carry cash.</li>
+<li><strong>Most popular parks</strong> require online booking weeks in advance.</li>
+</ul>
+<h3>Fire Regulations</h3>
+<ul>
+<li><strong>Total Fire Ban days</strong> — no fires whatsoever. Gas stoves with an on/off switch are usually permitted. Solid fuel stoves are not. Check the local fire authority website daily.</li>
+<li><strong>Permit fires</strong> — required in most parks and on some private land outside fire season.</li>
+<li><strong>Never leave a fire unattended</strong> — it's illegal, dangerous, and can become a bushfire within minutes.</li>
+<li><strong>Use established fire pits</strong> where available. Do not build new rings.</li>
+</ul>
+<h3>Rubbish — Leave No Trace</h3>
+<p><strong>All rubbish goes out with you.</strong> Nothing gets buried. Nothing gets burned (including paper and food scraps in arid areas).</p>
+<ul>
+<li>Carry extra rubbish bags</li>
+<li>Separate food waste and pack out</li>
+<li>If you find someone else's rubbish, carry it out too</li>
+</ul>
+<hr />
+<h2 id="vehicle-preparation-checklist">Vehicle Preparation Checklist</h2>
+<h3>Mechanical Check (Full Service)</h3>
+<p>Before any outback trip, have the vehicle serviced by a mechanic who knows it's going remote:</p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Engine oil &amp; filter</td>
+<td>Change before trip. Carry 5 L spare.</td>
+</tr>
+<tr>
+<td>Air filter</td>
+<td>Replace if dusty. Carry a spare.</td>
+</tr>
+<tr>
+<td>Fuel filter</td>
+<td>Replace. Carry a spare.</td>
+</tr>
+<tr>
+<td>Oil filter</td>
+<td>Carry a spare.</td>
+</tr>
+<tr>
+<td>Belts</td>
+<td>Check for cracks, tension. Carry a spare set.</td>
+</tr>
+<tr>
+<td>Hoses</td>
+<td>Check for cracks, bulges, soft spots. Carry a spare set.</td>
+</tr>
+<tr>
+<td>Brakes</td>
+<td>Pads, rotors, fluid level and condition.</td>
+</tr>
+<tr>
+<td>Coolant</td>
+<td>Flush and pressure test radiator. Carry 50/50 premix.</td>
+</tr>
+</tbody>
+</table>
+<h3>Tyres</h3>
+<ul>
+<li><strong>All-terrain</strong> or <strong>mud-terrain</strong> tyres — not highway (HT) tyres for remote tracks.</li>
+<li><strong>2 spares minimum</strong> for remote travel (Simpson Desert, Canning Stock Route, etc.).</li>
+<li>Check spare: is it the same size/brand? Is it inflated correctly? Does it match your road tyres?</li>
+<li>Carry: tyre repair kit, two 12 V compressors (one backup), pressure gauge, tyre deflator.</li>
+</ul>
+<h3>Suspension &amp; Steering</h3>
+<ul>
+<li><strong>Shock absorbers</strong> — outback corrugations destroy worn shocks in hours. Replace if close to end of life.</li>
+<li><strong>Springs</strong> — sagged springs reduce ground clearance and load capacity.</li>
+<li><strong>Bushes</strong> — worn suspension bushes accelerate tyre wear and degrade handling at speed.</li>
+</ul>
+<h3>Cooling System</h3>
+<p>Overheating at 45°C in the middle of nowhere is a life-threatening situation.</p>
+<ul>
+<li>Flush cooling system</li>
+<li>Pressure test radiator cap and hoses</li>
+<li>Check radiator for debris blockage (bugs, mud between fins)</li>
+<li>Carry spare: radiator cap, thermostat, hose repair kit, coolant</li>
+</ul>
+<h3>Fuel System</h3>
+<ul>
+<li>Check for leaks at all connections</li>
+<li>Carry a spare fuel filter</li>
+<li>If driving diesel, carry a spare lift pump and know the bleed procedure</li>
+<li>If diesel with a water separator, empty it before departure</li>
+</ul>
+<h3>Electrical</h3>
+<ul>
+<li><strong>Dual battery system</strong> highly recommended — fridge, lights, and devices on auxiliary battery. Cranking battery stays separate.</li>
+<li>Check alternator output</li>
+<li>Carry spare fuses (all types used in your vehicle), spare bulbs</li>
+<li>Carry a portable jump starter (Lithium-ion type) as a backup</li>
+<li>Clean all battery terminals and apply anti-corrosion spray</li>
+</ul>
+<h3>Accessories</h3>
+<ul>
+<li><strong>Bullbar</strong> — highly recommended for animal strikes and recovery points.</li>
+<li><strong>Driving lights</strong> — not essential but very useful for outback night driving (minimise night driving though).</li>
+<li><strong>Snorkel</strong> — only useful if you plan deep water crossings. Not needed for dust (modern air boxes are already baffled).</li>
+</ul>
+<h3>Load Distribution</h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heavy items low and forward</td>
+<td>Keeps centre of gravity stable, improves handling.</td>
+</tr>
+<tr>
+<td>Strap everything</td>
+<td>A 20 L jerry can becomes a lethal projectile in a sudden stop or rollover.</td>
+</tr>
+<tr>
+<td>Roof-rack as last resort</td>
+<td>Raises centre of gravity significantly. Only carry light, bulky items.</td>
+</tr>
+<tr>
+<td>Check GVM before loading</td>
+<td>Gross Vehicle Mass includes passengers, fuel, water, gear. <strong>Do not exceed it.</strong></td>
+</tr>
+</tbody>
+</table>
+<p>If you're unsure about weight, find a public weighbridge before you leave. Overloaded vehicles handle dangerously and are illegal.</p>
+<hr />
+<h2 id="convoy-procedures">Convoy Procedures</h2>
+<h3>Ideal Vehicle Count</h3>
+<ul>
+<li><strong>Minimum:</strong> 2 vehicles for any remote travel</li>
+<li><strong>Ideal:</strong> 2–3 vehicles</li>
+<li><strong>Maximum (for a single group):</strong> 4–5 (track dust makes larger groups dangerous)</li>
+</ul>
+<p>A single vehicle in remote Australia is a survival scenario waiting to happen. If you must travel solo, carry a PLB, sat messenger, and be extremely conservative.</p>
+<h3>Lead Vehicle Responsibilities</h3>
+<ul>
+<li><strong>Navigates</strong> — holds the route card and GPS.</li>
+<li><strong>Sets the pace</strong> — drives at the slowest vehicle's comfortable speed.</li>
+<li><strong>Calls hazards</strong> on UHF — oncoming traffic, washouts, stock, sharp rocks, soft sand patches. Call early.</li>
+<li><strong>Reports turns</strong> — "Turning left onto Middle Earth Track in 500 metres."</li>
+</ul>
+<h3>Tail Vehicle Responsibilities</h3>
+<ul>
+<li><strong>Counts</strong> — ensures all vehicles make each turn.</li>
+<li><strong>Keeps visual contact</strong> — drops back if necessary to see the vehicle behind.</li>
+<li><strong>Reports lost vehicles</strong> — "Convoy, tail. Vehicle 3 has stopped. All stop."</li>
+</ul>
+<h3>Spacing</h3>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Distance Between Vehicles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sealed road</td>
+<td>200–500 m</td>
+</tr>
+<tr>
+<td>Gravel road</td>
+<td>200–300 m (reduce at speed)</td>
+</tr>
+<tr>
+<td>Dusty track</td>
+<td>100–200 m (reduce to keep visual only)</td>
+</tr>
+<tr>
+<td>Deep sand</td>
+<td>Stopped — only one vehicle per dune at a time</td>
+</tr>
+</tbody>
+</table>
+<h3>Dust Protocol</h3>
+<ul>
+<li><strong>Lights ON</strong> at all times in convoy (day and night)</li>
+<li><strong>Windows UP</strong> and <strong>recirculate air</strong> when dust is thick</li>
+<li>If you cannot see through the dust, slow down until you can</li>
+<li>Use UHF to maintain contact — "Vehicle 2, can you see my lights?"</li>
+</ul>
+<h3>Lost Vehicle Protocol</h3>
+<ol>
+<li>Stop at the last known turn or landmark</li>
+<li>Wait 15 minutes</li>
+<li>Send a vehicle (never the whole convoy) back to retrace the route</li>
+<li>Maintain UHF contact with the missing vehicle</li>
+<li>If still no contact after 30 minutes, call the trip intention contact</li>
+</ol>
+<h3>River Crossings</h3>
+<ul>
+<li><strong>Walk first</strong> — check depth, current, bottom condition</li>
+<li><strong>Enter in low range, 2nd gear</strong> — steady throttle, don't change gear</li>
+<li><strong>Bow wave</strong> — maintain speed to create a bow wave that keeps water out of the engine bay</li>
+<li><strong>One vehicle at a time</strong> — never cross with multiple vehicles</li>
+<li><strong>After crossing</strong> — check diff breathers, brake function</li>
+<li><strong>Know your wading depth</strong> — standard 4WD: ~600 mm. With snorkel: 700–900 mm or more. Winch air intake: depends on setup.</li>
+</ul>
+<hr />
+<h2 id="emergency-response-plan">Emergency Response Plan</h2>
+<h3>The Five Steps</h3>
+<p><strong>Step 1 — STOP and STAY CALM</strong></p>
+<p>Do not make decisions from panic. Sit down. Take three deep breaths. The vehicle is your shelter and your best chance of being found.</p>
+<p><strong>Step 2 — ASSESS</strong></p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Answer Determines</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Is anyone injured?</td>
+<td>First aid priority</td>
+</tr>
+<tr>
+<td>How much water do we have?</td>
+<td>Rationing protocol</td>
+</tr>
+<tr>
+<td>Can we communicate?</td>
+<td>Which Step 3 method to try first</td>
+</tr>
+<tr>
+<td>Where exactly are we?</td>
+<td>Whether walking out is feasible</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 3 — COMMUNICATE</strong></p>
+<p>Attempt in this order:</p>
+<ol>
+<li><strong>PLB/EPIRB</strong> — activate immediately if life-threatening or no comms. No subscription required. A 406 MHz PLB with GPS sends your exact coordinates to the Australian Rescue Coordination Centre.</li>
+<li><strong>Satellite text</strong> (inReach, Zoleo, Iridium) — send SOS or text your contact a location update.</li>
+<li><strong>UHF Radio</strong> — call on channel 5 (emergency repeater) or channel 40 (call for general traffic to relay).</li>
+<li><strong>Mobile phone</strong> — only works in range of a tower. Try a high point. If no signal after 5 minutes, conserve battery.</li>
+</ol>
+<p><strong>Step 4 — MAKE VEHICLE VISIBLE</strong></p>
+<ul>
+<li>Raise bonnet (distress signal)</li>
+<li>Tie reflective material (towel, foil blanket, mirror) to roof or antenna</li>
+<li>Stamp/arrange ground signals in clearing: <strong>X</strong> (need medical), <strong>SOS</strong> (3 large letters), arrow pointing to your location</li>
+<li>If safe, light a smoky fire (green leaves on base of fire) in daylight; clear flame at night</li>
+<li>Use your headlights and hazard lights if you have battery power</li>
+</ul>
+<p><strong>Step 5 — CONSERVE AND WAIT</strong></p>
+<ul>
+<li><strong>Ration water immediately:</strong> 3–4 L per person per day in hot conditions. Do not wait until you're thirsty.</li>
+<li><strong>Create shade</strong> — rig tarp from side of vehicle. Stay in the shade of the vehicle at minimum.</li>
+<li><strong>Rest during the day</strong> — travel/walk only at dawn and dusk if necessary.</li>
+<li><strong>Signal check:</strong> every 30 minutes do a visual and audible signal sweep (mirror flash, horn blast).</li>
+</ul>
+<h3>When Walking Out Is Justified</h3>
+<p>Walking out is <strong>almost always the wrong decision</strong>. Only consider it if:</p>
+<ul>
+<li>You know there is help within 20 km</li>
+<li>There is a visible track or road leading to civilisation</li>
+<li>You have at least 4 L of water per person for the walk</li>
+<li>The injured party can be moved safely</li>
+<li>A clear, detailed note is left in the vehicle stating your direction of travel, time of departure, and condition</li>
+</ul>
+<p>If you walk out and miss the search party coming from the other direction, you die. <strong>Stay with the vehicle.</strong></p>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="vehicle-breakdown.html">Vehicle Breakdown</a> — recovery, field repairs, stuck vehicle</li>
+<li><a href="what-to-carry.html">What to Carry</a> — full outback kit checklist</li>
+<li><a href="emergency-services.html">Emergency Services</a> — contacting SES, police, RFDS, ambulance</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bush Mechanics — Outback Safe</title>
+<meta name="description" content="Emergency field repairs for common 4WD breakdowns in remote areas. Radiator, belts, hoses, electrical, fuel, and tyre fixes with minimal tools.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#1-engine-overheating">1. Engine Overheating</a></li>
+<li><a href="#2-fan-belt-serpentine-belt-failure">2. Fan Belt / Serpentine Belt Failure</a></li>
+<li><a href="#3-electrical-failures">3. Electrical Failures</a></li>
+<li><a href="#4-diesel-engines">4. Diesel Engines</a></li>
+<li><a href="#5-fuel-system-issues">5. Fuel System Issues</a></li>
+<li><a href="#6-tyres">6. Tyres</a></li>
+<li><a href="#7-drivetrain">7. Drivetrain</a></li>
+<li><a href="#8-must-carry-spares-amp-tools">8. Must-Carry Spares &amp; Tools</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Bush Mechanics</h1>
+<p>When your 4WD breaks down 300 km from the nearest town, the difference between driving out and calling for a rescue is what you know and what you carry. This guide covers the most common outback breakdowns and the field repairs that have kept vehicles moving across remote Australia for decades.</p>
+<hr />
+<h2 id="1-engine-overheating">1. Engine Overheating</h2>
+<p>Overheating is the most common outback breakdown. Causes include coolant leaks, blocked radiators, failed fan belts, and stuck thermostats. In 45°C ambient heat, an overheating engine can go from hot to destroyed in under 2 km.</p>
+<h3>Identifying the Cause</h3>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steam from bonnet, sweet smell</td>
+<td>Coolant leak</td>
+</tr>
+<tr>
+<td>Temperature gauge rising, no visible leak</td>
+<td>Blocked radiator, failed thermostat, or fan belt</td>
+</tr>
+<tr>
+<td>No cooling fan noise, battery light on</td>
+<td>Fan belt failure</td>
+</tr>
+<tr>
+<td>Temperature fine at speed, rising in slow going</td>
+<td>Blocked radiator or low coolant</td>
+</tr>
+</tbody>
+</table>
+<h3>External Radiator Blockage</h3>
+<p>Mud, grass, dust, and insect debris pack between the radiator fins and block airflow — common after river crossings and off-track driving through spinifex.</p>
+<ol>
+<li>Let the engine cool completely</li>
+<li>Wash the radiator face with any available water — creek, river, or from your drinking supply if desperate</li>
+<li>Use a soft brush (or a leafy branch) to dislodge packed debris between the fins</li>
+<li>Blow compressed air from the engine side backwards through the fins if you have a compressor</li>
+<li>Straighten bent fins with a thin screwdriver or pocket knife</li>
+</ol>
+<p><strong>Prevention:</strong> Clean the radiator face every time you cross a river or drive through long grass.</p>
+<h3>Coolant Leaks</h3>
+<p>Find the source of the leak first. Look for:
+- <strong>Steam</strong> escaping from a specific point
+- <strong>Green, red, or pink drips</strong> on the engine block, radiator, or hoses
+- <strong>White crusty deposits</strong> — dried coolant that marks the site of a slow leak</p>
+<p><strong>Temporary patch options:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Leak Location</th>
+<th>Repair</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radiator core (small pinhole)</td>
+<td>Epoxy putty (Knead-it / JB Weld) — roughen the surface, apply firmly, wait 20 minutes</td>
+</tr>
+<tr>
+<td>Radiator core (larger hole)</td>
+<td>Chewing gum or bar soap smeared into the hole, wrapped with duct tape</td>
+</tr>
+<tr>
+<td>Plastic radiator tank (crack)</td>
+<td>Epoxy putty only — plastic tanks rarely hold with tape alone</td>
+</tr>
+<tr>
+<td>Heater hose / bypass hose</td>
+<td>Cut out the split section, rejoin with a metal socket or tube as a joiner, clamp with zip ties or fencing wire</td>
+</tr>
+<tr>
+<td>Frost plug / core plug</td>
+<td>Tapered wooden plug (whittle a stick to a cone), drive in firmly with a hammer</td>
+</tr>
+</tbody>
+</table>
+<h3>Radiator Hose Split</h3>
+<p>Hoses fail when heat cycling makes them soft or brittle, usually at the ends where they clamp to the radiator or engine.</p>
+<ol>
+<li><strong>Duct tape + zip ties</strong> — Clean and dry the hose, wrap tightly with duct tape 5 cm either side of the split, secure zip ties over the tape</li>
+<li><strong>Cut and join</strong> — Cut the hose at the split, slide a metal socket or piece of tube into both ends as a joiner, secure with zip ties or wire at each end (two clamps per side minimum)</li>
+<li><strong>Rag + wire</strong> — Wrap a rag around the split, bind tightly with fencing wire or zip ties. Works until the rag soaks through</li>
+</ol>
+<p><strong>Important:</strong> All hose repairs are temporary. Check every 15–30 minutes. A burst hose dumps your coolant in seconds.</p>
+<h3>No Coolant Available</h3>
+<p>If all your coolant has leaked out and you have no spare:</p>
+<ul>
+<li><strong>Use any water</strong> — river, creek, bore water, even radiator water from another vehicle. The engine does not care about water quality in an emergency</li>
+<li><strong>Distilled or demineralised water is ideal</strong> but clean rainwater or tap water from the last roadhouse will do</li>
+<li><strong>Never drink coolant</strong> — ethylene glycol is sweet-tasting and deadly. Do not store coolant in drink bottles</li>
+</ul>
+<h3>Let It Cool Before Opening the Radiator</h3>
+<p><strong>This warning will save you from severe burns.</strong> Pressurised coolant in an overheated engine can exceed 120°C. Opening the radiator cap on a hot engine releases a jet of superheated steam that will cause third-degree burns.</p>
+<ul>
+<li>Wait at least <strong>20–30 minutes</strong> after the engine stops</li>
+<li>Feel the radiator hose — if it is still hard (pressurised) or hot to touch, it is not safe</li>
+<li>Cover the cap with a thick rag and turn slowly to the first detent — listen for pressure hiss</li>
+<li>Wait for the hiss to stop, then open fully</li>
+<li>If no rag is available, stand back and use a long stick or tool to open the cap — <strong>do not lean over the cap</strong></li>
+</ul>
+<h3>Driving with a Leak</h3>
+<p>If you cannot fully stop the leak but need to move:</p>
+<ul>
+<li><strong>Keep the radiator cap loose</strong> — this prevents pressure building, which slows the leak</li>
+<li><strong>Monitor the temperature gauge constantly</strong> — if it goes past ¾, stop immediately</li>
+<li><strong>Top up every 15 minutes</strong> — stop, let idle, add water, move on</li>
+<li><strong>Drive at low RPM</strong> — high revs generate more heat</li>
+<li><strong>Turn the heater to full</strong> — this draws heat away from the engine into the cabin (uncomfortable, but it works)</li>
+<li>Do not keep driving once the engine has boiled over — you will warp the cylinder head and write off the engine</li>
+</ul>
+<hr />
+<h2 id="2-fan-belt-serpentine-belt-failure">2. Fan Belt / Serpentine Belt Failure</h2>
+<p>A snapped fan belt stops your alternator, water pump, and power steering. Without it, the engine overheats within minutes and the battery drains rapidly.</p>
+<h3>Symptoms</h3>
+<ol>
+<li><strong>Battery warning light</strong> comes on (alternator stopped charging)</li>
+<li><strong>Temperature gauge rises</strong> quickly (water pump not circulating coolant)</li>
+<li><strong>Squealing noise</strong> — belt slipping before it snaps</li>
+<li><strong>Sudden silence</strong> — the belt has snapped, no more squealing, no cooling</li>
+<li><strong>Power steering goes heavy</strong> — if applicable for your vehicle</li>
+</ol>
+<p><strong>At the first sign of squealing or battery light, stop and check the belt immediately.</strong> Do not drive until it is confirmed or fixed.</p>
+<h3>Emergency Replacement</h3>
+<p>The goal is to get the belt turning again so the water pump works and the battery charges.</p>
+<p><strong>Pantyhose / stockings (the classic bush fix):</strong></p>
+<ol>
+<li>Find the belt routing diagram in your handbook or take a photo before removing the old belt</li>
+<li>Loop the stockings around the pulleys following the same path</li>
+<li>Pull as tight as possible by hand</li>
+<li>Tie the ends in a knot — position the knot on a flat pulley surface, not against a groove or edge</li>
+<li>Start the engine at idle — the stockings will tighten and grip</li>
+<li>Drive gently — the stockings will stretch and hold for several hours at low speed</li>
+</ol>
+<p><strong>Rope (if you have it):</strong></p>
+<p>Same technique as stockings. Use roughly the same diameter as the old belt. Nylon rope works better than natural fibre — it stretches and grips without snapping.</p>
+<p><strong>Limitations:</strong></p>
+<ul>
+<li>Drives at low speed only — no more than 60 km/h</li>
+<li>Stop every 1–2 km and let the engine cool for 5 minutes</li>
+<li>The repair will not charge the battery well — minimise electrical use</li>
+<li>A rope or stocking belt can last surprisingly long but treat it as a limp-home measure</li>
+</ul>
+<h3>Checking Belt Tension</h3>
+<p>A loose belt slips and does not drive the water pump or alternator properly.</p>
+<ul>
+<li>Press firmly with your thumb midway along the longest span of the belt</li>
+<li>The belt should deflect about <strong>10 mm</strong></li>
+<li>If it deflects more, tighten the tensioner (usually a bolt on the alternator bracket or a dedicated tensioner pulley)</li>
+<li>If no tensioner adjustment exists, a rope tied around the alternator and a nearby bracket can apply extra tension</li>
+</ul>
+<h3>Limp Home Strategy</h3>
+<ol>
+<li>Install emergency belt (stockings or rope)</li>
+<li>Drive 1–2 km</li>
+<li>Stop, let engine idle for 5 minutes</li>
+<li>Check temperature gauge and belt tension</li>
+<li>Repeat</li>
+</ol>
+<p>This takes hours to cover kilometres but beats walking.</p>
+<hr />
+<h2 id="3-electrical-failures">3. Electrical Failures</h2>
+<h3>Dead Battery</h3>
+<p><strong>Jump start procedure:</strong></p>
+<ol>
+<li>Both vehicles must be off. Connect red (+) to dead battery positive, then red (+) to good battery positive</li>
+<li>Connect black (-) to good battery negative</li>
+<li>Connect black (-) to <strong>an unpainted metal part of the dead vehicle</strong> — engine block, alternator bracket, chassis rail. Not the negative terminal of the dead battery</li>
+<li>Start the good vehicle, let it idle for 2 minutes</li>
+<li>Start the dead vehicle</li>
+<li>Remove cables in reverse order: black from dead vehicle, black from good vehicle, red from good vehicle, red from dead vehicle</li>
+</ol>
+<p><strong>Why not connect to the negative terminal of the dead battery?</strong> The dead battery may be venting hydrogen gas. A spark at the terminal can ignite it.</p>
+<p><strong>Push start (manual transmission only):</strong></p>
+<ol>
+<li>Turn ignition to ON</li>
+<li>Put the vehicle into 2nd gear (not 1st — too jerky)</li>
+<li>Push the vehicle or roll down a hill</li>
+<li>Dump the clutch (pop your foot off quickly) once you reach walking speed</li>
+<li>The engine should catch. If not, try 3rd gear</li>
+</ol>
+<p><strong>Automatic transmissions cannot be push started</strong> — the torque converter needs the pump, which needs the engine running.</p>
+<h3>Battery Terminal Corrosion</h3>
+<p>White, blue, or green crusty deposits on battery terminals prevent the battery from charging or starting.</p>
+<ol>
+<li>Scrape away loose corrosion with a knife or screwdriver</li>
+<li>Pour <strong>Coca-Cola or lemon juice</strong> over the terminals — the acid dissolves the corrosion</li>
+<li>Scrub with a stiff brush or handful of sand</li>
+<li>Rinse with water</li>
+<li>Tighten the terminals firmly — they should not twist by hand</li>
+</ol>
+<h3>Alternator Failure</h3>
+<p><strong>Signs:</strong>
+- Battery warning light stays on while driving
+- Headlights dim noticeably at idle, brighten when you rev
+- Radio crackles and fades
+- Battery goes flat after 20–30 minutes of driving</p>
+<p><strong>Limp home strategy:</strong></p>
+<ol>
+<li>Disconnect <strong>everything non-essential</strong> — radio, phone charger, interior lights, air conditioner, spotlights</li>
+<li>Drive during daylight only — headlights draw significant power</li>
+<li>Keep RPM above 2000 if possible — even a dying alternator produces more charge at higher RPM</li>
+<li>If the battery dies completely: push start (manual) or bump start (dead alternator means you have no spark... actually a dead alternator still produces enough for spark at idle, just not enough to recharge)</li>
+<li><strong>Do not turn the engine off</strong> — if the battery is already flat, you will not be able to restart</li>
+</ol>
+<h3>Starter Motor Stuck</h3>
+<p>If you turn the key and hear a single loud <strong>click</strong> or nothing at all, the starter solenoid may be stuck.</p>
+<ol>
+<li>Locate the starter motor (follow the positive battery cable from the battery — it leads to the starter)</li>
+<li>Have someone hold the key in the START position</li>
+<li><strong>Tap the starter body firmly</strong> with a hammer, rock, or heavy spanner</li>
+<li>The jolt often frees a stuck solenoid</li>
+<li>If it works but sticks again, repeat — but start looking for a replacement</li>
+</ol>
+<h3>Fuse Replacement</h3>
+<ol>
+<li>Open the fuse box (under the dashboard, under the bonnet, or in the glovebox)</li>
+<li>Identify the blown fuse — the wire inside the clear plastic will be broken or melted</li>
+<li>Replace with the same amperage (same colour) — never put a higher-rated fuse in a circuit</li>
+<li>If a replacement blows immediately, there is a short in that circuit — do not keep replacing fuses</li>
+</ol>
+<h3>Bush Fuse (Last Resort Only)</h3>
+<p>If you have a blown fuse and no spare for a critical circuit (fuel pump, ignition, ECU):</p>
+<ol>
+<li>Strip a strand of copper wire from a non-critical circuit (fog lights, interior light)</li>
+<li>Wrap the single strand across the fuse terminals or wrap around the blown fuse element</li>
+<li><strong>This is dangerous</strong> — it creates a fire risk if the circuit shorts. The wire will not blow at the correct amperage</li>
+<li>Stay with the vehicle. Watch for smoke or burning smells</li>
+<li>Remove the makeshift fuse as soon as you reach a town</li>
+</ol>
+<p><strong>Better option:</strong> Check the fuse box for a spare slot of the same amperage — many vehicles have unused fuse positions for optional equipment.</p>
+<hr />
+<h2 id="4-diesel-engines">4. Diesel Engines</h2>
+<h3>Common Rail Diesel (CRD) — CRITICAL SAFETY WARNING</h3>
+<div class="admonition warning"><div class="admonition-title">⚠️ Warning</div><div class="admonition-body">**EXTREME DANGER:** Common rail diesel systems operate at 1,500–2,500 bar (22,000–36,000 PSI). A pinhole leak can inject fuel through skin, causing tissue death and amputation. NEVER touch or search for a high-pressure fuel leak with bare hands. Use a piece of cardboard or wood — the spray pattern will be visible.</div></div>
+
+<p>Most modern 4WDs sold since 2005 use common rail injection (LandCruiser 70/200 series, Patrol CRD, Ranger, HiLux, Prado, Pajero, Triton, D-Max, BT-50). This section covers CRD-specific issues not applicable to older mechanical injection diesels.</p>
+<p><strong>CRD no-start diagnosis:</strong>
+1. Check for fuel at the filter (pump primer, check for air in clear line if fitted)
+2. Check battery voltage — CRD requires minimum 10.5V while cranking (ECU won't fire injectors below this)
+3. Check rail pressure using OBD2 scanner (must be &gt;250 bar to start)
+4. Common causes: failed suction control valve (SCV), cracked fuel filter housing (air ingress), failed fuel pressure regulator
+5. If the engine cranks but won't start and there's fuel at the filter, suspect SCV failure — common on Toyota D4D engines at 150,000–200,000km</p>
+<p><strong>Limp mode on CRD engines:</strong>
+- If the ECU detects a fault, it limits RPM to ~2,500 and power. This is LIMP MODE — the engine protected itself.
+- Common limp mode triggers: overboost (stuck turbo vanes), underboost (boost leak), EGR fault, DPF blockage
+- KEY TRICK: Cycling the ignition OFF and ON may temporarily clear limp mode (engine must be turned off completely for 10+ seconds). This gives you 10–50 km of normal power to reach help. The fault will return.
+- Do NOT drive indefinitely in limp mode — the underlying problem (stuck vanes, blocked DPF) can cause engine damage</p>
+<p><strong>EGR and DPF issues (diesel particulate filter):</strong>
+- Vehicles with DPF (post-2016 models): sustained low-speed crawling (sand driving, low-range work) blocks the DPF because exhaust temperature is too low for passive regeneration
+- Prevention: every 2–3 hours of slow work, drive at highway speed (2,500+ RPM) for 20 minutes to trigger DPF regeneration
+- DPF blocked on track: if the DPF warning light is flashing, stop the vehicle. Attempt a forced regen if your scan tool supports it. In an emergency, removing the DPF and driving without it will get you home but is illegal on-road.
+- DPF differential pressure sensor failure mimics a blocked DPF — check for broken or melted sensor tubes first</p>
+<h3>Turbo Diesel — Boost, Intercooler, and Overboost</h3>
+<p>Turbocharged diesel engines are standard on almost all modern 4WDs. These issues don't apply to naturally aspirated engines.</p>
+<p><strong>Intercooler hose failure:</strong>
+- The hoses between turbo and intercooler carry pressurised air (15–30 PSI). A split or blown hose causes massive power loss (no boost) and black smoke (over-fuelling)
+- TEMPORARY FIX: Wrap split hose with duct tape, then wrap with zip ties every 10 mm. This will NOT hold full boost — drive conservatively
+- BETTER TEMPORARY FIX: Use a piece of radiator hose or similar rubber tube as a sleeve, hose clamp both ends
+- Intercooler itself holed (rock damage): bypass it entirely. Connect turbo outlet directly to intake manifold using whatever hose is available. Engine will run without intercooler — intake air will be hotter, power reduced, but you can drive out</p>
+<p><strong>Turbo boost leaks:</strong>
+- Symptoms: whistling noise under acceleration, black smoke, reduced power
+- Check all hose clamps between turbo and intake — heat cycling loosens them
+- Check the plastic intercooler end tanks (Toyota 1VD-FTV, Nissan ZD30) — known to crack at the seam
+- Cracked end tank: clean thoroughly, apply JB Weld / Knead-It epoxy, let cure fully (4+ hours). This is a strong temporary fix that has lasted thousands of kilometres</p>
+<p><strong>Stuck turbo vanes (variable geometry turbos):</strong>
+- Symptoms: no boost below 2,000 RPM (stuck vanes in open position), overboost/limp mode at highway speed (stuck vanes in closed position)
+- Common on Toyota 1VD-FTV (LandCruiser V8) and 1KD-FTV (HiLux/Prado) engines when used for short trips or low-RPM driving
+- TEMPORARY FIX: "Italian tune-up" — sustained highway driving at 3,000+ RPM for 20–30 minutes. The high exhaust gas temperature can free stuck vanes
+- If persistent: this is a turbo removal and clean job — not a bush repair. Limp it to a mechanic.</p>
+<p><strong>Turbo oil seal failure (runaway diesel risk):</strong>
+- A failed turbo oil seal leaks engine oil into the intake. The engine can run on its own oil — this is a DIESEL RUNAWAY
+- Signs: oil in intercooler, blue smoke, rising RPM despite no throttle input
+- IF A RUNAWAY OCCURS: Key OFF immediately (doesn't stop it — the engine is running on oil, not fuel). Manual transmission: foot HARD on brake, engage highest gear, dump clutch (stall the engine). Auto transmission: block the intake with something solid (clipboard, floor mat, NOT your hand). Once stopped, do NOT restart. The engine will run away again. This requires a tow.
+- Prevention: check intercooler pipes for oil accumulation during pre-trip inspection</p>
+<hr />
+<h2 id="5-fuel-system-issues">5. Fuel System Issues</h2>
+<h3>Out of Fuel</h3>
+<p>Before you panic, calculate:</p>
+<ul>
+<li>What is your fuel consumption at current load? (L/100 km)</li>
+<li>How far to the last fuel stop you passed?</li>
+<li>How far to the nearest town ahead?</li>
+<li>Do you have a second jerry can?</li>
+</ul>
+<p><strong>Most outback stations and roadhouses will bring fuel if you can reach them by phone or UHF</strong> — it is expensive but cheaper than a tow truck.</p>
+<p><strong>If you must walk:</strong> See <a href="vehicle-breakdown.html">Vehicle Breakdown: Stay or Go?</a> — the walk/go decision tree applies here as much as any mechanical failure.</p>
+<h3>Contaminated Fuel</h3>
+<p>Water in diesel is common — condensation in old drums, poorly sealed station tanks, creek water in the filler during a deep crossing.</p>
+<p><strong>Signs:</strong> Engine runs rough, stalls under load, white smoke from the exhaust.</p>
+<p><strong>Field fix:</strong></p>
+<ol>
+<li>Drain the fuel filter if accessible — most diesel 4WDs have a water drain plug on the filter</li>
+<li>Let the drained fuel settle in a clear bottle — water sinks to the bottom. Decant the clean fuel off the top</li>
+<li>Replace the filter if you have a spare; otherwise refit and prime</li>
+</ol>
+<p><strong>The real fix:</strong> Carry spare fuel filters and a water-absorbing additive. Change the filter when you reach a town.</p>
+<h3>Fuel Line Leak</h3>
+<p>A split or rubbed-through fuel line sprays fuel and can start an engine fire.</p>
+<ol>
+<li>Clean the damaged area</li>
+<li>Wrap tightly with electrical tape or duct tape</li>
+<li>Apply a rubber patch from an old inner tube or a cut-up tyre inner liner</li>
+<li>Secure with zip ties or wire</li>
+<li><strong>Chewing gum</strong> — in a pinch, plug a pinhole with chewing gum wrapped in tape</li>
+</ol>
+<p><strong>Check for leaks before starting the engine.</strong> Fuel pooling on a hot exhaust is a fire.</p>
+<h3>Fuel Pump Failure (Diesel)</h3>
+<p>If the engine has fuel but the injection pump is not drawing it:</p>
+<p><strong>Gravity feed (last resort):</strong></p>
+<ol>
+<li>Place a full jerry can on the roof or bonnet (higher than the injection pump)</li>
+<li>Run a clean hose from the jerry can to the inlet of the injection pump</li>
+<li>The weight of the fuel may be enough to gravity-feed the pump</li>
+<li>This only works for low-pressure injection pumps — common on older diesels</li>
+</ol>
+<p><strong>Modern common-rail diesels:</strong> If the electric lift pump has failed, gravity will not work. You need a replacement pump.</p>
+<h3>Priming a Diesel After Running Dry</h3>
+<ol>
+<li>Fill the fuel tank or jerry can</li>
+<li>Operate the manual primer (a rubber plunger on the fuel filter housing or injection pump) until it firms up</li>
+<li><strong>Crack the injector lines</strong> — loosen the nut at each injector (or the first in the fuel rail) about half a turn</li>
+<li>Crank the engine — fuel will bleed through the cracked fittings</li>
+<li>Tighten each fitting as fuel appears</li>
+<li>The engine should start after a few more seconds of cranking</li>
+<li><strong>Crank in 10-second bursts</strong> — let the starter cool for 30 seconds between attempts</li>
+</ol>
+<hr />
+<h2 id="6-tyres">6. Tyres</h2>
+<h3>Puncture Repair (Plug Kit)</h3>
+<p>A tyre plug kit is mandatory for outback travel. Do not rely on a can of pressurised sealant — it does not work for sidewall damage or large holes.</p>
+<ol>
+<li>Locate the puncture — look for the object (nail, screw, sharp rock) or submerge the tyre in water and look for bubbles</li>
+<li>Remove the object with pliers</li>
+<li>Ream the hole with the rasp tool — push in and out 5–6 times to clean and rough the hole</li>
+<li>Thread the plug strip through the insertion tool — centred, with equal lengths each side</li>
+<li>Push the tool firmly into the hole until most of the plug is inside</li>
+<li>Pull the tool out straight — the plug stays in</li>
+<li>Cut the excess plug to about 5 mm above the tread surface</li>
+<li>Inflate to correct pressure</li>
+</ol>
+<p><strong>Limitations:</strong> Plug repair is for the <strong>tread area only</strong>. Sidewall punctures cannot be plugged — the flexing of the sidewall will work the plug loose.</p>
+<h3>Sidewall Damage</h3>
+<p>A sidewall gash cannot be plugged. If you have no spare:</p>
+<ol>
+<li>Remove the tyre from the rim (if possible)</li>
+<li>Place a boot (a strong patch, a piece of old conveyor belt, or a cut-up truck inner tube) inside the tyre over the damage</li>
+<li>Re-fit the tyre and tube (tube mandatory for this repair — it holds the boot in place)</li>
+<li>Inflate to low pressure (approx. 20 psi / 140 kPa)</li>
+<li>Drive at low speed — no more than 40 km/h</li>
+<li>Check frequently — the boot shifts and leaks are common</li>
+</ol>
+<p><strong>Without a tube:</strong> A sidewall boot will not seal. This repair requires an inner tube.</p>
+<h3>No Spare Remaining — Driving on a Flat</h3>
+<p><strong>Do not drive on a flat tyre unless life depends on it.</strong> A flat tyre driven on will:</p>
+<ul>
+<li>Destroy the tyre completely — shredded carcass, no hope of repair</li>
+<li>Damage the rim — bent or broken bead seats</li>
+<li>Generate heat that can ignite the tyre</li>
+<li>Tear up the wheel arch lining and brake lines</li>
+</ul>
+<p><strong>If you must:</strong></p>
+<ul>
+<li>Drive at walking speed (5–10 km/h)</li>
+<li>Expect the tyre to come off the rim</li>
+<li>Stop every 200 m to check — the tyre will disintegrate</li>
+<li>This is a "get off the death road" measure only, not a travel strategy</li>
+</ul>
+<h3>Bead Reseating</h3>
+<p>If the tyre bead has come off the rim (typically from driving at very low PSI and turning sharply), you need a bead seater. There are two methods:</p>
+<h4>1. Ratchet Strap Method (SAFE — Recommended)</h4>
+<p>This is the safe, recommended method. It works on most tyres and requires no fire.</p>
+<ol>
+<li>Remove the tyre from the vehicle (wheel off)</li>
+<li>Deflate the tyre completely (remove valve core)</li>
+<li>Place a ratchet strap around the <strong>circumference</strong> of the tyre tread, centred in the tread groove</li>
+<li>Tighten the ratchet strap firmly — this pushes the tyre sidewalls outward against the rim beads</li>
+<li>Reinstall the valve core and start inflating</li>
+<li>As pressure builds, the beads should seat with two distinct <strong>pops</strong> (one for each side)</li>
+<li>Once both beads are seated, loosen and remove the ratchet strap</li>
+<li>Inflate to desired pressure</li>
+</ol>
+<p><strong>Why it works:</strong> The strap compresses the tread, pushing the sidewalls outward and pressing the beads against the rim. Inflation then completes the seal.</p>
+<p><strong>Tips:</strong>
+- Lubricate the bead with soapy water (or spit if nothing else) — helps the bead slide into place
+- Use a wide ratchet strap (25 mm+) — narrow straps dig into the tread rubber
+- If one bead seats but the other doesn't, deflate fully and reposition the strap more carefully</p>
+<h4>2. Ether / Start Spray Method (EXTREME DANGER — LAST RESORT ONLY)</h4>
+<p>Only attempt this if no ratchet strap is available and the situation is life-threatening. This method has caused severe burns, lost eyebrows, and tyre explosions.</p>
+<ol>
+<li>Remove the tyre from the vehicle</li>
+<li>Remove the valve core (air must be able to escape)</li>
+<li>Spray a <strong>1–2 second burst</strong> of ether / aerostart / start spray into the tyre through the valve hole</li>
+<li>Spray a trail of ether away from the tyre on the ground — about 1 metre long</li>
+<li><strong>Everyone stands well back</strong> — at least 10 metres</li>
+<li>Ignite the trail from a distance using a long stick with a flame at the end</li>
+<li>The flame travels along the trail and ignites the ether inside the tyre — the expanding gas pops the bead onto the rim</li>
+<li><strong>IMMEDIATELY</strong> reinstall the valve core and inflate</li>
+</ol>
+<p><strong>Risks:</strong>
+- <strong>Explosion</strong> — too much ether creates a bomb capable of destroying the tyre and rim. Use a 1–2 second spray <strong>only</strong>
+- <strong>Severe burns</strong> — the escaping flame is hot enough to cause third-degree burns
+- <strong>Tyre fire</strong> — the tyre can catch fire. Have a fire extinguisher or water ready
+- <strong>Hearing damage</strong> — the ignition is loud. Protect your ears
+- <strong>Rim damage</strong> — the heat can warp the rim bead area</p>
+<p><strong>Only use this on a rim you are prepared to replace.</strong></p>
+<p><strong>Compressor alternative:</strong> If you have a compressor with a bead blaster function (high-volume air tank release), use that instead of either method above. A bead blaster is the safest and fastest option.</p>
+<h3>Tyre Changing on Soft Ground</h3>
+<p>A standard scissor jack sinks into sand or mud, making a tyre change impossible.</p>
+<ol>
+<li>Place a <strong>jack base plate</strong> under the jack — this is the flat metal plate that comes with many 4WD jacks</li>
+<li>If you do not have the base plate: use a <strong>maxtrax/ recovery board</strong> under the jack</li>
+<li>If you do not have maxtrax: use a flat rock, a thick piece of wood, a spare floor mat, or folded canvas bag</li>
+<li>Chock the other wheels with rocks or wood</li>
+<li>Loosen the wheel nuts <strong>before</strong> jacking up</li>
+<li>Jack up, swap the tyre, lower, tighten in a star pattern</li>
+</ol>
+<hr />
+<h2 id="7-drivetrain">7. Drivetrain</h2>
+<h3>Broken CV Joint</h3>
+<p>A CV (constant velocity) joint that has failed will click loudly when turning, then suddenly snap — leaving you with a wheel that spins freely but does not drive.</p>
+<p><strong>Field fix — convert to 2WD:</strong></p>
+<ol>
+<li>Jack up the vehicle on the broken side</li>
+<li>Remove the wheel</li>
+<li>Remove the broken CV shaft from the hub and differential</li>
+<li>Lock the centre differential (most 4WDs have a centre diff lock button or lever)</li>
+<li>The vehicle now drives in 2WD on the remaining driven wheel</li>
+</ol>
+<p><strong>Important:</strong> This only works if your vehicle has a centre diff lock and the front or rear differential has not also failed. On some vehicles, removing the CV shaft will cause the differential to leak oil — seal the opening with a rag or tape.</p>
+<p><strong>Speed limit:</strong> 30 km/h maximum. The remaining side is doing double the work.</p>
+<h3>Clutch Failure</h3>
+<p>If the clutch pedal goes to the floor (cable snapped, slave cylinder failed, hydraulic line burst):</p>
+<p><strong>Starting in gear:</strong></p>
+<ol>
+<li>With the engine off, put the vehicle into <strong>1st gear</strong></li>
+<li>Push the clutch in (or not — it will not matter) and turn the key</li>
+<li>The vehicle will lurch forward as the starter motor turns the engine</li>
+<li>Once the engine catches, you are in gear and moving</li>
+<li>To stop: turn the engine off and coast to a stop in gear</li>
+</ol>
+<p><strong>Clutchless shifting (once moving):</strong></p>
+<ol>
+<li>Accelerate in the current gear</li>
+<li>When you want to shift: <strong>pull the lever out of gear</strong> as you lift off the accelerator — the load comes off the drivetrain and the gear will slide out</li>
+<li>Rev-match the engine speed for the next gear and <strong>push the lever into gear</strong> — it will slide in when the revs match</li>
+<li>Upshifts are relatively easy — push the lever out when you lift off, rev slightly lower, push in</li>
+<li>Downshifts are harder — double-declutch without the clutch: neutral, rev match, gear</li>
+</ol>
+<p><strong>Practice this before you need it.</strong> It takes feel and timing.</p>
+<p><strong>Starting on a hill with no clutch:</strong></p>
+<ul>
+<li>Use the handbrake to hold the vehicle</li>
+<li>Start in 1st gear with the key (lurch forward)</li>
+<li>Release the handbrake as you catch</li>
+</ul>
+<h3>Snapped Axle</h3>
+<p>A snapped rear axle (common on leaf-sprung 4WDs after hard landings or extreme flex) turns a 4WD into a 2WD.</p>
+<ol>
+<li>Remove the broken axle shaft — it will pull out of the differential</li>
+<li>Remove any broken pieces from the diff housing</li>
+<li>Remove the wheel on the broken side</li>
+<li>Lock the diff (if you have a locking differential) or leave open</li>
+<li>Drive in 4WD — power goes to the remaining rear wheel and both front wheels</li>
+</ol>
+<p><strong>If your axles are full-floating type (LandCruiser, Patrol, many trucks):</strong> You can drive with a broken axle shaft as long as you remove it. The wheel stays on via bearings. Just do not steer sharply — the wheel may lean.</p>
+<p><strong>If your axles are semi-floating type (most IFS 4WDs, older Nissan Patrol):</strong> A snapped axle means the wheel comes off. Do not drive.</p>
+<hr />
+<h2 id="8-must-carry-spares-amp-tools">8. Must-Carry Spares &amp; Tools</h2>
+<p>This kit fits in a 20 L plastic crate. It does not take up much room and it will save your trip.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Radiator hose (top)</strong></td>
+<td>1</td>
+<td>Most common single hose failure — the top hose sees the most heat cycles</td>
+</tr>
+<tr>
+<td><strong>Radiator hose (bottom)</strong></td>
+<td>1</td>
+<td>Less common but harder to reach — carry it or cut your top hose in half</td>
+</tr>
+<tr>
+<td><strong>Fan belt(s)</strong></td>
+<td>1–2 (all sizes your vehicle uses)</td>
+<td>A snapped belt stops the engine in minutes</td>
+</tr>
+<tr>
+<td><strong>Fuses (assorted)</strong></td>
+<td>1 kit</td>
+<td>Blown fuses disable everything from fuel pumps to headlights</td>
+</tr>
+<tr>
+<td><strong>Duct tape (100 mph tape)</strong></td>
+<td>1 roll minimum</td>
+<td>Hoses, belts, wires, leaks, and a hundred other uses</td>
+</tr>
+<tr>
+<td><strong>Zip ties (various sizes)</strong></td>
+<td>50 minimum</td>
+<td>The most versatile fastener in existence</td>
+</tr>
+<tr>
+<td><strong>Fencing wire</strong></td>
+<td>5 m</td>
+<td>Clamps, repairs, lashings, rigging</td>
+</tr>
+<tr>
+<td><strong>Coat hanger wire</strong></td>
+<td>2</td>
+<td>Wire for exhaust repair, securing components, probe tools</td>
+</tr>
+<tr>
+<td><strong>Epoxy putty</strong></td>
+<td>1 stick (Knead-it / JB Weld SteelStik)</td>
+<td>Radiator holes, cracked tanks, stripped threads</td>
+</tr>
+<tr>
+<td><strong>Multi-tool / Leatherman</strong></td>
+<td>1</td>
+<td>Pliers, wire cutter, knife, screwdriver — always on you</td>
+</tr>
+<tr>
+<td><strong>Socket set (basic metric)</strong></td>
+<td>8 mm–19 mm, ¼" and ⅜" drive</td>
+<td>Wheel nuts, suspension bolts, engine components</td>
+</tr>
+<tr>
+<td><strong>Pliers</strong></td>
+<td>2 — combination + long-nose</td>
+<td>Every mechanical task</td>
+</tr>
+<tr>
+<td><strong>Screwdrivers</strong></td>
+<td>2 — flathead + Phillips</td>
+<td>Hoses, clamps, interior trim</td>
+</tr>
+<tr>
+<td><strong>Tyre plug kit</strong></td>
+<td>1 kit (with 12+ plugs)</td>
+<td>Puncture repair — mandatory</td>
+</tr>
+<tr>
+<td><strong>Tyre compressor</strong></td>
+<td>1</td>
+<td>12 V, inflates from tyre deflation to road pressure</td>
+</tr>
+<tr>
+<td><strong>WD-40 or similar</strong></td>
+<td>1 small can</td>
+<td>Frees rusted bolts, dries ignition components, lubricates cables</td>
+</tr>
+<tr>
+<td><strong>Rags</strong></td>
+<td>10 minimum</td>
+<td>Cleaning, padding, filtering, wiping dipsticks</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Also useful but optional:</strong></p>
+<ul>
+<li>Spare fuel filter (specific to your vehicle)</li>
+<li>Inner tube (for sidewall boot repairs)</li>
+<li>Spare set of glövebox light bulbs</li>
+<li>Start spray (aerostart / ether) — for bead seating and starting diesels</li>
+<li>Recovery tracks (maxtrax style) — self-recovery and jack base</li>
+<li>Jumper leads (heavy-duty)</li>
+<li>Basic multimeter</li>
+<li>Electrical tape</li>
+</ul>
+<p><strong>Contingency:</strong> Stash these items in a second crate if you are crossing truly remote areas (Gibb River Road, Canning Stock Route, Birdsville Track, Tanami Road). Double the hose and belt quantities for vehicles over 15 years old.</p>
+<hr />
+<h3>Additional Bush Repair Techniques</h3>
+<p>These are field-proven fixes used by outback mechanics. They are temporary — get proper repairs as soon as possible.</p>
+<p><strong>Broken engine mount:</strong>
+- Symptoms: engine rocks violently on acceleration/deceleration, clunking noise
+- Fix: ratchet strap around engine and chassis rail. Tighten until engine movement is minimised. Check and retighten regularly.
+- Alternative: tie wire multiple loops around engine bracket and chassis mount. Not as strong as ratchet strap.</p>
+<p><strong>Broken leaf spring (main leaf):</strong>
+- Symptoms: vehicle sagging on one corner, handling dangerous
+- Fix: Jack vehicle to take weight off spring. Place a solid block of wood between the axle and chassis (above the bump stop). Lower the vehicle onto the block. Now the block carries the weight instead of the spring. Drive SLOWLY to the nearest road.
+- Alternatively: Use a ratchet strap to compress what's left of the spring pack. Multiple heavy-duty zip ties can temporarily hold leaves together.</p>
+<p><strong>Cracked exhaust manifold or broken exhaust:</strong>
+- Symptoms: loud exhaust noise, fume smell in cabin, power loss
+- Temporary fix for manifold crack: JB Weld / Knead-It (rated to 150°C+ — may last weeks or hours depending on crack location). Clean thoroughly, apply thickly, let cure fully.
+- Broken exhaust pipe: cut a tin can open, wrap around the break, secure with hose clamps or wire. Multiple layers work better.
+- Safety: exhaust fumes contain carbon monoxide. Drive with windows OPEN if exhaust leak is forward of the cabin.</p>
+<p><strong>CV boot tear:</strong>
+- Symptoms: grease splatter on wheel arch inside, clicking noise on turns (if joint already contaminated)
+- Fix: Clean the torn boot thoroughly. Wrap with a plastic bag or heavy-duty garbage bag, then wrap TIGHTLY with duct tape from the large end to the small end. This keeps dirt out and grease in for days to weeks.
+- If clicking has already started: the joint is damaged but may last hundreds of kilometres if kept lubricated and clean. Pack more grease in if available, then wrap.</p>
+<p><strong>Snapped accelerator cable:</strong>
+- Symptoms: pedal goes to floor with no resistance, engine idles
+- Fix: (Manual transmission only) Open the bonnet. Locate the throttle linkage on the injection pump (diesel) or throttle body (petrol). Tie a length of cord or wire to the throttle lever. Route into the cabin through the window. Pull to accelerate. This is a HAND THROTTLE — dangerous on the road. Use only to limp out. Have a passenger operate it if possible.
+- Alternative: Increase idle speed using the idle adjustment screw on the injection pump (diesel only). You can idle along in low range at 5-15 km/h. Keep RPM under 1,500.</p>
+<p><strong>Clutch slave cylinder failure:</strong>
+- Symptoms: clutch pedal goes to floor, cannot disengage clutch
+- Fix: (For vehicles with clutch master cylinder fluid reservoir) Top up fluid. Pump clutch pedal rapidly 20-30 times. If pressure builds temporarily, you may get one gear change. Use this to get into 1st gear or to stop.
+- Once moving: clutchless shifting is possible with practice. Match engine RPM to road speed for the next gear (rev match). Shift without clutch by pulling gently out of gear when torque is neutral (brief lift of throttle), then pushing into the next gear when RPM matches. DO NOT force — it will go in smoothly when RPM is correct. Use gears sparingly — stay in one gear as much as possible.
+- For stopping: slow down as much as possible, then turn engine off in gear. Restart in 1st gear (starter motor will move the vehicle).</p>
+<p><strong>Radiator stop-leak (egg white method):</strong>
+- Note: The expert panel confirmed this is a legitimate field technique, not a myth. It works for pinhole leaks and small cracks.
+- Fix: Separate 3-4 egg whites into the radiator (not the yolks — they clog coolant passages). Or use 1-2 tablespoons of ground black pepper. Both coagulate at the leak site where coolant is escaping. This is temporary — may last hours to days. Flush the cooling system when proper repair is possible.
+- Alternative: Bars Leaks or similar commercial stop-leak product. Carry one bottle — it takes up negligible space and works better than egg/pepper.</p>
+<p><strong>Fuel tank puncture (plastic tank):</strong>
+- Symptoms: fuel dripping, fuel smell, fuel loss
+- Fix: Clean and dry the area thoroughly (fuel dissolves most adhesives). Use a bar of soap — rub firmly into the hole, building up layers. The soap is fuel-resistant long enough to reach help.
+- Alternative: Self-tapping screw with rubber washer. Drill/screw directly into the hole. The screw seals against the rubber washer.
+- Alternative 2: Knead-It epoxy putty. Clean area, apply thick layer. Let cure before adding fuel back.</p>
+<p><strong>Snapped shock absorber mount:</strong>
+- Symptoms: loud banging from one corner on bumps
+- Fix: Remove the shock absorber entirely (top and bottom bolts). The vehicle will be bouncy but driveable. Drive SLOWLY — handling is compromised. The coil spring still supports the vehicle weight. The shock only controls rebound.
+- WARNING: Never drive at highway speed with a shock removed. Limit to 60 km/h or less on smooth roads.</p>
+<p><strong>Intercooler hose split (see also turbo section for turbo-specific):</strong>
+- Fast fix: Self-amalgamating silicone tape (Rescue Tape). Stretch and wrap — it fuses to itself and handles boost pressure. Carry a roll — it's lightweight and fixes hoses, electrical connections, and air lines.
+- Alternative: Bicycle inner tube. Split lengthwise, wrap around the hose, secure with zip ties and duct tape.</p>
+<p><strong>Broken window mechanism (window stuck down):</strong>
+- Fix: Remove door trim. Pull the glass up manually. Wedge a stick, screwdriver, or piece of wood between the glass bottom and the door frame to hold it up. This prevents dust ingress and keeps the cabin sealed.
+- If glass is shattered: cover the window opening with a heavy-duty garbage bag or tarp, taped around the door frame. Do NOT drive with shattered glass in the door — it will jam the mechanism.</p>
+<p><strong>Power steering failure:</strong>
+- Symptoms: steering extremely heavy, especially at low speed
+- The vehicle can be driven without power steering — it is physically hard but possible. Stronger drivers only.
+- If the pump has seized: remove the serpentine/power steering belt. You can drive without the pump.
+- If fluid has leaked: the rack can be damaged by running dry. Add any oil available (engine oil, ATF) to get you out. Flush the system properly when repaired.
+- Technique: keep the vehicle moving — steering is much lighter when rolling. Do not attempt tight turns from stationary.</p>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="vehicle-breakdown.html">Vehicle Breakdown: Stay or Go?</a> — The critical decision after any mechanical failure</li>
+<li><a href="vehicle-as-resource.html">Vehicle as a Resource</a> — Salvaging components from a written-off vehicle</li>
+<li><a href="heat-survival.html">Extreme Heat Survival</a> — Managing heat illness while waiting for assistance</li>
+<li><a href="what-to-carry.html">What to Carry</a> — Full outback gear checklist</li>
+<li><a href="../01-first-aid/index.html">First Aid</a> — Medical emergencies, including burns from hot components</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sand Driving — Outback Safe</title>
+<meta name="description" content="Techniques for driving on sand — tyre pressures, momentum, gear selection, and recovery for outback desert travel.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#1-tyre-pressures-the-most-important-thing">1. Tyre Pressures — The Most Important Thing</a></li>
+<li><a href="#2-driving-technique">2. Driving Technique</a></li>
+<li><a href="#3-steering-on-sand">3. Steering on Sand</a></li>
+<li><a href="#4-convoy-sand-driving">4. Convoy Sand Driving</a></li>
+<li><a href="#5-sand-specific-recovery">5. Sand-Specific Recovery</a></li>
+<li><a href="#6-desert-specific-hazards">6. Desert-Specific Hazards</a></li>
+<li><a href="#7-gear-checklist-for-sand-driving">7. Gear Checklist for Sand Driving</a></li>
+<li><a href="#cross-references">Cross-References</a></li>
+</ul></details>
+<h1>Sand Driving</h1>
+<p>Sand is the great equaliser in outback 4WD travel. A fully loaded LandCruiser and a soft-roader on road tyres will both stop dead in the same bulldust hole. The difference is knowing how to read sand, choose pressures, and maintain momentum.</p>
+<hr />
+<h2 id="1-tyre-pressures-the-most-important-thing">1. Tyre Pressures — The Most Important Thing</h2>
+<p>Tyre pressure is everything on sand. The right pressure floats the vehicle, provides traction, and prevents bogging. The wrong pressure sinks you. Most sand bogging is caused by having tyre pressures too high.</p>
+<h3>Recommended Pressures</h3>
+<table>
+<thead>
+<tr>
+<th>Surface</th>
+<th>Recommended PSI</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hard sand / gravel (beach)</td>
+<td>22-25 PSI</td>
+<td>Firm surface, lower risk of bead unseating</td>
+</tr>
+<tr>
+<td>Soft sand (desert roads)</td>
+<td>15-18 PSI</td>
+<td>Standard range for outback desert tracks</td>
+</tr>
+<tr>
+<td>Soft sand (dunes)</td>
+<td>15-18 PSI</td>
+<td>Adequate floatation for loaded vehicles</td>
+</tr>
+<tr>
+<td>Extreme soft sand / bogged (STRAIGHT LINES ONLY)</td>
+<td>12-15 PSI</td>
+<td>Maximum emergency floatation — <strong>NOT for vehicles over 2.5T GVM</strong>. Straight line driving only. Immediate reinflation after extraction</td>
+</tr>
+<tr>
+<td>Highway (sealed)</td>
+<td>35-40 PSI</td>
+<td>Normal road pressure</td>
+</tr>
+</tbody>
+</table>
+<p><strong>⚠️ Loaded vehicle warning:</strong> Vehicles over 3 tonnes GVM loaded (most touring 4WDs such as loaded LandCruiser 200, Patrol GU, or dual-cab with canopy and load): do NOT go below 15 PSI. The sidewall cannot support the weight below this pressure. At 12 PSI, a loaded 4WD will debead a tyre on even a gentle turn.</p>
+<p><strong>⚠️ After reinflation:</strong> Drive 5 km and recheck tyre pressures. Tyre beads can reseat imperfectly and leak slowly — a bead that looks fine at rest may lose pressure once driven on.</p>
+<h3>Pressure Management</h3>
+<ul>
+<li><strong>Don't trust gauge markings</strong> — Use a quality low-pressure gauge with a 0-20 PSI range for accuracy.</li>
+<li><strong>Staun deflators</strong> — Screw-on automatic tyre deflators preset to your target pressure. Worth their weight in gold for sand driving.</li>
+<li><strong>Every 5 PSI reduction significantly increases tyre footprint</strong> — Going from 35 PSI to 15 PSI more than doubles your tyre's contact area.</li>
+<li><strong>Air back up ASAP</strong> — Driving at very low pressures (below 16 PSI) on sand generates heat. The tyre can overheat and delaminate. On a hot day, check tyre temperature frequently. If too hot to touch, stop and rest.</li>
+<li><strong>Own your own compressor</strong> — A decent portable 12V compressor (Bushranger Max Air, ARB, or similar) is essential. Outback roadhouses may not have working air — or may charge $20+ to use it.</li>
+<li><strong>TPMS sensitivity</strong> — Some factory tyre pressure monitoring systems (TPMS) will alarm at low pressures. Disable warnings or carry tape to cover the warning light.</li>
+</ul>
+<h3>Hazards at Low Pressure</h3>
+<table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Why</th>
+<th>Prevention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tyre damage</td>
+<td>Low pressure means sidewall flex — can hit rocks, spinifex, or sharp edges</td>
+<td>Stay on tracks, avoid sharp obstacles</td>
+</tr>
+<tr>
+<td>Overheating</td>
+<td>Low pressure + high speed = heat build-up</td>
+<td>Keep speed under 50 km/h on dunes, under 70 km/h on soft tracks</td>
+</tr>
+<tr>
+<td>Bead unseating</td>
+<td>Hard turn at very low PSI can pop tyre bead</td>
+<td>Gentle steering, reinflate to 15+ PSI before sharp turns</td>
+</tr>
+<tr>
+<td>Tyre spinning off rim</td>
+<td>Extremely low PSI + sudden torque</td>
+<td>Avoid sudden acceleration, use gentle throttle</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-driving-technique">2. Driving Technique</h2>
+<h3>Momentum</h3>
+<p>Momentum is the single most important concept in sand driving. Once the vehicle stops, getting moving again is exponentially harder.</p>
+<table>
+<thead>
+<tr>
+<th>Technique</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keep moving</td>
+<td>Maintain steady momentum. Speed is your friend on sand.</td>
+</tr>
+<tr>
+<td>Smooth throttle</td>
+<td>No sudden acceleration or braking. Both break traction.</td>
+</tr>
+<tr>
+<td>Gear selection</td>
+<td>Low range 3rd or 4th gear. Avoid 1st — too much torque = wheelspin = digging in.</td>
+</tr>
+<tr>
+<td>Constant speed</td>
+<td>Don't change gear on soft sand. Loss of momentum = bogged.</td>
+</tr>
+<tr>
+<td>Stops</td>
+<td>Stop on a DOWNWARD slope or flat ground. Never stop pointing uphill on soft sand.</td>
+</tr>
+</tbody>
+</table>
+<h3>Dune Driving</h3>
+<ul>
+<li><strong>Straight up, straight down.</strong> Never turn on a dune face (rollover risk).</li>
+<li><strong>Approach dunes with enough speed</strong> to carry you to the crest, but not so much that you launch over (causes damage, loss of control).</li>
+<li><strong>Dune crests: slow down before the top.</strong> What is on the other side? A drop-off? A campsite? Another vehicle? Blind crests are common in the Simpson Desert.</li>
+<li><strong>If you don't make it up:</strong> reverse back down carefully, rest, and try again with more speed and lower tyre pressures.</li>
+</ul>
+<h3>Bulldust Holes</h3>
+<p>Bulldust is fine, powdery dust that fills holes in the track. It looks like flat ground but can hide 300 mm+ deep ruts. Rules:</p>
+<ul>
+<li>Slow down approaching known bulldust areas.</li>
+<li>If you hit a hole: steady throttle, don't brake. Try to drive through.</li>
+<li>If you get stuck in bulldust: reverse out and try a different line.</li>
+<li>Bulldust is worse with multiple vehicles — the second vehicle gets hit with a dust cloud AND the hole the first vehicle dug.</li>
+</ul>
+<hr />
+<h2 id="3-steering-on-sand">3. Steering on Sand</h2>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gentle, gradual steering inputs</td>
+<td>Sharp turns dig in and cause bogging</td>
+</tr>
+<tr>
+<td>Let the sand guide the vehicle</td>
+<td>Light touch on the wheel — fighting the steering bogs the front wheels</td>
+</tr>
+<tr>
+<td>If vehicle starts to bog: STOP immediately</td>
+<td>Reverse out, try again with more momentum and a different line</td>
+</tr>
+<tr>
+<td>Follow existing tracks</td>
+<td>Compacted sand in existing wheel ruts is easier than virgin sand</td>
+</tr>
+<tr>
+<td>Sharp turns at low PSI</td>
+<td>Can pop the tyre bead off the rim — reinflate before hard turns</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-convoy-sand-driving">4. Convoy Sand Driving</h2>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Space vehicles 200 m+ apart</td>
+<td>Dust reduces visibility; close spacing means the second vehicle loses momentum if the first bogs</td>
+</tr>
+<tr>
+<td>Watch vehicle ahead</td>
+<td>If they slow or stop unexpectedly, you need time and space to react</td>
+</tr>
+<tr>
+<td>First vehicle tests</td>
+<td>Lead vehicle tests the dune or crossing, reports conditions via UHF</td>
+</tr>
+<tr>
+<td>Last vehicle recovers</td>
+<td>The last vehicle in convoy is best positioned to recover vehicles ahead</td>
+</tr>
+<tr>
+<td>Group decision</td>
+<td>If multiple vehicles are bogging on the same section, find an alternative route</td>
+</tr>
+<tr>
+<td>UHF communication</td>
+<td>Essential for sand convoy travel. Standard channel 10 or agreed channel.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-sand-specific-recovery">5. Sand-Specific Recovery</h2>
+<p>If you get bogged in sand, follow this progression:</p>
+<h3>Step 1: Lower Tyre Pressures Further</h3>
+<p>Before anything else: drop to 12-15 PSI. Only go below 15 PSI if you are under 2.5T GVM. <strong>Loaded touring vehicles over 3T GVM — do not go below 15 PSI even when bogged.</strong> If 15 PSI is not enough, the answer is digging and recovery boards, not lower pressure.</p>
+<h3>Step 2: Dig</h3>
+<p>Sand builds up in front of ALL FOUR wheels. Clear a path, not just clearance. The goal is to create a gentle ramp out of the bog, not just expose the wheel.</p>
+<h3>Step 3: Maxtrax / Recovery Boards</h3>
+<p>Angle recovery boards under the drive wheels. Apply gentle throttle. The boards should lift and provide traction. If one wheel is spinning, the other needs boards too.</p>
+<h3>Step 4: Snatch Strap</h3>
+<p>Use a snatch strap with gentle momentum from another vehicle. 2nd gear low range, smooth take-up. Do not shock-load the strap — that can snap it or damage both vehicles.</p>
+<h3>Step 5: Alternate Approach</h3>
+<p>If the vehicle is badly bogged and the approach is blocked, have another vehicle flatten or drive around the dune to pull from the other side. This takes longer but is safer.</p>
+<h3>Recovery Tips</h3>
+<ul>
+<li><strong>Hot sand is drier and softer</strong> — conditions worsen through the afternoon. Dawn is the best time for sand driving.</li>
+<li><strong>Chassis-deep sand recovery</strong> — If the chassis is resting on sand, you need serious work. Jack the vehicle up, fill holes with sand/boards/brush, and try again.</li>
+<li><strong>Never spin tyres</strong> — Spinning digs you deeper. Gentle throttle only.</li>
+<li><strong>After recovery: check tyre integrity</strong>. Sidewall damage from sand/scraping may cause a slow leak.</li>
+</ul>
+<p>See <a href="vehicle-recovery.html">Vehicle Recovery</a> for detailed recovery techniques.</p>
+<hr />
+<h2 id="6-desert-specific-hazards">6. Desert-Specific Hazards</h2>
+<table>
+<thead>
+<tr>
+<th>Hazard</th>
+<th>Description</th>
+<th>What to Do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Spinifex</strong></td>
+<td>Sharp, spiky grass that punctures tyres</td>
+<td>Stay on existing tracks. Don't cut across spinifex.</td>
+</tr>
+<tr>
+<td><strong>Mulga stakes</strong></td>
+<td>Fallen branches that can puncture sidewalls</td>
+<td>Watch your line. Avoid running over branches.</td>
+</tr>
+<tr>
+<td><strong>Bulldust</strong></td>
+<td>Fine powdery dust filling holes in the track</td>
+<td>Slow down before known holes. Drive through if hit.</td>
+</tr>
+<tr>
+<td><strong>Salt pans</strong></td>
+<td>Usually hard surface, but edges may be soft</td>
+<td>Walk the edge on foot first to test firmness.</td>
+</tr>
+<tr>
+<td><strong>Claypans after rain</strong></td>
+<td>Glass-smooth with zero traction</td>
+<td>Do not drive on wet claypans. Wait for them to dry completely.</td>
+</tr>
+<tr>
+<td><strong>Gibber plains</strong></td>
+<td>Loose stone on hard-packed surface</td>
+<td>Sharp stones can cut tyres at low pressures. Minimise wheelspin.</td>
+</tr>
+<tr>
+<td><strong>Creek crossings</strong></td>
+<td>Usually soft sand at entry and exit points</td>
+<td>Scout on foot. Approach crossings at an angle. See <a href="water-crossings.html">Water Crossings</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3>Spinifex Detail</h3>
+<p>Spinifex grass looks harmless but each blade is a sharp, silica-hardened point. It deflates tyres quickly. If you must drive through spinifex:
+- Keep windows closed (spinifex leaves can fly into the cabin)
+- Check tyres at every stop for embedded spinifex seeds
+- Pull over and remove any seeds you see — they work their way through the rubber over kilometres</p>
+<h3>Mulga Detail</h3>
+<p>Mulga branches and dead limbs (mulga stakes) are extremely hard. They can punch through a tyre sidewall. On sandy tracks, fallen mulga is often partially buried and invisible. Watch your line and avoid branches. Carry a tyre plug kit and compressor.</p>
+<h3>Salt Pan Driving</h3>
+<p>Salt pans look like perfect hard surfaces — dead flat, infinite visibility. They can also destroy your vehicle.</p>
+<p><strong>Before entering:</strong>
+- Walk the surface — check for soft edges. Salt pans typically have a hard crust over deep, bottomless mud. The crust may support your weight but not a vehicle
+- Check recent weather — salt pans become impassable for WEEKS after rain. The surface looks dry but underneath is saturated
+- Test with a stick — push it into the surface. If it penetrates more than 50mm easily, do NOT drive</p>
+<p><strong>Driving on good salt:</strong>
+- Speed: 60-80 km/h is typical on known hard pans (Lake Eyre, Lake Gairdner when dry)
+- Smooth steering — sharp turns cause wheelspin and break the crust
+- Stay on established tracks — you cannot see soft spots from a distance
+- If the salt is WHITE and crystalline (not grey/soft), it's hard</p>
+<p><strong>If you break through the crust:</strong>
+- STOP immediately. Do not spin wheels — you'll go deeper
+- Air down to 12-15 PSI immediately
+- Reverse out along your own tracks — forward is unknown
+- If bogged: the salt mud underneath is extremely corrosive. Wash the vehicle thoroughly (undercarriage, brakes, suspension) at the first opportunity. Salt mud left for days will destroy bearings, brake lines, and electrical connections</p>
+<h3>Clay Pan Driving (After Rain)</h3>
+<p>Clay pans are smooth, hard surfaces in arid regions. After rain, they become the most dangerous surface in Australia.</p>
+<p><strong>DO NOT DRIVE ON WET CLAY:</strong>
+- Wet clay is more slippery than ice. A vehicle on a 1° slope will slide sideways with all four wheels fully locked
+- Tyres fill with clay and become smooth slicks — zero traction even after leaving the pan
+- Vehicle becomes coated in hundreds of kilograms of sticky mud — immobilises the vehicle even on firm ground</p>
+<p><strong>After rain:</strong>
+- Wait for the clay to dry completely (1-3 days after rain depending on temperature)
+- Test with foot: if it sticks to your boot, DO NOT drive</p>
+<p><strong>If caught on greasy clay:</strong>
+- Air down to 15-18 PSI
+- Straightest possible line to the nearest exit
+- DO NOT brake, DO NOT turn, DO NOT accelerate suddenly — let the vehicle coast
+- If sliding: steer gently INTO the slide
+- Once off: scrape mud from tyres and wheel arches with a stick or shovel before continuing</p>
+<h3>Side-Slope Driving</h3>
+<p>Driving across a slope (traversing) is one of the most dangerous off-road situations. Rollovers on side slopes are almost always fatal.</p>
+<p><strong>Assessing a side slope:</strong>
+- Walk the slope first. If YOUR instincts say it feels too steep, the vehicle will feel worse
+- Most 4WDs can handle slopes up to 20-25° before rollover risk. At 30°, most will roll.
+- The vehicle's centre of gravity is HIGHER than you think — roof load, raised suspension, and passengers raise it dramatically
+- A heavily loaded touring 4WD is MORE likely to roll than an empty one</p>
+<p><strong>Driving across a side slope:</strong>
+- Drop tyre pressures to increase footprint (15-18 PSI)
+- DO NOT use roof load on side slopes — unload roof and carry items in the cabin if possible
+- Keep wheels straight — turn gently downhill if the vehicle starts to lean
+- If the uphill wheels lift: TURN DOWNHILL IMMEDIATELY. Do not brake. This is the moment before a rollover.
+- Passenger on the downhill side should lean into the centre of the vehicle (body weight matters)</p>
+<p><strong>If you cannot complete the slope:</strong>
+- Reverse out along your exact tracks — DO NOT turn on the slope
+- Find an alternative route — walking an extra 10km is better than a rollover
+- Unload passengers to walk across. Every 80kg of passenger is 80kg of high roll centre weight.</p>
+<p><strong>Convoy procedure on side slopes:</strong>
+- One vehicle at a time. Others wait and watch — they can spot approaching lean and warn by UHF.
+- Spotter stands uphill of the vehicle (in case of roll, vehicle goes downhill away from spotter)</p>
+<hr />
+<h2 id="7-gear-checklist-for-sand-driving">7. Gear Checklist for Sand Driving</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quality tyre gauge (0-20 PSI)</td>
+<td>Accurate readings at low pressures</td>
+</tr>
+<tr>
+<td>12V compressor</td>
+<td>Reinflate tyres after sand section</td>
+</tr>
+<tr>
+<td>Tyre deflators (Staun)</td>
+<td>Quick, consistent deflation for all 4 tyres</td>
+</tr>
+<tr>
+<td>Maxtrax or recovery boards</td>
+<td>Most effective sand recovery tool</td>
+</tr>
+<tr>
+<td>Snatch strap + rated shackles</td>
+<td>Vehicle-to-vehicle recovery</td>
+</tr>
+<tr>
+<td>Shovel (long handle)</td>
+<td>Digging sand from under chassis</td>
+</tr>
+<tr>
+<td>Tyre plug kit + plug tool</td>
+<td>Puncture repair on the trail</td>
+</tr>
+<tr>
+<td>UHF radio</td>
+<td>Convoy communication</td>
+</tr>
+<tr>
+<td>Tyre pressure monitoring (TPMS)</td>
+<td>Monitor for leaks or overheating</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cross-references">Cross-References</h2>
+<ul>
+<li><a href="vehicle-recovery.html">Vehicle Recovery</a> — Full recovery techniques for bogged vehicles</li>
+<li><a href="water-crossings.html">Water Crossings</a> — Sand at creek crossings and beach mouths</li>
+<li><a href="fuel-management.html">Fuel Management</a> — Sand driving doubles fuel consumption</li>
+<li><a href="route-planning.html">Route Planning</a> — Planning around desert sections and fuel range</li>
+<li><a href="heat-survival.html">Heat Survival</a> — Managing heat during recovery work in the desert</li>
+<li><a href="what-to-carry.html">What to Carry</a> — Full gear checklist including sand-specific items</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

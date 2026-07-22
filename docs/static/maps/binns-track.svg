@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 980" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Binns Track — Route Overview</title>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Binns Track — Mt Dare to Timber Creek</text>
+  <text x="300" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~2,230 km · Northern Territory · 10–14 days</text>
+
+  <!-- Section backgrounds -->
+  <rect x="10" y="70" width="580" height="290" rx="4" fill="#1a1a2e" opacity="0.02"/>
+  <rect x="10" y="370" width="580" height="180" rx="4" fill="#c9a96e" opacity="0.03"/>
+  <rect x="10" y="560" width="580" height="320" rx="4" fill="#3a7bbf" opacity="0.02"/>
+
+  <!-- Section labels -->
+  <text x="20" y="85" font-size="10" font-weight="700" fill="#1a1a2e">▸ Southern Section</text>
+  <text x="20" y="385" font-size="10" font-weight="700" fill="#1a1a2e">▸ Central Section</text>
+  <text x="20" y="575" font-size="10" font-weight="700" fill="#1a1a2e">▸ Northern Section</text>
+
+  <!-- Section distance labels -->
+  <text x="560" y="85" text-anchor="end" font-size="9" fill="#6b7280">~800 km</text>
+  <text x="560" y="385" text-anchor="end" font-size="9" fill="#6b7280">~500 km</text>
+  <text x="560" y="575" text-anchor="end" font-size="9" fill="#6b7280">~900 km</text>
+
+  <!-- Route line (south to north) -->
+  <polyline points="300,920 300,870 290,800 280,730 270,660 260,590 250,520 240,460 230,410 220,360 210,310 200,260 190,220 180,180 170,150 160,120" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linejoin="round"/>
+
+  <!-- Southern Section waypoints -->
+
+  <!-- Mt Dare -->
+  <circle cx="300" cy="920" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="310" y="915" font-size="12" font-weight="700" fill="#1a1a2e">Mt Dare</text>
+  <text x="310" y="930" font-size="8" fill="#6b7280">0 km · Start · SA/NT border</text>
+  <circle cx="300" cy="920" r="4" fill="#d4a017"/>
+
+  <!-- Old Andado -->
+  <circle cx="285" cy="830" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="270" y="825" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Old Andado</text>
+  <text x="270" y="838" text-anchor="end" font-size="7" fill="#6b7280">Historic homestead</text>
+
+  <!-- Santa Teresa -->
+  <circle cx="260" cy="730" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="245" y="725" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Santa Teresa</text>
+
+  <!-- East MacDonnell Ranges highlight -->
+  <g transform="translate(270,650)">
+    <path d="M-12,0 L-8,-8 L-3,0 L2,-10 L7,0 L12,-6 L16,0" fill="none" stroke="#1a1a2e" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <text x="240" y="650" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">East MacDonnell Ranges</text>
+  <text x="240" y="663" text-anchor="end" font-size="7" fill="#6b7280">Trephina · Arltunga · Ruby Gap</text>
+
+  <!-- Alice Springs -->
+  <circle cx="230" cy="410" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="215" y="405" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Alice Springs</text>
+  <text x="215" y="420" text-anchor="end" font-size="8" fill="#6b7280">~800 km · Full services</text>
+  <circle cx="230" cy="410" r="4" fill="#d4a017"/>
+
+  <!-- Central Section waypoints -->
+
+  <!-- Ti Tree -->
+  <circle cx="240" cy="340" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="250" y="335" font-size="9" font-weight="600" fill="#1a1a2e">Ti Tree</text>
+  <circle cx="240" cy="340" r="3" fill="#d4a017"/>
+
+  <!-- Barrow Creek -->
+  <circle cx="245" cy="310" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="255" y="305" font-size="9" font-weight="600" fill="#1a1a2e">Barrow Creek</text>
+  <circle cx="245" cy="310" r="3" fill="#d4a017"/>
+
+  <!-- Davenport Ranges highlight -->
+  <g transform="translate(260,270)">
+    <path d="M-15,0 L-10,-10 L-4,0 L2,-12 L8,0 L14,-8 L18,0" fill="none" stroke="#1a1a2e" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <text x="260" y="280" font-size="9" font-weight="600" fill="#1a1a2e">Davenport Ranges</text>
+  <text x="260" y="293" font-size="7" fill="#6b7280">Rugged sandstone · Gorges</text>
+
+  <!-- Devils Marbles -->
+  <g transform="translate(170,260)">
+    <circle cx="0" cy="0" r="4" fill="#1a1a2e" opacity="0.5"/>
+    <circle cx="5" cy="-3" r="3" fill="#1a1a2e" opacity="0.5"/>
+    <circle cx="-3" cy="-4" r="3.5" fill="#1a1a2e" opacity="0.5"/>
+    <circle cx="2" cy="2" r="3" fill="#1a1a2e" opacity="0.5"/>
+    <text x="12" y="0" font-size="8" font-weight="600" fill="#1a1a2e">Devils Marbles</text>
+    <text x="12" y="14" font-size="7" fill="#6b7280">Karlu Karlu · Detour</text>
+  </g>
+
+  <!-- Tennant Creek -->
+  <circle cx="250" cy="230" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="260" y="225" font-size="11" font-weight="700" fill="#1a1a2e">Tennant Creek</text>
+  <text x="260" y="240" font-size="8" fill="#6b7280">~1,300 km · Full services</text>
+  <circle cx="250" cy="230" r="4" fill="#d4a017"/>
+
+  <!-- Northern Section waypoints -->
+
+  <!-- Top Springs -->
+  <circle cx="210" cy="150" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="195" y="145" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Top Springs</text>
+  <circle cx="210" cy="150" r="3" fill="#d4a017"/>
+  <text x="195" y="158" text-anchor="end" font-size="7" fill="#b91c1c">Limited · Expensive</text>
+
+  <!-- Gregory National Park -->
+  <g transform="translate(140,80)">
+    <rect x="-50" y="-15" width="100" height="30" rx="3" fill="none" stroke="#1a1a2e" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+    <text x="0" y="-2" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a2e">Gregory NP</text>
+    <text x="0" y="10" text-anchor="middle" font-size="7" fill="#6b7280">12,870 km²</text>
+  </g>
+
+  <!-- Bullita Stock Route -->
+  <text x="130" y="110" font-size="8" fill="#6b7280">Bullita Stock Route →</text>
+
+  <!-- Timber Creek -->
+  <circle cx="160" cy="120" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="145" y="105" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Timber Creek</text>
+  <text x="145" y="120" text-anchor="end" font-size="8" fill="#6b7280">End · ~2,230 km</text>
+  <circle cx="160" cy="120" r="4" fill="#d4a017"/>
+
+  <!-- Distance markers along route -->
+  <text x="290" y="878" text-anchor="end" font-size="8" fill="#6b7280">60 km</text>
+  <text x="275" y="790" text-anchor="end" font-size="8" fill="#6b7280">100 km</text>
+  <text x="270" y="700" text-anchor="end" font-size="8" fill="#6b7280">100 km</text>
+  <text x="245" y="550" text-anchor="end" font-size="8" fill="#6b7280">100 km</text>
+  <text x="335" y="470" text-anchor="start" font-size="8" fill="#6b7280">300 km</text>
+  <text x="245" y="380" text-anchor="end" font-size="8" fill="#6b7280">200 km</text>
+  <text x="250" y="295" text-anchor="end" font-size="8" fill="#6b7280">120 km</text>
+  <text x="230" y="200" text-anchor="end" font-size="8" fill="#6b7280">130 km</text>
+  <text x="195" y="168" text-anchor="end" font-size="8" fill="#6b7280">120 km</text>
+
+  <!-- Hazards callout -->
+  <g transform="translate(340,600)">
+    <rect x="0" y="0" width="240" height="70" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="1"/>
+    <text x="120" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#b91c1c">⚠️ Key Hazards</text>
+    <text x="10" y="33" font-size="8" fill="#6b7280">🟤 Blacksoil — impassable when wet</text>
+    <text x="10" y="45" font-size="8" fill="#6b7280">🏖️ Sand dunes (southern section)</text>
+    <text x="10" y="57" font-size="8" fill="#6b7280">🐊 Crocs in northern rivers (Gregory NP)</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(20,950)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#6b7280">Route</text>
+    <circle cx="75" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="83" y="4" font-size="9" fill="#6b7280">Waypoint</text>
+    <circle cx="155" cy="0" r="3" fill="#d4a017"/>
+    <text x="163" y="4" font-size="9" fill="#6b7280">Fuel</text>
+    <path d="M -12,-5 L -8,-13 L -3,-5 L 2,-15 L 7,-5 L 12,-11 L 16,-5" fill="none" stroke="#1a1a2e" stroke-width="1" opacity="0.5"/>
+    <text x="20" y="2" font-size="9" fill="#6b7280">Ranges / Features</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(30,70)">
+    <polygon points="10,20 20,0 30,20 20,15" fill="#1a1a2e"/>
+    <text x="20" y="33" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Dust advisory in multiple sections -->
+  <g transform="translate(290,800)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <g transform="translate(265,620)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <g transform="translate(235,480)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <g transform="translate(180,190)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+
+  <!-- Corrugation on long stretches -->
+  <g transform="translate(280,740)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(240,540)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(215,350)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+
+  <!-- Steep descent in MacDonnell Ranges section -->
+  <g transform="translate(255,680)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+  <g transform="translate(225,560)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(330, 850)">
+    <rect x="0" y="0" width="260" height="100" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="130" y="15" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Most varied: starts low, rises to MacDonnell, descends, rises again, descends to coast -->
+    <polyline points="0,82 30,75 60,60 90,40 110,35 130,45 150,55 180,50 200,40 220,55 240,68 260,78" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="95" x2="260" y2="95" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="98" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~700m</text>
+    <text x="130" y="88" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Mt Dare → Timber Creek</text>
+  </g>
+</svg>

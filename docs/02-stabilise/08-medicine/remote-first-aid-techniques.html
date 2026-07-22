@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remote First Aid Techniques — Outback Safe</title>
+<meta name="description" content="Advanced first aid for remote Australian areas when professional help is days away. Wound closure without stitches, improvised splints, dental emergencies, eye injuries, fracture management, and childbirth.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../01-immediate/index.html">Survival Basics</a><a href="../../02-stabilise/index.html" class=active>Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#1-wound-closure-without-stitches">1. Wound Closure Without Stitches</a></li>
+<li><a href="#2-improvised-splinting-materials">2. Improvised Splinting Materials</a></li>
+<li><a href="#3-dental-emergencies">3. Dental Emergencies</a></li>
+<li><a href="#4-eye-injuries-in-the-outback">4. Eye Injuries in the Outback</a></li>
+<li><a href="#5-diarrhoea-amp-dehydration-management">5. Diarrhoea &amp; Dehydration Management</a></li>
+<li><a href="#6-fracture-management-without-x-ray">6. Fracture Management Without X-Ray</a></li>
+<li><a href="#7-head-injury-assessment">7. Head Injury Assessment</a></li>
+<li><a href="#8-childbirth-in-remote-outback-areas">8. Childbirth in Remote Outback Areas</a></li>
+<li><a href="#9-chest-injuries">9. Chest Injuries</a></li>
+<li><a href="#10-evacuation-decision-guide">10. Evacuation Decision Guide</a></li>
+<li><a href="#related-pages">Related Pages</a></li>
+</ul></details>
+<h1>Remote First Aid Techniques</h1>
+<p>In the outback, you cannot call an ambulance and expect a 15-minute response. You are the medical team until evacuation arrives. These techniques go beyond standard first aid — they are for the gap between "I can handle this" and "I need to hit my PLB."</p>
+<p>This page assumes you have already read <a href="../../01-immediate/09-outback/outback-first-aid.html">Outback First Aid</a> (snake bite, heat illness, bleeding, basic fractures) and are now dealing with situations that require improvisation, extended care, or decisions about whether to self-evacuate.</p>
+<hr />
+<h2 id="1-wound-closure-without-stitches">1. Wound Closure Without Stitches</h2>
+<p>When you cannot get to hospital within 24 hours, an open wound needs to be closed to prevent infection. Sutures are the ideal, but these alternatives work well.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Best For</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Steri-strips</strong></td>
+<td>Clean, straight cuts on flat areas (forehead, cheek, forearm). Best option.</td>
+<td>Does not work on hairy areas, moving joints, or deep wounds</td>
+</tr>
+<tr>
+<td><strong>Duct tape butterfly closures</strong></td>
+<td>Same applications as steri-strips — cuts off a strip, twists a knot in the middle to create a non-stick centre</td>
+<td>Less sterile than steri-strips. May irritate skin over days</td>
+</tr>
+<tr>
+<td><strong>Superglue (cyanoacrylate)</strong></td>
+<td>Clean, straight, shallow cuts. Hemostatic (stops bleeding).</td>
+<td>NOT for deep, dirty, or jagged wounds. NOT for burns. NOT near eyes. Causes tissue inflammation if used in wound cavity.</td>
+</tr>
+<tr>
+<td><strong>Hair tie method</strong></td>
+<td>Scalp wounds only</td>
+<td>Only works on scalp (tie hair across wound on either side to bring edges together)</td>
+</tr>
+<tr>
+<td><strong>Surgical tape + benzoin</strong></td>
+<td>Holding edges together on low-tension areas</td>
+<td>Medical spirit (Friar's Balsam) needed to help tape stick</td>
+</tr>
+</tbody>
+</table>
+<h3>Wound Closure Procedure</h3>
+<ol>
+<li><strong>Clean the wound thoroughly.</strong> Irrigation with the cleanest water available. Remove all visible debris.</li>
+<li><strong>Dry the skin around the wound.</strong> Wet skin does not hold adhesive.</li>
+<li><strong>Pull wound edges together.</strong> Use your fingers to approximate (bring together) the edges.</li>
+<li><strong>Apply closure.</strong> Steri-strip across the wound, perpendicular to the cut. Space strips 3–5 mm apart.</li>
+<li><strong>Don't trap moisture.</strong> Leave a 1–2 mm gap at one end of the wound for drainage (prevents abscess).</li>
+<li><strong>Cover with a clean, dry dressing.</strong> Change daily.</li>
+</ol>
+<h3>When NOT to Close a Wound</h3>
+<ul>
+<li><strong>Animal bite</strong> — leave open, clean thoroughly, cover loosely. Do not close. High infection risk.</li>
+<li><strong>Deep puncture</strong> — clean from inside out, leave open. Closing traps bacteria.</li>
+<li><strong>Dirty wound with visible debris</strong> — irrigate profusely, leave open, pack loosely with sterile gauze.</li>
+<li><strong>Signs of existing infection</strong> — do not close. The wound needs to drain.</li>
+</ul>
+<hr />
+<h2 id="2-improvised-splinting-materials">2. Improvised Splinting Materials</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Good For</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rolled newspaper or magazine</td>
+<td>Wrist, forearm, ankle</td>
+<td>Cheap, lightweight. Roll tightly around the limb and tape/bandage.</td>
+</tr>
+<tr>
+<td>Sticks + cloth strips</td>
+<td>Any limb</td>
+<td>Most available improvised splint. Pad with clothing.</td>
+</tr>
+<tr>
+<td>Sleeping mat (closed-cell foam)</td>
+<td>Leg, arm</td>
+<td>Cut to size. Lightweight, soft, can be washed and reused.</td>
+</tr>
+<tr>
+<td>SAM splint (purpose-made)</td>
+<td>Fingers, wrists, ankles, knees</td>
+<td>Carry at least one. Reusable, lightweight, radiolucent (X-ray goes through it).</td>
+</tr>
+<tr>
+<td>Shovel handle, axe handle</td>
+<td>Leg (femur)</td>
+<td>Heavy but strong. Requires padding.</td>
+</tr>
+<tr>
+<td>Tent pole, tripod leg</td>
+<td>Forearm, ankle</td>
+<td>Lightweight aluminium. Padding needed at pressure points.</td>
+</tr>
+<tr>
+<td>Cardboard box (broken down)</td>
+<td>Forearm, wrist</td>
+<td>Cut to shape, pad with cloth. Works well.</td>
+</tr>
+<tr>
+<td>Sleeping bag or coat</td>
+<td>Leg (emergency)</td>
+<td>Wrap around the limb. Less rigid but provides some immobilisation.</td>
+</tr>
+<tr>
+<td>Vehicle tow strap or tree trunk protector + sticks</td>
+<td>Femur traction splint (improvised)</td>
+<td>Requires careful application. Only if no other option.</td>
+</tr>
+</tbody>
+</table>
+<h3>Splinting Principles</h3>
+<ol>
+<li><strong>Immobilise the joint above AND the joint below the fracture.</strong> A forearm fracture needs the wrist AND elbow immobilised.</li>
+<li><strong>Pad the splint</strong> where it contacts the body — bone prominences, joint surfaces, pressure points.</li>
+<li><strong>Check circulation</strong> before and after applying — fingers/toes should be pink and warm, with normal sensation and movement.</li>
+<li><strong>Secure firmly</strong> but not so tight that circulation is compromised. You should be able to slip one finger under the binding.</li>
+<li><strong>Re-check circulation</strong> 10 minutes after application, then every 30 minutes.</li>
+</ol>
+<h3>Spine Board — Improvised</h3>
+<p>If a patient needs full spinal immobilisation:</p>
+<ul>
+<li>Vehicle bonnet (lift carefully — sharp edges)</li>
+<li>Door panel</li>
+<li>Table top</li>
+<li>Multiple poles or straight branches lashed together (3+ poles minimum, 2 m length)</li>
+<li>Thick sleeping mat (closed-cell foam) — less rigid but provides some support</li>
+<li><strong>DO NOT use soft stretchers (blanket, tarp)</strong> for suspected spinal injury — flexing of the spine can cause paralysis</li>
+</ul>
+<hr />
+<h2 id="3-dental-emergencies">3. Dental Emergencies</h2>
+<p>Dental problems in the outback can become serious quickly — a tooth abscess can spread to the jaw or become systemic.</p>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Treatment</th>
+<th>Materials to Carry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lost filling</strong></td>
+<td>Clean the cavity with a toothpick or clean water. Fill with temporary filling material (Dentemp) or sugar-free gum or candle wax.</td>
+<td>Dentemp temporary filling (small tube), sugar-free gum</td>
+</tr>
+<tr>
+<td><strong>Toothache</strong></td>
+<td>Clove oil on a cotton pellet — apply to the affected tooth. Salt water rinse (1 tsp salt in warm water). Cold compress on the cheek. Ibuprofen for pain.</td>
+<td>Clove oil (small bottle), ibuprofen</td>
+</tr>
+<tr>
+<td><strong>Knocked-out tooth</strong></td>
+<td>Hold by the crown (not the root). Gently rinse with water (do NOT scrub). Reinsert into socket if possible — push firmly. If cannot reinsert, put in milk or in the victim's mouth (between cheek and gum). Get to dentist within 2 hours. Time is critical.</td>
+<td>Milk (for transport), small container</td>
+</tr>
+<tr>
+<td><strong>Broken tooth</strong></td>
+<td>Rinse mouth with warm water. Apply cold compress to reduce swelling. Cover sharp edges with dental wax or sugar-free gum.</td>
+<td>Dental wax, pain relief</td>
+</tr>
+<tr>
+<td><strong>Broken denture</strong></td>
+<td>Superglue for temporary repair (careful not to swallow pieces). Carry a denture repair kit for longer trips.</td>
+<td>Superglue, denture repair kit</td>
+</tr>
+<tr>
+<td><strong>Tooth abscess</strong></td>
+<td>Salt water rinses. Do NOT apply heat (spreads infection). Ibuprofen. If swelling extends to eye or neck, or you have difficulty swallowing or breathing: <strong>URGENT evacuation — this is a PLB moment.</strong></td>
+<td>Antibiotics (if you carry them — requires prescription)</td>
+</tr>
+</tbody>
+</table>
+<h3>When Dental Pain Becomes a Medical Emergency</h3>
+<p><strong>Activate PLB if:</strong>
+- Swelling spreads to the eye, jaw, or neck
+- Difficulty swallowing or breathing
+- Fever above 38°C
+- You cannot open your mouth</p>
+<p>These are signs of Ludwig's angina or deep neck space infection — can kill through airway obstruction or sepsis.</p>
+<hr />
+<h2 id="4-eye-injuries-in-the-outback">4. Eye Injuries in the Outback</h2>
+<p>The outback is full of dust, spinifex seeds, UV-reflective surfaces, and flying insects. Eye injuries are common.</p>
+<h3>Foreign Body (Dust, Spinifex, Sand)</h3>
+<ul>
+<li><strong>DO NOT rub</strong> — scratching the cornea makes it worse</li>
+<li><strong>Flush with clean water</strong> — use a saline ampoule from your first aid kit, or pour clean water gently into the inner corner of the eye, letting it flow across</li>
+<li><strong>Eyelid sweep</strong> — grasp the upper lashes, gently pull the upper eyelid down and out over the lower lashes. The lower lashes act as a brush</li>
+<li>If the object does not remove and the eye remains painful, loosely patch the eye closed and evacuate</li>
+</ul>
+<h3>Embedded Object (Penetrating Eye Injury)</h3>
+<ul>
+<li><strong>DO NOT remove the object</strong> — it may be plugging a puncture of the globe</li>
+<li><strong>DO NOT apply pressure</strong> to the eye</li>
+<li><strong>Cover BOTH eyes</strong> — eyes move together. Covering only the injured eye causes it to move when the good eye moves, worsening the injury</li>
+<li>Use a paper cup or cone over the embedded object, taped in place</li>
+<li><strong>URGENT evacuation</strong> — surgical repair needed</li>
+</ul>
+<h3>Chemical Splash</h3>
+<ul>
+<li><strong>Flush with clean water for 20+ minutes</strong> — hold the eyelids open. This is the single most important treatment</li>
+<li><strong>Irrigate continuously</strong> — keep pouring water. Lying the victim down and pouring into the inner corner is most effective</li>
+<li><strong>Urgent evacuation</strong> — chemical burns to the eye can cause permanent damage within minutes</li>
+</ul>
+<h3>UV Keratitis (Outback Snow Blindness)</h3>
+<ul>
+<li><strong>Cause:</strong> Intense reflected sunlight from sand, water, pale ground. Similar to snow blindness.</li>
+<li><strong>Onset:</strong> 6–12 hours after exposure</li>
+<li><strong>Symptoms:</strong> Both eyes painful, gritty feeling (feels like sand in them), photophobia (light sensitivity), excessive tearing, blurred vision</li>
+<li><strong>Treatment:</strong> Rest with eyes closed in a dark space. Cold compresses over closed eyes. Pain relief (paracetamol or ibuprofen). Do not read or use screens.</li>
+<li><strong>Recovery:</strong> 24–48 hours with no further UV exposure</li>
+<li><strong>Prevention:</strong> Polarised sunglasses are essential. If lost, cut narrow horizontal slits in fabric and tie around the head</li>
+</ul>
+<hr />
+<h2 id="5-diarrhoea-amp-dehydration-management">5. Diarrhoea &amp; Dehydration Management</h2>
+<p>In the outback, diarrhoea is not just uncomfortable — it is dangerous. Diarrhoea + high temperatures = rapid dehydration. A person with severe diarrhoea can lose 3–5 litres of fluid daily.</p>
+<h3>Oral Rehydration Solution (ORS)</h3>
+<p>Store-bought ORS sachets (Hydralyte, Gastrolyte) are best. If unavailable:</p>
+<ul>
+<li><strong>1 litre clean water</strong></li>
+<li><strong>6 teaspoons sugar</strong></li>
+<li><strong>0.5 teaspoons salt</strong></li>
+<li>Stir until dissolved. Sip slowly — do not gulp. Drink at least 200 mL after each loose stool.</li>
+</ul>
+<h3>Loperamide (Imodium)</h3>
+<ul>
+<li><strong>2 tablets initially,</strong> then 1 tablet after each loose stool</li>
+<li><strong>Maximum 8 tablets per day</strong></li>
+<li>Do NOT use loperamide if diarrhoea is bloody or accompanied by high fever — this may be dysentery (bacterial infection) and needs antibiotics, not motility suppression</li>
+</ul>
+<h3>When to Evacuate for Diarrhoea</h3>
+<ul>
+<li><strong>Blood in stool</strong> for more than 24 hours</li>
+<li><strong>Unable to keep fluids down</strong> for 12 hours (vomiting + diarrhoea)</li>
+<li><strong>Signs of severe dehydration</strong>:</li>
+<li>No urine for 8+ hours</li>
+<li>Sunken eyes</li>
+<li>Skin pinch test: skin on the back of the hand stays tented (does not spring back)</li>
+<li>Rapid, weak pulse</li>
+<li>Confusion</li>
+<li>Dark brown or cola-coloured urine (kidney stress)</li>
+</ul>
+<hr />
+<h2 id="6-fracture-management-without-x-ray">6. Fracture Management Without X-Ray</h2>
+<p>You cannot get an X-ray in the outback. These clinical signs help you assess what you are dealing with.</p>
+<h3>Signs of Fracture</h3>
+<table>
+<thead>
+<tr>
+<th>Sign</th>
+<th>What to Look For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pain</strong></td>
+<td>Localised, sharp pain at the fracture site. Pain increases with movement or weight-bearing.</td>
+</tr>
+<tr>
+<td><strong>Swelling</strong></td>
+<td>Rapid swelling around the injury site</td>
+</tr>
+<tr>
+<td><strong>Deformity</strong></td>
+<td>The limb looks wrong — bent where it should not be, shorter than the other side, rotated</td>
+</tr>
+<tr>
+<td><strong>Inability to use</strong></td>
+<td>Cannot bear weight on a leg, cannot grip with a hand, cannot lift the arm</td>
+</tr>
+<tr>
+<td><strong>Crepitus</strong></td>
+<td>Grating sensation when the ends of the bone move against each other (do NOT deliberately feel for this — causes pain and damage)</td>
+</tr>
+</tbody>
+</table>
+<h3>Open Fracture (Bone Through Skin)</h3>
+<ul>
+<li><strong>This is a surgical emergency.</strong> Infection risk is very high (bone exposed to outback dust).</li>
+<li>Cover the exposed bone with a sterile dressing soaked in saline.</li>
+<li>Do NOT push the bone back in.</li>
+<li>Immobilise the limb with a splint.</li>
+<li><strong>URGENT evacuation — this is a PLB moment.</strong></li>
+</ul>
+<h3>Femur Fracture</h3>
+<ul>
+<li><strong>This is life-threatening.</strong> The femur is the largest bone in the body. A fractured femur can cause 1–2 litres of internal bleeding. Combined with outback conditions, this can be fatal within hours.</li>
+<li><strong>THIS IS A PLB MOMENT.</strong> Do not attempt self-evacuation.</li>
+<li>Apply traction splint if available (requires training). Improvise if not: 2 sticks/poles, 2 long bandages/cloth strips, steady firm traction on the limb while splinting.</li>
+<li>Check circulation below the fracture (pulse in foot, skin colour, sensation) before and after splinting.</li>
+</ul>
+<h3>Pelvis Fracture</h3>
+<ul>
+<li><strong>DO NOT move the patient.</strong> Pelvis fractures can cause massive internal bleeding (1–3 litres into the retroperitoneal space).</li>
+<li><strong>DO NOT roll the patient.</strong> Rolling can disrupt the pelvic ring and cause fatal haemorrhage.</li>
+<li>Stabilise the pelvis: wrap a sheet or blanket around the pelvis at the level of the hips, tie firmly. Or use a purpose-made pelvic binder.</li>
+<li><strong>PLB IMMEDIATELY.</strong> Do not self-evacuate.</li>
+</ul>
+<hr />
+<h2 id="7-head-injury-assessment">7. Head Injury Assessment</h2>
+<p>Head injuries in the outback — from rock falls, vehicle accidents, falls from vehicles, or stock-related accidents — require careful assessment.</p>
+<h3>Glasgow Coma Scale (Simplified)</h3>
+<table>
+<thead>
+<tr>
+<th>Response</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Eye opening:</strong> Spontaneous</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Eye opening: To voice</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Eye opening: To pain</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Eye opening: None</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Verbal:</strong> Oriented (knows name, place, time)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Verbal: Confused conversation</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Verbal: Inappropriate words</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Verbal: Incomprehensible sounds</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Verbal: None</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Motor:</strong> Obeys commands</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Motor: Localises pain</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Motor: Withdraws from pain</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Motor: Flexes to pain</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Motor: Extends to pain</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Motor: None</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total score:</strong> 15 = normal. &lt; 9 = severe (intubate/ventilate if possible). 3 = worst possible.</p>
+<h3>Red Flags — URGENT Evacuation</h3>
+<ul>
+<li>Any loss of consciousness, even brief</li>
+<li>Confusion about name, location, time, or what happened</li>
+<li>Vomiting (especially more than once)</li>
+<li>Worsening headache</li>
+<li>Unequal pupil size</li>
+<li>Seizure</li>
+<li>Clear fluid or blood leaking from nose or ears (basal skull fracture)</li>
+<li>GCS 14 or lower</li>
+<li>Weakness or numbness on one side of the body</li>
+<li>Slurred speech</li>
+</ul>
+<h3>Management</h3>
+<ul>
+<li><strong>If unconscious:</strong> Airway management (jaw thrust — do not tilt neck if spinal injury suspected). Cervical spine immobilisation. PLB.</li>
+<li><strong>If conscious and alert with no red flags:</strong> Observe for 24 hours. Wake every 2 hours overnight to check responsiveness. No alcohol, no strenuous activity.</li>
+<li><strong>DO NOT give strong pain relief</strong> (opioids, morphine) — these mask neurological changes.</li>
+</ul>
+<hr />
+<h2 id="8-childbirth-in-remote-outback-areas">8. Childbirth in Remote Outback Areas</h2>
+<p>Childbirth in the outback is rare in survival scenarios but can happen — especially if you are on an extended trip near term, or in a grid-down situation. Most births are straightforward, and the mother's body knows what to do.</p>
+<h3>Preparation</h3>
+<ul>
+<li>Find the cleanest available space — lay down a clean tarp, groundsheet, or towels</li>
+<li>Have clean water, clean cloths/towels, and a clean blanket or sleeping bag ready</li>
+<li>Have a clean shoelace or piece of string and scissors (sterilise by boiling or flame)</li>
+<li>Stay calm. The mother will follow her instincts. Your job is to support, not direct.</li>
+</ul>
+<h3>The Birth</h3>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>What to Expect</th>
+<th>What to Do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>First stage (labour)</strong></td>
+<td>Contractions build. Cervix dilates to 10 cm. This takes hours (6–12 hours for first birth, 2–6 hours for subsequent).</td>
+<td>Keep mother comfortable. Hydration. Support position (upright is best). Do not let her push until fully dilated (she will feel a strong urge).</td>
+</tr>
+<tr>
+<td><strong>Second stage (pushing)</strong></td>
+<td>Intense urge to push. Baby descends through birth canal. Usually 30 minutes–2 hours.</td>
+<td>Support the mother. Do NOT pull the baby.</td>
+</tr>
+<tr>
+<td><strong>Third stage (placenta)</strong></td>
+<td>Placenta delivers 10–30 minutes after baby</td>
+<td>Do NOT pull the cord. Let it come naturally. Keep placenta for examination at hospital.</td>
+</tr>
+</tbody>
+</table>
+<h3>When Baby's Head Appears</h3>
+<ul>
+<li>Support the head gently — do NOT pull</li>
+<li>Check that the umbilical cord is not wrapped around the baby's neck</li>
+<li>If it is, try to gently slip it over the baby's head</li>
+<li>If too tight to slip over, clamp the cord in two places and cut between them</li>
+<li>The baby will rotate as the shoulders deliver — this is normal</li>
+<li>After the head, the shoulders deliver next — first one, then the other. If they are stuck, gently push the mother's knees toward her chest and apply gentle downward pressure on the baby's head to help the anterior shoulder deliver</li>
+</ul>
+<h3>After Birth — Baby</h3>
+<ul>
+<li>Baby should cry within 30 seconds of birth — this is the first breath</li>
+<li>If not crying: rub the baby's back firmly, clear the mouth and nose with your finger</li>
+<li>If still not breathing: start newborn resuscitation (gentle breaths — puff, not full breaths. 2 puffs, then 30 breaths per minute)</li>
+<li><strong>Keep the baby warm</strong> — skin-to-skin contact with the mother's chest, covered with a blanket or warm cloth</li>
+<li>Do NOT bathe the baby immediately — the white coating (vernix) protects the skin</li>
+<li><strong>DO NOT cut the cord immediately</strong> — wait until the cord stops pulsing (2–3 minutes after birth)</li>
+<li>Clamp/tie the cord with a clean shoelace or string about 5 cm from the baby's belly, and a second tie 5 cm further away. Cut between the two ties with sterile scissors.</li>
+</ul>
+<h3>After Birth — Mother</h3>
+<ul>
+<li>The placenta should deliver within 30 minutes of the baby. If it takes longer, do not pull the cord — wait. Evacuate after 1 hour if it has not delivered.</li>
+<li><strong>Bleeding is normal</strong> up to about 500 mL (one cup). More than this is a post-partum haemorrhage.</li>
+<li><strong>Fundal massage</strong> — after the placenta delivers, firmly massage the mother's lower abdomen (just below the belly button). This helps the uterus contract and reduces bleeding.</li>
+<li>Continue fundal massage every 10–15 minutes for the first hour.</li>
+<li>If heavy bleeding continues despite fundal massage: <strong>PLB IMMEDIATELY.</strong></li>
+</ul>
+<h3>Signs of Complications (PLB Moment)</h3>
+<ul>
+<li>Bleeding more than 500 mL before the placenta delivers</li>
+<li>Prolonged labour (first stage &gt; 24 hours for first baby, &gt; 12 hours for subsequent)</li>
+<li>Umbilical cord visible at the vaginal opening before the baby (cord prolapse) — this is an emergency. Get mother on hands and knees to relieve pressure on the cord. Do NOT push.</li>
+<li>Baby's arm or foot appears first (not the head — breech or transverse lie)</li>
+<li>Placenta has not delivered after 1 hour</li>
+<li>Mother has severe tearing or heavy bleeding after delivery</li>
+<li>Baby does not breathe despite resuscitation attempts</li>
+</ul>
+<h3>Birth Kit for Outback Travel</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clean disposable gloves</td>
+<td>Infection control</td>
+</tr>
+<tr>
+<td>Clean shoelace or string</td>
+<td>Umbilical cord ties (2)</td>
+</tr>
+<tr>
+<td>Scissors (sterilised)</td>
+<td>Cord cutting</td>
+</tr>
+<tr>
+<td>Clean towels or cloths (4–6)</td>
+<td>Drying baby, managing fluids</td>
+</tr>
+<tr>
+<td>Clean blanket or sleeping bag</td>
+<td>Keeping baby warm</td>
+</tr>
+<tr>
+<td>Sanitary pads (heavy flow)</td>
+<td>Mother's post-birth pads</td>
+</tr>
+<tr>
+<td>Chlorhexidine or Betadine</td>
+<td>Umbilical stump antisepsis</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-chest-injuries">9. Chest Injuries</h2>
+<p>Chest injuries from vehicle accidents, falls, or stock-related incidents require specific management.</p>
+<table>
+<thead>
+<tr>
+<th>Injury</th>
+<th>Signs</th>
+<th>Management</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rib fracture</strong></td>
+<td>Localised pain, pain on breathing, tenderness at the fracture site</td>
+<td>Pain relief, monitor breathing. Strap the arm on the injured side to the body to reduce movement.</td>
+</tr>
+<tr>
+<td><strong>Flail chest</strong> (multiple ribs broken in two or more places)</td>
+<td>A segment of the chest wall moves opposite to the rest of the chest (in on inspiration, out on expiration)</td>
+<td>Turn the patient onto the injured side (this splints the flail segment). High-flow oxygen if available. URGENT evacuation.</td>
+</tr>
+<tr>
+<td><strong>Open pneumothorax (sucking chest wound)</strong></td>
+<td>Hissing sound from the wound on breathing, air bubbles in blood</td>
+<td>Cover the wound with a non-permeable dressing (plastic bag, cling wrap, foil) — tape on THREE sides only, leaving one corner untaped to allow air to escape (prevents tension pneumothorax). URGENT evacuation.</td>
+</tr>
+<tr>
+<td><strong>Tension pneumothorax</strong></td>
+<td>Worsening breathing, blue skin (cyanosis), distended neck veins, trachea deviates to one side (very late sign)</td>
+<td>This is a life-threatening emergency. Needle decompression: large bore needle (14G) into the 2nd intercostal space, mid-clavicular line on the affected side. This is a last-resort, do-or-die procedure. PLB.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="10-evacuation-decision-guide">10. Evacuation Decision Guide</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Self-Evacuate</th>
+<th>PLB Now</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Head injury</strong></td>
+<td>Alert, no vomiting, normal behaviour</td>
+<td>Any loss of consciousness, vomiting, confusion, unequal pupils</td>
+</tr>
+<tr>
+<td><strong>Fracture</strong></td>
+<td>Simple forearm or lower leg, good circulation</td>
+<td>Femur, pelvis, open fracture, spinal injury</td>
+</tr>
+<tr>
+<td><strong>Bleeding</strong></td>
+<td>Controlled by direct pressure, not arterial</td>
+<td>Not controlled after 10 min pressure, arterial bleeding</td>
+</tr>
+<tr>
+<td><strong>Burns</strong></td>
+<td>&lt; 10% body area (one arm or one leg), no respiratory signs</td>
+<td>&gt; 10% body area, respiratory signs, burns to face/airway</td>
+</tr>
+<tr>
+<td><strong>Chest injury</strong></td>
+<td>Single rib, breathing comfortable</td>
+<td>Flail chest, open pneumothorax, tension pneumothorax</td>
+</tr>
+<tr>
+<td><strong>Infection</strong></td>
+<td>Localised, no fever, not worsening</td>
+<td>Fever &gt; 38°C, red streaks, rapidly worsening, confusion</td>
+</tr>
+<tr>
+<td><strong>Medical</strong></td>
+<td>Moderate pain, manageable symptoms</td>
+<td>Chest pain, difficulty breathing, severe allergic reaction</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="../../01-immediate/09-outback/outback-first-aid.html">Outback First Aid</a> — Snake bite, heat illness, bleeding, basic fracture management</li>
+<li><a href="../../01-immediate/09-outback/heat-survival.html">Extreme Heat Survival</a> — Heat illness progression, hydration strategy</li>
+<li><a href="../../01-immediate/09-outback/emergency-services.html">Emergency Services</a> — PLB/EPIRB activation, RFDS contact, UHF channels</li>
+<li><a href="snake-bite.html">Snake Bite</a> — Definitive Australian snake bite reference</li>
+<li><a href="outback-bush-medicine.html">Outback Bush Medicine</a> — Medicinal plants for wound care</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>

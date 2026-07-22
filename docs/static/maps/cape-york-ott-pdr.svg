@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 950" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Cape York Peninsula — OTT &amp; PDR Overview</title>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Cape York Peninsula — Routes to The Tip</text>
+  <text x="300" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~660 km · Cairns to The Tip · Dry Season Only</text>
+
+  <!-- Background hint of Cape York shape -->
+  <path d="M 160,100 Q 130,300 140,500 Q 150,700 200,850 Q 250,920 300,940 Q 350,920 400,850 Q 450,700 460,500 Q 470,300 440,100 Z" fill="#1a1a2e" opacity="0.02" stroke="none"/>
+
+  <!-- OTT route (eastern, more challenging) -->
+  <polyline points="320,130 320,250 310,350 310,450 300,500 290,550 280,650 270,750 280,820 290,880 300,920" stroke="#1a1a2e" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+
+  <!-- PDR route (western, graded) -->
+  <polyline points="240,130 240,250 245,350 250,450 250,520 245,600 240,700 245,780 260,850 280,900 300,920" stroke="#1a1a2e" stroke-width="2.5" fill="none" stroke-dasharray="10,4" stroke-linejoin="round" opacity="0.7"/>
+
+  <!-- Route labels -->
+  <text x="325" y="300" font-size="10" fill="#1a1a2e" font-weight="600">OTT</text>
+  <text x="215" y="350" font-size="10" fill="#6b7280" font-weight="600">PDR</text>
+
+  <!-- Creek crossings on OTT (with croc icons) -->
+  <g>
+    <!-- Palm Creek -->
+    <circle cx="315" cy="350" r="4" fill="#3a7bbf"/>
+    <text x="300" y="345" text-anchor="end" font-size="8" fill="#6b7280">Palm Ck</text>
+    <text x="298" y="357" text-anchor="end" font-size="10" fill="#b22222">🐊</text>
+
+    <!-- Ducie -->
+    <circle cx="310" cy="400" r="4" fill="#3a7bbf"/>
+    <text x="295" y="395" text-anchor="end" font-size="8" fill="#6b7280">Ducie Ck</text>
+
+    <!-- Dalhunty -->
+    <circle cx="305" cy="450" r="4" fill="#3a7bbf"/>
+    <text x="290" y="445" text-anchor="end" font-size="8" fill="#6b7280">Dalhunty R</text>
+    <text x="288" y="457" text-anchor="end" font-size="10" fill="#b22222">🐊</text>
+
+    <!-- South Alice -->
+    <circle cx="300" cy="500" r="4" fill="#3a7bbf"/>
+    <text x="285" y="495" text-anchor="end" font-size="8" fill="#6b7280">S Alice Ck</text>
+
+    <!-- North Alice -->
+    <circle cx="298" cy="530" r="4" fill="#3a7bbf"/>
+    <text x="283" y="525" text-anchor="end" font-size="8" fill="#6b7280">N Alice Ck</text>
+
+    <!-- Nolan's Brook -->
+    <circle cx="295" cy="565" r="5" fill="#b91c1c" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="258" y="558" text-anchor="end" font-size="8" font-weight="600" fill="#b91c1c">Nolan's Brook</text>
+    <text x="256" y="570" text-anchor="end" font-size="10" fill="#b22222">🐊</text>
+    <text x="258" y="580" text-anchor="end" font-size="7" fill="#b91c1c">Deepest · 2.5m</text>
+
+    <!-- Gunshot -->
+    <circle cx="290" cy="600" r="4" fill="#3a7bbf"/>
+    <text x="275" y="595" text-anchor="end" font-size="8" fill="#6b7280">Gunshot Ck</text>
+    <text x="273" y="607" text-anchor="end" font-size="10" fill="#b22222">🐊</text>
+
+    <!-- Cockatoo -->
+    <circle cx="282" cy="650" r="4" fill="#3a7bbf"/>
+    <text x="267" y="645" text-anchor="end" font-size="8" fill="#6b7280">Cockatoo Ck</text>
+
+    <!-- Sailor -->
+    <circle cx="278" cy="700" r="4" fill="#3a7bbf"/>
+    <text x="263" y="695" text-anchor="end" font-size="8" fill="#6b7280">Sailor Ck</text>
+  </g>
+
+  <!-- Jardine River Ferry -->
+  <g transform="translate(270,780)">
+    <rect x="-25" y="-8" width="50" height="16" rx="3" fill="#c9a96e" opacity="0.8"/>
+    <text x="0" y="3" text-anchor="middle" font-size="8" font-weight="600" fill="#1a1a2e">FERRY</text>
+  </g>
+  <text x="260" y="810" text-anchor="end" font-size="8" fill="#6b7280">~$120 return</text>
+
+  <!-- Waypoints -->
+  <!-- Cairns (start) -->
+  <circle cx="280" cy="130" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="250" y="115" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Cairns</text>
+  <text x="250" y="128" text-anchor="end" font-size="8" fill="#6b7280">0 km · Start</text>
+
+  <!-- Mareeba -->
+  <circle cx="270" cy="200" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="255" y="195" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Mareeba</text>
+
+  <!-- Laura -->
+  <circle cx="260" cy="300" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="245" y="295" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Laura</text>
+
+  <!-- Musgrave -->
+  <circle cx="250" cy="420" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="235" y="415" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Musgrave</text>
+  <circle cx="250" cy="420" r="3" fill="#d4a017"/>
+
+  <!-- Coen -->
+  <circle cx="300" cy="480" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="310" y="475" font-size="9" font-weight="600" fill="#1a1a2e">Coen</text>
+  <circle cx="300" cy="480" r="3" fill="#d4a017"/>
+
+  <!-- Archer River -->
+  <circle cx="305" cy="530" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="315" y="525" font-size="9" font-weight="600" fill="#1a1a2e">Archer River</text>
+  <circle cx="305" cy="530" r="3" fill="#d4a017"/>
+
+  <!-- Bramwell Junction -->
+  <circle cx="285" cy="620" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="270" y="615" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Bramwell Jnc</text>
+  <circle cx="285" cy="620" r="3" fill="#d4a017"/>
+  <text x="270" y="630" text-anchor="end" font-size="7" fill="#b91c1c">OTT start</text>
+
+  <!-- Jardine -->
+  <circle cx="280" cy="790" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="265" y="785" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Jardine</text>
+  <circle cx="280" cy="790" r="3" fill="#d4a017"/>
+
+  <!-- Bamaga -->
+  <circle cx="295" cy="870" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="305" y="865" font-size="9" font-weight="600" fill="#1a1a2e">Bamaga</text>
+  <circle cx="295" cy="870" r="3" fill="#d4a017"/>
+
+  <!-- The Tip -->
+  <circle cx="300" cy="920" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="310" y="937" font-size="12" font-weight="700" fill="#1a1a2e">The Tip (Pajinka)</text>
+
+  <!-- Distances -->
+  <text x="300" y="165" text-anchor="middle" font-size="8" fill="#6b7280">65 km</text>
+  <text x="300" y="230" text-anchor="middle" font-size="8" fill="#6b7280">100 km</text>
+  <text x="290" y="340" text-anchor="middle" font-size="8" fill="#6b7280">90 km</text>
+  <text x="290" y="385" text-anchor="middle" font-size="8" fill="#6b7280">80 km</text>
+  <text x="300" y="465" text-anchor="middle" font-size="8" fill="#6b7280">50 km</text>
+  <text x="310" y="515" text-anchor="middle" font-size="8" fill="#6b7280">100 km</text>
+  <text x="310" y="585" text-anchor="middle" font-size="8" fill="#6b7280">90 km</text>
+  <text x="310" y="680" text-anchor="middle" font-size="8" fill="#6b7280">90 km</text>
+  <text x="290" y="740" text-anchor="middle" font-size="8" fill="#6b7280">60 km</text>
+  <text x="310" y="845" text-anchor="middle" font-size="8" fill="#6b7280">30 km</text>
+
+  <!-- Crocodile Warning -->
+  <g transform="translate(430,150)">
+    <rect x="0" y="0" width="150" height="55" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="1"/>
+    <text x="75" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">⚠️ Crocodile Warning</text>
+    <text x="10" y="33" font-size="8" fill="#6b7280">🐊 Salties in ALL waterways</text>
+    <text x="10" y="47" font-size="8" fill="#6b7280">🐊 north of Daintree River</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(20,920)">
+    <line x1="0" y1="0" x2="25" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="30" y="4" font-size="9" fill="#6b7280">OTT (4WD)</text>
+    <line x1="75" y1="0" x2="110" y2="0" stroke="#1a1a2e" stroke-width="2" stroke-dasharray="10,4" opacity="0.7"/>
+    <text x="115" y="4" font-size="9" fill="#6b7280">PDR (graded)</text>
+    <circle cx="155" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="163" y="4" font-size="9" fill="#6b7280">Waypoint</text>
+    <circle cx="225" cy="0" r="3" fill="#d4a017"/>
+    <text x="233" y="4" font-size="9" fill="#6b7280">Fuel</text>
+    <circle cx="280" cy="0" r="3" fill="#3a7bbf"/>
+    <text x="288" y="4" font-size="9" fill="#6b7280">Water/Ck Crossing</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(30,70)">
+    <polygon points="10,20 20,0 30,20 20,15" fill="#1a1a2e"/>
+    <text x="20" y="33" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Croc icons on OTT route at key crossings -->
+  <g transform="translate(312,348)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+  <g transform="translate(302,448)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+  <g transform="translate(294,563)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+  <g transform="translate(270,778)" fill="#d4a017">
+    <path d="M0,8 L12,8 L10,6 L6,3 L2,6 Z"/>
+    <circle cx="3" cy="8" r="1" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Steep descent at Gunshot Creek -->
+  <g transform="translate(287,598)" fill="#d4a017">
+    <polygon points="7,0 0,12 14,12"/>
+  </g>
+  <text x="275" y="615" text-anchor="end" font-size="7" fill="#d4a017" font-weight="600">steep descent</text>
+
+  <!-- Dust advisory on PDR sections -->
+  <g transform="translate(245,420)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <g transform="translate(245,650)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+  <text x="425" y="215" font-size="8" fill="#d4a017" font-weight="600">💨 Dust / corrugations on PDR</text>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(330, 850)">
+    <rect x="0" y="0" width="260" height="90" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="130" y="14" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Gradual rise then descent -->
+    <polyline points="0,80 30,75 60,60 90,45 120,35 150,40 180,50 210,65 240,72 260,78" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="85" x2="260" y2="85" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="88" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~500m</text>
+    <text x="130" y="78" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Cairns → The Tip</text>
+  </g>
+</svg>

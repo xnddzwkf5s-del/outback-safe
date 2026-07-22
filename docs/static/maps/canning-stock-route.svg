@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 980" style="background:#f8f6f1;font-family:Inter,system-ui,sans-serif">
+  <title>Canning Stock Route — Overview</title>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Canning Stock Route</text>
+  <text x="300" y="52" text-anchor="middle" font-size="11" fill="#6b7280">~1,850 km · Halls Creek to Wiluna · WA Desert Crossing</text>
+
+  <!-- Great Sandy Desert label -->
+  <text x="480" y="300" font-size="10" fill="#1a1a2e" opacity="0.12" font-weight="700" transform="rotate(-90,480,300)">GREAT SANDY DESERT</text>
+  <text x="520" y="650" font-size="10" fill="#1a1a2e" opacity="0.12" font-weight="700" transform="rotate(-90,520,650)">GIBSON DESERT</text>
+
+  <!-- Background decorative dunes -->
+  <g opacity="0.04">
+    <path d="M 0,200 Q 150,160 300,200 Q 450,160 600,200" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 0,350 Q 150,310 300,350 Q 450,310 600,350" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 0,500 Q 150,460 300,500 Q 450,460 600,500" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 0,650 Q 150,610 300,650 Q 450,610 600,650" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M 0,800 Q 150,760 300,800 Q 450,760 600,800" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+  </g>
+
+  <!-- Route line (north to south) -->
+  <polyline points="300,80 300,130 290,220 280,310 270,400 260,480 250,540 240,600 230,680 220,760 210,840 200,910" stroke="#1a1a2e" stroke-width="4" fill="none" stroke-linejoin="round"/>
+
+  <!-- Waypoints (north to south) -->
+  <!-- Halls Creek -->
+  <circle cx="300" cy="80" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="310" y="75" font-size="12" font-weight="700" fill="#1a1a2e">Halls Creek</text>
+  <text x="310" y="90" font-size="8" fill="#6b7280">Start · Full services</text>
+  <circle cx="300" cy="80" r="4" fill="#d4a017"/>
+
+  <!-- Well 51 -->
+  <circle cx="295" cy="130" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="280" y="125" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Well 51</text>
+  <text x="280" y="138" text-anchor="end" font-size="7" fill="#6b7280">10 km</text>
+
+  <!-- Well 46 -->
+  <circle cx="290" cy="220" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="275" y="215" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Well 46 (Mindibungu)</text>
+  <text x="340" y="228" text-anchor="end" font-size="7" fill="#6b7280">Water available</text>
+
+  <!-- Distances between wells -->
+  <text x="290" y="175" text-anchor="end" font-size="8" fill="#6b7280">320 km</text>
+  <text x="290" y="195" text-anchor="end" font-size="8" fill="#6b7280">┄┄┄┄┄┄┄⦁</text>
+
+  <!-- Well 37 -->
+  <circle cx="275" cy="340" r="4" fill="#1a1a2e" opacity="0.4"/>
+  <text x="260" y="335" text-anchor="end" font-size="8" fill="#6b7280">Well 37</text>
+
+  <text x="285" y="290" text-anchor="end" font-size="8" fill="#6b7280">270 km</text>
+
+  <!-- Well 33 / Kunawarritji -->
+  <circle cx="260" cy="480" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="245" y="470" text-anchor="end" font-size="10" font-weight="600" fill="#1a1a2e">Kunawarritji</text>
+  <text x="245" y="483" text-anchor="end" font-size="8" fill="#6b7280">Well 33 · MIDPOINT</text>
+  <circle cx="260" cy="480" r="4" fill="#d4a017"/>
+  <text x="245" y="495" text-anchor="end" font-size="7" fill="#b91c1c">$$$ fuel</text>
+
+  <text x="270" y="420" text-anchor="end" font-size="8" fill="#6b7280">310 km</text>
+
+  <!-- Well 26 -->
+  <circle cx="250" cy="570" r="4" fill="#1a1a2e" opacity="0.4"/>
+  <text x="235" y="565" text-anchor="end" font-size="8" fill="#6b7280">Well 26</text>
+
+  <text x="260" y="530" text-anchor="end" font-size="8" fill="#6b7280">210 km</text>
+
+  <!-- Well 15 / Durba Hills -->
+  <circle cx="240" cy="680" r="6" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2"/>
+  <text x="225" y="670" text-anchor="end" font-size="10" font-weight="600" fill="#1a1a2e">Durba Hills</text>
+  <text x="225" y="683" text-anchor="end" font-size="8" fill="#6b7280">Well 15 · Rock art</text>
+  <circle cx="240" cy="680" r="3" fill="#3a7bbf"/>
+
+  <text x="250" y="630" text-anchor="end" font-size="8" fill="#6b7280">190 km</text>
+
+  <!-- Well 5 -->
+  <circle cx="220" cy="800" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="205" y="795" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Well 5</text>
+
+  <text x="230" y="740" text-anchor="end" font-size="8" fill="#6b7280">120 km</text>
+
+  <!-- Well 1 -->
+  <circle cx="210" cy="870" r="5" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1.5"/>
+  <text x="195" y="865" text-anchor="end" font-size="9" font-weight="600" fill="#1a1a2e">Well 1</text>
+
+  <text x="220" y="840" text-anchor="end" font-size="8" fill="#6b7280">80 km</text>
+
+  <!-- Wiluna -->
+  <circle cx="200" cy="910" r="7" fill="#c9a96e" stroke="#1a1a2e" stroke-width="2.5"/>
+  <text x="185" y="930" text-anchor="end" font-size="12" font-weight="700" fill="#1a1a2e">Wiluna</text>
+  <text x="210" y="930" font-size="8" fill="#6b7280">End · Full services</text>
+  <circle cx="200" cy="910" r="4" fill="#d4a017"/>
+
+  <!-- Callout box: No fuel warning -->
+  <g transform="translate(340,120)">
+    <rect x="0" y="0" width="230" height="60" rx="5" fill="#fff" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="115" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#b91c1c">⛽ No Fuel for 1,100 km</text>
+    <text x="10" y="33" font-size="9" fill="#6b7280">Wiluna → Halls Creek = no fuel stop</text>
+    <text x="10" y="47" font-size="9" fill="#6b7280">Kunawarritji only midpoint fuel ($$$/limited)</text>
+  </g>
+
+  <!-- Callout box: Well water warning -->
+  <g transform="translate(340,350)">
+    <rect x="0" y="0" width="230" height="50" rx="5" fill="#fff" stroke="#d4a017" stroke-width="1"/>
+    <text x="115" y="18" text-anchor="middle" font-size="10" font-weight="600" fill="#d4a017">💧 51 Wells — Many Dry or Contaminated</text>
+    <text x="10" y="35" font-size="9" fill="#6b7280">Do not rely on well water. Carry ALL your water.</text>
+  </g>
+
+  <!-- Lake Disappointment annotation -->
+  <text x="460" y="680" font-size="9" fill="#6b7280" font-style="italic">Lake Disappointment</text>
+  <text x="460" y="692" font-size="8" fill="#6b7280" font-style="italic">(salt lake — west of route)</text>
+
+  <!-- Legend -->
+  <g transform="translate(20,950)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1a1a2e" stroke-width="3"/>
+    <text x="35" y="4" font-size="9" fill="#6b7280">Route</text>
+    <circle cx="75" cy="0" r="3" fill="#c9a96e" stroke="#1a1a2e" stroke-width="1"/>
+    <text x="83" y="4" font-size="9" fill="#6b7280">Well / Waypoint</text>
+    <circle cx="165" cy="0" r="3" fill="#d4a017"/>
+    <text x="173" y="4" font-size="9" fill="#6b7280">Fuel</text>
+    <circle cx="218" cy="0" r="3" fill="#3a7bbf"/>
+    <text x="226" y="4" font-size="9" fill="#6b7280">Water</text>
+  </g>
+
+  <!-- North arrow -->
+  <g transform="translate(30,70)">
+    <polygon points="10,20 20,0 30,20 20,15" fill="#1a1a2e"/>
+    <text x="20" y="33" text-anchor="middle" font-size="9" fill="#6b7280" font-weight="600">N</text>
+  </g>
+
+  <!-- Hazard Icons -->
+  <!-- Fuel warning at Kunawarritji -->
+  <g transform="translate(266,478)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <rect x="0" y="0" width="10" height="14" rx="1"/>
+    <line x1="10" y1="2" x2="14" y2="0"/>
+    <text x="5" y="12" text-anchor="middle" font-size="12" font-weight="bold" fill="#d4a017">!</text>
+  </g>
+  <text x="256" y="505" text-anchor="end" font-size="7" fill="#d4a017" font-weight="600">$$$ fuel only</text>
+
+  <!-- No water icons between wells -->
+  <g transform="translate(280,280)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+  <g transform="translate(270,450)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+  <g transform="translate(230,730)">
+    <path d="M7,0 C4,4 0,6 0,9 C0,12 3,15 7,15 C11,15 14,12 14,9 C14,6 10,4 7,0" fill="#3a7bbf"/>
+    <line x1="2" y1="2" x2="12" y2="13" stroke="#d4a017" stroke-width="2"/>
+  </g>
+
+  <!-- Corrugation warnings throughout -->
+  <g transform="translate(295,150)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(275,360)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(245,550)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+  <g transform="translate(215,820)" stroke="#d4a017" stroke-width="1.5" fill="none">
+    <path d="M0,4 Q3,0 6,4 Q9,8 12,4"/>
+  </g>
+
+  <!-- Sand icons in dune sections -->
+  <g transform="translate(287,235)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+  <g transform="translate(255,510)" fill="#d4a017">
+    <circle cx="0" cy="4" r="2"/>
+    <circle cx="6" cy="4" r="2"/>
+    <circle cx="12" cy="4" r="2"/>
+  </g>
+
+  <!-- Dust advisory -->
+  <g transform="translate(225,750)" stroke="#d4a017" stroke-width="1" fill="none">
+    <path d="M2,8 Q0,4 4,2 Q8,0 12,2 Q16,4 14,8 Z"/>
+  </g>
+
+  <!-- Elevation Profile -->
+  <g transform="translate(340, 850)">
+    <rect x="0" y="0" width="250" height="100" fill="#f8f6f1" stroke="#e8e4dd" stroke-width="1" rx="4"/>
+    <text x="125" y="15" text-anchor="middle" font-size="10" fill="#1a1a2e" font-weight="600">Elevation Profile (approximate)</text>
+    <!-- Two peaks with desert depression in middle -->
+    <polyline points="0,75 30,60 60,70 90,85 120,85 150,70 180,60 210,65 235,70 250,75" stroke="#c9a96e" stroke-width="2" fill="none"/>
+    <!-- Sea level line -->
+    <line x1="0" y1="95" x2="250" y2="95" stroke="#6b7280" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <text x="2" y="98" font-size="8" fill="#6b7280">sea level</text>
+    <text x="2" y="10" font-size="8" fill="#6b7280">~500m</text>
+    <text x="125" y="85" text-anchor="middle" font-size="8" fill="#6b7280" font-style="italic">Halls Creek → Wiluna</text>
+  </g>
+</svg>

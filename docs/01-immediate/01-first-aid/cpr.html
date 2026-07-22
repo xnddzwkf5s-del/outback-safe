@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPR — Basic Life Support — Outback Safe</title>
+<meta name="description" content="Compression-only CPR, airway management, recovery position. What to do when someone stops breathing — even without training.">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+nav.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+nav.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+nav.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+nav.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.15rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}.top-nav{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:var(--dark);flex-direction:column;padding:.5rem;border-top:1px solid rgba(255,255,255,.1);z-index:99}.top-nav a{padding:.9rem 1rem;font-size:1rem;min-height:48px;display:flex;align-items:center;border-radius:var(--radius)}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.65rem;text-align:center;padding:.4rem .2rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:2px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:80px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<nav class="top-nav">
+<a href="../../01-immediate/09-outback/index.html">Outback Survival</a><a href="../../01-immediate/index.html" class=active>Survival Basics</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#the-chain-of-survival-simplified">The Chain of Survival (Simplified)</a></li>
+<li><a href="#step-1-assess-the-scene-and-the-person">Step 1: Assess the Scene and the Person</a></li>
+<li><a href="#step-2-compression-only-cpr-for-untrained-rescuers">Step 2: Compression-Only CPR (For Untrained Rescuers)</a></li>
+<li><a href="#step-3-conventional-cpr-with-rescue-breaths-if-trained">Step 3: Conventional CPR with Rescue Breaths (If Trained)</a></li>
+<li><a href="#recovery-position">Recovery Position</a></li>
+<li><a href="#when-to-stop-cpr">When to Stop CPR</a></li>
+<li><a href="#choking-conscious-adult-child">Choking — Conscious Adult/Child</a></li>
+<li><a href="#after-successful-resuscitation">After Successful Resuscitation</a></li>
+<li><a href="#psychological-note">Psychological Note</a></li>
+<li><a href="#related">Related</a></li>
+</ul></details>
+<h1>CPR — Basic Life Support</h1>
+<p>Cardiopulmonary resuscitation (CPR) is the bridge between clinical death and definitive care. In a survival scenario without access to defibrillation or advanced life support, the odds of successful resuscitation are lower — but not zero. This page covers what to do.</p>
+<hr />
+<h2 id="the-chain-of-survival-simplified">The Chain of Survival (Simplified)</h2>
+<pre class="codehilite"><code>Early Recognition → Early CPR → Early Defibrillation → Advanced Care
+</code></pre>
+
+<p>In the field without a defibrillator, the chain ends at CPR. But CPR alone can maintain enough circulation to buy time — sometimes enough for the heart to restart spontaneously, especially in drowning or lightning strike victims.</p>
+<hr />
+<h2 id="step-1-assess-the-scene-and-the-person">Step 1: Assess the Scene and the Person</h2>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Check that the scene is safe for you to approach — no ongoing electrical hazard, fire, unstable structure; Tap the person's shoulders firmly and shout: "Are you okay? Can you hear me?"; If no response, shout for help — get someone else to assist if possible; Check for breathing: Look for chest rise, listen for breath sounds, feel for airflow on your cheek. Do this for no more than 10 seconds</span></label></li></ol>
+
+<p><strong>Is the person breathing normally?</strong></p>
+<ul>
+<li><strong>Yes, breathing normally:</strong> Place in recovery position (see below). Monitor continuously.</li>
+<li><strong>No breathing, or only gasping (agonal breathing):</strong> Begin CPR immediately.</li>
+<li><strong>Gasping is not breathing.</strong> Occasional, irregular, snoring or gurgling breaths (agonal respiration) are a sign of cardiac arrest, not life. Begin CPR.</li>
+</ul>
+<hr />
+<h2 id="step-2-compression-only-cpr-for-untrained-rescuers">Step 2: Compression-Only CPR (For Untrained Rescuers)</h2>
+<p>If you are not trained in rescue breathing — or if you are alone and the person is not a drowning or child victim — <strong>compression-only CPR</strong> is the recommended approach. It is nearly as effective as conventional CPR for adult cardiac arrest and avoids the risk of disease transmission from mouth-to-mouth contact.</p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Kneel beside the person's chest; Place the heel of one hand in the centre of the chest on the lower half of the breastbone (sternum); Place your other hand on top and interlock fingers; Position your shoulders directly above your hands with arms straight; Push hard and fast — compress the chest at least 5 cm (one-third of chest depth); Allow full chest recoil between compressions — do not lean on the chest; Compression rate: 100–120 per minute. Count aloud: "1-and-2-and-3-and-4..." or push to the beat of "Stayin' Alive" by the Bee Gees; Continue without interruption until: the person shows signs of life, you are physically exhausted, or the situation becomes unsafe</span></label></li></ol>
+
+<pre class="codehilite"><code>   Compressor position
+        |
+     [head]
+        |
+   =====o=====  &lt;-- Hands centred on lower half of sternum
+        |
+     [body]
+        |
+        v
+   Push 5 cm down at 100-120/min
+</code></pre>
+
+<h3>Compression Depth Guide</h3>
+<table>
+<thead>
+<tr>
+<th>Patient</th>
+<th>Depth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adult</td>
+<td>At least 5 cm</td>
+</tr>
+<tr>
+<td>Child (1–12)</td>
+<td>About 5 cm (one-third chest depth)</td>
+</tr>
+<tr>
+<td>Infant (&lt; 1)</td>
+<td>About 4 cm (two fingers, one-third chest depth)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="step-3-conventional-cpr-with-rescue-breaths-if-trained">Step 3: Conventional CPR with Rescue Breaths (If Trained)</h2>
+<p>If you are trained and willing to provide rescue breaths:</p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Perform 30 chest compressions; Open the airway: tilt the head back with one hand on the forehead, lift the chin with two fingers of the other hand (head-tilt/chin-lift); Pinch the nose closed; Take a normal breath and seal your mouth over the person's mouth; Blow steadily for 1 second — watch for chest rise; Give a second breath (each breath 1 second); Resume compressions immediately; Continue 30 compressions to 2 breaths</span></label></li></ol>
+
+<pre class="codehilite"><code>   Head-tilt / Chin-lift
+
+   Back of head
+        |
+   []===|   &lt;-- Hand on forehead tilting head back
+    \   |
+     \  |
+      \ |   &lt;-- Fingers lifting chin
+       \|
+        O   &lt;-- Mouth open, airway straightened
+</code></pre>
+
+<p><strong>If the chest does not rise:</strong>
+1. Re-tilt the head and try again
+2. Check for visible obstruction in the mouth (finger sweep only if you can see the object)
+3. If breaths still don't go in, continue compressions — chest compressions can dislodge obstructions</p>
+<h3>CPR for Drowning</h3>
+<p>Drowning victims need rescue breaths — the primary problem is lack of oxygen, not cardiac arrest.</p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Give 5 initial rescue breaths before starting compressions (drowning is a respiratory arrest first); Then continue 30:2 ratio as normal; If you are alone, perform 1 minute of CPR before leaving to get help</span></label></li></ol>
+
+<p>→ See <a href="drowning.html">Drowning &amp; Water Rescue</a> for full details.</p>
+<hr />
+<h2 id="recovery-position">Recovery Position</h2>
+<p>Use when the person is breathing normally but unconscious (not in cardiac arrest). This position keeps the airway open and allows fluids to drain from the mouth.</p>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Kneel beside the person; Remove glasses and bulky items from pockets; Straighten the legs; Place the arm nearest to you at a right angle to the body, elbow bent, palm up; Bring the far arm across the chest and hold the back of their hand against the cheek nearest to you — keep holding it; With your other hand, grasp the far leg just above the knee and pull it up, keeping the foot on the ground; Pull on the far leg to roll the person toward you onto their side; Adjust the upper leg so both hip and knee are at right angles; Tilt the head back slightly to keep the airway open; Check breathing every 2 minutes</span></label></li></ol>
+
+<pre class="codehilite"><code>   Recovery Position (person on side)
+
+         Arm supporting head
+              ___
+          ___/   \
+      ====/=======\
+      |            |
+      |   [torso]  |
+      |            |
+       \    __    /
+        \  /  \  /
+         \/    \/   &lt;-- Legs bent for stability
+</code></pre>
+
+<hr />
+<h2 id="when-to-stop-cpr">When to Stop CPR</h2>
+<p>CPR is physically exhausting. In a field setting without a defibrillator:</p>
+<ul>
+<li><strong>Stop if the person shows signs of life</strong> — coughing, opening eyes, breathing normally, purposeful movement.</li>
+<li><strong>Stop if you are too exhausted to continue effectively.</strong> Ineffective compressions help no one.</li>
+<li><strong>Stop if the scene becomes unsafe.</strong></li>
+</ul>
+<h3>How Long to Continue CPR</h3>
+<p>Continue CPR until:
+- The person shows signs of life (breathing, coughing, movement)
+- Emergency services arrive and take over
+- You are physically unable to continue (exhaustion — swap with another person if possible)
+- A defibrillator (AED) advises no shock and the person remains unresponsive (follow AED prompts)</p>
+<p><strong>Do NOT stop CPR after a fixed time limit.</strong> The "30 minute" rule is outdated. Prolonged CPR has resulted in neurologically intact survival in cases of:</p>
+<ul>
+<li><strong>Hypothermia</strong> (body temperature below 32°C) — continue until rewarmed</li>
+<li><strong>Drowning in cold water</strong> — continue for at least 1 hour</li>
+<li><strong>Snake bite/toxin-related arrest</strong> — antivenom can reverse the cause. Continue until help arrives</li>
+<li><strong>Lightning strike</strong> — the heart may restart spontaneously once the electrical disruption resolves</li>
+</ul>
+<p>The ONLY time to consider stopping is when ALL of these apply:
+- You are alone and physically exhausted beyond ability to continue
+- No help is available or coming
+- The person has been unresponsive for an extended period (not hypothermic/drowning/toxin)
+- AND there are no signs of life for more than 20 minutes of continuous CPR</p>
+<hr />
+<h2 id="choking-conscious-adult-child">Choking — Conscious Adult/Child</h2>
+<p>If someone is choking but still conscious and coughing:</p>
+<ul>
+<li><strong>Encourage coughing</strong> — do not intervene if they are coughing effectively</li>
+<li><strong>If coughing weakens or stops:</strong> Deliver up to 5 back blows between the shoulder blades with the heel of your hand</li>
+<li><strong>If still choking:</strong> Perform abdominal thrusts (Heimlich manoeuvre) — stand behind, place fist above navel, grasp with other hand, pull sharply inward and upward up to 5 times</li>
+<li><strong>Alternate 5 back blows and 5 abdominal thrusts</strong> until obstruction clears or the person becomes unconscious</li>
+</ul>
+<p><strong>If the person becomes unconscious:</strong>
+- Lower them to the ground
+- Begin CPR immediately — chest compressions can dislodge the obstruction
+- Check the mouth before giving rescue breaths</p>
+<h3>Choking — Infant (&lt; 1 year)</h3>
+<ol class="steps-list"><li><label><input type="checkbox" class="step-checkbox"><span>Sit or kneel; Lay the infant face-down along your forearm, head lower than chest, supporting the head; Give up to 5 back blows between the shoulder blades with the heel of your hand; Turn the infant face-up along your other forearm; Give up to 5 chest thrusts using two fingers on the lower half of the breastbone (same position as infant CPR); Alternate back blows and chest thrusts; If the infant becomes unconscious, begin infant CPR</span></label></li></ol>
+
+<hr />
+<h2 id="after-successful-resuscitation">After Successful Resuscitation</h2>
+<p>If the person regains consciousness and normal breathing:</p>
+<ol>
+<li>Place in recovery position — they may vomit or lose consciousness again</li>
+<li>Keep them warm — cardiac arrest survivors are at risk of hypothermia</li>
+<li>Monitor breathing and pulse continuously</li>
+<li>Do not give food or drink until fully alert</li>
+<li>Assess for injuries — CPR often fractures ribs, especially in elderly patients. This is survivable and was necessary</li>
+<li>Seek advanced medical care as soon as possible — survivors of out-of-hospital cardiac arrest need hospital evaluation</li>
+</ol>
+<hr />
+<h2 id="psychological-note">Psychological Note</h2>
+<p>Performing CPR is intense. If the person does not survive, understand:</p>
+<ul>
+<li>Out-of-hospital cardiac arrest without a defibrillator has a very low survival rate — typically under 10%</li>
+<li><strong>You gave them their only chance.</strong> Doing something is always better than doing nothing</li>
+<li>Rib fractures are expected and survivable — they mean you compressed deeply enough</li>
+<li>Talk about the experience with someone afterward. Do not bottle it up</li>
+</ul>
+<hr />
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="drowning.html">Drowning &amp; Water Rescue</a></li>
+<li><a href="shock.html">Shock</a></li>
+<li><a href="severe-bleeding.html">Severe Bleeding</a></li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+</footer>
+</body>
+</html>
