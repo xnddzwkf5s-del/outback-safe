@@ -66,6 +66,9 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Red Hill (Canberra) | VK1RZ | 146.925 | 146.325 | 91.5 | Operational | Woden Valley area coverage |
 | Mt Tennent (Namadgi NP) | VK1RMB | 146.700 | 146.100 | 91.5 | Operational | South ACT, covers southern corridor to NSW border |
 
+| Mt Ainslie (Canberra) | VK1RAC | 146.900 | 146.300 | 91.5 | Operational | Canberra; emergency services repeater |
+
+
 ---
 
 ### New South Wales (VK2)
@@ -83,6 +86,10 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Goulburn | VK2RGN | 146.725 | 146.125 | 91.5 | Operational | Southern Tablelands; covers Hume Highway corridor |
 | Nowra (Cambewarra Mtn) | VK2RNC | 146.700 | 146.100 | 91.5 | Operational | South Coast; Princes Highway coverage |
 | Batemans Bay | VK2RBB | 146.850 | 146.250 | 91.5 | Operational | South Coast tourist route |
+
+| Asquith (Sydney North) | VK2RNS | 147.250 | 147.850 | 91.5 | Operational | Sydney North Shore coverage |
+| Lawson (Blue Mountains) | VK2RTS | 147.325 | 147.925 | 91.5 | Operational | Blue Mountains alternate site |
+
 | **Northern NSW** | | | | | | |
 | Tamworth | VK2RTM | 146.675 | 146.075 | 91.5 | Operational | New England region; Newell Highway corridor |
 | Port Macquarie | VK2RPM | 146.700 | 146.100 | 91.5 | Operational | Mid North Coast; Pacific Highway |
@@ -91,6 +98,20 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Coffs Harbour | VK2RCH | 146.925 | 146.325 | 91.5 | Operational | Mid North Coast |
 | Tweed Heads | VK2RTW | 146.800 | 146.200 | 91.5 | Operational | QLD border area |
 | Grafton | VK2RGR | 146.625 | 146.025 | 91.5 | Operational | Clarence Valley |
+
+| Casino (Northern Rivers) | VK2RCV | 146.675 | 146.075 | 91.5 | Operational | Northern Rivers; Summerland Way corridor |
+| Ebor (New England) | VK2REE | 146.675 | 146.075 | 91.5 | Operational | Waterfall Way; New England region |
+| Bellingen (Mid North Coast) | VK2RBL | 146.725 | 146.125 | 91.5 | Operational | Mid North Coast; Waterfall Way |
+| Glen Innes (New England) | VK2RGA | 146.825 | 146.225 | 91.5 | Operational | New England Tablelands; Gwydir Highway |
+| Wauchope (Mid North Coast) | VK2RWP | 146.825 | 146.225 | 91.5 | Operational | Mid North Coast; Hastings Valley |
+| Moonimba (Woodburn) | VK2REH | 147.250 | 147.850 | 91.5 | Operational | Woodburn; Northern Rivers region |
+| Acacia Plateau (Border) | VK2RAP | 147.275 | 147.875 | 91.5 | Operational | Warwick-Stanthorpe border region |
+| Mt McKenzie (Tenterfield) | VK2RMM | 147.375 | 147.975 | 91.5 | Operational | Tenterfield-Granite Belt region |
+| Tenterfield (Northern Tablelands) | VK2RTZ | 146.775 | 146.175 | 91.5 | Operational | Northern Tablelands; New England Highway |
+| Moree (North-west NSW) | VK2RMI | 146.650 | 146.050 | 91.5 | Operational | North-west NSW; Newell Highway |
+| Murrurundi (Liverpool Range) | VK2RMU | 146.700 | 146.100 | 91.5 | Operational | New England Highway; Liverpool Range |
+| Candole (New England) | VK2RCD | 146.725 | 146.125 | 91.5 | Operational | New England region |
+
 | **Western NSW** | | | | | | |
 | Dubbo | VK2RWI | 146.850 | 146.250 | 91.5 | Operational | Central West; major Newell Highway coverage |
 | Orange (Mt Canobolas) | VK2RCL | 146.750 | 146.150 | 91.5 | Operational | Central Tablelands; excellent regional coverage |
@@ -101,6 +122,32 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Broken Hill | VK2RHV | 146.750 | 146.150 | 91.5 | Operational | Far West NSW; remote outback coverage |
 | Bourke | VK2RBK | 146.700 | 146.100 | 91.5 | Operational | Remote north-west NSW |
 | Cobar | VK2RCO | 146.800 | 146.200 | 91.5 | Operational | Barrier Highway route |
+
+| Dubbo (Central West) | VK2RDX | 146.650 | 146.050 | 91.5 | Operational | Central West; alternate Dubbo site |
+| Mudgee (Central Tablelands) | VK2RAO | 146.700 | 146.100 | 91.5 | Operational | Central Tablelands; Castlereagh Highway |
+| Forbes (Central West) | VK2RFS | 146.750 | 146.150 | 91.5 | Operational | Central West; Newell Highway |
+| Tumut (Snowy Valleys) | VK2RTJ | 146.750 | 146.150 | 91.5 | Operational | Snowy Valleys; Snowy Mountains Highway |
+| Coonabarabran (Central West) | VK2RCC | 146.800 | 146.200 | 91.5 | Operational | Central West; Warrumbungles region |
+| Trundle (Central West) | VK2RTD | 146.800 | 146.200 | 91.5 | Operational | Central West; Newell Highway corridor |
+| Murrumburrah (South-west slopes) | VK2RMS | 146.725 | 146.125 | 91.5 | Operational | South-west slopes; Harden region |
+| Holbrook (Riverina) | VK2RHR | 146.825 | 146.225 | 91.5 | Operational | Riverina; Hume Highway corridor |
+| Ungarie (Central West) | VK2RUW | 146.675 | 146.075 | 91.5 | Operational | Central West; Lake Cargelligo region |
+| Lockhart (Riverina) | VK2RLJ | 146.875 | 146.275 | 91.5 | Operational | Riverina; Lockhart region |
+| Kangaloon (Southern Highlands) | VK2RKG | 146.900 | 146.300 | 91.5 | Operational | Southern Highlands; Illawarra region |
+| Moss Vale (Southern Highlands) | VK2RRT | 146.900 | 146.300 | 91.5 | Operational | Southern Highlands; Hume Highway |
+| Macquarie Pass (Illawarra) | VK2RPW | 146.925 | 146.325 | 91.5 | Operational | Illawarra escarpment; Moss Vale corridor |
+| Nelson Bay (Port Stephens) | VK2RNE | 146.950 | 146.350 | 91.5 | Operational | Port Stephens; Tomaree Peninsula |
+| Bombala (Monaro) | VK2RMB | 146.875 | 146.275 | 91.5 | Operational | Monaro region; Snowy Mountains Highway |
+| Mollymook (South Coast) | VK2RMY | 146.875 | 146.275 | 91.5 | Operational | South Coast; Shoalhaven region |
+| Singleton (Hunter Valley) | VK2RAD | 146.725 | 146.125 | 91.5 | Operational | Hunter Valley; New England Highway |
+| Bega (South Coast) | VK2RBE | 146.775 | 146.175 | 91.5 | Operational | South Coast; Sapphire Coast |
+| Cessnock (Hunter Valley) | VK2RWH | 147.150 | 147.750 | 123.0 | Operational | Lower Hunter WICEN |
+| Gowan (Bathurst) | VK2RCW | 147.200 | 147.800 | 91.5 | Operational | Bathurst/Orange region |
+| Gwynne Hill (Yarrawonga) | VK2RWB | 147.200 | 147.800 | 91.5 | Operational | Yarrawonga WICEN |
+| Springdale Heights (Albury) | VK2RAY | 147.225 | 147.825 | 91.5 | Operational | Albury region |
+| Bald Mountain (Rylstone) | VK2RYL | 147.225 | 147.825 | 91.5 | Operational | Rylstone region |
+| Mt Roberts (Snowy Mountains) | VK2RSE | 147.375 | 147.975 | 91.5 | Operational | Monaro Snowy Mountains |
+
 | **Snowy Mountains** | | | | | | |
 | Mt Kosciuszko | VK2RSC | 146.975 | 146.375 | 91.5 | Seasonal | Australia's highest repeater; limited season |
 | Jindabyne | VK2RJB | 146.800 | 146.200 | 91.5 | Operational | Snowy Mountains; Alpine Way corridor |
@@ -135,6 +182,21 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Mildura | VK3RMD | 146.925 | 146.325 | 91.5 | Operational | Sunraysia; Sturt Highway; Murray River |
 | Swan Hill | VK3RSH | 146.775 | 146.175 | 91.5 | Operational | Murray River corridor |
 | Yarram | VK3RYA | 146.625 | 146.025 | 91.5 | Operational | South Gippsland |
+
+| East Gippsland | VK3ROW | 146.625 | 146.025 | 91.5 | Operational | East Gippsland; Statewide WICEN |
+| Mornington Peninsula | VK3RAG | 146.775 | 146.175 | 91.5 | Operational | Mornington Peninsula |
+| Ferny Creek (Dandenongs) | VK3RLV | 146.800 | 146.200 | 91.5 | Operational | Dandenong Ranges; Yarra Valley |
+| Yarra Valley | VK3RMN | 146.850 | 146.250 | 91.5 | Operational | Yarra Valley; Bright region |
+| Arthurs Seat (Mornington) | VK3RBA | 146.750 | 146.150 | 91.5 | Operational | Mornington Peninsula alternate |
+| Green Hill (Ararat) | VK3RSP | 146.675 | 146.075 | 123.0 | Operational | Ararat; Western District |
+| Beech Forest (Otways) | VK3RBT | 146.650 | 146.050 | 88.5 | Operational | Great Otway National Park |
+| Otway Ranges | VK3REG | 146.650 | 146.050 | 91.5 | Operational | Otway Ranges; Great Ocean Road |
+| Briarty Hill (Alpine) | VK3RDU | 146.850 | 146.250 | 91.5 | Operational | Alpine region; Mt Porepunkah |
+| Rennies Hill (Alpine) | VK3REB | 146.900 | 146.300 | 91.5 | Operational | Alpine region; Ben Nevis |
+| Alexandra (Goulburn Valley) | VK3RSH | 146.900 | 146.300 | 91.5 | Operational | Goulburn Valley alternate |
+| Portland (South West) | VK3RSR | 146.975 | 146.375 | 91.5 | Operational | Port of Portland; South West coast |
+| Ouyen (Sunraysia) | VK3RAJ | 146.825 | 146.225 | 123.0 | Operational | Mallee region; Sunraysia |
+
 
 ---
 
@@ -608,6 +670,63 @@ For emergency / outback use, a **dual-band mobile radio** (IC-2300H or similar) 
 
 ---
 
+| ACT | Mt Ainslie | VK1RAC | 146.900 | 146.300 | 91.5 | Canberra; emergency services
+| ACT | Portable | VK1RWP | 147.175 | 147.775 | 123.0 | ACT wide WICEN portable
+| NSW | Asquith | VK2RNS | 147.250 | 147.850 | 91.5 | Sydney North Shore
+| NSW | Lawson | VK2RTS | 147.325 | 147.925 | 91.5 | Blue Mountains
+| NSW | Singleton | VK2RAD | 146.725 | 146.125 | 91.5 | Hunter Valley
+| NSW | Dubbo | VK2RDX | 146.650 | 146.050 | 91.5 | Central West alternate
+| NSW | Mudgee | VK2RAO | 146.700 | 146.100 | 91.5 | Central Tablelands
+| NSW | Forbes | VK2RFS | 146.750 | 146.150 | 91.5 | Central West
+| NSW | Tumut | VK2RTJ | 146.750 | 146.150 | 91.5 | Snowy Valleys
+| NSW | Coonabarabran | VK2RCC | 146.800 | 146.200 | 91.5 | Central West
+| NSW | Trundle | VK2RTD | 146.800 | 146.200 | 91.5 | Central West
+| NSW | Murrumburrah | VK2RMS | 146.725 | 146.125 | 91.5 | South-west slopes
+| NSW | Holbrook | VK2RHR | 146.825 | 146.225 | 91.5 | Riverina
+| NSW | Moree | VK2RMI | 146.650 | 146.050 | 91.5 | North-west NSW
+| NSW | Casino | VK2RCV | 146.675 | 146.075 | 91.5 | Northern Rivers
+| NSW | Ebor | VK2REE | 146.675 | 146.075 | 91.5 | New England
+| NSW | Bellingen | VK2RBL | 146.725 | 146.125 | 91.5 | Mid North Coast
+| NSW | Glen Innes | VK2RGA | 146.825 | 146.225 | 91.5 | New England
+| NSW | Wauchope | VK2RWP | 146.825 | 146.225 | 91.5 | Mid North Coast
+| NSW | Tenterfield | VK2RTZ | 146.775 | 146.175 | 91.5 | Northern Tablelands
+| NSW | Murrurundi | VK2RMU | 146.700 | 146.100 | 91.5 | Liverpool Range
+| NSW | Candole | VK2RCD | 146.725 | 146.125 | 91.5 | New England
+| NSW | Ungarie | VK2RUW | 146.675 | 146.075 | 91.5 | Central West
+| NSW | Lockhart | VK2RLJ | 146.875 | 146.275 | 91.5 | Riverina
+| NSW | Kangaloon | VK2RKG | 146.900 | 146.300 | 91.5 | Southern Highlands
+| NSW | Moss Vale | VK2RRT | 146.900 | 146.300 | 91.5 | Southern Highlands
+| NSW | Macquarie Pass | VK2RPW | 146.925 | 146.325 | 91.5 | Illawarra
+| NSW | Nelson Bay | VK2RNE | 146.950 | 146.350 | 91.5 | Port Stephens
+| NSW | Bombala | VK2RMB | 146.875 | 146.275 | 91.5 | Monaro
+| NSW | Mollymook | VK2RMY | 146.875 | 146.275 | 91.5 | South Coast
+| NSW | Cessnock | VK2RWH | 147.150 | 147.750 | 123.0 | Lower Hunter WICEN
+| NSW | Kurrajong Heights | VK2RWK | 147.150 | 147.750 | 118.8 | Blue Mtns WICEN
+| NSW | Portable | VK2RAV | 147.175 | 147.775 | 91.5 | Statewide WICEN
+| NSW | Portable | VK2REP | 147.175 | 147.775 | 123.0 | Statewide WICEN
+| NSW | Portable | VK2RFI | 147.175 | 147.775 | 91.5 | Hunter WICEN
+| NSW | Portable | VK2RWS | 147.175 | 147.775 | 91.5 | Statewide WICEN
+| NSW | Gowan | VK2RCW | 147.200 | 147.800 | 91.5 | Bathurst/Orange
+| NSW | Gwynne Hill | VK2RWB | 147.200 | 147.800 | 91.5 | Yarrawonga WICEN
+| NSW | Springdale Heights | VK2RAY | 147.225 | 147.825 | 91.5 | Albury region
+| NSW | Bald Mountain | VK2RYL | 147.225 | 147.825 | 91.5 | Rylstone
+| NSW | Moonimba | VK2REH | 147.250 | 147.850 | 91.5 | Woodburn
+| NSW | Acacia Plateau | VK2RAP | 147.275 | 147.875 | 91.5 | Warwick border
+| NSW | Mt McKenzie | VK2RMM | 147.375 | 147.975 | 91.5 | Tenterfield
+| NSW | Mt Roberts | VK2RSE | 147.375 | 147.975 | 91.5 | Snowy Mountains
+| NSW | Bega | VK2RBE | 146.775 | 146.175 | 91.5 | South Coast
+| VIC | East Gippsland | VK3ROW | 146.625 | 146.025 | 91.5 | Statewide WICEN
+| VIC | Mornington Peninsula | VK3RAG | 146.775 | 146.175 | 91.5 | Mornington Peninsula
+| VIC | Ferny Creek | VK3RLV | 146.800 | 146.200 | 91.5 | Dandenong Ranges
+| VIC | Yarra Valley | VK3RMN | 146.850 | 146.250 | 91.5 | Yarra Valley
+| VIC | Arthurs Seat | VK3RBA | 146.750 | 146.150 | 91.5 | Mornington Peninsula
+| VIC | Green Hill (Ararat) | VK3RSP | 146.675 | 146.075 | 123.0 | Western District
+| VIC | Beech Forest | VK3RBT | 146.650 | 146.050 | 88.5 | Otway National Park
+| VIC | Otway Ranges | VK3REG | 146.650 | 146.050 | 91.5 | Great Ocean Road
+| VIC | Briarty Hill | VK3RDU | 146.850 | 146.250 | 91.5 | Alpine region
+| VIC | Rennies Hill | VK3REB | 146.900 | 146.300 | 91.5 | Alpine region
+| VIC | Portland | VK3RSR | 146.975 | 146.375 | 91.5 | South West
+| VIC | Ouyen | VK3RAJ | 146.825 | 146.225 | 123.0 | Mallee region
 ## Quick Reference Band Card (printable)
 
 For a printed card to keep with your radio gear, copy this simplified section:
@@ -643,4 +762,4 @@ For a printed card to keep with your radio gear, copy this simplified section:
 
 ---
 
-*Last updated: July 2026. Frequencies and tones may change without notice. Always monitor before transmitting. Confirm tone requirements locally as some repeaters change CTCSS settings or switch to carrier-squelch open access.*
+*Last updated: July 2026 (updated with WIA Repeater Directory Sep 2025). Frequencies and tones may change without notice. Always monitor before transmitting. Confirm tone requirements locally as some repeaters change CTCSS settings or switch to carrier-squelch open access.*
