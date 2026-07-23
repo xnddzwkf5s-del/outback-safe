@@ -352,10 +352,10 @@ with zipfile.ZipFile(OUT, 'w', zipfile.ZIP_DEFLATED) as z:
         po = ctr['po']
         ncx_line = (
             f'{indent}<navPoint id="{group_id}" playOrder="{po}">'
-            f'<navLabel><text>{label}</text></navLabel>'
+            f'<navLabel><text>{escape(label)}</text></navLabel>'
             f'<content src="{name}"/>'
         )
-        nav_line = f'{indent}<li><strong>{label}</strong><ol>'
+        nav_line = f'{indent}<li><strong>{escape(label)}</strong><ol>'
         return ncx_line, nav_line
 
     def end_group(indent=''):
