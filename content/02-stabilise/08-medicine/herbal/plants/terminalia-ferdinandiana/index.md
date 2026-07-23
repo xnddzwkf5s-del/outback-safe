@@ -1,5 +1,5 @@
 +++
-title = "Terminalia ferdinandiana"
+title = "Terminalia ferdinandiana — Kakadu Plum"
 description = "Kakadu plum — the world's highest natural source of vitamin C. Critical survival food for scurvy prevention in northern Australia."
 tags = ["vitamin-c", "antioxidant", "antiseptic", "edible"]
 categories = ["herbal"]

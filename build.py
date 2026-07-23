@@ -216,7 +216,7 @@ def build_page_list(section_dir):
 def nav_html(current_dir=""):
     tiers = [
         ("01-immediate/09-outback/", "Outback Survival"),
-        ("01-immediate/", "Survival Basics"),
+        ("01-immediate/", "First Aid"),
         ("02-stabilise/", "Medicine"),
         ("04-reference/maps/", "Maps & Tracks"),
         ("04-reference/communications/", "Comms"),

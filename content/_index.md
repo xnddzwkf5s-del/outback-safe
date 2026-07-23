@@ -4,6 +4,8 @@ description = "Australian Remote Travel Reference — offline, open source"
 sort_by = "weight"
 +++
 
+<!-- Emoji used for visual scanning; may not render on e-ink Kindle -->
+
 # Outback Safe
 
 Your Australian remote travel reference. Whether you're crossing the Simpson Desert, tackling the Canning Stock Route, or exploring Cape York — this guide has what you need when you're hours or days from help.

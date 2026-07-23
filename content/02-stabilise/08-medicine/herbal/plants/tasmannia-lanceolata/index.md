@@ -1,5 +1,5 @@
 +++
-title = "Tasmannia lanceolata"
+title = "Tasmannia lanceolata — Mountain Pepper"
 description = "Mountain pepper — antimicrobial spice, digestive stimulant, and traditional Aboriginal medicine from cool temperate Australia."
 tags = ["antimicrobial", "digestive", "antioxidant", "spice"]
 categories = ["herbal"]

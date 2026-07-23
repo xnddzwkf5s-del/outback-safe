@@ -1,5 +1,5 @@
 +++
-title = "Acacia mearnsii"
+title = "Acacia mearnsii — Black Wattle"
 description = "Black wattle — astringent source of tannins, emergency food (gum), and traditional medicine of southeastern Australia."
 tags = ["astringent", "tannin", "antidiarrheal", "dental"]
 categories = ["herbal"]

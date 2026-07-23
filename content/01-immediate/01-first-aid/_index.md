@@ -1,29 +1,21 @@
 +++
-title = "CPR & Basic Life Support"
-description = "Cardiopulmonary resuscitation and recovery position for remote emergencies."
+title = "First Aid — Emergency Medical Care"
+description = "Life-saving interventions for remote emergencies. CPR, recovery position, and when to call for help."
 weight = 2
 insert_anchor_links = "right"
 +++
 
-# CPR & Basic Life Support
+# First Aid — Emergency Medical Care
 
-In a remote area, professional medical help is hours or days away. CPR buys time.
+In a remote area, professional medical help is hours or days away. Knowing what to do in the first few minutes after an injury or collapse can mean the difference between life and death.
 
-## CPR — Compression-Only
+This section covers the immediate, life-saving interventions you can perform with minimal equipment:
 
-If you are untrained or unsure, compression-only CPR is effective and simple:
+- **Compression-only CPR** — when someone collapses and is not breathing
+- **Recovery position** — keeping an unconscious person's airway clear
 
-1. **Check for response** — shout and shake shoulders
-2. **Call for help** — activate PLB or call 000 if possible
-3. **Start compressions** — centre of chest, push hard and fast (100–120/min, 5–6 cm deep)
-4. **Do not stop** — continue until help arrives, the person shows signs of life, or you are physically unable to continue
-
-**Hands-only CPR is better than no CPR.** Do not hesitate.
-
-## Recovery Position
-
-If the person is breathing but unconscious, place them in the recovery position to keep the airway clear.
+For more advanced first aid procedures — snake bite, wound closure, splinting, dental emergencies, burns, and childbirth — see [Outback First Aid](01-immediate/09-outback/outback-first-aid) in the Outback Survival section.
 
 ## Pages
 
-- [CPR & Basic Life Support](01-immediate/01-first-aid/cpr) — Full CPR guide including rescue breaths, children/infants, and recovery position
+- [CPR & Basic Life Support](01-immediate/01-first-aid/cpr) — Full CPR guide including rescue breaths, children/infants, and recovery position. Covers compression-only CPR, hands-only technique, and the recovery position for an unconscious but breathing person.

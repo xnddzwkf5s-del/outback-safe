@@ -1,5 +1,5 @@
 +++
-title = "Syzygium australe"
+title = "Syzygium australe — Brush Cherry"
 description = "Lilly pilly — vitamin C source, edible fruit, astringent. Important survival food and medicine along the Australian east coast."
 tags = ["vitamin-c", "edible", "astringent", "antioxidant"]
 categories = ["herbal"]

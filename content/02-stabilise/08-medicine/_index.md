@@ -49,17 +49,4 @@ This section is about what you can do in that gap — the hours between injury a
 - [What to Carry](01-immediate/09-outback/what-to-carry) — Outback gear checklist including medical kit
 - [CPR & Life Support](01-immediate/01-first-aid/cpr) — Compression-only CPR and recovery position
 
-## Outback Medical Priorities
 
-In the Australian outback, professional medical help is not minutes away — it is hours or days.
-
-| Threat | Time to Death (Untreated) | Priority |
-|--------|---------------------------|----------|
-| Snake bite (brown snake, taipan) | 30 min – 3 hours | **Highest** — correct first aid buys hours |
-| Heat stroke | Minutes after collapse | **Highest** — cool before anything else |
-| Major bleeding | 3–5 minutes (arterial) | **Highest** — compress immediately |
-| Dehydration | 6–48 hours | **High** — preventable, daily priority |
-| Severe allergic reaction | 5–30 minutes | **High** — adrenaline saves |
-| Infection | Days to weeks | **Medium** — treat early |
-
-**In the outback, you cannot treat everything. Your job is to treat what will kill first, stabilise what you can, and evacuate what you cannot.**

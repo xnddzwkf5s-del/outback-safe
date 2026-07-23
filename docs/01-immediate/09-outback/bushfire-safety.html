@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bushfire Safety — Outback Safe</title>
+<meta name="description" content="Bushfire survival for remote outback travel — early warning signs, escape routes, fire shelters, and UHF emergency channels.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="../../static/manifest.json">
+<style>:root{--dark:#1a1a2e;--gold:#c9a96e;--gold-dark:#b8945a;--cream:#f8f6f1;--white:#fff;--gray:#6b7280;--gray-light:#e8e4dd;--color-bg:var(--cream);--color-surface:var(--white);--color-text:var(--dark);--color-text-muted:var(--gray);--color-border:var(--gray-light);--color-link:var(--gold-dark);--color-link-hover:var(--gold);--color-accent:var(--gold);--color-accent-dark:var(--gold-dark);--color-header-bg:var(--dark);--color-header-text:var(--white);--color-footer-bg:var(--dark);--color-footer-text:var(--gray-light);--color-warning-bg:#fff6e8;--color-warning-border:#d4a017;--color-info-bg:#eaf4fb;--color-info-border:#3a7bbf;--color-materials-bg:#f2f7ed;--color-materials-border:#6b8e4e;--color-code-bg:#1e1e2e;--color-code-text:#e0e0e0;--radius:4px;--radius-lg:12px;--shadow:0 4px 20px rgba(0,0,0,0.08);--shadow-lg:0 20px 60px rgba(0,0,0,0.15);--transition:all 0.35s cubic-bezier(0.4,0,0.2,1);--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--font-heading:"Playfair Display",Georgia,"Times New Roman",serif;--max-width:900px;--container-padding:24px;--nav-height:60px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:1rem;line-height:1.7;color:var(--color-text);background:var(--color-bg);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.2;color:var(--dark);margin:0 0 .75rem}
+h1{font-size:2.2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1.1rem}
+p{margin:0 0 1rem;font-size:.95rem}
+a{color:var(--color-link);text-decoration:none;transition:var(--transition)}
+a:hover{color:var(--color-link-hover)}
+strong,b{font-weight:600}
+header{background:var(--color-header-bg);color:var(--color-header-text);padding:0 var(--container-padding);position:sticky;top:0;z-index:100;height:var(--nav-height);display:flex;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+header h1{font-family:var(--font-heading);font-size:1.35rem;margin:0;flex-shrink:0}
+header h1 a{color:var(--color-header-text);text-decoration:none}
+header h1 a:hover{color:var(--color-accent)}
+.top-nav{margin-left:auto;display:flex;align-items:center;gap:0}
+.top-nav a{display:block;color:var(--gray-light);text-decoration:none;padding:.5rem .75rem;font-size:.85rem;font-weight:500;border-radius:var(--radius);transition:var(--transition);white-space:nowrap}
+.top-nav a:hover{color:var(--white);background:rgba(255,255,255,.08)}
+.top-nav a.active{color:var(--color-accent);background:rgba(201,169,110,.1)}
+main{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding)}
+.content h2{margin-top:2.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--color-accent)}
+.content h3{margin-top:2rem}
+.content p{margin:.9rem 0;font-size:1rem}
+.content img{max-width:100%;height:auto;border-radius:var(--radius-lg)}
+.content blockquote{margin:1.5rem 0;padding:1rem 1.5rem;border-left:4px solid var(--color-accent);background:var(--color-surface);border-radius:0 var(--radius) var(--radius) 0;font-style:italic;color:var(--color-text-muted)}
+.content blockquote p{margin:0}
+.content code{font-family:monospace;background:rgba(26,26,46,.06);padding:.15rem .4rem;border-radius:var(--radius);font-size:.9em;color:var(--dark)}
+.content pre{margin:1.5rem 0;border-radius:var(--radius-lg);overflow:hidden}
+.content pre code{display:block;overflow-x:auto;padding:1.25rem 1.5rem;background:var(--color-code-bg);color:var(--color-code-text);border-radius:var(--radius-lg);font-size:.88rem;line-height:1.6}
+.content hr{border:none;border-top:1px solid var(--color-border);margin:2.5rem 0}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.95rem;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow)}
+.content table th{background:var(--dark);color:var(--white);font-weight:600;text-align:left;padding:.75rem 1rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+.content table td{padding:.7rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.content table td img{max-width:120px;height:auto;border-radius:var(--radius)}
+.content table tr:nth-child(even) td{background:var(--cream)}
+.content table tr:hover td{background:rgba(201,169,110,.06)}
+.admonition{border:1px solid;border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.admonition::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px}
+.admonition.warning{background:var(--color-warning-bg);border-color:var(--color-warning-border)}
+.admonition.warning::before{background:var(--color-warning-border)}
+.admonition.warning .admonition-title{color:var(--color-warning-border)}
+.admonition.info{background:var(--color-info-bg);border-color:var(--color-info-border)}
+.admonition.info::before{background:var(--color-accent-dark)}
+.admonition.info .admonition-title{color:var(--color-accent-dark)}
+.admonition-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.admonition-body{font-size:.95rem;line-height:1.65}
+.admonition-body p:first-child{margin-top:0}
+.admonition-body p:last-child{margin-bottom:0}
+.materials-box{background:var(--color-materials-bg);border:1px solid var(--color-materials-border);border-left:4px solid var(--color-materials-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.materials-title{font-weight:700;margin:0 0 .5rem;font-family:var(--font-heading);font-size:1rem}
+.materials-list{margin:0;padding-left:1.5rem}
+.materials-list li{font-size:.95rem;margin-bottom:.35rem;list-style-type:disc}
+.materials-list li:last-child{margin-bottom:0}
+.steps-list{list-style:none;padding:0;counter-reset:step-counter}
+.steps-list li{counter-increment:step-counter;margin:.5rem 0;padding:.75rem 1rem;background:var(--color-surface);border-radius:var(--radius);border:1px solid var(--color-border);display:flex;align-items:flex-start;gap:.75rem;transition:var(--transition)}
+.steps-list li:hover{border-color:var(--color-accent);box-shadow:var(--shadow)}
+.steps-list li label{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;width:100%}
+.steps-list li span p{margin:0}
+.step-checkbox{margin-top:.2rem;flex-shrink:0;width:18px;height:18px;accent-color:var(--color-accent);cursor:pointer}
+.tier-grid,.page-grid{list-style:none;padding:0;margin:1.5rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.page-grid li{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:1.25rem;transition:var(--transition);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.page-grid li::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.page-grid li:hover{box-shadow:var(--shadow-lg);border-color:var(--color-accent);transform:translateY(-2px)}
+.page-grid li:hover::before{transform:scaleX(1)}
+.page-grid li a{color:inherit;text-decoration:none;font-weight:600;font-family:var(--font-heading);font-size:1.05rem;display:block;margin-bottom:.25rem}
+.page-grid li a:hover{color:var(--color-accent-dark)}
+.page-grid li p{font-size:.85rem;color:var(--color-text-muted);margin:.25rem 0 0;flex-grow:1}
+.section-desc{font-size:1.05rem;color:var(--color-text-muted);margin-bottom:2rem;max-width:700px;line-height:1.6}
+.responsive-image{margin:1.5rem 0;text-align:center}
+.responsive-image img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.responsive-image figcaption{font-size:.88rem;color:var(--color-text-muted);margin-top:.5rem;font-style:italic}
+footer{background:var(--color-footer-bg);color:var(--color-footer-text);padding:2rem var(--container-padding);margin-top:4rem;text-align:center;font-size:.85rem}
+footer a{color:var(--color-accent);text-decoration:none}
+footer a:hover{color:var(--white)}
+details.toc{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.75rem 1.25rem;margin:1.5rem 0}
+details.toc summary{cursor:pointer;font-family:var(--font-heading)}
+details.toc ul{margin:.5rem 0 0;padding-left:1.5rem;font-size:.9rem}
+/* ─── Mobile Navigation ─── */
+.nav-checkbox{display:none}
+.nav-checkbox:checked~.top-nav{display:flex;position:fixed;top:var(--nav-height);left:0;right:0;bottom:0;background:var(--dark);flex-direction:column;padding:.25rem 0;z-index:99;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.nav-checkbox:checked~.nav-backdrop{display:block}
+.nav-toggle{display:none;background:none;border:none;color:var(--color-header-text);font-size:1.8rem;cursor:pointer;padding:.5rem;min-width:44px;min-height:44px;line-height:1;text-align:center;z-index:101}
+.bottom-nav{display:none}
+@media(max-width:768px){:root{--container-padding:16px;--nav-height:50px}h1{font-size:1.7rem}h2{font-size:1.3rem}header h1{font-size:1.1rem}body{font-size:16px;line-height:1.5}.nav-toggle{display:block;position:absolute;top:50%;right:var(--container-padding);transform:translateY(-50%)}
+.nav-close{display:block}.top-nav{display:none}.top-nav a{padding:.6rem .8rem;font-size:.85rem;min-height:36px;display:flex;align-items:center;border-radius:var(--radius);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-close{display:none;padding:.7rem 1rem;font-size:.9rem;color:var(--gray-light);background:none;border:none;text-align:right;width:100%;cursor:pointer}
+.nav-backdrop{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:98}.top-nav a:active{background:rgba(201,169,110,.15)}.bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,.1);z-index:100;justify-content:space-around;padding:0.3rem 0;padding-bottom:env(safe-area-inset-bottom,0.3rem)}.bottom-nav a{color:var(--gray-light);text-decoration:none;font-size:.6rem;text-align:center;padding:.2rem .1rem;min-width:44px;display:flex;flex-direction:column;align-items:center;gap:1px}.bottom-nav a .icon{font-size:1.3rem}.bottom-nav a:active{color:var(--color-accent)}main{padding-bottom:70px}.page-grid,.tier-grid{grid-template-columns:1fr}.page-grid li a{min-height:48px;display:flex;align-items:center}.content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.content table td{padding:.5rem .6rem}.content table th{padding:.5rem .6rem;font-size:.8rem}.content img{max-width:100%}}@media(min-width:769px){.bottom-nav{display:none}}
+@media print{*,*::before,*::after{background:rgba(0,0,0,0)!important;color:#000!important;box-shadow:none!important}body{font-size:11pt;max-width:100%}header,footer,.nav-toggle,.nav-checkbox,.bottom-nav{display:none!important}a{color:#000!important;text-decoration:underline}h1,h2,h3,h4{page-break-after:avoid}img{max-width:100%!important;page-break-inside:avoid}pre,code,blockquote,table{page-break-inside:avoid}@page{margin:2cm}}</style>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('../../static/sw.js',{scope:'/outback-safe/'})}
+</script>
+</head>
+<body>
+<header>
+<h1><a href="../../index.html">Outback Safe</a></h1>
+<input type="checkbox" id="nav-toggle" class="nav-checkbox">
+<label for="nav-toggle" class="nav-toggle">☰</label>
+<label for="nav-toggle" class="nav-backdrop"></label>
+<nav class="top-nav">
+<label for="nav-toggle" class="nav-close">✕ Close</label>
+<a href="../../01-immediate/09-outback/index.html" class=active>Outback Survival</a><a href="../../01-immediate/index.html">First Aid</a><a href="../../02-stabilise/index.html">Medicine</a><a href="../../04-reference/maps/index.html">Maps & Tracks</a><a href="../../04-reference/communications/index.html">Comms</a><a href="../../04-reference/index.html">Reference</a>
+</nav>
+</header>
+<main>
+<div class="content">
+<details class="toc"><summary><strong>📑 Contents</strong></summary><ul>
+<li><a href="#before-you-travel">Before You Travel</a></li>
+<li><a href="#early-warning-signs">Early Warning Signs</a></li>
+<li><a href="#if-fire-approaches">If Fire Approaches</a></li>
+<li><a href="#fire-shelter-selection">Fire Shelter Selection</a></li>
+<li><a href="#uhf-emergency-channels">UHF Emergency Channels</a></li>
+<li><a href="#after-the-fire">After the Fire</a></li>
+<li><a href="#see-also">See Also</a></li>
+</ul></details>
+<h1>Bushfire Safety in Remote Areas</h1>
+<p>In the Australian outback, bushfire is a sudden and catastrophic threat. Unlike urban areas with evacuation plans and fire services, remote travellers are entirely on their own when fire approaches.</p>
+<p>The Australian Fire Danger Rating System (AFDRS) gives you warnings — but in the outback, you are the fire service. Understand the rating, know the signs, and have a plan before you need it.</p>
+<hr />
+<h2 id="before-you-travel">Before You Travel</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fire Danger Index</td>
+<td>Check the AFDRS rating for your route at <a href="https://www.bom.gov.au">bom.gov.au</a> before departure and daily while on the road</td>
+</tr>
+<tr>
+<td>Total fire ban rules</td>
+<td>Each state has different rules — know them for your route (NSW: RFS; VIC: CFA; QLD: QFES; SA: CFS; WA: DFES; NT: NT Fire Service; TAS: TFS)</td>
+</tr>
+<tr>
+<td>Bushfire Information Line</td>
+<td>Save: 1800 240 667 (nationwide) or your state's line</td>
+</tr>
+<tr>
+<td>Nearest fire-safe areas</td>
+<td>Identify cleared areas, riverbeds, or already-burnt ground on each leg of your route</td>
+</tr>
+<tr>
+<td>PLB / EPIRB</td>
+<td>Confirm registration and battery status — if you're trapped this is your only way to call for help</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning"><div class="admonition-title">⚠️ Warning</div><div class="admonition-body">Never camp in long grass or heavy spinifex country during the fire season. A fire front can travel faster than a vehicle on rough tracks. Your escape route must always be on vector — you need to know which direction the fire is coming from and which way to go.</div></div>
+
+<hr />
+<h2 id="early-warning-signs">Early Warning Signs</h2>
+<p>Fire may be over the next ridge and you won't see the flames. Watch for these signs:</p>
+<table>
+<thead>
+<tr>
+<th>Sign</th>
+<th>What It Means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smoke on the horizon</td>
+<td>Note the wind direction — smoke may be from a fire or a planned burn. If the wind is blowing toward you, <strong>move away</strong> from the smoke source</td>
+</tr>
+<tr>
+<td>Change in wind direction or speed</td>
+<td>A sudden hot, dry wind shift is a classic fire behaviour change — the fire front may turn toward you</td>
+</tr>
+<tr>
+<td>Smoke smell intensifying</td>
+<td>If you smell bushfire strongly but don't see flames, stop, get out, and assess</td>
+</tr>
+<tr>
+<td>Ash falling</td>
+<td>You are close. If ash is falling, the fire front may be within 5–10 km. <strong>Act now</strong></td>
+</tr>
+<tr>
+<td>Animal behaviour changes</td>
+<td>Birds fleeing en masse, kangaroos/emus running in one direction — they know where the fire is. Follow the animals</td>
+</tr>
+<tr>
+<td>Red/orange glow at night</td>
+<td>The fire front is visible at night from many kilometres. Identify its direction and your escape route immediately</td>
+</tr>
+<tr>
+<td>Cracking or roaring sound</td>
+<td>A fire front makes a distinct continuous roar. If you hear this and cannot see the fire, it is likely over the next ridge and approaching fast</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="if-fire-approaches">If Fire Approaches</h2>
+<div class="admonition warning"><div class="admonition-title">⚠️ Warning</div><div class="admonition-body">**Do not try to outrun a bushfire in a vehicle unless you have a clear, open escape route at right angles to the fire's path.** Fire can travel at 25 km/h in open country and much faster upslope. On a rough outback track you will do well to maintain 15 km/h. You cannot outrun it — you must outsmart it.</div></div>
+
+<h3>In a Vehicle</h3>
+<ol>
+<li><strong>Stop the vehicle in the most open area available</strong> — clear of grass, spinifex, and low scrub</li>
+<li><strong>Turn the engine off</strong> — wait and watch the fire approach</li>
+<li><strong>Stay inside the vehicle</strong> — the metal body protects you from radiant heat</li>
+<li><strong>Cover yourself with a wool blanket</strong> — wool does not melt like synthetics. Lie below window level on the floor</li>
+<li><strong>Close all windows and vents</strong> — recirculate cabin air</li>
+<li><strong>After the fire front passes</strong> — danger is largely over. The vehicle will be hot but survivable</li>
+<li><strong>Check for spot fires and embers</strong> before exiting</li>
+</ol>
+<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">The interior of a vehicle during a bushfire can reach 50°C+ from radiant heat. Synthetic clothing and seat covers will melt. Keep a wool blanket within reach of the driver's seat — not in the boot.</div></div>
+
+<h3>On Foot (vehicle abandoned or breakdown)</h3>
+<ol>
+<li><strong>Find the most cleared area available</strong> — already burnt ground is the safest option</li>
+<li><strong>Lie face down</strong> — cover your head and back with a wool blanket or jacket</li>
+<li><strong>Breathe through cloth</strong> — if possible, wet it first</li>
+<li><strong>Protect your airways</strong> — hot inhaled air kills before flames do</li>
+<li><strong>Do not move until the fire front has fully passed</strong> — spot fires ahead of the main front can travel up to several kilometres ahead</li>
+</ol>
+<hr />
+<h2 id="fire-shelter-selection">Fire Shelter Selection</h2>
+<p>Choose your shelter position carefully:</p>
+<table>
+<thead>
+<tr>
+<th>Good Shelter</th>
+<th>Poor Shelter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Already burnt ground (lowest risk)</td>
+<td>Gully or saddle (fire funnels through)</td>
+</tr>
+<tr>
+<td>Large clearing (dirt, rock, sand)</td>
+<td>Heavy fuel loads (spinifex, dry grass, dead timber)</td>
+</tr>
+<tr>
+<td>Rocky area (low fuel, low heat reflection)</td>
+<td>Base of a hill (fire moves fastest uphill)</td>
+</tr>
+<tr>
+<td>Behind a ridge (downwind side preferred)</td>
+<td>Paddock with long, dry grass</td>
+</tr>
+<tr>
+<td>Riverbed with no vegetation (stony creek bed)</td>
+<td>Under large trees (ember attack + falling branches)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning"><div class="admonition-title">⚠️ Warning</div><div class="admonition-body">Never take shelter in a cave or under a rock overhang. The radiant heat from a fire passing over the opening can superheat the air inside the cave — you will be cooked by the air itself. Similarly, do not shelter in a shallow drainage channel; fire can funnel through and the heat rises directly over you.</div></div>
+
+<hr />
+<h2 id="uhf-emergency-channels">UHF Emergency Channels</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UHF 5 (27.100 MHz)</td>
+<td>Emergency — simplex (line-of-sight only, no repeater)</td>
+</tr>
+<tr>
+<td>UHF 10</td>
+<td>Road train and emergency vehicle coordination</td>
+</tr>
+<tr>
+<td>UHF 40</td>
+<td>Call channel — can request assistance relay</td>
+</tr>
+<tr>
+<td>UHF 11</td>
+<td>Community / repeater access for specific regions</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info"><div class="admonition-title">ℹ️ Information</div><div class="admonition-body">In a bushfire emergency, call on **UHF channel 5** first. If no response, try **channel 40** (call channel). If you have repeater access for your area (typically UHF 1–8 on repeater pairs), try that too. Note that fire may have taken out repeaters — but line-of-sight UHF between two vehicles may still work.</div></div>
+
+<hr />
+<h2 id="after-the-fire">After the Fire</h2>
+<ul>
+<li><strong>Beware of falling trees and branches</strong> — fire-damaged trees may fall without warning, especially in wind</li>
+<li><strong>Hot ground</strong> can still ignite tyres and shoes hours after the fire front passes</li>
+<li><strong>Check on other travellers</strong> — use UHF to contact anyone in range</li>
+<li><strong>Do not move until you are sure</strong> the fire has fully passed. Spot fires ahead of the main direction are common and can trap you</li>
+<li><strong>Treat burns immediately</strong> — cool with clean water (not ice) for 20 minutes. Cover with non-stick dressing. Evacuate via RFDS or closest medical centre</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="heat-survival.html">Extreme Heat Survival</a> — Managing heat illness, a companion risk in fire-prone areas</li>
+<li><a href="emergency-services.html">Emergency Services</a> — PLB activation, 000 access, RFDS contact, UHF emergency channels</li>
+</ul>
+</div>
+</main>
+<nav class="bottom-nav">
+<a href="../../index.html"><span class="icon">🏠</span>Home</a>
+<a href="../../01-immediate/09-outback/index.html"><span class="icon">🚙</span>Outback</a>
+<a href="../../02-stabilise/index.html"><span class="icon">🏥</span>Medical</a>
+<a href="../../04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
+</nav>
+<footer>
+<p><a href="../../index.html">Outback Safe</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.<br><small>Last updated: 23 July 2026, 11:21 AEST</small></p>
+</footer>
+</body>
+</html>

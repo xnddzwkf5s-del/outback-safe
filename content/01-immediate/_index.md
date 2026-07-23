@@ -1,5 +1,5 @@
 +++
-title = "Outback Travel"
+title = "Survival & Outback Travel"
 description = "Australian outback 4WD travel — vehicle preparation, breakdown protocol, navigation, and emergency first aid."
 weight = 10
 sort_by = "weight"

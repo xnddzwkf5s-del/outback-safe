@@ -1,5 +1,5 @@
 +++
-title = "Eucalyptus globulus"
+title = "Eucalyptus globulus — Blue Gum"
 description = "Blue gum — antiseptic, decongestant, and respiratory support. Essential Australian medicinal tree."
 tags = ["antiseptic", "decongestant", "respiratory"]
 categories = ["herbal"]

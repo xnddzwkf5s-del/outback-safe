@@ -1,5 +1,5 @@
 +++
-title = "Backhousia citriodora"
+title = "Backhousia citriodora — Lemon Myrtle"
 description = "Lemon myrtle — potent antimicrobial, rich in citral. One of the most powerful natural antiseptics in the Australian flora."
 tags = ["antimicrobial", "antiseptic", "antifungal", "respiratory"]
 categories = ["herbal"]

@@ -1,5 +1,5 @@
 +++
-title = "Reference"
+title = "Reference — Maps, Comms & Resources"
 description = "Reference material for Australian outback travel. Herbal medicine, maps, communications, and educational content."
 weight = 6
 sort_by = "weight"

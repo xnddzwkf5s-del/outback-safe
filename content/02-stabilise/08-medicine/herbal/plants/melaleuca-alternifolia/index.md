@@ -1,5 +1,5 @@
 +++
-title = "Melaleuca alternifolia"
+title = "Melaleuca alternifolia — Tea Tree"
 description = "Tea tree — potent antiseptic, antifungal, and antibacterial. One of the most important medicinal plants in the Australian pharmacopoeia."
 tags = ["antiseptic", "antifungal", "antibacterial", "skin"]
 categories = ["herbal"]

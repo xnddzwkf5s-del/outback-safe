@@ -1,5 +1,5 @@
 +++
-title = "Duboisia myoporoides"
+title = "Duboisia myoporoides — Corkwood"
 description = "Corkwood — potent antispasmodic and source of tropane alkaloids. EXTREMELY TOXIC if misused. Requires expert knowledge."
 tags = ["antispasmodic", "toxic", "alkaloid"]
 categories = ["herbal"]

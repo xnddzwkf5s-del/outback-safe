@@ -1,5 +1,5 @@
 +++
-title = "Kunzea ambigua"
+title = "Kunzea ambigua — Tick Bush"
 description = "Tick bush — anti-inflammatory, analgesic, and soothing topical remedy from coastal southeastern Australia."
 tags = ["anti-inflammatory", "analgesic", "skin", "topical"]
 categories = ["herbal"]

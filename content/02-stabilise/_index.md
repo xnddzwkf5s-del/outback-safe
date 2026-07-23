@@ -1,5 +1,5 @@
 +++
-title = "Medicine & First Aid"
+title = "Medicine & First Aid — Section Home"
 description = "Australian outback medical reference. Snake bite, bush medicine, spider bites, marine stingers, remote first aid, and anaphylaxis."
 weight = 20
 sort_by = "weight"

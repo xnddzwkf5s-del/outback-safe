@@ -1,5 +1,5 @@
 +++
-title = "Alpinia caerulea"
+title = "Alpinia caerulea — Native Ginger"
 description = "Native ginger — digestive aid, anti-inflammatory, and edible root from Australian rainforests. One of the safest bush foods."
 tags = ["digestive", "anti-inflammatory", "edible", "antioxidant"]
 categories = ["herbal"]
