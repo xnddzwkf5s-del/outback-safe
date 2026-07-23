@@ -99,7 +99,7 @@ This guide is for **educational and informational purposes only**. It is not a s
 
 **Website (read in Safari):** Open this website → tap Share → **Add to Home Screen**. Browse a few pages on first visit — the service worker caches everything for permanent offline access, even in airplane mode.
 
-**EPUB (read in Books):** [📖 Download EPUB (3.5 MB)](Outback Safe.epub) — then:
+**EPUB (read in Books):** [📖 Download EPUB](Outback Safe.epub) — then:
 
 1. Download the EPUB — it saves to the **Files** app
 2. Install the free **Books** app from the App Store (orange icon)
