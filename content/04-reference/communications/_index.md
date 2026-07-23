@@ -23,8 +23,26 @@ VKS-737 operates a network of base stations across Australia, staffed by volunte
 {% info() %}
 VKS-737 requires a **paid subscription** and an **HF radio with Upper Sideband (USB) capability**. It is not plug-and-play like UHF CB — you need to install an HF radio and antenna, and learn basic radio procedure. The subscription includes access to all frequencies, sked schedules, and the emergency contact service.
 
-Visit [vks737.radio](https://vks737.radio/) for current subscription details and frequency allocations.
+Visit [vks737.radio](https://vks737.radio/) for current subscription details.
 {% end %}
+
+### VKS-737 Frequencies
+
+{% warning() %}
+Frequencies are allocated by the ACMA and subject to change. Always verify current channels at [vks737.radio/frequencies](https://vks737.radio/frequencies/) before your trip. Last updated: 23 July 2026.
+{% end %}
+
+| Channel | Frequency | Mode | Primary Use |
+|---------|-----------|------|-------------|
+| **Ch 1** | 5455 kHz | USB | Secondary sked channel — free for general/telephone use outside sked times |
+| **Ch 2** | 8022 kHz | USB | **Primary sked channel** — all base station skeds run here. Free outside sked times |
+| **Ch 3** | 11612 kHz | USB | No sked traffic — general use. Excellent reach mid-morning to mid-afternoon |
+| **Ch 4** | 14977 kHz | USB | Minimal sked traffic — general use. Best reach during midday |
+| **Ch 5** | 3995 kHz | USB | No sked traffic — general use. Good shorter-range channel |
+| **Ch 6** | 6796 kHz | USB | No sked traffic — general use. Good medium distances, especially mornings |
+| **Ch 7** | 10180 kHz | USB | No sked traffic — general use. Very good reach mid-morning to mid-afternoon |
+
+**All channels use Upper Sideband (USB) mode.** All 7 channels are available to authorised VKS-737 subscribers. Stay clear of published sked timeframes and emergency traffic.
 
 ### How It Works
 
