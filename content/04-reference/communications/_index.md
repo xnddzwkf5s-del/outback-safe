@@ -1,6 +1,6 @@
 +++
 title = "Communications Reference"
-description = "Australian communications for remote travel. UHF CB (no licence), 2M amateur radio repeaters, satellite phones, PLBs, and emergency communications."
+description = "Australian communications for remote travel. UHF CB (no licence), 2M amateur radio repeaters, VKS-737 HF network, satellite phones, PLBs, and emergency communications."
 weight = 1
 +++
 
@@ -12,89 +12,4 @@ Staying in contact in remote Australia. From the standard UHF radio in every 4WD
 
 - **[UHF CB Radio Guide](uhf-cb-guide)** — Complete 80-channel reference. Emergency channels, convoy protocols, antenna setup, range. **No licence required. Standard in all Australian 4WDs.**
 - **[2M Amateur Radio Repeaters](2m-repeaters)** — 146 repeaters across 8 states. **Requires Amateur Operator's Certificate.**
-- **[VKS-737 — HF Outback Radio Network](#vks-737-hf-outback-radio-network)** — Australia-wide HF radio for remote travellers. Subscription required. Works where UHF and mobile phones don't.
-
-## VKS-737 — HF Outback Radio Network
-
-The **VKS-737 Radio Network** is Australia's national HF (High Frequency) radio network for remote travellers. Unlike UHF CB (line-of-sight, ~5–15 km range), HF radio bounces off the ionosphere and can reach **hundreds or thousands of kilometres** — making it the only reliable voice communication across the vast Australian outback.
-
-VKS-737 operates a network of base stations across Australia, staffed by volunteers who run scheduled **skeds** (radio sessions) throughout the day and night. In an emergency, subscribers can contact a base station operator who will coordinate with police, ambulance, or the RFDS.
-
-{% info() %}
-VKS-737 requires a **paid subscription** and an **HF radio with Upper Sideband (USB) capability**. It is not plug-and-play like UHF CB — you need to install an HF radio and antenna, and learn basic radio procedure. The subscription includes access to all frequencies, sked schedules, and the emergency contact service.
-
-Visit [vks737.radio](https://vks737.radio/) for current subscription details.
-{% end %}
-
-### VKS-737 Frequencies
-
-{% warning() %}
-Frequencies are allocated by the ACMA and subject to change. Always verify current channels at [vks737.radio/frequencies](https://vks737.radio/frequencies/) before your trip. Last updated: 23 July 2026.
-{% end %}
-
-| Channel | Frequency | Mode | Primary Use |
-|---------|-----------|------|-------------|
-| **Ch 1** | 5455 kHz | USB | Secondary sked channel — free for general/telephone use outside sked times |
-| **Ch 2** | 8022 kHz | USB | **Primary sked channel** — all base station skeds run here. Free outside sked times |
-| **Ch 3** | 11612 kHz | USB | No sked traffic — general use. Excellent reach mid-morning to mid-afternoon |
-| **Ch 4** | 14977 kHz | USB | Minimal sked traffic — general use. Best reach during midday |
-| **Ch 5** | 3995 kHz | USB | No sked traffic — general use. Good shorter-range channel |
-| **Ch 6** | 6796 kHz | USB | No sked traffic — general use. Good medium distances, especially mornings |
-| **Ch 7** | 10180 kHz | USB | No sked traffic — general use. Very good reach mid-morning to mid-afternoon |
-
-**All channels use Upper Sideband (USB) mode.** All 7 channels are available to authorised VKS-737 subscribers. Stay clear of published sked timeframes and emergency traffic.
-
-### How It Works
-
-| Feature | Detail |
-|---------|--------|
-| **Radio type** | HF SSB (Single Sideband, Upper Sideband/USB mode) |
-| **Frequency range** | 3–15 MHz (allocated channels by ACMA) |
-| **Range** | Hundreds to thousands of kilometres (skywave) |
-| **Licence** | No individual licence needed — covered by VKS-737 network licence |
-| **Subscription** | Required (~$100–150/year) |
-| **Base stations** | ~12 across Australia, staffed by volunteers |
-| **Emergency use** | Base stations coordinate directly with police, ambulance, RFDS |
-| **Sked times** | Scheduled sessions throughout day and night (summer/winter schedules) |
-
-### VKS-737 vs UHF CB vs Satellite
-
-| Feature | VKS-737 HF | UHF CB | Satellite Phone |
-|---------|-----------|--------|-----------------|
-| **Range** | Australia-wide | 5–15 km | Global |
-| **Cost** | Subscription + radio (~$500–1500) | Radio (~$50–300) | Phone (~$600+) + plan |
-| **Ongoing cost** | ~$100–150/year | Free | ~$15–50/month |
-| **Emergency** | Base station coordinates rescue | Limited to nearby listeners | Direct call to 000 |
-| **Convoy comms** | No (not for short-range) | Yes (primary use) | No |
-| **Reliability** | Excellent (multiple base stations, multiple frequencies) | Line-of-sight only | Excellent (needs clear sky view) |
-| **Weather dependency** | Minor (atmospheric conditions) | None | Heavy cloud/rain can affect |
-
-### When to Choose VKS-737
-
-**Get VKS-737 if you:**
-- Travel solo in remote areas (Simpson Desert, Canning Stock Route, Great Victoria Desert, Cape York during wet season)
-- Are more than 50 km from the nearest town or station
-- Want 24/7 radio check-in capability with a real person
-- Want emergency coordination (base station operator handles the logistics of contacting police/RFDS — you don't need to know which frequency or phone number to call)
-
-**UHF CB is sufficient if you:**
-- Travel in convoy or on well-trafficked tracks
-- Stay within 15 km of other vehicles or towns
-- Carry a PLB or satellite phone for emergencies
-
-{% warning() %}
-VKS-737 base station operators are volunteers. Outside scheduled sked times, coverage may be reduced. Always carry a **PLB (Personal Locator Beacon)** as your ultimate emergency backup — it works anywhere, any time, via satellite, with no subscription needed.
-{% %}
-
-### Getting Started
-
-1. **Subscribe** at [vks737.radio](https://vks737.radio/) — you'll receive your subscriber number, selcall ID, and frequency/sked information
-2. **Install an HF radio** — Barrett, Codan, and Icom are common brands used by outback travellers. Most 4WD specialists can install with a proper HF antenna (autotune recommended)
-3. **Learn the procedure** — VKS-737 provides training materials. Key points: use your selcall to establish contact, wait for the base station to acknowledge, use clear plain English, learn the phonetic alphabet
-4. **Check in on skeds** — even if you don't need help, regular check-ins confirm your radio is working and your position is logged
-
-### Related
-- [UHF CB Radio Guide](uhf-cb-guide) — Day-to-day convoy and short-range communications
-- [Emergency Services](01-immediate/09-outback/emergency-services) — PLB activation, 000/112, RFDS contact
-- [Route Planning & Trip Preparation](01-immediate/09-outback/route-planning) — Communications schedule as part of trip planning
-- [What to Carry](01-immediate/09-outback/what-to-carry) — Complete outback gear checklist including communications
+- **[VKS-737 — HF Outback Radio Network](vks-737)** — Australia-wide HF radio. All 7 channels with frequencies, comparison with UHF CB vs satellite, and getting started guide. **Subscription required.**
