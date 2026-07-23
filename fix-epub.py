@@ -32,6 +32,9 @@ for html_file in sorted(SITE.rglob('*.html')):
     # Remove link hrefs (EPUB can't do cross-page links easily)
     body = re.sub(r'href="([^"]+)"', 'href="#"', body)
     
+    # Fix HTML5 void elements for XHTML compliance (EPUB 2 requires XML)
+    body = re.sub(r'<(input|br|hr|img|meta|link|area|base|col|embed|source|track|wbr)([^>]*[^/])>', r'<\1\2 />', body)
+    
     # Fix XHTML entities - only escape bare & not part of an entity
     body = re.sub(r'&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)', '&amp;', body)
     
