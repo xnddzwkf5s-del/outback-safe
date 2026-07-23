@@ -73,6 +73,7 @@ The Australian 2m band plan divides the spectrum for different modes:
 | Location | Call Sign | Output (MHz) | Input (MHz) | CTCSS (Hz) | Status | Notes |
 |---|---|---|---|---|---|---|
 | **Sydney & Surrounds** | | | | | | |
+| Dural (Sydney North) | VK2RAG | 147.100 | 147.700 | 91.5 | Operational | Northern Sydney / Hills District; primary VK2RAG site; linked to Somersby & Gosford |
 | Maddens Plains (Wollongong) | VK2RMP | 146.850 | 146.250 | 91.5 | Operational | Southern Sydney to Wollongong corridor; excellent coastal coverage |
 | Somersby (Central Coast) | VK2RAG | 146.725 | 146.125 | 91.5 | Operational | Central Coast; linked to Gosford site |
 | Gosford | VK2RAG (alt) | 147.050 | 146.450 | 91.5 | Operational | Central Coast; linked to Somersby |
