@@ -1,6 +1,6 @@
 import zipfile, re, os, shutil
 from pathlib import Path
-from html import escape
+from html import escape, unescape
 
 SITE = Path('/Users/pang/Survival-Wiki/site')
 EPUB_SRC = Path('/Users/pang/Survival-Wiki/Outback Safe.epub')
@@ -13,7 +13,8 @@ CSS = 'body{font-family:-apple-system,sans-serif;font-size:16px;line-height:1.6;
 
 pages = []
 
-for html_file in sorted(SITE.rglob('*.html')):
+all_files = sorted(SITE.rglob('*.html'), key=lambda f: (str(f.parent) != str(SITE), str(f)))
+for html_file in all_files:
     if 'static' in str(html_file) or html_file.name == '404.html': continue
     content = html_file.read_text()
     title_m = re.search(r'<title>(.*?)</title>', content)
@@ -29,8 +30,8 @@ for html_file in sorted(SITE.rglob('*.html')):
     # In EPUB, pages are at OEBPS/page.html, images at OEBPS/static/images/...
     body = re.sub(r'src="(?:\.\./)+static/(images|maps)/', r'src="static/\1/', body)
     
-    # Remove link hrefs (EPUB can't do cross-page links easily)
-    body = re.sub(r'href="([^"]+)"', 'href="#"', body)
+    # Remove cross-page hrefs but preserve in-page anchors (#...) and external URLs
+    body = re.sub(r'href="(?!#|http)([^"]+)"', 'href="#"', body)
     
     # Fix HTML5 void elements for XHTML compliance (EPUB 2 requires XML)
     body = re.sub(r'<(input|br|hr|img|meta|link|area|base|col|embed|source|track|wbr)([^>]*[^/])>', r'<\1\2 />', body)
@@ -38,9 +39,12 @@ for html_file in sorted(SITE.rglob('*.html')):
     # Fix XHTML entities - only escape bare & not part of an entity
     body = re.sub(r'&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)', '&amp;', body)
     
+    # Strip duplicate <h1> from body (already in XHTML template)
+    body = re.sub(r'<h1[^>]*>.*?</h1>', '', body, flags=re.DOTALL)
+    
     rel = str(html_file.relative_to(SITE))
     name = rel.replace('/','_')
-    display_title = title.replace(' — Outback Safe','')
+    display_title = unescape(title.replace(' — Outback Safe',''))
     
     # Proper XHTML with DOCTYPE
     clean = f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head><title>{escape(display_title)}</title>\n<style type="text/css">\n{CSS}\n</style>\n</head>\n<body>\n<h1>{escape(display_title)}</h1>\n{body}\n</body>\n</html>'
