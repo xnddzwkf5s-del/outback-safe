@@ -3,6 +3,7 @@
 import markdown, re, os, shutil
 from pathlib import Path
 from html import escape
+from datetime import datetime, timezone, timedelta
 
 ROOT = Path("/Users/pang/Survival-Wiki")
 CONTENT = ROOT / "content"
@@ -279,7 +280,7 @@ if('serviceWorker' in navigator){{navigator.serviceWorker.register('{home}static
 <a href="{home}04-reference/maps/index.html"><span class="icon">🗺️</span>Maps</a>
 </nav>
 <footer>
-<p><a href="{home}index.html">{SITE_TITLE}</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.</p>
+<p><a href="{home}index.html">{SITE_TITLE}</a> — CC BY-SA 4.0 — Works offline, no server needed. Put it on a USB stick.<br><small>Last updated: {datetime.now(timezone(timedelta(hours=10))).strftime('%d %B %Y, %H:%M AEST')}</small></p>
 </footer>
 </body>
 </html>"""
