@@ -14,8 +14,6 @@ Most AI projects assume connectivity. For government, defence, critical infrastr
 
 The answer is a layered system where every component has a fallback. The AI can fail entirely and the static survival site still works. The model can be swapped. The knowledge base can be replaced. There's no single point of failure. That's not just good engineering — it's the same thinking you'd apply to deploying AI in a regulated enterprise environment.
 
-**Built by:** a cyber security professional with 20+ years in government and critical infrastructure delivery. This project was developed to demonstrate practical, security-constrained AI deployment — not as a research exercise, but as a shipped product that someone can plug in and use immediately.
-
 ---
 
 ## What's Inside
