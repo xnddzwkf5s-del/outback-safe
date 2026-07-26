@@ -70,34 +70,16 @@ Plug it in, open the web UI, and you have a knowledgeable survival companion eve
 
 ## Architecture
 
-```
-┌──────────────────────────────────────────────────┐
-│                  USB Drive                        │
-│                                                   │
-│  ┌─────────────────────┐  ┌───────────────────┐  │
-│  │   Static HTML Site  │  │   AI Assistant    │  │
-│  │   (142 pages)       │  │   (Flask Web UI)  │  │
-│  │   ─────────────     │  │   ──────────────  │  │
-│  │   Opens in any      │  │   Start scripts   │  │
-│  │   browser. Always   │  │   launch:         │  │
-│  │   works.            │  │   1. llama.cpp    │  │
-│  └─────────────────────┘  │   2. RAG server   │  │
-│                            │   3. Web browser  │  │
-│                            └────────┬──────────┘  │
-│                                     │              │
-│                            ┌────────▼──────────┐  │
-│                            │   Knowledge Base  │  │
-│                            │   (Vector index   │  │
-│                            │    + content/)    │  │
-│                            └───────────────────┘  │
-│                                                   │
-│  ┌──────────────────────────────────────────┐     │
-│  │  Build System (Makefile + Python tools)  │     │
-│  │  preprocess.py → build_search_index.py  │     │
-│  │  download_models.py → bundle_deps.py    │     │
-│  └──────────────────────────────────────────┘     │
-└──────────────────────────────────────────────────┘
-```
+The USB contains four layers, each independently operable:
+
+| Layer | Role | Dependency |
+|-------|------|-----------|
+| **Static HTML Site** | 142 pages, opens in any browser | None — always works |
+| **AI Assistant** | Flask web UI + RAG query handler | Requires Python + model |
+| **Knowledge Base** | Vector index + markdown content | Built from content/ |
+| **Build System** | Makefile + Python tools for assembly | Development only |
+
+The static site has no dependencies and functions as a fallback if the AI layer can't start. The AI layer queries the knowledge base via vector search. The build system assembles everything onto a USB.
 
 **File structure:**
 
