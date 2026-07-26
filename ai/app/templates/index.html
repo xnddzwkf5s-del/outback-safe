@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outback-Safe USB - Offline AI Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- ===== SIDEBAR (Knowledge Base) ===== -->
+<aside id="sidebar" class="sidebar hidden">
+  <div class="sidebar-header">
+    <h2>📁 Knowledge Base</h2>
+    <button id="sidebarCloseBtn" class="icon-btn" title="Close sidebar" aria-label="Close sidebar">✕</button>
+  </div>
+  <nav class="sidebar-nav">
+    <details open>
+      <summary>🏕️ Outback Safety</summary>
+      <ul>
+        <li><a href="/outback-safe/snake-bite.html">🐍 Snake Bite</a></li>
+        <li><a href="/outback-safe/spider-bites.html">🕷️ Spider Bites</a></li>
+        <li><a href="/outback-safe/cpr.html">❤️ CPR</a></li>
+        <li><a href="/outback-safe/bleeding.html">🩸 Bleeding</a></li>
+        <li><a href="/outback-safe/heat-survival.html">🌡️ Heat Stroke</a></li>
+        <li><a href="/outback-safe/grab-bag.html">🔥 Fire / Grab Bag</a></li>
+      </ul>
+    </details>
+    <details>
+      <summary>📻 Communications</summary>
+      <ul>
+        <li><a href="/outback-safe/radio.html">📡 Radio Procedures</a></li>
+        <li><a href="/outback-safe/emergency-beacon.html">🆘 Emergency Beacons</a></li>
+      </ul>
+    </details>
+    <details>
+      <summary>💧 Water &amp; Food</summary>
+      <ul>
+        <li><a href="/outback-safe/water.html">💧 Water Sourcing</a></li>
+        <li><a href="/outback-safe/food.html">🥫 Emergency Rations</a></li>
+      </ul>
+    </details>
+    <details>
+      <summary>🛠️ Repairs</summary>
+      <ul>
+        <li><a href="/outback-safe/vehicle.html">🚗 Vehicle Recovery</a></li>
+        <li><a href="/outback-safe/shelter.html">🏕️ Shelter Building</a></li>
+      </ul>
+    </details>
+  </nav>
+</aside>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div id="mainContent" class="main-content">
+
+  <!-- STATUS BAR -->
+  <div id="statusBar" class="status-bar">
+    <span id="modelStatus" class="status-item">
+      <span class="status-dot loading"></span>
+      <span id="modelStatusText">Loading model…</span>
+    </span>
+    <span id="pageCount" class="status-item">📚 — pages indexed</span>
+    <span id="usbStatus" class="status-item">💾 USB Connected</span>
+    <span id="offlineBadge" class="status-item badge-offline">🆇 OFFLINE MODE</span>
+  </div>
+
+  <!-- QUICK-DIAL STRIP -->
+  <div class="quick-dial">
+    <a href="tel:000" class="dial-btn dial-emergency">🚨 000</a>
+    <a href="tel:131126" class="dial-btn dial-info">☠️ Poisons 13 11 26</a>
+    <a href="tel:132500" class="dial-btn dial-info">🆘 SES 13 25 00</a>
+  </div>
+
+  <!-- EMERGENCY TILES -->
+  <div class="tile-grid">
+    <a href="/outback-safe/snake-bite.html" class="tile tile-red" data-key="1" id="tile1">
+      <span class="tile-key">1</span>
+      <span class="tile-icon">🐍</span>
+      <span class="tile-label">Snake Bite</span>
+    </a>
+    <a href="/outback-safe/cpr.html" class="tile tile-red" data-key="2" id="tile2">
+      <span class="tile-key">2</span>
+      <span class="tile-icon">❤️</span>
+      <span class="tile-label">CPR</span>
+    </a>
+    <a href="/outback-safe/bleeding.html" class="tile tile-red" data-key="3" id="tile3">
+      <span class="tile-key">3</span>
+      <span class="tile-icon">🩸</span>
+      <span class="tile-label">Bleeding</span>
+    </a>
+    <a href="/outback-safe/heat-survival.html" class="tile tile-orange" data-key="4" id="tile4">
+      <span class="tile-key">4</span>
+      <span class="tile-icon">🌡️</span>
+      <span class="tile-label">Heat Stroke</span>
+    </a>
+    <a href="/outback-safe/spider-bites.html" class="tile tile-orange" data-key="5" id="tile5">
+      <span class="tile-key">5</span>
+      <span class="tile-icon">🕷️</span>
+      <span class="tile-label">Spider Bite</span>
+    </a>
+    <a href="/outback-safe/grab-bag.html" class="tile tile-yellow" data-key="6" id="tile6">
+      <span class="tile-key">6</span>
+      <span class="tile-icon">🔥</span>
+      <span class="tile-label">Fire</span>
+    </a>
+  </div>
+
+  <!-- DISCLAIMER BANNER -->
+  <div class="disclaimer-banner">
+    <span>⚠️</span>
+    <span>Reference only. Not medical advice. Call 000 in emergencies.</span>
+  </div>
+
+  <!-- CHAT MESSAGES -->
+  <div id="chatMessages" class="chat-messages" role="log" aria-live="polite">
+    <div class="message ai">
+      <div class="message-bubble">
+        <p>Welcome to Outback-Safe USB Assistant. I can answer questions from the offline knowledge base.</p>
+        <p>Ask about first aid, survival skills, emergency procedures, or any topic in the library.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- INPUT AREA -->
+  <div class="chat-input-area">
+    <textarea
+      id="chatInput"
+      class="chat-input"
+      rows="3"
+      placeholder="⏳ AI is loading… (~2–3 min first start)"
+      disabled
+      aria-label="Type your message"
+    ></textarea>
+    <div class="chat-input-buttons">
+      <button id="sendBtn" class="btn btn-send" disabled title="Send message (Enter)" aria-label="Send message">
+        <span class="btn-icon">↑</span> Send
+      </button>
+      <button id="stopBtn" class="btn btn-stop" title="Stop generation (Escape)" aria-label="Stop generation">
+        <span class="btn-icon">■</span> Stop
+      </button>
+      <button id="regenerateBtn" class="btn btn-secondary" title="Regenerate last response" aria-label="Regenerate last response">
+        <span class="btn-icon">↻</span> Regenerate
+      </button>
+      <button id="clearChatBtn" class="btn btn-secondary" title="Clear chat history" aria-label="Clear chat history">
+        <span class="btn-icon">🗑</span> Clear Chat
+      </button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="chat-footer">
+    <button id="kbToggleBtn" class="footer-btn" title="Toggle Knowledge Base sidebar" aria-label="Toggle Knowledge Base">
+      📁 Knowledge Base
+    </button>
+    <button id="themeToggleBtn" class="footer-btn" title="Toggle high-contrast theme" aria-label="Toggle theme">
+      ☀️ High Contrast
+    </button>
+    <button id="unitsToggleBtn" class="footer-btn" title="Toggle metric/imperial units" aria-label="Toggle units">
+      📏 Metric
+    </button>
+    <button id="printBtn" class="footer-btn" title="Print this page" aria-label="Print page">
+      🖨️ Print Page
+    </button>
+  </footer>
+
+</div> <!-- /mainContent -->
+
+<script src="/static/chat.js"></script>
+</body>
+</html>

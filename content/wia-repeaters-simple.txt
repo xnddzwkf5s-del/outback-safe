@@ -1,0 +1,667 @@
+# Australian 2M Repeater Directory (WIA, Sept 2025)
+
+Each line: Output_MHz Input_MHz CallSign Location ServiceArea Status ERP_W HASL_M Timeout_min Sponsor CTCSS_Tone
+
+146.625 146.025 VK2RGN Mt Gray              Goulburn                 O 20       -   3     2JQ       -
+146.650 146.050 VK2RDX Mt Bindo             W Blue Mtns              W 50    1362   3.5   2LE    91.5
+146.650 146.050 VK2RMI Terry Hie Hie        Moree / Inverell         O 10     660   4     2AJ       -
+146.675 146.075 VK2RCV Pine Brush           Clarence Valley          O 30     264   3     2VL     123
+146.675 146.075 VK2REE Mt Ganghat           Taree-Gloucester         O 50     600   5.0   2FRE    123   22
+146.675 146.075 VK2RUW Knights Hill         Wgong Sth - Shoalhaven W 50       920   5     2AMW      -   21
+146.700 146.100 VK2RAO Mt Canobolas         Orange                   O 50    1417   3     3TE    91.5
+146.700 146.100 VK2RMU Nowra Hill           Milton - Ulladulla       O 50     330   4     2HQ     123
+146.700 146.100 VK2RPM Middle Brother       Port Macquarie           O 50     552   3.5   2BOR   91.5
+146.725 146.125 VK2RAD South Hill           Armidale                 O 10    1140   3     2IY       -
+146.725 146.125 VK2RAG Somersby             Gosford                  W 50     320   3     2EH    91.5
+146.725 146.125 VK2RBL Balranald            Balranald 6/24           U  50      -   -     2PNH      -   56
+146.725 146.125 VK2RCD Burroway Hill        Dubbo area               O 50     300   -     2UBQ      -   29
+146.725 146.125 VK2RMS Lightning Ridge      Lightning Ridge 12/23    U  50      -   -     2SMS      -
+146.750 146.150 VK2RCB Francis Lookout      Bellingen                O 50     850   3     2EP     123   24
+146.750 146.150 VK2RFS Mt Mumbulla          Batemans Bay/Vic Border W 50      766   3     2DIE      -   55,118
+146.750 146.150 VK2RTJ Mt Woolooma          Scone/Upper Hunter 12/24 X  50   1320   3     2WRG   91.5   116
+146.750 146.150 VK2RWG Wheel of Fortune     Wagga                    W 25     496   3     2WG    91.5   25
+146.775 146.175 VK2RBE Mt Bethungra         Cootamundra - Young      O 25     892   3     2WG    91.5   25
+146.775 146.175 VK2RTZ Sugarloaf Range      Newcastle                O 83     442   3     2ATZ   91.5
+146.800 146.200 VK2RCC Needle Mtn           Coonabarabran            O 80    1100   3.5   2UBQ      -   29
+146.800 146.200 VK2RLE Engadine             Sydney                   O 60     110   5     2LE       -
+146.800 146.200 VK2RSC Parrots Nest         Lismore                  O 15     185   3     2SRC    123
+146.800 146.200 VK2RTD Tumorrama Mtn        Tumut area               O 25     933   3     2WG    91.5   25
+146.825 146.225 VK2RAB Mt Crawney           Tamworth/Muswellbrook O 50       1401   3     2WRG      -   116
+146.825 146.225 VK2RGA Rankin Springs       Hay                      O 25     387   3     2WG    91.5   25
+146.825 146.225 VK2RHR High Range           Southern Highlands       O 50     862   3     2JQ       -
+146.825 146.225 VK2RWP Bega                 Bega                     O 50     100   3.5   2CRN      -
+146.850 146.250 VK2RCH Mt Coramba           Coffs Harbour            O 50     600   3     2EP     123   24
+146.850 146.250 VK2RGF Mt Square Knob       Leeton - Griffith        O 25     386   3     2WG    91.5   25
+146.850 146.250 VK2RMP Maddens Plains       Wollongong - Sydney      W 120    465   4     2AMW      -   21
+146.875 146.275 VK2RMB Terrey Hills         Sydney                   O 50     150   3     2MB       -   1
+146.875 146.275 VK2RMY Mt Yarrahapinni      Kempsey - Macksville     O 15     500   3     2EP       -
+146.875 146.275 VK2RLJ Mt Perisher          Jindabyne                O 10    2010   3     2SNO      -
+146.875 146.275 VK2RZL Mt Arthur            Upper Hunter             O 50     476   3     2ATZ    123
+146.900 146.300 VK1RAC Bulls Head           South West ACT           O 10     441   5     1ACA      -
+146.900 146.300 VK2RKG Kelso                Bathurst                 O 50     700   5     2MES      -   19
+146.900 146.300 VK2RNC Mt Sugarloaf         Lower Hunter             O 70     442   5     2AWX      -
+146.900 146.300 VK2RRT Boona Mtn            Condobolin               O 25     441   5     2UBQ      -
+146.925 146.325 VK2RPW Grundy Mtn           Walcha                   O 50    1463   3     2WRG      -   116
+146.950 146.350 VK1RGI Mt Ginini            ACT - SE NSW             W 40    1770   3.5   1ACA   91.5
+146.950 146.350 VK2RNE Mt Rumbee            Glen Innes               O 10    1503   4     2AJ       -
+146.975 146.375 VK2RNC Mt Sugarloaf         Lower Hunter             W 70     442   10    2AWX      -   26
+147.000 146.400 VK2RBH Mt Darling           Broken Hill              O 15     400   3     2DPG      -
+147.000 146.400 VK2RCN Telegraph Point      Port Macquarie           O 50     136   3     2BOR      -
+147.025 147.625 VK2ROT Paddington           Sydney                   O 20      40   3     2BV    91.5   23
+147.025 147.625 VK2RSM Digits               Adaminaby                O 50    1350   3.5   2SNO      -
+147.050 147.650 VK2RBM Lawson               Blue Mtns                O 20     735   3     2HZ     123
+147.050 147.650 VK2RNR Mallanganee Hogath   Casino                   O 50     340   -     2SRC    123
+147.075 147.675 VK2RMW Mt Wandera           Batemans Bay           O   25     530   3     2BAY      -
+147.075 147.675 VK2RCZ Winmalee             Sydney West            O   20     150   3     2CRZ   91.5
+147.075 147.675 VK2RWR Moona Trig           Walcha                 O   50    1336   3     2WRG      -   116
+147.100 147.700 VK2RGL Cabbage Tree Mtn     Forster - Tuncurry     O   30     650   5     2GLR   91.5
+147.125 147.725 VK1RWP portable             ACT WICEN              O   20       -   -     1ACA      -
+147.125 147.725 VK2RAG Somersby             Gosford WICEN          O   50     320   3     2EH    91.5
+147.125 147.725 VK2RAV portable             Statewide WICEN        O   10       -   3     NWN       -
+147.125 147.725 VK2RSR Scaddens Ridge       Wyong WICEN            O   20       -   -     NWN       -   27
+147.150 147.750 VK1RWP portable             ACT WICEN              O   20       -   -     1ACA      -
+147.150 147.750 VK2RAV portable             Statewide WICEN        O   10       -   3     NWN       -
+147.150 147.750 VK2RWC Chatswood            Sydney WICEN           O   40     140   0.5   NWN    91.5
+147.150 147.750 VK2RWH Cessnock             Lower Hunter WICEN           O   -        -   -     NWN        -
+147.150 147.750 VK2RWK Kurrajong Heights    Blue Mtns WICEN              O   -        -   -     NWN        -
+147.175 147.775 VK1RWP portable             ACT wide WICEN               O   -        -   -     1ACA       -
+147.175 147.775 VK2RAV portable             Statewide WICEN              O 10         -   3     NWN        -
+147.175 147.775 VK2REP portable             Statewide WICEN              O   -        -   -     NWN        -
+147.175 147.775 VK2RFI portable             Hunter region WICEN          O   -        -   -     NWN        -
+147.175 147.775 VK2RWS portable             Statewide WICEN              O   -        -   -     NWN        -
+147.200 147.800 VK2RCW Gowan                Bathurst/Orange              O 83       921   3     2ACW       -   19
+147.200 147.800 VK2RWB Gwynne Hill          Yarrawonga WICEN             O 80       250   5     NWN      123   19
+147.225 147.825 VK2RAY Springdale Heights   Albury                       O 100      330   4     2EWC   118.8   121
+147.225 147.825 VK2RYL Bald Mtn             Rylstone                     O 120      983   4     2LE        -   31
+147.250 147.850 VK2REH Moonimba             Woodburn                     O 18       180   3     2SRC     123
+147.250 147.850 VK2RNS Asquith              Sydney                       O 50       225   3.5   2MA        -
+147.275 147.875 VK2RAP Acacia Plateau       Warwick - Stanthorpe         O 40       950   3     4BRC       -   33
+147.325 147.925 VK2RTS Lawson               Blue Mtns                    O 25         -   5     2FKO       -
+147.350 145.750 VK1RBM Isaacs Ridge         Canberra Central             O 50       820   3     1ACA    91.5   96
+147.375 147.975 VK2RMM Mt McKenzie          Tenterfield - Granite Belt   O 40      1350   3     4BRC     123   33
+147.375 147.975 VK2RSE Mt Roberts           Monaro Snowy Mtns            W 100     1482   3     2DIE       -   118
+144.9375 145.5375 VK3RDQ Outer Eastern Suburbs Melbourne 12/24             U    80     68   3     3DQ     91.5   46
+146.625 146.025 VK3RDH Mt Delegate           East Gippsland              W   100   1325   3     3DIE       -   118
+146.625 146.025 VK3ROW Beech Forest          Otway Ranges                O    45    550   3     3ATL    91.5   58
+146.650 146.050 VK3RBT Green Hill            Ballarat                    O     -      -   -     3BML    91.5
+146.650 146.050 VK3REG Mt Cann               East Gippsland              O    40      -   2.5   3EGC       -   35
+146.675 146.075 VK3RSP Arthurs Seat          Mornington Peninsula        O     -      -   -     3BSP    88.5
+146.700 146.100 VK3RML Ferny Creek           Melbourne                   W   100    600   2.5   3WI     91.5
+146.700 146.100 VK3RON Ouyen                 Ouyen                       O    80    130   3     3RSG       -   56
+146.725 146.125 VK3RYV Briarty Hill          Yarra Valley                O    25    421   2.5   3YVG     123
+146.750 146.150 VK3RBA Mt Buninyong          Ballarat                    O    15    750   3     3BML    91.5
+146.775 146.175 VK3RAG Rennies Hill          Alexandra                   O    50    480   2.5   3JFK     123   14
+146.800 146.200 VK3RLV Mt Tassie             Latrobe Valley              O    80    730   2.5   3WI        -   37
+146.800 146.200 VK3RMA Mildura               Mildura City                W    50     50   3     3WI        -   56
+146.825 146.225 VK3RAJ Upwey                 Melbourne E/SE              O    50    270   3     3AJ     94.8   104
+146.825 146.225 VK3RPL Portland              Portland                    W   200    100   3     3AJ     91.5   104
+146.850 146.250 VK3RDU Mt Major              Goulburn Valley             O    80    377   2.5   3WI        -
+146.850 146.250 VK3RMN Kinglake              Melbourne                   O    80    600   3     3FY     91.5   39
+146.850 146.250 VK3RWM Mt Arapiles           Horsham                     O    30      -   2.5   3WI        -
+146.875 146.275 VK3RGH Green Hill            Macedon R & Melb 6/24       U   100    600   3     3FY     91.5
+146.900 146.300 VK3REB Mt Nowa Nowa          Bairnsdale                  O    30    354   2.5   3WI        -   35
+146.900 146.300 VK3RSH Swan Hill             Swan Hill                   O    83    124   3     3WI        -
+146.925 146.325 VK3RPW portable              Statewide WICEN             O     -      -   -     VWN        -
+146.925 146.325 VK3RWE portable              Statewide WICEN             O     -      -   -     VWN        -
+146.925 146.325 VK3RWI portable              Statewide WICEN             O     -      -   -     VWN        -
+146.925 146.325 VK3RWR portable              Statewide WICEN             O     -      -   -     VWN        -
+146.925 146.325 VK3RWP portable              Statewide WICEN             O    20      -   -     3WI        -
+146.950 146.350 VK3RWZ Mt William            Grampians                   O    50   1170   2.5   3WI     91.5
+146.975 146.375 VK3RSR portable              Statewide                   O    20      -   -     VSA        -   40
+146.975 146.375 VK3RWO Bald Hill             West Wodonga                O    50      -   -     3ANE     123
+147.000 146.400 VK3RGL Mt Anakie             Geelong                     O     -      -   -     3ATL    91.5   58
+147.000 146.400 VK3RNE Mt Big Ben            Wodonga                     O    30   1158   2.5   3WI        -   36
+147.025 147.625 VK3RMK Mt Kerang             Charlton                    O    25    385   -     3WI        -
+147.050 147.650 VK3RVL Robinvale             Robinvale                   O    40      -   3     3RSG       -   56
+147.050 147.650 VK3RWL Mt Warrnambool        Warrnambool                 O    40      -   0.5   3ATL    91.5   58
+147.100 147.700 VK3RPB Mt Porepunkah         Bright                      O     5      -   2.5   3WI        -   36
+147.100 147.700 VK3RSG Bass Hill             South Gippsland             O    40      -   3     3WI     91.5
+147.100 147.700 VK3RWA Ben Nevis             Ararat                      W    30    876   2.5   3BML    91.5
+147.125 147.725 VK3RDG Mt Delegate           Delegate                    O     -      -   -     3WI        -
+147.125 147.725 VK3RGC Montpellier           Geelong                     O    45    160   3     3ATL    91.5
+147.150 147.750 VK3RCV Mt Alexander          Bendigo                     O    20    730   3     3WI        -
+147.175 147.775 VK3REC Olinda                Melbourne                   W    40    600   2.5   3ER     91.5
+147.200 147.800 VK3RBQ Dimboola              Wimmera 12/23               U    25    160   -     3KAY       -
+147.200 147.800 VK3RPS Mt Cottrell           Melbourne West              O    40    217   3     3FY        -
+147.225 147.825 VK3RWG Mt Baw Baw            West Gippsland              O    20   1563   2.5   3WI        -
+147.250 147.850 VK3RMM Mt Macedon            Melbourne WICEN             W   100   1011   2.5   3WI        -
+147.300 147.900 VK3RWE portable              Statewide WICEN             O     -      -   -     3WI        -
+147.300 147.900 VK3RWR portable              Statewide WICEN             O     -      -   -     3WI        -
+147.300 147.900 VK3RWP portable              Statewide WICEN             O    20      -   -     3WI        -
+147.325 147.925 VK3RMC Narre Warren Nth      Melbourne SE                O    50      -   -     3APC       -
+147.350 147.950 VK3RMS Olinda                Melbourne East              O     -    600   -     3WI        -
+147.375 147.975 VK3RMU Mt St Leonard         Melbourne                   O     -   1028   2.5   3WI     91.5
+147.425 145.225 VK3RFY Hillside              Melb West EchoL/IRLP        X   100    145   -     3FY     91.5   38,99
+145.625 145.625 VK4RKC Ocean View           Brisbane North SSTV          O 100      530   -     4KI        -   41
+146.625 146.025 VK4RCC Moorina              Brisbane North               O 60       105   -     4QD     91.5
+146.625 146.025 VK4RGT Maurice Hill         Gladstone City               O 83       212   2     QGL     91.5
+146.650 146.050 VK4ROM Grafton Range        Roma                         O 30       550   -     4ROM       -
+146.650 146.050 VK4RHB Booral               Hervey Bay                   O 25       135   3     4CHB       -
+146.650 146.050 VK4RMC Mt Coot-tha          Brisbane                     O 50         -   3     4QF     91.5   115
+146.675 146.075 VK4RET Mt Kiangarow         Darling Downs                O 50      1145   5     4BAD    91.5   61
+146.675 146.075 VK4RHT Hann Tableland       Atherton Tablelands          O 100      965   4     4WAT     123
+146.675 146.075 VK4RSA Sarina                Mackay                    O    25    400   4     4RM        -
+146.700 146.100 VK4RAR Mt Archer             Rockhampton               W    50    608   4     4WIR    91.5   49
+146.700 146.100 VK4RAT Mt Stuart             Townsville                W    50    584   10    4WIT       -
+146.700 146.100 VK4RGC Springbrook           Gold Coast                W   150   1010   4     4WIG     123   48
+146.700 146.100 VK4RMI Four Mile Hill        Mount Isa                 O    20    500   3.5   4RMI    91.5
+146.725 146.125 VK4RCM Mt Boulder            Gympie Southern           O    20    505   4     4GYM    91.5
+146.725 146.125 VK4RKP Mt Crosby             Ipswich                   O    20      -   -     4AKP       -
+146.750 146.150 VK4RDD O'Rourke's House      Toowoomba                 W    35    702   4     4WID    91.5
+146.775 146.175 VK4RBM Blue Mtn              Mackay                    O    25    400   4     4WIM    91.5   42
+146.775 146.175 VK4RGN Mt Kanigan            Gympie Northern           O    25    366   4     4GYM    91.5
+146.800 146.200 VK4RBU Mt Goonaneman         Bundaberg/Maryborough     W    20    620   4     4BW        -   44
+146.800 146.200 VK4RMP Midge Point           Proserpine 6/24           X     -      -   -     4RM        -   49
+146.825 146.225 VK4RCR Braeside              Warwick/Stanthorpe        W    60    916   5     4AGJ    91.5   115
+146.825 146.225 VK4RSL Noosa Heads           Sunshine Coast North      W    25    100   4.5   4WIS    91.5   45
+146.825 146.225 VK4RSP Roddas Lookout        Springsure                O   100      -   -     4WCH       -   49
+146.850 146.250 VK4RSC Wilkes Knob           Sunshine Coast South      W    15    470   4.5   4WIS    91.5   45
+146.850 146.250 VK4RSD Malanda               Sth Atherton Tablelands   O    50    730   3     4SDD       -   112
+146.875 146.275 VK4RAS Carborough Range      Moranbah                  O    50    450   3     4WCH       -   49
+146.875 146.275 VK4RDB Mt Cotton             Brisbane South            O    50    240   4.5   4BAY    91.5
+146.900 146.300 VK4RAI The Knobby            Ipswich                   O    70    120   4.5   4WIP       -   47
+146.900 146.300 VK4RGA Kroombit Tops         Central Qld               O    83   1010   4     QGL     91.5   44,49
+146.925 146.325 VK4RHR Hodgson Range         W Central Highlands       O    25    520   -     4WCH       -   49
+146.925 146.325 VK4RRC Wamuran               Redcliffe                 O    25    230   5     4RC        -
+146.950 146.350 VK4RBD Blackdown Tableland   Blackwater                O   100    900   -     4WCH    91.5   49
+146.950 146.350 VK4RCA Mt Haren              Cairns                    O    50    500   4     4HM        -
+146.950 146.350 VK4REG Mt Mowbullan          Bunya Mtns                O    75   1700   5     4QF     91.5   115
+146.975 146.375 VK4RLW O'Briens Mtn          Logan/Bdesert             O    25    800   5     4OD     91.5
+146.975 146.375 VK4RRR Mt Seaview            N Central Highlands       O    50      -   3     4WCH       -   49
+146.975 146.375 VK4RSN Black Mtn             Sunshine Coast North      W    50    325   4.5   4WIS    91.5   45
+147.000 146.400 VK4RBN Mt Glorious           Brisbane                  W    60      -   2     4RC     91.5   94
+147.000 146.400 VK4RCQ Banana Range          Monto                     O     -      -   -     4RCQ       -
+147.000 146.400 VK4RMK Mt Blackwood          Mackay                    O    25    320   5     4WIM       -   42
+147.025 147.625 VK4RME Mt England            South Burnett             O    50    571   4     4BAD    91.5   61,95
+147.050 147.650 VK4RNX Wilkes Knob           Sunshine Coast            O    50      -   3     4QF      123   115
+147.050 147.650 VK4RTQ Mt Kynoch             Toowoomba                 W    50    500   3.5   4QF     91.5   115
+147.075 147.675 VK4RAX Mt Cotton             Brisbane South            O    50      -   -     4WSS       -   95
+147.075 147.675 VK4RLM Pinnacle Mountain     Central Queensland        O    84    240   3     4CQR    91.5   95
+147.150 147.750 VK4RAG Black Mtn             Brisbane WICEN            O    80     90   3.5   4BWI       -   95
+147.175 147.775 VK4RWM North Ipswich         Ipswich WICEN             O    10      -   4     4WIP       -   95
+147.200 146.600 VK4RBT Wongawallan           Gold Coast                O    50    354   3     4WIG    91.5   114
+147.225 147.825 VK4RGX Springbrook           Gold Coast                W    50      -   3     4QF     91.5   115
+147.275 147.875 VK4RXZ Bli Bli               Sunshine Coast            O    50     20   3     4ALF       -
+147.325 147.925 VK4RKS Gracemere             Central Queensland        O   165     46   3     4KWS       -   95
+147.375 147.975 VK4RGA Kroombit Tops         Central Qld               O    83   1010   4     QGL     91.5   49,95
+147.375 147.975 VK4RVR The Knobby            Ipswitch                  O    50      -   3     4QF     91.5   115
+147.625 147.025 VK4RLB Woodridge             Brisbane South            O    25     60   4     4ARN       -   94
+147.700 147.100 VK4RZD Mt Perseverance       Ipswich to T'mba Range    W   100    700   1     4BWI    91.5   70,94
+147.800 147.200 VK4RBG The Hummock           Bundaberg                 O    20    100   5     4BW        -   94
+147.900 147.300 VK4RKC Ocean View            Brisbane North            O   100    530   5     4KI        -   9,94
+147.950 147.350 VK4RBR Mt Gravatt            Brisbane                  O   110     80   -     4WIE       -   94
+147.925 147.325 VK4RBA Rochedale             Brisbane                  O     -      -   -     4BA      123
+146.625 146.025 VK5RLZ Elizabeth             Adelaide North            O   25     73    4     5LZ        -
+146.650 146.050 VK5RNC Naracoorte            Naracoorte                W   25     80    3     5RNC       -   51
+146.675 146.075 VK5RSV Willunga Hill         Adelaide South            O   50    320    10    5ARC    91.5   52
+146.700 146.100 VK5RMN The Bluff             Port Pirie                W   55    730    5     STX        -   83
+146.725 146.125 VK5RBK Mt Barker             Mt Barker                 O    -      -    -     5YFR       -
+146.750 146.150 VK5RAC Pillaworta Hill       Lower Eyre Peninsula      O   50    325    4.5   5ZEA       -
+146.775 146.175 VK5RAH Lobethal              Adelaide Hills            O   50      -    8     5NRV       -
+146.800 146.200 VK5REP Coolanie              Eyre Peninsula            O   60    500    4     WIA        -
+146.800 146.200 VK5RSE Mt Graham             Millicent                 O   25    230    3     5SR        -   81
+146.825 146.225 VK5RBV Mt Kitchener          Barossa Valley            O   50    580    3.5   5BRC       -   53
+146.850 146.250 VK5RHO Anstey Hill           Adelaide                  O   30    410    3.5   5GRC       -
+146.875 146.275 VK5RMB Mt Beevor             Murray Bridge             O   80    503    5     5NRV       -
+146.900 146.300 VK5RMG The Bluff             Mount Gambier             W   25    100    5     5SR        -   51
+146.925 146.325 VK5RLH Bumbunga Hill         Central North             W   50    413    3     5CZ        -
+146.975 146.375 VK5RAE Mt Arden              Port Augusta              O   25    845    3     5AJ        -
+147.000 146.400 VK5RAD Crafers               Adelaide                  W   30    610    3.5   5BAR       -
+147.225 147.825 VK5RDW Loxton                Riverland                 O   50     51    3     5DW     91.5
+147.300 147.900 VK5RWI portable              Statewide WICEN           O    -      -    -     SWN        -
+147.325 147.925 VK5RLD Moorook               Riverland                 O   25     86    5     5BRL       -
+147.350 147.950 VK5RBT Willalooka            Bordertown - Keith        W   50    125    3     5SR        -   51
+147.375 147.975 VK5RKN Mt Benson             Kingston                  W   25     25    3     5SR        -   51
+29.620 147.675 VK5RSC Mt Terrible           Adelaide                  O   40    410    3     5ARC   141.3   7
+147.675 29.620 VK5RSC Mt Terrible           Adelaide                  O   40    410    3     5ARC   141.3   7
+146.625 146.025 VK6RNC Landsdale             Perth North               W   50    100    4     6NC        -
+146.650 146.050 VK6RBY Harvey                Bunbury                   O   25     20    5     6BRC       -
+146.675 146.075 VK6RNR Northampton           Northampton 9/25          U   25      -    -     6RGN       -
+146.700 146.100 VK6RAP Roleystone            Perth South East          W   40    360    4     6RRG       -   11
+146.700 146.100 VK6RWR Wickham               North West                O   20     80    -     WNW        -
+146.750 146.150 VK6RLM Roleystone           Perth South East        O   20    350    4     6RRG       -   54
+146.775 146.175 VK6ROO Geraldton            Geraldton 9/25          U   50      -    -     6RGN       -
+146.800 146.200 VK6RTH Tic Hill             Perth North East        O   60    230    4     6RRG       -   19
+146.850 146.250 VK6REX Exmouth              North West              O   20    385    3     WNW        -
+146.850 146.250 VK6RMH Mandurah             Peel Region             O   25     20    3     6ARG    91.5
+146.875 146.275 VK6RIC portable             Statewide WICEN         O    -      -    -     WWN        -
+146.900 146.300 VK6RMW Mt William           Mandurah                W   20    520    4     6RRG       -
+146.950 146.350 VK6RFM Bicton               Fremantle               O   10     65    3     6RRG       -
+146.975 146.375 VK6RSH portable             Statewide               O   10      -    5     6SH        -
+147.000 146.400 VK6RAW Fairfield            Katanning               O   25    400    5     6RRG       -   54
+147.000 146.400 VK6RGN Geraldton            Geraldton               O   16     30    5     6RGN       -
+147.050 147.650 VK6RRR Kalgoorlie           Kalgoorlie              O   40      -    3     6ML        -
+147.025 147.625 VK6RPT portable             Statewide               O    -      -    -     6RRG       -   88
+147.150 147.750 VK6RMJ Manjimup             Manjimup                O   25    150    5     6FN        -
+147.175 147.775 VK6REC Wooroloo             Avon Central            O   25    300    3     6PK        -
+147.200 147.800 VK6RCT Yandan Hill          Cataby                  O   50    200    4     6RRG       -   19
+147.250 147.850 VK6RMS Mt Saddleback        Boddington              W   20    590    4     6RRG       -   11,54
+147.275 147.875 VK6RAV Hoddy Well           Avon East               O   20     80    3     6RRG       -   54
+147.325 147.925 VK6RKN Kellerberrin         Kellerberrin            O   25      -    5     6RRG       -   54
+147.350 147.950 VK6RBN Chapman Hill         Busselton               W   30    130    5     6RRG       -   11
+146.650 146.050 VK7RAF Mt Faulkner          Hobart                    O 50     900   3     7OB      123   60
+146.700 146.100 VK7RHT Mt Wellington        Hobart                    W 50    1271   5     7OTC   141.3   113
+146.700 146.100 VK7RHT Grey Mtn             Huon & Channel            W 50     821   5     7OTC   141.3   113
+146.725 146.125 VK7RVP St Valentines Peak   NW Tasmania               O 40    1115   3     7DB     91.5
+146.750 146.150 VK7RNW Ulverstone West      Central North Coast 12/23 U  30    160   5     7NW        -
+146.775 146.175 VK7RTV Stowport             Central NW Coast          W 70     155   5     TNA        -
+146.800 146.200 VK7RAK Gagebrook            NW Hobart                 O   -      -   -     7HDM       -
+146.900 146.300 VK7REC Snow Hill            East Coast                O 30     970   -     7TAZ     123
+147.000 146.400 VK7RAA Mt Arthur            N Tasmania                W 100   1400   5     7TAZ       -   59
+147.075 147.675 VK7RWC Mt Read              West Coast                W 25    1200   3     7RWC     123   59
+147.375 147.975 VK7RAC Table Cape           NW Tasmania               W 40     150   3     7DC        -
+147.975 147.375 VK7RAD Queens Domain        Hobart                    O 100    140   40    7OTC   141.3   62
+146.750 146.150 VK8RKT Water Tank Hill      Katherine               W   50    143    -     8MA     91.5
+146.900 146.300 VK8RDA Darwin               Darwin 9/25             X   50     86    4     8DA      123
+146.950 146.350 VK8RCA West Gap             Alice Springs           O   25    776    3     8AR     91.5
+438.025 433.025 VK2RHR High Range           Southern Highlands      O 75       827   2     2JQ        -
+438.025 433.025 VK2RNC Mt Sugarloaf         Lower Hunter            O 25       442   5     2AWX       -
+438.025 433.025 VK2RTW Willans Hill         Wagga                   O 25       372   3     2WG     91.5   25
+438.050 433.050 VK1RGI Mt Ginini            ACT - SE NSW            O 150     1770   3.5   1ACA    91.5   67
+438.075 431.075 VK2RAG Somersby             Gosford - Wyong IRLP    O 50       320   3     2EH     91.5   31
+438.075 433.075 VK2RMY Mt Yarrahapinni      Kempsey - Macksville    O 50       500   3     2EP        -
+438.1125 432.7125 VK2RBV Sydney               Sydney                  O 25       200   3     2BV     91.5
+438.125 433.125 VK2RHK Wyee                 Lake Macquarie          O   -        -   -     2HK        -
+438.125 433.125 VK2RMU Nowra Hill           Milton - Ulladulla      O 50       330   3     2HQ     91.5
+438.175 433.175 VK2RMB Terrey Hills         Sydney                  O   5      150   3     2MB     91.5   1,82
+438.225 431.225 VK2RPW Grundy Mtn           Walcha                  O 50      1463   3     2WRG       -
+438.275 432.875 VK2RWS portable             Statewide WICEN         O   -        -   -     NWN        -
+438.300 433.300 VK2RIW Saddleback Mtn       Kiama WICEN             O   -        -   -     NWN        -
+438.325 433.325 VK2REE Mt Ganghat           Taree-Gloucester        O 50       600   5.0   2FRE       -   106
+438.325 433.325 VK2RGN Mt Gray              Goulburn                O 10         -   3.5   2JQ        -   67
+438.375 433.375 VK2RBM Lawson               Blue Mtns               O 25       735   4     2HZ     91.5
+438.425 433.425 VK2RCN Telegraph Point      Port Macquarie          O 25       138   3     2BOR     123
+438.425 433.425 VK2RLE Engadine             Sydney                  O 50       110   3     2LE        -
+438.450 433.450 VK2RCF Carlingford          Sydney                  O   -        -   -     NME     91.5
+438.450 433.450 VK2RLJ Mt Perisher          Jindabyne               O 10      2010   3     2SNO       -
+438.475 431.475 VK2RAB Mt Crawney           Tamworth/Muswellbrook   O 50      1401   3     2WRG       -
+438.525 433.525 VK2RPM Middle Brother       Port Macquarie          O 10       552   3     2BOR     123
+438.550 433.550 VK2RHC Hurstville           Sydney                  O   -        -   -     NME     91.5
+438.575 433.575 VK2RAY Springdale Heights   Albury                  O 100      330   4     2EWC   118.8   121
+438.575 433.575 VK2RNW Mt Kaputar           Narrabri - NW NSW       O 50      1550   3     2AJ        -
+438.575 433.575 VK2ROT Paddington           Sydney                  O 50        90   3     2BV     91.5   23
+438.625 433.625 VK2RGN Goulburn             Goulburn                O   -        -   -     2JQ        -
+438.650 433.650 VK2RAD South Hill           Armidale                O 10      1140   3     2IY        -
+438.650 431.650 VK2RFG Gregory Hills        Campbelltown            O 50       222   3     2FG     91.5
+438.675 433.675 VK2RNC Mt Sugarloaf         Lower Hunter            O 80       442   5     2AWX       -
+438.675 433.675 VK2RPL Mt Nardi             Lismore                 O 50       850   3     2SRC     123
+438.725 433.725 VK2RAO Mt Canobolas         Orange area             O 50      1417   -     3TE        -
+438.725 433.725 VK2RMP Maddens Plains       Wollongong - Sydney     O 50       465   4     2AMW     123   16
+438.800 431.800 VK2RAG Somersby             Gosford - Wyong WICEN   O 50       320   3     2EH     91.5   31
+438.825 431.825 VK2ROJ Gan Gan Hill         Port Stephens           O 62       169   3     2AOJ    91.5   119
+438.850 431.850 VK2RCA Cangai               Clarence Valley         O 50       989   3     2CLR     123
+438.875 431.875 VK2RAG Somersby             Gosford - Wyong         O 25       320   3     2EH     91.5
+439.300 434.300 VK2RTG Kariong              Gosford                 O 10       220   10    2EH        -
+439.300 434.300 VK2RCW Gowan               Bathurst/Orange             O   50    950    3     2ACW      -
+439.325 434.325 VK2RSV Sans Souci          Sydney South EchoLink       O   25     25    -     2CL    91.5   64
+439.425 434.425 VK2RCZ Winmalee            West Sydney                 O   20    150    3     2CRZ   91.5
+439.525 434.525 VK2RAV portable            Statewide WICEN             O   10      -    -     NWN       -
+439.625 434.625 VK2RFI portable            Hunter region WICEN         O   25      -    -     NWN       -
+439.625 434.625 VK2RWH Cessnock            Lower Hunter WICEN          O    -      -    -     NWN       -
+439.650 434.650 VK2RWB Gwynne Hill         Yarrawonga WICEN            O   80    250    5     NWN     123   19
+439.700 434.700 VK2ROJ Gan Gan Hill        Port Stephens               O   26    169    3     2AOJ   91.5   119
+439.750 434.750 VK2RHP Horsley Park        Sydney                      O    -      -    -     NME       -
+439.800 434.800 VK2RCG Sydney              Sydney City                 O    -      -    -     NME    91.5
+439.800 434.800 VK2RTW Willans Hill        Wagga                       O   25    372    3     2WG    91.5   25
+439.800 434.800 VK2RWE Waterview Heights   Grafton & Clarence Valley   U   50     73    3     2CLR    123   120
+439.825 434.825 VK2RWK Kurrajong           NW Sydney                   O    -      -    -     NWN    91.5   80
+439.850 434.850 VK2RCR Mt Lofty            Clarence Valley             O   50    600    3     2CLR    123
+439.875 434.875 VK2RAH portable            Statewide WICEN             O    -      -    -     NWN       -
+439.900 434.900 VK2RWP Bega                Bega                        O   50    100    3.5   2CRN      -
+439.925 434.925 VK1RWP portable            VK1 WICEN                   O   20      -    -     1ACA      -
+439.925 434.925 VK2RAF portable            Statewide WICEN             O   10      -    -     NWN       -
+439.925 434.925 VK2RON North Ryde          Sydney metro                O   15    200    1     2GO       -
+439.950 434.950 VK1RBM Isaacs Ridge        Canberra Central            O   25    790    3     1ACA   91.5   65
+439.950 434.950 VK2RAG Somersby            Central Coast               O    -    313    3     2EH    91.5
+439.950 434.950 VK2RDD Burroway Hill       Dubbo                       O   25    300    -     2UBQ      -
+439.950 434.950 VK2RGN Mt Gray             Goulburn                    O   20      -    3     2JQ       -
+439.950 434.950 VK2RSC Parrots Nest        Lismore                     O   30    185    3     2SRC    123   66
+439.975 434.975 VK1RWP portable            VK1 WICEN                   O   20      -    -     1ACA      -
+439.975 434.975 VK2RNS Hornsby             Northern Sydney             O   50    225    3.5   2MA    91.5   32
+438.025 433.025 VK3RBO Specimen Hill       Bendigo                     O    50    335   -     3WI       -
+438.025 433.025 VK3RCC Melbourne           Melbourne City              O   160    120   -     3BKR   91.5   76
+438.025 433.025 VK3RCP Ouyen               Ouyen                       O     -      -   -     3WI       -
+438.075 433.075 VK3RDU Mt Major            Goulburn Valley             O     -    377   -     3WI       -
+438.125 433.125 VK3RLE Paps                Mansfield                   O    50    678   -     3JFK      -   68
+438.125 431.125 VK3RTA Beulah              Beulah                      O    50     15   -     3SNR      -
+438.150 433.150 VK3RIR Bendigo             Bendigo                     O   100    240   3.5   3JED   91.5
+438.175 431.175 VK3RBH Geelong             Geelong CBD                 O    25     30   3     3WI    91.5   6
+438.175 433.175 VK3RUG Devil's River       Alexandra - Lake Eildon     O   100    650   2.5   3JFK      -   68
+438.1875 432.7875 VK3RCD Kinglake            Melbourne                   O     -    600   -     3FY       -   103
+438.225 433.225 VK3RMS Olinda              Melbourne                   O   100    600   2.5   3WI    91.5
+438.275 433.275 VK3RPW portable            Statewide WICEN             O     -      -   -     VWN       -
+438.275 433.275 VK3RWE portable            Statewide WICEN             O     -      -   -     VWN       -
+438.275 433.275 VK3RWI portable            Statewide WICEN             O     -      -   -     VWN       -
+438.275 433.275 VK3RWR portable            Statewide WICEN             O     -      -   -     VWN       -
+438.325 433.325 VK3RMH Kangaroo Ground     Melbourne                   O    40    220   3     3CNE   91.5
+438.350 433.350 VK3RCU Mt Moliagul         Bendigo                     O    25    527   3     3WI    91.5   6
+438.375 433.375 VK3RGS Mt Fatigue          Foster                      O     -      -   -     3WI       -
+438.375 433.375 VK3RHO Mt Hotham           NE Victoria                 O     -      -   -     3WI       -
+438.375 433.375 VK3RLV Mt Tassie           Latrobe Valley              O     -    730   -     3WI       -
+438.375 433.375 VK3RWG Mt Baw Baw          West Gippsland              O    20   1563   2.5   3WI       -
+438.400 433.400 VK3RFY Hillside            Melb EchoL/IRLP             O   100    100   3     3FY    91.5   38
+438.425 433.425 VK3RCU Mt Moliagul         Bendigo                     O     -    527   -     3WI       -
+438.450 433.450 VK3RBW Mt Gisborne         Melbourne West              O   150    650   3     3FSK   91.5   103
+438.475 431.475 VK3RBU Mt Hollowback       Ballarat                    O    40      -   2.5   3BML   91.5
+438.500 431.500 VK3RJW Werribee            Werribee                    O    10    148   3     3WI    91.5
+438.500 433.500 VK3RLP Muckleford          Castlemaine 6/24            X   100    148   3     3HF    91.5   103
+438.525 431.525 VK3RAD Mitcham             Melbourne                   O    50    100   2.5   3ZKV    123   6
+438.525 433.525 VK3RNU Mt Stanley          Wangaratta                  O    60   1051   2.5   3WI       -
+438.525 433.525 VK3RRU Merbein             Mildura                     O    20      -   2.5   3RSG      -   5
+438.575 431.575 VK3RWD Seaview             West Gippsland              O    50    410   3     3BJA   91.5
+438.600 431.600 VK3RVZ Brighton            Melbourne                   O    20     15   3     3TVZ    123   117
+438.600 431.600 VK3RWO Bald Hill           West Wodonga                O    50      -   -     3ANE    123
+438.625 433.625 VK3RPW portable            Statewide WICEN             O     -      -   -     VWN       -
+438.625 433.625 VK3RWE portable            Statewide                   O     -      -   -     VWN       -
+438.625 433.625 VK3RWI portable            Statewide WICEN             O     5      -   -     VWN       -
+438.625 433.625 VK3RWP portable            Statewide                   O     -      -   -     VWN       -
+438.625 433.625 VK3RWR portable            Statewide WICEN             O     -      -   -     VWN       -
+438.650 431.650 VK3RGV Mt Wombat           NE Victoria                 O     -    800   -     3WI     123
+438.675 433.675 VK3RWU Mt William          Grampians                   O   100   1170   3     3WI    91.5   6
+438.700 433.700 VK3RBM Bacchus Marsh       Bacchus Marsh 6/24          U   100    500   3     3HF    91.5   103
+438.750 433.750 VK3RHF Olinda              Melbourne                   O    50    600   3     3UJ    88.5   8
+438.850 431.850 VK3RCQ Junortoun           Bendigo                     O    50    247   3     3WG       -
+438.875 431.875 VK3RHF Mt Macedon          Melbourne                   O    50    990   3     3UJ    88.5   8
+439.275 434.275 VK3RBA Mt Buninyong        Ballarat                    O    50    750   3     3WI    91.5   6
+439.300 434.300 VK3RYV Briarty Hill        Yarra Valley                O     -      -   -     3YVG      -
+439.325 434.325 VK3RGH Green Hill          Macedon R & Melb 6/24       U   100    600   3     3FY    91.5   103
+439.375 434.375 VK3RMC Berwick             Berwick                     O    25      -   -     3APC      -
+439.425 434.425 VK3RNE Mt Big Ben          Wodonga                     O     -   1158   -     3WI       -
+439.425 434.425 VK3RSV Noble Park          Melbourne EchoLink          O   200     90   4     2CL    91.5   64
+439.450 434.450 VK3RMN Kinglake            Melbourne                   O    80    600   -     3FY    91.5   39
+438.425 431.425 VK3RGW Cranbourne          Mornington Peninsula        O    50     71   3.5   3BJA   91.5
+439.525 434.525 VK3RTU Mt Taylor           Bairnsdale                  O    60    476   2.5   3EGC      -
+439.550 434.550 VK3RSB Mt St Leonard       Melbourne                   O   100   1028   3     VSA    91.5   102
+439.575 434.575 VK3RGC Montpellier        Geelong                   O    45    160   3     3ATL   91.5
+439.600 434.600 VK3RDX Mt Waverley        Melbourne 6/24            X   100    132   3     3HF    91.5   103
+439.625 434.625 VK3RBY Bayswater          Melbourne                 O    80      -   2     3MY    88.5
+439.650 434.650 VK3RSA Emerald            Melbourne                 O   100    370   3     VSA    91.5   102
+439.700 434.700 VK3RBP Horsham            Wimmera                   O    25    135   -     3III   91.5
+439.750 434.750 VK3RAJ Upwey              Melbourne SE              O    50    270   3     3AJ    91.5   102
+439.800 434.800 VK3RMU Mt St Leonard      Melbourne                 W   200   1028   2.5   3WI       -
+439.825 434.825 VK3RBL Bambill South      NW Victoria               O     -      -   -     3WI       -
+439.850 434.850 VK3RPU Arthur's Seat      Melbourne                 O    40      -   2.5   3WI    91.5
+439.875 434.875 VK3RDU Mt Major           Goulburn Valley           O    40    377   2.5   3WI       -
+439.875 434.875 VK3RMC Narre Warren Nth   Melbourne SE              O    25      -   -     3APC      -
+439.875 434.875 VK3RWL Mt Warrnambool     Warrnambool               O    40      -   0.5   3ATL   91.5
+439.900 434.900 VK3RSE Glen Waverley      Melbourne                 O   100      -   2     3NH       -
+439.925 434.925 VK3RWP portable           Statewide WICEN           O     -      -   -     VWN       -
+439.950 434.950 VK3RMG Mt Broughton       Yea - Seymour             O    30    650   3     3JFK      -   68
+439.950 434.950 VK3RPL Portland           Portland                  O   200    100   3     3AJ    91.5   100,101
+439.975 434.975 VK3RSS portable           Statewide                 O     -      -   -     VSA       -   40
+439.975 434.975 VK3RWP portable           Statewide                 O     -      -   -     VWN       -
+438.025 433.025 VK4RTQ Mt Kynoch          Toowoomba                 W    50    500   3.5   4QF    91.5
+438.050 433.050 VK4RGT Maurice Hill       Gladstone City            O    83    212   2     QGL       -
+438.050 433.050 VK4RZD Mt Perseverance    Ipswich to T'mba Range    O   100    700   1     4BWI   91.5   70
+438.075 433.075 VK4RSC Wilkes Knob        Sunshine Coast            O    20    450   -     4WIS   91.5
+438.100 433.100 VK4RZA Springbrook        Gold Coast                O     -    940   1     4BWI   91.5   70
+438.125 433.125 VK4RZC Wilkes Knob        Maleny                    O     -    470   1     4BWI   91.5   70
+438.175 433.175 VK4RSL Noosa Heads        Sunshine Coast North      O    25    100   4.5   4WIS   91.5
+438.200 431.200 VK4RZB Mt Coot-tha        Brisbane                  O   100    560   1     4BWI   91.5   70
+438.225 433.225 VK4RAT Mt Stuart          Townsville                O    10    584   10    4WIT   91.5
+438.225 433.225 VK4RAR Mt Archer          Rockhampton               O    25    608   4     4WIR   91.5   49
+438.225 432.825 VK4RPH Mt Haren           Kuranda                   O    50    250   -     4BS     123
+438.275 433.275 VK4RBR Mt Gravatt         Brisbane                  O   110     80   -     4WIE      -
+438.325 433.325 VK4RRC Wamuran            Redcliffe                 O    25    230   4.5   4RC    91.5
+438.375 433.375 VK4RWM North Ipswich      Ipswich                   O    70    120   4.5   4WIP   91.5   47
+438.425 433.425 VK4RBX The Knobby         Ipswich                   O    70    120   4.5   4AB     123   72
+438.450 431.450 VK4RDB Mt Cotton          Brisbane South            O    50    240   4.5   4BAY   91.5
+438.500 433.500 VK4RHR Hodgson Range      Clermont                  O    50    520   -     4WCH      -
+438.500 433.500 VK4RLW O'Briens Mtn       Logan/Bdesert             O    25    315   10    4OD    91.5
+438.575 433.575 VK4RSS Ocean View         Brisbane North            O    25    530   5     4RV    91.5   34
+438.625 433.625 VK4RAG Black Mtn          Brisbane WICEN            O    20     90   -     4BWI      -
+438.625 433.625 VK4RWI portable           Statewide WICEN           O     -      -   -     QWN       -
+438.650 433.650 VK4REG Mt Mowbullan       Bunya Mtns                O   100   1700   5     4QF    91.5
+438.650 433.650 VK4RWN Mt Spencer         Gladstone/Rockhampton     O     -      -   -     4WIR   91.5   49
+438.675 433.675 VK4RWS Nebo               Mackay                    O     -      -   -     4DW    91.5
+438.700 433.700 VK4RET Mt Kiangarow       Darling Downs             O    50   1145   5     4BAD   91.5   61
+438.750 433.750 VK4RLB Woodridge          Brisbane South            O    25     60   4     4ARN      -   3
+438.775 433.775 VK4RBU Mt Goonaneman      Bundaberg/Maryborough     O    10    620   4     4BW       -
+439.275 434.275 VK4RDD O'Rourke's House   Toowoomba                 O    35    702   4     4WID   91.5
+439.300 434.300 VK4RSM Spring Mtn         Springfield               O    25      -   -     4AB    91.5   47
+439.325 434.325 VK4RAI The Knobby         Ipswich                   O     -      -   4     4WIP   91.5   49
+439.625 434.625 VK4RSA Sarina             Mackay                    O    25    400   4     4RM       -   49
+439.750 434.750 VK4RBF Bowenia            Yeppoon                   O     -      -   -     4WIR   91.5   49
+439.775 434.775 VK4RBW Watalgan           N Bundaberg               O    50      -   4     4BW       -
+439.800 434.800 VK4RGL Lady Larcom        Gladstone                 O   150    330   2.5   4HN    91.5   63
+439.825 434.825 VK4RBT Wongawallan        Gold Coast                O    50    354   3     4WIG   91.5
+439.850 434.850 VK4RCA Cairns             Cairns                    O    50     50   4     4HM       -
+439.875 434.875 VK4RCQ Banana Range       Monto                     O     -      -   -     4RCQ      -
+439.875 434.875 VK4RLU Mt Dunsinane       Logan                     O    30    400   4     4BAB   91.5
+439.900 434.900 VK4RBK Tolga              Atherton Tableland        O     -    937   4     4WAT      -
+439.900 434.900 VK4RXZ Bli Bli            Sunshine Coast            O    20     20   3     4ALF      -
+439.925 434.925 VK4RWM North Ipswich      Ipswich                   O     5     60   -     4WIP   91.5
+439.950 434.950 VK4RBA Rochedale          Brisbane                  O     -      -   -     4BA     123
+439.950 434.950 VK4RGY Gympie             Gympie                    O    25     95   4     4GYM      -
+439.950 434.950 VK4RIC Four Mile Hill     Mount Isa                 O    25    500   3     4RMI   91.5
+439.950 434.950 VK4RSD Malanda            Sth Atherton Tablelands   O    50    730   3     4SDD      -   112
+439.975 434.975 VK4RMC Mt Coot-Tha        Brisbane                  O    50      -   3     4QF    91.5
+438.025 431.025 VK5RSA Adelaide           Adelaide City             O 50      132    5     5ARG   91.5
+438.325 433.325 VK5RCT Moonta             Moonta                    O   -       -    -     5ZSW   91.5
+438.500 431.500 VK5RMN The Bluff          Port Pirie                O 25      730    5     STX       -   83
+438.525 433.525 VK5RVH Brown Hill         Victor Harbor             O 80      270    5     5GF    91.5
+439.800 434.800 VK5RBV Mt Kitchener       Barossa Valley            O 50      580    3.5   5BRC      -   53
+439.825 434.825 VK5ROH Blue Lake          Mt Gambier 12/23          U  15     135    3.5   5SR       -   81
+439.825 434.825 VK5RSC Mt Terrible        Adelaide South            O 50      380    5     5ARC   91.5
+439.850 434.850 VK5RAC Pillaworta Hill    Lower Eyre Peninsula      O 50      325    4.5   5ZEA      -
+439.875 434.875 VK5RHO Anstey Hill        Adelaide                  O 20      410    3.5   5GRC      -
+439.900 434.900 VK5RSB Summertown         Adelaide                  O 100     620    5     5ARG   91.5
+439.925 434.925 VK5RAD Crafers            Adelaide                  O 25      610    5     5BAR      -
+439.950 434.950 VK5ROC Lower Light        Adelaide NW               O 50       30    4     5LZ       -
+439.975 434.975 VK5RLZ Elizabeth          Adelaide North            O 25       73    3     5LZ    91.5
+438.025 433.025 VK6RPT portable                Statewide              O    20     -    10    6RRG      -    88
+438.200 432.800 VK6RRR Kalgoorlie              Kalgoorlie             O     -     -    -     6ML       -
+438.225 433.225 VK6RTH Tic Hill                Perth North East       O    40   230    4     6RRG      -    19
+438.650 433.650 VK6RBY Harvey                  Bunbury                O    25    20    5     6BRC    123    43
+438.675 433.675 VK6RBN Chapman Hill            Busselton              O     -   130    -     6RRG      -
+438.725 433.725 VK6RNA Wanneroo                Perth                  O    40   230    4     6RNA    123
+439.700 434.700 VK6ROT Rottnest Is             Perth Coast            O    20    55    5     6ZTN      -    19
+439.800 434.800 VK6RAP Roleystone              Perth South East       W    50   360    5     6RRG    123    11
+439.925 434.925 VK6RMB Landsdale               Landsdale              O    10    10    5     6NC       -
+439.950 434.950 VK6RAA Mt Barker               South Coast            O    25   450    5     6SR       -    54
+439.950 434.950 VK6RAL Mt Clarence             Albany                 O    25     -    -     6SR       -    54
+439.950 434.950 VK6RAR portable                Statewide WICEN        O    25     -    -     WWN       -
+438.050 431.050 VK7RBL Ben Lomond              North East Tasmania    O    25   1570   10    7TAZ       -
+438.500 433.500 VK7RIN Barren Tier             Central Tasmania       O    25   1200   -     7TAZ       -
+438.525 433.525 VK7RCR Lenah Valley            Hobart                 O    20    220   2     7ZCR    91.5
+438.550 433.550 VK7RJG Mt Arthur               N Tasmania             O    40      -   3     7JD        -   60
+438.600 433.600 VK7RMD Mt Duncan               NW Tasmania            O    40    600   10    7NW    141.3
+438.650 433.650 VK7RAC Table Cape              NW Tasmania            W    25    150   5     7DC    141.3
+438.850 431.850 VK7RUN Trevallyn               Launceston             O    20    155   2     7YAD       -
+438.925 431.925 VK7RCM Snug Tiers              Channel                O    25    370   4     7SD        -
+439.700 434.700 VK7REC Snow Hill               East Coast             O     -    970   -     7TAZ       -
+439.750 432.750 VK7RDS Mt Nelson               Hobart                 W    30    280   4     7SD        -
+439.775 434.775 VK7RDR Dazzler Range           Northern Tasmania      W    70    155   5     TNA     91.5
+439.900 434.900 VK7RAL Companion Hill          Hampshire              W    50    825   5     7TAZ   141.3   59,113
+438.525 433.525 VK8RIT West Gap                Alice Springs          O    25   776    3     8AR     91.5
+438.725 431.725 VK8RKT Water Tank Hill         Katherine              O    50   143    -     8MA     91.5   122
+1273.100 1293.100 VK2RTZ Sugarloaf Range         Lower Hunter           O    83    442   3     2ATZ       -
+1273.200 1293.200 VK2RPW Grundy Mtn              Walcha                 O    30   1463   3     2WRG       -
+1273.200 1293.200 VK2RWC Chatswood               Sydney                 O    30    140   2     NWN        -
+1273.100 1293.100 VK3RCC Melbourne               Melbourne City         O    50   120    -     3BKR       -
+1273.250 1293.250 VK3RGH Green Hill              Macedon Ranges 6/24    U    30   600    3     3FY        -   75
+1273.350 1293.350 VK3RLV Mt Tassie               Latrobe Valley         O    80   730    2.5   3WI        -   78
+1273.450 1293.450 VK3RMN Kinglake                Melbourne              O    30   600    3     3FY        -   75
+1273.650 1293.650 VK3RPS Mt Cottrell             Melbourne West         O    40   217    3     3FY        -
+1273.700 1293.700 VK3RIR Bendigo                 Bendigo                O     -   300    -     3JED       -
+1273.925 1293.925 VK3RBA Mt Buninyong            Ballarat               O    10   750    3     3WI     91.5
+1273.300 1293.300 VK4RSC Wilkes Knob             Sunshine Coast South   O     -   470    -     4WIS    91.5
+1273.500 1293.500 VK4RMC Mt Coot-tha             Brisbane               O    30     -    3     4QF        -
+1273.500 1293.500 VK5RSB Summertown              Adelaide               O    50   620    5     5ARG       -
+1273.800 1293.800 VK6RMB Landsdale               Landsdale              O 150      36    5     6NC        -
+147.1125 145.5125 VK1RBM C         Isaacs Ridge            Canberra Central (G)    O   30   820    3     1ACA       -   96
+146.6375 146.0375 VK2RAG C         Somersby                Gosford (G)             O   25   320    4     2EH        -
+438.325 432.925 VK2RAG B         Somersby                Gosford (G)             O   25   320    4     2EH        -   96
+438.775 433.775 VK2RBV B         Sydney                  Sydney                  O   50   200    3     2BV        -
+146.7625 146.1625 VK2RDS C         Maddens Plains          Wollongong-Sydney 12/24 U   50   465    4     2AMW       -
+146.9625 146.3625 VK2RWN C         Terrey Hills            Sydney (G)              O   25     -    3     2MB        -
+438.400 433.000 VK2RWN B         Terrey Hills            Sydney (G)              O   25     -    3     2MB        -   79,96
+438.9125 438.9125 VK3RCE B       Bendigo                 Bendigo (G)            O    25      -   3     3CE        -
+438.200 432.800 VK3RGV B       Mt Wombat               Shepparton (G)         O    25    800   3     3WI        -   96
+146.7625 146.1625 VK3RMC C       Berwick                 Berwick (G)            O    25      -   -     3APC       -
+438.125 432.725 VK3RMC B       Berwick                 Berwick (G)            O    25      -   -     3APC       -
+1273.950 1293.950 VK3RMC A       Berwick                 Berwick (G)            O    10      -   -     3APC       -
+1298.100 1298.100 VK3RMC AD      Berwick                 Berwick (G)            O    10      -   -     3APC       -
+438.050 432.650 VK3RMM B       Mt Macedon              Melbourne NW (G)       O    25   1011   3     3WI        -   96
+146.8875 146.2875 VK3RSD C       Upwey                   Melbourne              O     -    270   -     VSA        -
+146.9125 146.3125 VK3RWN C       Olinda                  Melbourne East (G)     O    25    600   3     3ER        -
+438.300 432.900 VK3RWN B       Olinda                  Melbourne East (G)     O    25    600   3     3ER        -   79,96
+1273.900 1293.900 VK3RWN A       Olinda                   Melbourne East (G)      O   10   600    3     3ER       -
+1298.300 1298.300 VK3RWN AD      Olinda                   Melbourne East (G)      O   10   600    -     3ER       -
+438.150 432.750 VK3RWW B       portable                 Nation wide (G)         O   25     -    3     WIA       -   96
+1298.900 1298.900 VK3RWW AD      portable                 Nation wide (G)         O   10     -    -     WIA       -
+439.950 434.950 VK4RAS B       Carborough Range         Moronbah                O   50   450    3     4WCH      -
+146.6375 146.0375 VK4RBD C       Blackdown Tableland      Blackwater              O   50   950    3     4WCH      -
+146.7875 146.1875 VK4RBX C       The Knobby               Ipswich (G)             O   25   600    3     4AB       -
+146.650 146.050 VK4RBY C       Black Mtn                Mackay                  O   25     -    -     4WCH      -
+438.450 433.450 VK4RBY B       Black Mtn                Mackay                  O    -     -    -     4WCH      -
+438.850 431.850 VK3RCQ B       Junortoun                Bendigo                 O   50   247    3     3WG       -
+438.825 431.825 VK4RDB B       Mt Cotton                Brisbane South (G)      O   50   240    4.5   4BAY   91.5
+438.3125 432.9125 VK4RDK B       Mt Tamborine             Gold Coast              O   25   500    -     4BJT      -   96
+146.7375 146.1375 VK4RDS C       Wilkes Knob              Maleny (G) 12/24        U   25   470    3     4KZK      -
+438.550 433.350 VK4RDS B       Wilkes Knob              Maleny (G) 12/24        U   25   470    3     4KZK      -
+1273.200 1293.200 VK4RDS A       Wilkes Knob              Maleny (G) 12/24        U   25   470    3     4KZK      -
+438.350 432.950 VK4RDW B       Wongawallan              Gold Coast (G)          O   25   400    -     4BJT      -   96
+438.450 433.450 VK4RUS B       Sarina                   Sarina                  O   50   175    3     4WCH      -
+146.9625 146.3625 VK5REX C       Winter Hill              Port Lincoln (G)        O   25   240    3     5ZEA      -
+438.225 432.825 VK5REX B       Winter Hill              Port Lincoln (G)        O   25   240    3     5ZEA      -   96
+438.075 432.675 VK5RMK B       Renmark                  Renmark                 O    -     -    -     5HS       -
+147.0375 147.6375 VK5RWN C       Banksia Park             Adelaide (G)            O   25   420    3     5ARG      -
+438.400 433.000 VK5RWN B       Banksia Park             Adelaide (G)            O   25   420    3     5ARG      -   96
+438.125 432.725 VK6ROX B       East Fremantle           Fremantle (G) 12/23     U   10     -    5     6SKY      -
+146.8375 146.2375 VK6RWN C       Roleystone               Perth (G)               O   25   350    3     6RRG      -
+438.175 432.775 VK6RWN B       Roleystone               Perth (G)               O   25   350    3     6RRG      -   79,96
+1298.300 1298.300 VK6RWN AD      Roleystone               Perth (G)               O   10   350    -     6RRG      -
+146.9625 146.3625 VK7RCR C       Lenah Valley             Hobart                  O   20   160    2     7ZCR      -
+438.100 431.800 VK8RTE B       CDU Darwin               Darwin City             W   50    70    4     8DA     123
+438.1375 432.7375 VK2RHP Horsley Park             Sydney (L)              O    -     -    -     NME       -
+438.175 433.175 VK2RMB Terrey Hills             Sydney                  O    5   150    3     2MB    91.5   1
+438.200 432.800 VK2RCG Sydney                   Sydney City             O    -     -    -     NME       -
+438.275 432.875 VK2RWS portable                 Statewide WICEN         O    -     -    -     NWN       -
+438.425 433.425 VK2RLE Engadine                 Sydney                  O   50   110    3     2LE       -
+438.450 433.450 VK2RCF Carlingford              Sydney                  O    -     -    -     NME    91.5
+438.575 433.575 VK2ROT Paddington               Sydney                  O   50    90    3     2BV    91.5   23
+438.675 433.675 VK2RPL Mt Nardi                 Lismore                 O   50   850    3     2SRC    123
+439.825 434.825 VK2RWK Kurrajong                NW Sydney               O    -     -    -     NWN    91.5   80
+439.950 434.950 VK2RAG Somersby                 Central Coast           O    -   300    3     2EH    91.5
+439.975 434.975 VK2RNS Hornsby                  Northern Sydney         O   50   225    3.5   2MA       -   32
+438.325 431.325 VK3RHD Horsham                  Horsham                 O 30        -   3     3III      -   109
+438.475 431.475 VK3RBU Mt Hollowback            Ballarat                O 40        -   2.5   3WI    91.5
+438.775 431.775 VK3RAJ Upwey                    Melbourne               O 10      270   3     3AJ       -   96
+438.850 431.850 VK3RCQ Junortoun                Bendigo                 O 50      247   3     3WG       -
+439.275 434.275 VK3RBA Mt Buninyong             Ballarat                O 50      750   3     3WI    91.5   6
+439.575 434.575 VK3RGC Montpellier              Geelong                 O 45      160   3     3ATL   91.5
+439.800 434.800 VK3RMU Mt St Leonard            Melbourne               O 200    1028   2.5   3WI       -
+439.325 434.325 VK4RAI The Knobby               Ipswich                 O    -      -   4     4WIP   91.5   49
+146.6375 146.0375 VK4RBX The Knobby               Ipswich 12.5Khz         O   25    600   3     4AB       -   20
+438.650 433.650 VK4REG Mt Mowbullan             Bunya Mtns              O   50   1700   3     4QF    91.5
+438.700 433.700 VK4RET Mt Kiangarow             Darling Downs           O   50   1145   5     4BAD   91.5   61
+438.9125 431.9125 VK4RHG Everton Park             Brisbane 12/24          U   25     10   4     4HG       -
+439.975 434.975 VK4RMC Mt Coot-Tha              Brisbane                O   50      -   3     4QF    91.5
+438.8125 431.8125 VK1RBM Isaacs Ridge             Canberra Central        O   40    800   3     1ACA      -
+438.100 433.100 VK2RYS Yass                     Yass                    O   40    683   3     3TE       -
+438.150 431.150 VK2RDX Mt Bindo                 W Blue Mtns             O   50   1362   3.5   2LE       -
+438.325 433.325 VK2RGN Goulburn                 Goulburn                O   40      -   3     2JUZ      -
+438.350 432.950 VK2RHT Chatswood                Sydney                  O   40      -   3     2DAY      -   96
+438.400 433.000 VK2RMB Terrey Hills             Sydney                  O   40      -   3     2XE       -
+438.425 433.425 VK2RLE Engadine                 Sydney                  O   40      -   3     3TE       -
+438.625 431.625 VK2RUM Sugarloaf Range      Newcastle                 O     5     442   3     2FA       -
+438.725 433.725 VK2RAO Mt Canobolas         Orange area               O    40       -   3     3TE       -
+438.825 431.825 VK2RBT Big Box Trig         Sth Central Tablelands    O    10     800   2     2HEY   91.5
+438.825 431.825 VK2ROJ Gan Gan Hill         Port Stephens             O    62     169   3     2AOJ      -   119
+439.9125 434.9125 VK2RCV Pine Brush           Clarence Valley           O    40     264   3     2QJ     123
+438.9375 431.9375 VK2RZL Mt Arthur            Upper Hunter              O    50     476   3     2ATZ      -
+439.500 434.500 VK2RCG Sydney               Sydney City               O    40       -   3     3TE       -
+439.775 434.775 VK2RGL Cabbage Tree Mtn     Forster - Tuncurry        O    25     650   5     2GLR      -
+439.875 434.875 VK2RDO Mt Yarrahapinni      Kempsey - Macksville      O    50     500   3     2EP       -
+439.875 434.875 VK2RKG West Bathurst        West Bathurst             O    20     736   3     2MES      -
+439.900 434.500 VK2RHR High Range           Southern Highlands        O    40       -   3     2JUZ      -
+147.325 147.925 VK3RCQ Junortoun            Bendigo                   O    50     247   3     3WG       -
+438.100 432.700 VK3RSU Melbourne            Melbourne                 O    50       -   3     3XDE      -
+438.150 432.750 VK3RWW portable             Nation wide               O    20       -   3     3TE       -
+438.2625 431.2625 VK3RDR Cranbourne           SE Melb                   O    40      70   3     3TE       -
+438.300 432.900 VK3RWW portable             Nation wide               O    20       -   3     3TE       -
+438.325 431.325 VK3RHD Horsham              Horsham                   O    30       -   3     3III      -   109
+438.400 431.400 VK3RWV Hughesdale           Warrnambool 8/22          X    30       -   3     3VM       -   109
+438.650 431.650 VK3RGV Mt Wombat            NE Victoria               O    40     800   3     3TE       -
+438.7125 431.7125 VK3RDS Shepparton           Shepparton                O    40     112   3     3TE       -
+438.7125 431.7125 VK3RMC Narre Warren         Se Melb                   O    40     103   3     3TE       -
+438.850 431.850 VK3RCQ Junortoun            Bendigo                   O    50     247   3     3WG       -
+438.9125 431.9125 VK3RTE Karingal             Victoria 12/23            U    40       -   3     3TE       -
+439.375 434.375 VK3RMC Narre Warren Nth     Melbourne SE              O    40       -   3     3APC      -
+439.500 434.500 VK3RGL Mt Anakie            Geelong                   O    40       -   3     3ATL      -
+439.525 434.525 VK3RPT Pretty Sally         Kilmore                   O    40     515   3     3FY       -
+439.675 434.675 VK3RZU Mt Buller            Mansfield                 O    40       -   3     3TE       -
+439.725 434.725 VK3RPS Mt Cottrell          Melbourne West            O    40     217   3     3FY       -
+439.825 434.825 VK3RMM Mt Macedon           Melbourne WICEN 5/16      O    40    1011   3     3TE       -
+439.9875 434.9875 VK3RBA Mt Buninyong         Ballarat                  O    50     750   3     3WI    91.5   6
+438.175 433.175 VK4RSL Noosa Heads          Sunshine Coast North      O    40     100   3     4WIS      -
+438.7125 431.7125 VK4RBT Wongawallan          Gold Coast                O    40     354   3     4WIG      -
+438.800 431.800 VK4RMC Mt Coot-Tha          Brisbane                  O    50       -   3     4QF       -   115
+438.825 431.825 VK4RDB Mt Cotton            Brisbane South            O    50     240   4.5   4BAY   91.5
+438.8375 431.8375 VK4RBX The Knobby           Ipswich                   O    40     600   3     4AB       -
+438.8375 431.8375 VK4RNX Wilkes Knob          Sunshine Coast            O    40       -   -     4QF     123   115
+438.9375 431.9375 VK4RBK Bones Knob           Tolga                     O    40     914   -     4DU       -
+439.4875 434.4875 VK4RTQ Mt Kynoch            Toowoomba                 O    40     500   3     4QF       -
+439.875 434.875 VK4RLU Mt Dunsinane         Logan                     O    40     400   3     4BAB      -
+438.025 433.025 VK6RPT portable             Statewide                 O    40       -   3     6RRG      -
+147.050 147.650 VK6RRR Kalgoorlie           Kalgoorlie                O     -       -   -     6ML       -
+438.200 432.800 VK6RRR Kalgoorlie           Kalgoorlie                O     -       -   -     6ML       -
+438.525 431.525 VK6RLM Roleystone           Perth South East          O    40       -   3     6RRG      -
+439.8625 434.8625 VK6RDM Perth                Perth                     O    40       -   3     6ML       -
+438.700 433.700 VK7RAK Gagebrook            Hobart                    O    40     100   -     7HDM      -
+438.4125 433.4125 VK7RJG Mt Arthur            N Tasmania                O    40       -   3     7JD       -
+438.525 433.525 VK7RCR Lenah Valley         Hobart                    O    40       -   3     7ZCR      -
+438.800 431.800 VK8RDD Larrakeyah           Darwin                    O    20      30   -     8SR       -
+438.375 433.375 VK2RBM Lawson                Blue Mtns                 O    25   735    4     2HZ    91.5
+438.1125 432.7125 VK2RBV Sydney                Sydney                    O    25   200    3     2BV    91.5
+146.675 146.075 VK2REE Mt Ganghat            Taree-Gloucester          O    50   600    5.0   2FRE    123   22
+438.325 433.325 VK2REE Mt Ganghat            Taree-Gloucester          O    50   600    5.0   2FRE      -   106
+438.650 431.650 VK2RFG Gregory Hills         Campbelltown              O    50   222    3     2FG       -
+438.725 433.725 VK2RMP Maddens Plains        Wollongong - Sydney       O    50   465    4     2AMW    123   16
+146.700 146.100 VK2RMU Nowra Hill            Milton - Ulladulla        O    50   330    4     2HQ     123
+146.800 146.200 VK2RSC Parrots Nest          Lismore                   O    15   185    3     2SRC    123
+438.1875 432.7875 VK3RCD Kinglake              Melbourne                 O     -   600    -     3FY       -   103
+438.850 431.850 VK3RCQ Junortoun             Bendigo                   O    50   247    3     3WG       -
+144.9375 145.5375 VK3RDQ Outer Eastern Suburbs Melbourne 12/24           U    80    68    3     3DQ    91.5   46
+439.600 434.600 VK3RDX Mt Waverley           Melbourne 6/24            X   100   132    3     3HF    91.5   103
+147.425 145.225 VK3RFY Hillside              Melb West EchoL/IRLP      X   100   145    -     3FY    91.5   38,99
+438.400 433.400 VK3RFY Hillside              Melb EchoL/IRLP           O   100   100    3     3FY    91.5   38
+439.325 434.325 VK3RGH Green Hill            Macedon R & Melb 6/24     U   100   600    3     3FY    91.5   103
+438.500 433.500 VK3RLP Muckleford            Castlemaine 6/24          X   100   148    3     3HF    91.5   103
+438.325 433.325 VK3RMH Kangaroo Ground       Melbourne                 O    40   220    3     3CNE      -
+438.550 431.555 VK3RNB CBD Melbourne         Melbourne 6/24            U   100   650    2.5   3HF       -   103
+147.0375 147.6375 VK3RNB CBD Melbourne         Melbourne 6/24            U   100   650    2.5   3HF       -   103
+146.875 146.875 VK3RNW Mt Gisborne           Melbourne 6/24            X   100   650    2.5   3HF       -   103
+147.200 147.800 VK3RPS Mt Cottrell           Melbourne West            O    40   217    3     3FY       -
+147.0375 147.6375 VK3RYR Briarty Hill          Melbourne North East 6/24 X    83   421    2.5   3HF       -   103
+438.8375 431.8375 VK3RYR Briarty Hill          Melbourne North East 6/24 X    83   421    2.5   3HF       -   103
+438.450 431.450 VK4RDB Mt Cotton             Brisbane South            O    50   240    4.5   4BAY   91.5
+147.325 147.925 VK4RKS Gracemere             Central Queensland        O   165    46    3     4KWS      -
+147.075 147.675 VK4RLM Pinnacle Mountain     Central Queensland        O    84   240    3     4CQR   91.5
+438.225 432.825 VK4RPH Mt Haren              Kuranda                   O    50   250    -     4BS     123
+146.850 146.250 VK4RSD Malanda               Sth Atherton Tablelands   O    50   730    3     4SDD      -   112
+146.825 146.225 VK5RBV Mt Kitchener          Barossa Valley            W    50   580    3.5   5BRC      -   53
+439.800 434.800 VK5RBV Mt Kitchener         Barossa Valley          W   50    580   3.5   5BRC      -   53
+438.325 433.325 VK5RCT Moonta               Moonta                  W    -      -   -     5ZSW   91.5
+438.1125 431.1125 VK5RDF Crafers              Adelaide                W   50    610   3     5DF       -
+439.825 434.825 VK5RSC Mt Terrible          Adelaide South          W   50    380   5     5ARC   91.5
+146.675 146.075 VK5RSV Willunga Hill        Adelaide South          O   50    320   10    5ARC   91.5   52
+146.800 146.200 VK6RTH Tic Hill             Perth North East        O   60    230   4     6RRG      -   19
+438.725 431.725 VK8RKT Water Tank Hill      Katherine               O   50    143   -     8MA    91.5   122
+146.950 146.350 VK8RPD Casuarina            Darwin N suburbs        O   25     45   4     8DA     123
+147.000 146.400 VK8RTE CDU Darwin           Darwin City             W   50     70   4     8DA     123
+147.375 145.775 VK8RZZ Wagait Beach         Darwin City             O   25     15   4     8ZZ       -
+444.250 1250.000 VK2RTG Kariong              Gosford                 O   -     220   -   2EH         -   91
+1250.000 446.500 VK2RTS Lawson               Blue Mtns               O 300     370   30 2FKO         -   71
+1250.000 444.250 VK2RFM Oakdale              Sydney 6/24             U 600     450   3.0 2CRZ        -   92
+445.500 1287.000 VK3RBO Specimen Hill        Bendigo                 O 100     335   -     3WI       -   91,97
+445.500 1246.000 VK3RTV Glen Waverley        Melbourne               W 50      600   -     3WI       -   86
+445.500 1255.000 VK3RTV Glen Waverley        Melbourne               O 50      600   -     3WI       -   86
+445.500 1278.000 VK3RTV Glen Waverley        Melbourne               O 50      600   -     3WI       -   86
+445.500 1287.000 VK3RTV Glen Waverley        Melbourne               O 50      600   -     3WI       -   86
+444.250 1250.000 VK4RAT Mt Stuart            Townsville              O    20   584   -     4WIT      -   91
+444.250 1250.000 VK4RKP Mt Crosby            Ipswich                 O   100     -   -     4AKP      -   91
+446.500 1283.000 VK4RMG Ocean View           Brisbane North          O   120   530   -     4RMG      -   109
+445.500 1246.000 VK5RDC The Bluff            Port Pirie & Whyalla    W 100     730   -     5DMC      -   105
+445.500 1287.000 VK5RDC The Bluff            Port Pirie & Whyalla    W 100     730   -     5DMC      -   105

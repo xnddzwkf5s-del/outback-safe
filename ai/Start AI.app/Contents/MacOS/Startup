@@ -1,0 +1,16 @@
+#!/bin/bash
+SCRIPT_DIR="$(dirname "$0")"
+# Walk up from Contents/MacOS/ → .app/ → ai/ → USB root
+USB_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+
+if [ -f "$USB_ROOT/start.command" ]; then
+    bash "$USB_ROOT/start.command"
+else
+    for vol in /Volumes/*/ai/start.command; do
+        if [ -f "$vol" ]; then
+            bash "$vol"
+            exit 0
+        fi
+    done
+    osascript -e 'display dialog "Outback-Safe USB not found. Please plug in the USB stick and try again." buttons {"OK"} default button "OK"'
+fi

@@ -1,6 +1,13 @@
 # Build output
 site/
 site.zip
+build/output/
+
+# AI models & binaries
+*.gguf
+models/
+bin/
+deps-*/
 
 # Python
 __pycache__/
@@ -14,6 +21,10 @@ __pycache__/
 /tmp/
 fetch-*.sh
 *.log
+shtf-diag.txt
+
+# Archives (too large for repo)
 Outback Safe.zip
 Outback Safe - Obsidian Vault.zip
+Outback Safe.epub
 docs/outback-safe-obsidian.zip

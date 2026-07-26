@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outback-Safe USB — Offline AI Survival Assistant</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #1a1a2e;
+        color: #e0e0e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+    .card {
+        background: #16213e;
+        border: 1px solid #0f3460;
+        border-radius: 16px;
+        padding: 40px;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    h1 { font-size: 2rem; margin-bottom: 8px; color: #e94560; }
+    h2 { font-size: 1.1rem; font-weight: 400; color: #a0a0b0; margin-bottom: 32px; }
+    .buttons { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
+    .btn {
+        display: block;
+        padding: 16px 24px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary {
+        background: #e94560;
+        color: #fff;
+        box-shadow: 0 4px 16px rgba(233,69,96,0.3);
+    }
+    .btn-secondary {
+        background: #0f3460;
+        color: #e0e0e0;
+        border: 1px solid #1a508b;
+    }
+    .divider {
+        display: flex; align-items: center; gap: 12px;
+        color: #666; font-size: 0.85rem; margin: 8px 0;
+    }
+    .divider::before, .divider::after {
+        content: ''; flex: 1; border-bottom: 1px solid #333;
+    }
+    .info { text-align: left; background: rgba(15,52,96,0.3); border-radius: 8px; padding: 16px; margin-top: 24px; }
+    .info p { font-size: 0.9rem; color: #a0a0b0; line-height: 1.4; }
+    .info strong { color: #e0e0e0; }
+    .emergency { margin-top: 20px; font-size: 0.85rem; color: #888; }
+    .emergency a { color: #e94560; }
+    #os-badge {
+        display: inline-block;
+        background: #0f3460;
+        color: #a0a0b0;
+        padding: 4px 12px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        margin-bottom: 24px;
+    }
+    .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="card">
+    <h1>📀 Outback-Safe USB</h1>
+    <h2>Offline AI Survival Assistant</h2>
+
+    <div id="os-badge">Detecting your system…</div>
+
+    <div class="buttons">
+        <!-- macOS: shown on Darwin -->
+        <a id="btn-mac-ai" class="btn btn-primary hidden" href="#" onclick="launchMacAI(); return false;">
+            🤖 Start AI Assistant
+        </a>
+        <a id="btn-mac-static" class="btn btn-secondary hidden" href="outback-safe/index.html">
+            📚 Browse Outback Safe (No AI)
+        </a>
+
+        <!-- Windows: shown on Windows -->
+        <a id="btn-win-static" class="btn btn-primary hidden" href="outback-safe/index.html">
+            📚 Open Survival Reference
+        </a>
+
+        <!-- Other OS: static fallback only -->
+        <a id="btn-static" class="btn btn-primary hidden" href="outback-safe/index.html">
+            📚 Open Survival Reference
+        </a>
+    </div>
+
+    <!-- macOS instructions -->
+    <div id="mac-instructions" class="info hidden">
+        <p><strong>🤖 AI Assistant:</strong> Full offline AI chat. Uses a local LLM model (no internet needed). First launch takes ~2–3 minutes to load the model.</p>
+        <p><strong>📚 Outback Safe:</strong> Pre-built survival reference pages. Instant access, no AI needed. Works on any device with a browser.</p>
+    </div>
+
+    <!-- Windows instructions -->
+    <div id="win-instructions" class="info hidden">
+        <div style="background:#332200;border:1px solid #ca8a04;border-radius:8px;padding:12px;margin:12px 0;font-size:15px">
+            ⚠️ <strong>Python 3.10+ is required.</strong> Most Windows PCs don't have it.
+            If the AI won't start, use the emergency reference below.
+        </div>
+
+        <p><strong>Option A: PowerShell (recommended)</strong></p>
+        <ol style="font-size:15px;line-height:1.8">
+            <li>Open the <code>ai</code> folder on this USB drive</li>
+            <li><strong>Right-click <code>start.ps1</code> → "Run with PowerShell"</strong></li>
+            <li>If blocked: type <code>powershell -ExecutionPolicy Bypass -File start.ps1</code> in the address bar</li>
+        </ol>
+
+        <p><strong>Option B: Command Prompt</strong></p>
+        <ol style="font-size:15px;line-height:1.8">
+            <li>Open the <code>ai</code> folder on this USB drive</li>
+            <li>Double-click <code>start.bat</code></li>
+            <li style="color:#ea580c">If Windows SmartScreen blocks it: click "More info" → "Run anyway"</li>
+        </ol>
+
+        <p style="font-size:14px">A console window will open — this is normal. First launch: ~15-45s.</p>
+
+        <div style="background:#1a3a1a;border:1px solid #16a34a;border-radius:8px;padding:12px;margin:12px 0;font-size:14px">
+            💡 <strong>Need Python?</strong> One-time install (5 min):
+            <a href="https://www.python.org/downloads/" target="_blank">python.org/downloads</a>
+            — Check "Add Python to PATH" during install.
+        </div>
+    </div>
+
+    <!-- Other instructions -->
+    <div id="other-instructions" class="info hidden">
+        <p><strong>📚 Outback Safe:</strong> Pre-built survival reference pages. Instant access, no AI needed. Works on any device with a browser.</p>
+        <p><strong>⚠️ AI Assistant requires macOS or Windows.</strong> The offline AI chat is not supported on this platform. All survival reference content is available to any device.</p>
+    </div>
+
+    <div class="emergency">
+        <strong>🚨 EMERGENCY:</strong> Call <strong>000</strong> &nbsp;|&nbsp; ☠️ Poisons: <strong>13 11 26</strong> &nbsp;|&nbsp; 🚑 SES: <strong>13 14 50</strong>
+    </div>
+</div>
+
+<script>
+(function() {
+    // Detect OS
+    var plat = navigator.platform || '';
+    var ua = navigator.userAgent || '';
+    var isMac = /Mac|iPhone|iPad|iPod/.test(plat);
+    var isWin = /Win/.test(plat) || /Windows/.test(ua);
+    var badge = document.getElementById('os-badge');
+
+    if (isMac) {
+        badge.textContent = '🖥️ macOS detected';
+        document.getElementById('btn-mac-ai').classList.remove('hidden');
+        document.getElementById('btn-mac-static').classList.remove('hidden');
+        document.getElementById('mac-instructions').classList.remove('hidden');
+    } else if (isWin) {
+        badge.textContent = '🪟 Windows detected';
+        document.getElementById('btn-win-static').classList.remove('hidden');
+        document.getElementById('win-instructions').classList.remove('hidden');
+    } else {
+        badge.textContent = '🌐 ' + (plat || 'Unknown OS');
+        document.getElementById('btn-static').classList.remove('hidden');
+        document.getElementById('other-instructions').classList.remove('hidden');
+    }
+})();
+
+function launchMacAI() {
+    // Try to open the start.command script
+    var currentPath = window.location.pathname;
+    var basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+    var cmdPath = basePath + '/ai/start.command';
+
+    // Approach: use a small anchor click to trigger the file
+    // Most browsers will prompt to allow or open Terminal
+    var a = document.createElement('a');
+    a.href = cmdPath;
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    // Fallback: show instructions
+    setTimeout(function() {
+        alert('If the AI didn\'t launch automatically:\n\n1. Open the "ai" folder on this USB\n2. Double-click "start.command"\n3. If macOS warns about unsigned software, right-click → Open');
+    }, 1000);
+}
+</script>
+</body>
+</html>

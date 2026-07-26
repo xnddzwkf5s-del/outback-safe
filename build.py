@@ -5,7 +5,7 @@ from pathlib import Path
 from html import escape
 from datetime import datetime, timezone, timedelta
 
-ROOT = Path("/Users/pang/Survival-Wiki")
+ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 SITE = ROOT / "site"
 STATIC = ROOT / "static"
