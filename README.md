@@ -91,9 +91,8 @@ outback-safe/
 │   │   ├── rag.py         # Vector search & context retrieval
 │   │   ├── templates/     # HTML templates for chat UI
 │   │   └── static/        # CSS, JS for chat interface
-│   ├── start.command      # macOS launcher
-│   ├── start.bat          # Windows batch launcher
-│   ├── start.ps1          # Windows PowerShell launcher
+│   ├── start-macos.command      # macOS launcher
+│   ├── start-windows.bat          # Windows batch launcher
 │   ├── reindex.command    # Rebuild search index (macOS)
 │   ├── reindex.bat        # Rebuild search index (Windows)
 │   └── Start AI.app/      # macOS native app wrapper
@@ -167,13 +166,13 @@ python3 build.py
 
 ### macOS
 1. Open the `ai/` folder on the USB
-2. Double-click `start.command` (or `Start AI.app`)
+2. Double-click `start-macos.command` (or `Start AI.app`)
 3. Wait ~3-5 seconds for the model to load
 4. A browser opens to the AI chat interface
 
 ### Windows
-1. Open the `ai/` folder
-2. Right-click `start.ps1` → Run with PowerShell
+1. Open the `ai/` folder on the USB
+2. Double-click `start-windows.bat`
 3. Wait ~15-45 seconds for the model to load
 
 ### Emergency (No Python)
