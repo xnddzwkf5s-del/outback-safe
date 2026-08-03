@@ -2,9 +2,13 @@
 
 **Offline AI Survival Assistant + Australian Remote Travel Reference**
 
-A portable USB drive containing an offline AI assistant with RAG over 142 pages of Australian outback survival knowledge. **Zero internet required. No cloud dependencies. No data leaves the device.**
+A portable USB drive containing an **offline AI assistant** with retrieval-augmented generation (RAG) over 142 pages of Australian outback survival knowledge. **Zero internet required. No cloud dependencies. No data leaves the device.**
+
+This is a complete, working reference for **air-gapped AI deployment**: a local open-source LLM (llama.cpp + Qwen 2.5 3B, quantised) running entirely on-device, querying a private document corpus with no API calls, no telemetry, and no external services. The same scriptable stack deploys to a headless VM for on-premise, edge, or classified-environment pilots.
 
 > [Download Outback Safe.zip](https://wescan.net/downloads/Outback%20Safe.zip) — 79 MB, works offline immediately
+
+**Use cases:** offline AI Q&A · air-gapped RAG · private document intelligence · on-premise LLM deployment · remote/field reference with no connectivity · regulated-industry AI demonstration
 
 ---
 
