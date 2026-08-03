@@ -16,6 +16,21 @@ The answer is a layered system where every component has a fallback. The AI can 
 
 ---
 
+## Enterprise Relevance
+
+This project is a working demonstration of a capability with direct corporate application: **deploying open-source AI against sensitive data in fully offline environments.**
+
+Most organisations cannot send confidential or regulated information to cloud APIs. The pattern demonstrated here solves that constraint with a repeatable, scriptable approach:
+
+- **Air-gapped LLM deployment** — an open-source quantised model runs locally on commodity hardware (no GPU required), serving a RAG pipeline with zero internet access. No data ever leaves the device — data residency is guaranteed by architecture, not policy.
+- **Domain-specific knowledge injection** — curated documents are indexed and retrieved at query time rather than fine-tuning the model. Swap the survival content for policy manuals, technical documentation, or proprietary data and the same system becomes a secure internal knowledge assistant for any domain.
+- **Fully scripted VM deployment** — the build pipeline automates the entire stack: provision a VM, install the model runtime, download the quantised model, ingest the document set, and rebuild the search index — all from the command line. The same scripts that assemble this USB can deploy the stack to any headless Linux environment for a corporate pilot.
+- **Privacy by design** — the architecture assumes the network is hostile or absent. That is the same security posture required for defence, finance, healthcare, and legal data handling.
+
+**Skills demonstrated:** LLM operations (quantisation, local inference, model selection for hardware constraints), RAG pipeline engineering, offline-first architecture, infrastructure automation and scripting, and privacy-aware data governance.
+
+---
+
 ## What's Inside
 
 Two things in one USB:
