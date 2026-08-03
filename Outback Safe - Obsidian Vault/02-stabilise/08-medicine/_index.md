@@ -33,6 +33,7 @@ This section is about what you can do in that gap — the hours between injury a
 |------|----------------|
 | [Snake Bite](02-stabilise/08-medicine/snake-bite) | Definitive Australian snake bite guide — ID, PIB technique, symptoms, regional risk, collapse management |
 | [Outback Bush Medicine](02-stabilise/08-medicine/outback-bush-medicine) | Curated plants available in arid and tropical outback regions, including deadly look-alike warnings |
+| [Natural Antibiotics](02-stabilise/08-medicine/natural-antibiotics) | Honey, garlic, myrrh, thyme, oregano — evidence-based natural remedies for wound care and infections when antibiotics are unavailable |
 | [Remote First Aid Techniques](02-stabilise/08-medicine/remote-first-aid-techniques) | Wound closure without stitches, improvised splints, dental emergencies, eye injuries, fractures, childbirth |
 | [Natural Medicine Database](02-stabilise/08-medicine/herbal/) | Full herbal database — plant identification, preparation, dosage, and safety |
 | [Natural Medicine — By Ailment](02-stabilise/08-medicine/by-ailment) | Cross-reference index for treating specific conditions with plants |
