@@ -18,16 +18,19 @@ The answer is a layered system where every component has a fallback. The AI can 
 
 ## Enterprise Relevance
 
-This project is a working demonstration of a capability with direct corporate application: **deploying open-source AI against sensitive data in fully offline environments.**
+This project is a working, verifiable demonstration of a capability most enterprises need but cannot trial with cloud APIs: **deploying open-source AI against sensitive data in fully offline environments.**
 
-Most organisations cannot send confidential or regulated information to cloud APIs. The pattern demonstrated here solves that constraint with a repeatable, scriptable approach:
+**Evidence of capability:**
 
-- **Air-gapped LLM deployment** — an open-source quantised model runs locally on commodity hardware (no GPU required), serving a RAG pipeline with zero internet access. No data ever leaves the device — data residency is guaranteed by architecture, not policy.
-- **Domain-specific knowledge injection** — curated documents are indexed and retrieved at query time rather than fine-tuning the model. Swap the survival content for policy manuals, technical documentation, or proprietary data and the same system becomes a secure internal knowledge assistant for any domain.
-- **Fully scripted VM deployment** — the build pipeline automates the entire stack: provision a VM, install the model runtime, download the quantised model, ingest the document set, and rebuild the search index — all from the command line. The same scripts that assemble this USB can deploy the stack to any headless Linux environment for a corporate pilot.
-- **Privacy by design** — the architecture assumes the network is hostile or absent. That is the same security posture required for defence, finance, healthcare, and legal data handling.
+- **Built a complete air-gapped AI stack that runs from a single USB** — a quantised open-source LLM (Qwen 2.5 3B, 4-bit GGUF, ~75% smaller than the base model) with retrieval-augmented generation over a 142-page, ~200K-word curated knowledge base. Zero internet, zero API calls, no data leaves the device. Runs on commodity hardware with no GPU: ~2.5 GB RAM at runtime, 3–5 second startup, 2–8 second query responses.
+- **Engineered a RAG pipeline with no external dependencies** — a ~1 MB JSON vector index (500-token chunks, 50-token overlap, optimised for factual recall) that rebuilds in seconds. The knowledge base is domain-agnostic: replace the markdown documents and the same system answers against any corpus — no fine-tuning, no retraining.
+- **Automated the entire deployment as scriptable infrastructure** — a Makefile orchestrator assembles the complete USB from an Obsidian vault: Markdown → HTML preprocessing, vector index build, model download, per-platform llama.cpp binary fetch, and bundled Python dependencies. The same pipeline deploys the stack to any headless Linux VM: provision → install runtime → load model → ingest documents → rebuild index, all from the command line.
+- **Designed for failure, not just success** — layered architecture where each component (static site, AI server, LLM backend) operates independently. If Python is missing or the model fails to load, the static site still works. No single point of failure — the same resilience posture required of regulated production systems.
+- **Delivered cross-platform operational tooling** — native macOS app wrapper, Windows batch/PowerShell launchers, automated dependency detection, graceful failure paths, and a documented reindex workflow that lets non-technical users extend the knowledge base by dropping in markdown files.
 
-**Skills demonstrated:** LLM operations (quantisation, local inference, model selection for hardware constraints), RAG pipeline engineering, offline-first architecture, infrastructure automation and scripting, and privacy-aware data governance.
+**Why this matters for enterprise:** confidential corporate information — policy, technical manuals, proprietary data — can be deployed against an open-source model with data residency guaranteed by architecture rather than policy. The pattern is domain-agnostic: swap the survival content and the same system becomes a secure internal knowledge assistant for defence, finance, healthcare, or legal.
+
+**Skills demonstrated:** LLM operations (quantisation, local inference, hardware-constrained model selection), RAG pipeline engineering, offline-first architecture, infrastructure automation (Makefile/Python build pipelines, VM deployment scripting), and privacy-aware data governance.
 
 ---
 
